@@ -1,0 +1,42 @@
+%text-breakword {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+
+%text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Headers */
+
+%header {
+  font-family: var(--base-font-family);
+  font-size: 1rem;
+  font-weight: var(--font-weight--semi-bold);
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+// Body Copy
+
+%body {
+  font-family: var(--base-font-family);
+  font-size: 0.875rem;
+  font-weight: var(--font-weight--regular);
+  line-height: 143%;
+}
+
+// Links
+
+%text-link {
+  font-family: var(--base-font-family);
+  font-size: 0.875rem;
+  font-weight: var(--font-weight--regular);
+  line-height: 143%;
+  text-decoration: underline;
+}
+  

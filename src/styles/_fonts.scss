@@ -1,0 +1,30 @@
+// Impact Label
+
+@font-face {
+  font-display: auto;
+  font-family: 'pxFont';
+  font-weight: 400;
+  src: url('../../public/fonts/px437_ibm_ps2thin4.0e85a8d5.woff2') format('woff');
+}
+
+@font-face {
+  font-display: auto;
+  font-family: 'pxFont';
+  font-weight: 400;
+  src: url('../../public/fonts/px437_ibm_ps2thin4.0e85a8d5.woff2') format('woff');
+}
+
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), url('../../public/fonts/Roboto-Regular.1f6d3cf6.woff2') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Roboto Light;
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), url('../../public/fonts/Roboto-Light.b9c29351.woff2') format('woff');
+}

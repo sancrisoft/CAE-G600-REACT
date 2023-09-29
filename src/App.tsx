@@ -1,7 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles/global.scss'
 import { HashRouter as Router, Route, Link, Routes } from "react-router-dom";
+// import DefaultLayout from './components/Layout';
+// import Button from './components/Button';
+// import Menu from './components/Menu';
+// import Title from './components/Title';
 
 const Navigation = () => {
   return (
@@ -20,11 +23,27 @@ const Navigation = () => {
     </nav>
   );
 }
+
+// const HomePage = () => {
+//   return (
+//     <DefaultLayout>
+//       <Title variant="secondary">CMC Main mENU</Title>
+//       <Menu>
+//         <Button href="/maintenance-messages">Maintenance Messages</Button>
+//         <Button href="/system-diagnostics">System Diagnostics</Button>
+//         <Button href="/extended-maintenance">Extended Maintenance</Button>
+//         <Button href="/data-loader">Data Loader</Button>
+//         <Navigation />
+//       </Menu>
+//     </DefaultLayout>
+    
+//   );
+// };
+
 const HomePage = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
@@ -41,6 +60,7 @@ const HomePage = () => {
     </div>
   );
 };
+
 
 const Page2 = () => {
   return (
@@ -66,7 +86,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/page-2" element={<Page2 />} />
+        <Route path="/maintenance-messages" element={<Page2 />} />
         <Route path="/page-3" element={<Page3 />} />
       </Routes>
     </Router>
