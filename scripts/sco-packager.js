@@ -2,7 +2,7 @@ var scopackager = require('simple-scorm-packager');
 var path = require('path');
 
 const config = {
-  version: '1.0',
+  version: '1.2',
   organization: 'My Amazing Company',
   title: 'My Course',
   language: 'en-US',
