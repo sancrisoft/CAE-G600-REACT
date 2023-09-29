@@ -3,6 +3,8 @@ import { HTMLAttributes, ElementType, FC } from 'react'
 import Button from '../Button'
 import styles from './NavBar.module.scss'
 
+import { useNavigate } from "react-router-dom";
+
 export interface NavBarButtonType {
   text: string
   href?: string
@@ -23,7 +25,7 @@ const NavBar: FC<NavBarProps> = (props) => {
 
   const rootClasses = clsx(styles.NavBar, className)
 
-  // const router = useRouter()
+  const navigate = useNavigate();
 
   const emptyItem: NavBarButtonType = {
     text: '',
@@ -35,8 +37,7 @@ const NavBar: FC<NavBarProps> = (props) => {
     : {
         text: 'Prev',
         onClick: () => { 
-          console.log('Back here')
-          //router.back() 
+          navigate(-1)
         },
         disabled: false,
       }

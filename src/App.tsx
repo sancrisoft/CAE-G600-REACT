@@ -1,10 +1,10 @@
 import React from 'react';
 import './styles/global.scss'
 import { HashRouter as Router, Route, Link, Routes } from "react-router-dom";
-// import DefaultLayout from './components/Layout';
-// import Button from './components/Button';
-// import Menu from './components/Menu';
-// import Title from './components/Title';
+import DefaultLayout from './components/Layout';
+import HomePage from './pages/Home';
+import MaintenanceMessagesPage from './pages/MaintenanceMessages';
+import ActivePage from './pages/maintenance-messages/Active';
 
 const Navigation = () => {
   return (
@@ -12,6 +12,9 @@ const Navigation = () => {
       <ul>
         <li>
           <Link to="/">Page 1</Link>
+        </li>
+        <li>
+          <Link to="/maintenance-messages">Maintenance</Link>
         </li>
         <li>
           <Link to="/page-2">Page 2</Link>
@@ -24,50 +27,12 @@ const Navigation = () => {
   );
 }
 
-// const HomePage = () => {
-//   return (
-//     <DefaultLayout>
-//       <Title variant="secondary">CMC Main mENU</Title>
-//       <Menu>
-//         <Button href="/maintenance-messages">Maintenance Messages</Button>
-//         <Button href="/system-diagnostics">System Diagnostics</Button>
-//         <Button href="/extended-maintenance">Extended Maintenance</Button>
-//         <Button href="/data-loader">Data Loader</Button>
-//         <Navigation />
-//       </Menu>
-//     </DefaultLayout>
-    
-//   );
-// };
-
-const HomePage = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <Navigation />
-      </header>
-    </div>
-  );
-};
-
-
 const Page2 = () => {
   return (
-    <div>
+    <DefaultLayout>
       Page 2
       <Navigation />
-    </div>
+    </DefaultLayout>
   );
 };
 
@@ -86,7 +51,9 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/maintenance-messages" element={<Page2 />} />
+        <Route path="/maintenance-messages" element={<MaintenanceMessagesPage />} />
+        <Route path="/maintenance-messages/active" element={<ActivePage />} />
+        <Route path="/page-2" element={<Page2 />} />
         <Route path="/page-3" element={<Page3 />} />
       </Routes>
     </Router>

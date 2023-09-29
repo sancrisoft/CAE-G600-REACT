@@ -48,7 +48,7 @@ const Button: FC<ButtonProps> = (props) => {
   if (props.href) {
     return (
       <Link to={props.href} className={rootClasses} aria-label={ariaLabel ?? undefined} style={style}>
-        {children}XX
+        {children}
       </Link>
     )
   }
