@@ -1,0 +1,195 @@
+@import '../../styles/common';
+
+.Button {
+  --button-bg--disabled: var(--neutral-300);
+  align-items: center;
+  appearance: none;
+  background: var(--button-bg);
+  border: var(--button-border-width, 2px) var(--button-border-style, solid) var(--button-border-color, var(--button-bg));
+  border-radius: var(--button-radius, 0);
+  box-shadow: inset 0 0 var(--box-shadow-width, 5px) var(--box-shadow-color, var(--button-bg));
+  color: var(--button-color);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: var(--button-font-size, 0.875rem);
+  font-weight: var(--button-font-weight, var(--font-weight--bold));
+  gap: 0.5em;
+  justify-content: center;
+  line-height: 1em;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &::before {
+    background-color: var(--white);
+    border-radius: inherit;
+    bottom: 0;
+    color: inherit;
+    content: '';
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.6, 1);
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.6, 1);
+  }
+
+  &:hover:not(.disabled, :disabled, [disabled]) {
+    background-color: var(--button-bg--hover);
+    color: var(--button-color--hover);
+    --button-border-color: var(--green);
+    --button-border-width: var(--button-border-width--hover, 2px);
+  }
+
+  &:hover:not(.disabled, :disabled, [disabled])::before {
+    opacity: 0.08;
+  }
+
+  &:active:not(.disabled, :disabled, [disabled]) {
+    --button-border-color: var(--green);
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:focus-visible:not(.disabled, :disabled, [disabled]) {
+    outline: var(--button-border-width, 1px) dashed var(--button-active--border-color, var(--btn--primary));
+    outline-offset: 2px;
+  }
+}
+
+// Variants
+
+.primary {
+  --button-bg: linear-gradient(175deg,
+  var(--grey-2),
+  var(--grey-3) 34%,
+  var(--grey-5) 42%,
+  var(--grey-6) 51%,
+  var(--grey-2));
+  --button-color: var(--text-primary);
+  --button-radius: 0;
+  --button-border-width: 3px;
+  --button-border-style: double;
+  --button-border-color: var(--black);
+  --box-shadow-color: var(--white);
+  --button-font-weight: 400;
+
+  --button-border-color--hover: var(--green);
+  --button-color--hover: var(--text-primary);
+  --button-border-width--hover: 3px;
+
+  --button-bg--disabled: var(--button-bg);
+  --button-color--disabled: var(--text-primary);
+}
+
+.twolines {
+  @extend .primary;
+  display: flex; 
+  flex-direction: column;
+  height: 3.4rem;
+}
+
+.outline {
+  --button-color: var(--button-bg);
+  --button-border-color: var(--button-bg);
+
+  --button-bg--hover: var(--button-bg);
+  --button-border-color--hover: var(--button-bg);
+  --button-color--hover: var(--button-bg);
+
+  &:disabled,
+  &[disabled] {
+    opacity: 0.5;
+  }
+}
+
+// Modifiers
+
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+// Size
+
+.large {
+  min-width: rem(160px);
+  padding: rem(12px) rem(24px);
+  width: 100%;
+
+  @include media-breakpoint-down(xs) {
+    min-width: auto;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+}
+
+.medium {
+  min-width: rem(120px);
+  padding: rem(8px) rem(12px);
+  width: 100%;
+
+  @include media-breakpoint-down(xs) {
+    min-width: auto;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+}
+
+.small {
+  border-width: var(--button-border-width);
+  min-width: rem(100px);
+  padding: rem(8px);
+}
+
+.auto {
+  min-width: auto;
+  padding: rem(8px) 0;
+
+  &::after {
+    display: none;
+  }
+}
+
+// Links
+
+.Link {
+  @extend %text-link;
+  background-color: transparent;
+  border-style: none;
+  border-width: 0;
+  color: var(--button-bg, var(--link--primary));
+  cursor: pointer;
+  display: inline-flex;
+  min-width: 0;
+  padding: 0;
+  position: relative;
+  text-transform: none;
+  transition: all var(--theme-switch-timing), outline 1ms;
+
+  &:hover:not(.disabled, :disabled, [disabled]),
+  &:active:not(.disabled, :disabled, [disabled]) {
+    background-color: transparent;
+    color: var(--button-bg--hover);
+  }
+
+  &::after {
+    display: none;
+  }
+
+  @include media-breakpoint-down(xs) {
+    width: auto;
+  }
+}
+
+.Link.primary {
+  font-weight: var(--font-weight--regular);
+  text-decoration: none;
+  text-transform: uppercase;
+}

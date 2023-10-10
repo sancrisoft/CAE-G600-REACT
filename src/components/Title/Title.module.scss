@@ -1,0 +1,26 @@
+@import '../../styles/common';
+
+.Title {
+  @extend %header;
+  color: var(--title--primary);
+}
+
+.primary {
+  color: var(--title--primary);
+}
+
+.secondary {
+  color: var(--text--primary);
+}
+
+.left {
+  text-align: left;
+}
+
+.subtitle {
+  font-size: 0.875rem;
+}
+
+.tertiary {
+  color: var(--green);
+}

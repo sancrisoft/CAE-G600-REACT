@@ -1,0 +1,102 @@
+@import './colors';
+
+:root {
+  /**
+  * @tokens Colors
+  * @presenter Color
+  */
+  --page-bg: var(--black);
+
+  --btn--primary: var(--neutral-300);
+  --title--primary: var(--orange);
+  --text--primary: var(--white);
+  --link--primary: var(--white);
+
+  /**
+  * @tokens Border
+  * @presenter Border
+  */
+  --border-color: var(--green);
+
+  --scrollbar-color: var(--green);
+
+  --border-width-1: 1px;
+
+  --link-common-outline-style: 2px dashed var(--btn--primary);
+
+  /**
+  * @tokens Spacing
+  * @presenter Spacing
+  */
+
+  --spacing--4: 0.01rem;
+  --spacing--3: 0.25rem;
+  --spacing--2: 0.5rem;
+  --spacing--1: 0.75rem;
+  --spacing-0: 1rem; // default
+  --spacing-1: 1.5rem;
+  --spacing-2: 2rem;
+  --spacing-3: 2.5rem;
+  --spacing-4: 3rem;
+  --spacing-5: 3.5rem;
+  --spacing-6: 4rem;
+  --spacing-7: 4.5rem;
+  --spacing-8: 6rem;
+  --spacing-9: 8rem;
+  --spacing-10: 10rem;
+
+  --section-padding: var(--spacing-2);
+
+  // Named padding and margin values
+  --default-padding: var(--section-padding);
+  --none-padding: 0;
+  --small-padding: var(--spacing--1);
+  --medium-padding: var(--spacing-4);
+  --large-padding: var(--spacing-8);
+
+  --default-margin: var(--section-padding);
+  --none-margin: 0;
+  --small-margin: var(--spacing--1);
+  --medium-margin: var(--spacing-4);
+  --large-margin: var(--spacing-8);
+
+  /**
+  * @tokens Font Families
+  * @presenter FontFamily
+  */
+
+  --heading-font-family: 'Brandon Text', system-ui, /* macOS 10.11-10.12 */ -apple-system, /* Windows 6+ */ Segoe UI,
+    /* Android 4+ */ Roboto, /* Ubuntu 10.10+ */ Ubuntu, /* Gnome 3+ */ Cantarell, /* KDE Plasma 5+ */ Noto Sans,
+    /* fallback */ sans-serif, /* macOS emoji */ 'Apple Color Emoji', /* Windows emoji */ 'Segoe UI Emoji',
+    /* Windows emoji */ 'Segoe UI Symbol', /* Linux emoji */ 'Noto Color Emoji';
+  --base-font-family: 'pxFont', Helvetica, Arial, sans-serif;
+  --serif-font-family: 'utopia-std', 'Times New Roman', Times, serif;
+  --accent-font-family: 'permanent-marker', 'ccsignlanguage', 'CentraNo1', 'Helvetica', -apple-system, system-ui,
+    BlinkMacSystemFont, sans-serif;
+
+  /**
+  * @tokens Font Sizes
+  * @presenter FontSize
+  */
+
+  --base-font-size: 16px;
+  --large-font-size: 19px;
+  --sm-base-font-size: 14px;
+
+  /**
+  * @tokens Font Weights
+  * @presenter FontWeight
+  */
+
+  --font-weight--extra-bold: 900;
+  --font-weight--bold: 800;
+  --font-weight--semi-bold: 600;
+  --font-weight--medium: 600;
+  --font-weight--regular: 400;
+  --font-weight--light: 300;
+
+  /**
+  * @tokens General
+  */
+  --container-max-width: 1280px;
+}

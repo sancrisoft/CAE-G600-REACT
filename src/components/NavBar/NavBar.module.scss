@@ -1,0 +1,29 @@
+@import '../../styles/common';
+
+.NavBar {
+  display: flex;
+  gap: 5px;
+}
+
+.NavItem {
+  flex: 1;
+  height: 80%;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  button,
+  a {
+    --button-bg: linear-gradient(112deg,
+    var(--grey--1),
+    var(--grey--2) 25%,
+    var(--grey-5) 60%,
+    var(--grey--3) 80%,
+    var(--grey--4));
+    height: 100%;
+    min-width: initial;
+    opacity: 1;
+    width: 100%;
+  }
+}

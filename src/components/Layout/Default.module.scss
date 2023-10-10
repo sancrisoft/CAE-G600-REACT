@@ -1,0 +1,103 @@
+@import '../../styles/common';
+
+.BgContainer {
+  align-items: center;
+  background: url('../../../public/sky_bg.jpg') 0 100%;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  overflow: hidden;
+  padding: rem(24px);
+  width: 100%;
+}
+
+.EmulatorCard {
+  background-color: #1e1e1e;
+  border-color: #1e1e1e;
+  border-radius: 4px;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 695px;
+  min-width: 320px;
+  width: 695px;
+
+  @media (min-width: 1441px) {
+    max-width: 847px;
+    width: 847px;
+  }
+}
+
+.EmulatorHeader {
+  align-items: center;
+  background-color: #272727;
+  border-color: #1e1e1e;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  padding: rem(4px) rem(16px);
+  position: relative;
+}
+
+.Title {
+  caret-color: var(--green-lighter);
+  color: var(--green-lighter);
+  font-family: Roboto Light, sans-serif;
+  font-size: 2.125rem;
+  font-weight: 400;
+  letter-spacing: 0.0073254715345709rem;
+  line-height: 2.5rem;
+  margin-right: rem(16px);
+}
+
+.Icon {
+  caret-color: var(--green2);
+  color: var(--green2);
+  font-size: rem(24px);
+}
+
+.EmulatorContent {
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  height: calc(100% - 64px);
+  padding: rem(16px);
+  width: 100%;
+}
+
+.OuterContainer {
+  background-color: var(--page-bg);
+  height: 100%;
+  overflow: hidden;
+}
+
+.withNav {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.MainContent {
+  background-color: var(--page-bg);
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  justify-content: space-between;
+  padding: rem(12px);
+  position: relative;
+}
+
+.InnerContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+}
+
+.Footer {
+  margin: var(--spacing-0) 0;
+}
