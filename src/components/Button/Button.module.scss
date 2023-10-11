@@ -88,13 +88,6 @@
   --button-color--disabled: var(--text-primary);
 }
 
-.twolines {
-  @extend .primary;
-  display: flex; 
-  flex-direction: column;
-  height: 3.4rem;
-}
-
 .outline {
   --button-color: var(--button-bg);
   --button-border-color: var(--button-bg);

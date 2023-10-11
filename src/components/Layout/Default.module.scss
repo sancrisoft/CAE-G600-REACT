@@ -82,18 +82,20 @@
 
 .MainContent {
   background-color: var(--page-bg);
+  border-right: 1px solid var(--white);
   display: flex;
   flex-direction: column;
-  height: 90%;
+  height: 100%;
   justify-content: space-between;
   padding: rem(12px);
   position: relative;
+  width: 87%;
 }
 
 .InnerContainer {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 85%;
   overflow: auto;
   width: 100%;
 }

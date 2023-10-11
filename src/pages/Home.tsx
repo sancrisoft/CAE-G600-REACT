@@ -1,28 +1,21 @@
-import React, { useEffect, PropsWithChildren } from 'react'
-import Button from '../components/Button'
-import DefaultLayout from '../components/Layout'
-import Menu from '../components/Menu'
-import Title from '../components/Title'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlaneCircleCheck } from '@fortawesome/free-solid-svg-icons'
-import styles from './Default.module.scss'
+import Button from "../components/Button";
+import Footer from "../components/Footer";
+import DefaultLayout from "../components/Layout";
+import Menu from "../components/Menu";
+import Title from "../components/Title";
 
 const HomePage = () => {
-  useEffect(() => {
-    sessionStorage.clear()
-  }, []);
-
-
   return (
-    <DefaultLayout>
-      <Title variant="secondary">CMC Main mENU</Title>
+    <DefaultLayout footer={<Footer>Fault History Database Currently&nbsp;XXX&nbsp;%Full</Footer>}>
+      <Title>CMC Main mENU</Title>
       <Menu>
-        <Button style={{color: "white"}} href="/maintenancemessages">Maintenance Messages</Button>
-        <Button href="/systemdiagnostics">System Diagnostics</Button>
-        <Button href="/extendedmaintenance">Extended Maintenance</Button>
-        <Button href="/dataloader">Data Loader</Button>
+        <Button href="/maintenance-messages">Maintenance Messages</Button>
+        <Button href="/system-diagnostics">System Diagnostics</Button>
+        <Button>Extended Maintenance</Button>
+        <Button>Print Destination Setup</Button>
       </Menu>
-    </DefaultLayout>)
-}
+    </DefaultLayout>
+  );
+};
 
 export default HomePage
