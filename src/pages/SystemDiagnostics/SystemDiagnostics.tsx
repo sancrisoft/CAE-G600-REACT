@@ -146,15 +146,15 @@ const SystemDiagnostics = () => {
             },
             {
               text: 'DATA: CAU TEST STATUS',
-              href: '/systemdiagnostics/23-communications/02-radio-cabinet-1/cau-test-status',
+              href: '/systemdiagnostics/twentythreecommunications/tworadiocabinetone/cauteststatus',
             },
             {
               text: 'DATA: NIM STATUS',
-              href: '/systemdiagnostics/23-communications/02-radio-cabinet-1/nim-status',
+              href: '/systemdiagnostics/twentythreecommunications/tworadiocabinetone/nimstatus',
             },
             {
               text: 'DATA: NIM1 MAC BUS DIAGNOSTIC DATA',
-              href: '/systemdiagnostics/23-communications/02-radio-cabinet-1/busdiagnostic-status-1',
+              href: '/systemdiagnostics/twentythreecommunications/tworadiocabinetone/busdiagnosticstatus',
             },
             {
               text: 'TEST VDR LRM 1 IBIT',
@@ -167,7 +167,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: NIM2 MAC BUS DIAGNOSTIC DATA',
-              href: '/systemdiagnostics/23-communications/02-radio-cabinet-2/busdiagnostic-data-1',
+              href: '/systemdiagnostics/twentythreecommunications/tworadiocabinettwo/busdiagnosticdata',
             },
             {
               text: 'TEST VDR LRM 2 IBIT',
@@ -198,7 +198,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: SATCOM STATUS',
-              href: '/systemdiagnostics/23-communications/15-satelite-communications/satcom-status',
+              href: '/systemdiagnostics/twentythreecommunications/fifteensatelitecommunications/satcomstatus',
             },
           ],
         },
@@ -207,7 +207,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: CVR STATUS',
-              href: '/systemdiagnostics/23-communications/72-cockpit-voice-recorder/cvr-status',
+              href: '/systemdiagnostics/twentythreecommunications/seventytwocockpitvoicerecorder/cvrstatus',
             },
           ],
         },
