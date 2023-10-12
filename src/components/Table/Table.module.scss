@@ -1,0 +1,43 @@
+@import '../../styles/common';
+
+.Container {
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+}
+
+.Table {
+  border-collapse: collapse;
+  width: 100%;
+
+  tbody {
+    height: 100%;
+    width: 100%;
+  }
+
+  th,
+  td {
+    @extend %body;
+    padding: 0;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  th:nth-last-child(-n + 2),
+  td:nth-last-child(-n + 2) {
+    text-align: right;
+  }
+
+  th {
+    background-color: transparent;
+    font-weight: bold;
+  }
+
+  tr:last-child {
+    margin-bottom: 0;
+  }
+
+  tr:hover {
+    outline: 0.1vh solid var(--green);
+  }
+}
