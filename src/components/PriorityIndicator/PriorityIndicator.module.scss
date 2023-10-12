@@ -1,0 +1,12 @@
+.ParentContainer {
+  display: grid;
+  gap: var(--spacing-8);
+  grid-auto-flow: column;
+  margin-top: var(--spacing-1);
+
+  .Container {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+  }
+}

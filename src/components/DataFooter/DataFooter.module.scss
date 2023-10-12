@@ -1,0 +1,15 @@
+@import '../../styles/common';
+
+.Container {
+  display: grid;
+  grid-auto-flow: column;
+  width: 100%;
+}
+
+.Text {
+  @extend %body;
+  align-self: end;
+  color: var(--title--primary);
+  font-weight: 800;
+  text-transform: uppercase;
+}

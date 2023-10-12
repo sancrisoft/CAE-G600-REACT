@@ -1,0 +1,125 @@
+@import '../../styles/common';
+
+.Container {
+  margin: var(--spacing--3) 0;
+}
+
+.Container.MarginTop {
+  margin-top: var(--spacing-2);
+}
+
+.Table {
+  border: 0.1vh solid var(--white);
+  border-collapse: collapse;
+  text-transform: uppercase;
+  width: 99%;
+}
+
+.Header {
+  border-right: 0.1vh solid var(--white);
+}
+
+.subHeader {
+  th {
+    border-right: 0.1vh solid var(--white);
+    color: var(--aqua);
+  }
+
+  th:first-of-type {
+    padding-left: var(--spacing-0);
+    text-align: left;
+    width: 60%;
+  }
+}
+
+.SecHeaders {
+  th {
+    border-right: 0.1vh solid var(--white);
+    color: var(--aqua);
+  }
+}
+
+.MergedHeader {
+  margin: 5px 0 -5px;
+}
+
+.MergedHeaders {
+  th {
+    color: var(--aqua);
+  }
+
+  th:first-child {
+    border-right: 0.1vh solid var(--white);
+    padding-left: var(--spacing-0);
+    text-align: left;
+    width: 60%;
+  }
+}
+
+.VerticalCenter:first-of-type {
+  margin-top: -18px;
+}
+
+.MergedHeadersBorder {
+  th {
+    color: var(--aqua);
+  }
+
+  th:first-child {
+    border-right: 0.1vh solid var(--white);
+    padding-left: var(--spacing-0);
+    text-align: left;
+    width: 60%;
+  }
+
+  th:last-child {
+    border: 0.1vh solid var(--white);
+  }
+}
+
+.TablesRows {
+  td {
+    border: 0.1vh solid var(--white);
+    color: var(--white);
+    padding-right: var(--spacing-0);
+    text-align: right;
+  }
+
+  td:first-child {
+    padding-left: var(--spacing-0);
+    text-align: left;
+  }
+}
+
+.Rows {
+  td {
+    border: 0.1vh solid var(--white);
+    color: var(--white);
+    padding-right: var(--spacing-0);
+    text-align: center;
+  }
+
+  td:first-child {
+    padding-left: var(--spacing-0);
+    text-align: left;
+  }
+}
+
+.LeftAlign {
+  td {
+    padding-left: var(--spacing-0);
+    text-align: left;
+  }
+}
+
+.RightAlign {
+  td {
+    padding-right: var(--spacing-0);
+    text-align: right;
+  }
+}
+
+.LeftAlign ~ th {
+  padding-left: var(--spacing-0);
+  text-align: left;
+}

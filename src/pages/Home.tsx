@@ -9,8 +9,8 @@ const HomePage = () => {
     <DefaultLayout footer={<Footer>Fault History Database Currently&nbsp;XXX&nbsp;%Full</Footer>}>
       <Title>CMC Main mENU</Title>
       <Menu>
-        <Button href="/maintenance-messages">Maintenance Messages</Button>
-        <Button href="/system-diagnostics">System Diagnostics</Button>
+        <Button href="/maintenancemessages">Maintenance Messages</Button>
+        <Button href="/systemdiagnostics">System Diagnostics</Button>
         <Button>Extended Maintenance</Button>
         <Button>Print Destination Setup</Button>
       </Menu>

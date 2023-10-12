@@ -1,18 +1,13 @@
 @import '../../styles/common';
 
 .Container {
-  align-items: center;
   display: flex;
-  font-weight: bold;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-between;
   width: 100%;
 }
 
-.Text {
+.Data {
   @extend %body;
   color: var(--text--primary);
-  margin: var(--spacing-0) 0;
-  font-weight: bold;
   text-transform: uppercase;
 }

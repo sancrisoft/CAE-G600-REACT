@@ -1,0 +1,31 @@
+@import '../../styles/common';
+
+.Text {
+  font-weight: bold;
+  margin-bottom: var(--spacing-0);
+  text-transform: uppercase;
+}
+
+.BodyStyle {
+  @extend %body;
+}
+
+.HeaderStyle {
+  @extend %header;
+}
+
+.SmallIn {
+  text-indent: var(--spacing-0);
+}
+
+.MediumIn {
+  text-indent: var(--spacing-5);
+}
+
+.LargeIn {
+  text-indent: var(--spacing-9);
+}
+
+.Aqua {
+  color: var(--aqua);
+}
