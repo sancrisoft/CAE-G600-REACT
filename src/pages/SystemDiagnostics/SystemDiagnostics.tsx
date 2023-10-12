@@ -78,7 +78,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: GUIDANCE PANEL SWITCH STATUS',
-              href: '/systemdiagnostics/22-autoflight/11-guidance-panel/gp-switch-status-1',
+              href: '/systemdiagnostics/twentytwoautoflight/elevenguidancepanel/gpswitchstatus',
             },
           ],
         },
@@ -87,7 +87,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: AT1A TQA INTERFACE STATUS',
-              href: '/systemdiagnostics/22-autoflight/30-auto-throttle-1a/at1a-tqa-interface-pre',
+              href: '/systemdiagnostics/twentytwoautoflight/thirtyautothrottleonea/atoneatqainterfacepre',
             },
             {
               text: 'TEST AT1A LEFT THROTTLE TEST',
@@ -128,7 +128,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: TQA STATUS',
-              href: '/systemdiagnostics/22-autoflight/33-throttle-quadrant-assembly/tqa-status-1',
+              href: '/systemdiagnostics/twentytwoautoflight/thirtythreethrottlequadrantassembly/tqastatus',
             },
           ],
         },
