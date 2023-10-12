@@ -1,0 +1,82 @@
+@import '../../styles/common';
+
+.Accordion {
+  border: 0.1vh solid var(--green);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+}
+
+.AccordionItem {
+  margin-bottom: var(--spacing--4);
+  width: 100%;
+}
+
+.AccordionButton {
+  border: 0.1vh solid transparent;
+  cursor: pointer;
+  padding: 0;
+  text-transform: uppercase;
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:hover {
+    border: 0.1vh solid var(--green);
+    transition: none;
+  }
+}
+
+.AccordionContent {
+  width: 100%;
+}
+
+.AccordionContent > .AccordionItem {
+  border-style: none;
+  border-width: 0;
+  padding-left: rem(20px);
+}
+
+.expanded {
+  display: block;
+}
+
+.collapsed {
+  display: none;
+}
+
+.AccordionItem .NoTextTransform {
+  text-transform: none;
+}
+
+.ButtonContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.GridContainer {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  justify-items: start;
+  width: 65%;
+}
+
+.ActiveContainer {
+  margin-right: var(--spacing-2);
+}
+
+.Cyan {
+  color: var(--cyan);
+}
+
+.Green {
+  color: var(--green);
+}
+
+.SubtitleContainer {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,9 +1,9 @@
 import clsx from 'clsx'
 import { ButtonHTMLAttributes, ElementType, FC } from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 import styles from './Button.module.scss'
 
-export type ButtonVariant = 'primary' | 'unstyled' | 'twolines'
+export type ButtonVariant = 'primary' | 'unstyled'
 
 export type ButtonSize = 'auto' | 'large' | 'medium' | 'small'
 
