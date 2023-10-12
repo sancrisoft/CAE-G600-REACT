@@ -1,0 +1,49 @@
+@import '../../styles/common';
+
+.Container {
+  margin-bottom: var(--spacing-0);
+}
+
+.Table {
+  border: 0.1vh solid var(--white);
+  border-collapse: collapse;
+  margin-bottom: var(--spacing-0);
+  text-transform: uppercase;
+  width: 99%;
+
+  th {
+    color: var(--aqua);
+    padding: var(--spacing--2) 0 0 var(--spacing-0);
+    text-align: left;
+  }
+
+  .Border {
+    border: 0.1vh solid var(--white);
+  }
+}
+
+.RowFan {
+  border: 0.1vh solid var(--white);
+  color: var(--white);
+  padding-left: var(--spacing-0);
+  padding-right: var(--spacing-0);
+  padding-top: var(--spacing--2);
+  text-align: left;
+}
+
+.RowDescriptionLeft {
+  border: 0.1vh solid var(--white);
+  color: var(--white);
+  padding-left: var(--spacing-0);
+  padding-right: var(--spacing-0);
+  padding-top: var(--spacing--2);
+  text-align: left;
+}
+
+.RowDescriptionRight {
+  border: 0.1vh solid var(--white);
+  color: var(--white);
+  padding-right: var(--spacing-1);
+  padding-top: var(--spacing--2);
+  text-align: right;
+}

@@ -1,0 +1,123 @@
+@import '../../styles/common';
+
+.Container {
+  margin-bottom: var(--spacing-1);
+}
+
+.halfWidth {
+  width: 50%;
+}
+
+.Table {
+  border: 0.1vh solid var(--white);
+  border-collapse: collapse;
+  margin-top: var(--spacing--3);
+  text-transform: uppercase;
+  width: 99%;
+
+  th {
+    border-bottom: 0.1vh solid var(--white);
+  }
+
+  td {
+    border-right: 0.1vh solid var(--white);
+    height: var(--spacing-3);
+  }
+
+  .Parameter {
+    padding-left: var(--spacing-2);
+  }
+
+  .Border {
+    border-bottom: 0.1vh solid var(--white);
+    color: var(--white);
+    padding-top: var(--spacing--2);
+    text-align: left;
+  }
+}
+
+.RowTitlePadding td:first-child {
+  padding-left: var(--spacing--3);
+}
+
+.Header {
+  th {
+    border-right: 0.1vh solid var(--white);
+    color: var(--aqua);
+    height: var(--spacing-3);
+  }
+
+  th:first-of-type {
+    padding-left: var(--spacing-2);
+    text-align: left;
+    width: 65%;
+  }
+}
+
+.SubHeader {
+  th {
+    border-right: 0.1vh solid var(--white);
+    color: var(--aqua);
+  }
+}
+
+.HeaderTitle {
+  padding-bottom: var(--spacing--2);
+
+  &.Title1,
+  &.Title2 {
+    border-bottom: 0;
+  }
+}
+
+.Square {
+  height: 12px;
+  margin: auto;
+  width: 12px;
+}
+
+.Green {
+  background: var(--green);
+}
+
+.Red {
+  background: var(--red);
+}
+
+.NoData {
+  border: 2px solid #000;
+  border-radius: 50%;
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.NoData::after,
+.NoData::before {
+  border-left: 3px solid #000;
+  content: '';
+  height: 20px;
+  margin-left: 7px;
+  position: absolute;
+}
+
+.NoData::after {
+  transform: rotate(45deg);
+}
+
+.NoData::before {
+  transform: rotate(-45deg);
+}
+
+.AlignCenter {
+  text-align: center;
+}
+
+.StatusColor {
+  color: var(--aqua);
+  font-weight: bold;
+}
+
+.DoubleHeader {
+  margin: -15px 0 5px;
+}

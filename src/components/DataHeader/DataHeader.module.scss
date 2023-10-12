@@ -1,0 +1,23 @@
+@import '../../styles/common';
+
+.Container {
+  display: grid;
+  grid-auto-flow: column;
+  width: 100%;
+}
+
+.Title {
+  @extend %header;
+  color: var(--title--primary);
+  display: flex;
+  justify-self: flex-end;
+}
+
+.ContainerLeft {
+  display: flex;
+  justify-content: space-between;
+
+  .Title {
+    padding-left: var(--spacing-0);
+  }
+}
