@@ -221,7 +221,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: APU GCU & GEN STATUS',
-              href: '/systemdiagnostics/24-electrical-power/22-generator-control-unit-apu/gcu-gen-status-1',
+              href: '/systemdiagnostics/twentyfourelectricalpower/twentytwogeneratorcontrolunitapu/gcugenstatus',
             },
           ],
         },
@@ -230,11 +230,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: RAT CONTACTOR STATUS',
-              href: '/systemdiagnostics/24-electrical-power/23-ram-air-turbine/rat-contactor-status',
+              href: '/systemdiagnostics/twentyfourelectricalpower/twentythreeairturbine/ratcontactorstatus',
             },
             {
               text: 'DATA: RAT POWER',
-              href: '/systemdiagnostics/24-electrical-power/23-ram-air-turbine/rat-power',
+              href: '/systemdiagnostics/twentyfourelectricalpower/twentythreeairturbine/ratpower',
             },
           ],
         },
@@ -243,7 +243,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: LEFT GCU & GEN STATUS',
-              href: '/systemdiagnostics/24-electrical-power/25-generator-control-unit-left/gcu-gen-status-left-1',
+              href: '/systemdiagnostics/twentyfourelectricalpower/twentyfivegeneratorcontrolunitleft/gcugenstatusleft',
             },
           ],
         },
@@ -258,11 +258,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: PPDL BPCU STATUS',
-              href: '/systemdiagnostics/24-electrical-power/26-primary-power-distribution-left/ppdl-bpcu-status-left-01',
+              href: '/systemdiagnostics/twentyfourelectricalpower/twentysixprimarypowerdistributionleft/ppdlbpcustatusleft',
             },
             {
               text: 'DATA: PPDL PDB POWER STATUS',
-              href: '/systemdiagnostics/24-electrical-power/26-primary-power-distribution-left/ppdl-pdb-power-status-01',
+              href: '/systemdiagnostics/twentyfourelectricalpower/twentysixprimarypowerdistributionleft/ppdlpdbpowerstatus',
             },
           ],
         },
@@ -271,11 +271,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: PPDR BPCU STATUS',
-              href: '/systemdiagnostics/24-electrical-power/26-primary-power-distribution-right/ppdl-bpcu-status-right-01',
+              href: '/systemdiagnostics/twentyfourelectricalpower/twentysixprimarypowerdistributionright/ppdlbpcustatusright',
             },
             {
               text: 'DATA: PPDR PDB POWER STATUS',
-              href: '/systemdiagnostics/24-electrical-power/26-primary-power-distribution-right/ppdl-pdb-power-status-right-01',
+              href: '/systemdiagnostics/twentyfourelectricalpower/twentysixprimarypowerdistributionright/ppdlpdbpowerstatusright',
             },
           ],
         },
@@ -284,19 +284,19 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: EBHA BATTERY STATUS',
-              href: '/systemdiagnostics/24-electrical-power/34-battery/ebha-battery-status',
+              href: '/systemdiagnostics/twentyfourelectricalpower/thirtyfourbattery/ebhabatterystatus',
             },
             {
               text: 'DATA: EMERGENCY BATTERY STATUS',
-              href: '/systemdiagnostics/24-electrical-power/34-battery/emergency-battery-status-1',
+              href: '/systemdiagnostics/twentyfourelectricalpower/thirtyfourbattery/emergencybatterystatus',
             },
             {
               text: 'DATA: MAIN SHIP BATTERY STATUS',
-              href: '/systemdiagnostics/24-electrical-power/34-battery/ship-battery-status',
+              href: '/systemdiagnostics/twentyfourelectricalpower/thirtyfourbattery/shipbatterystatus',
             },
             {
               text: 'DATA: UPS BATTERY STATUS',
-              href: '/systemdiagnostics/24-electrical-power/34-battery/ups-battery-status',
+              href: '/systemdiagnostics/twentyfourelectricalpower/thirtyfourbattery/upsbatterystatus',
             },
           ],
         },
