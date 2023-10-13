@@ -186,6 +186,17 @@ import WindshieldHeatStatus from './pages/SystemDiagnostics/ThirtyIceRainProtect
 import WindshieldHeatStatus1 from './pages/SystemDiagnostics/ThirtyIceRainProtection/FortyOneWindshieldHeat/WindshieldHeatStatus1';
 import WindshieldHeatStatus2 from './pages/SystemDiagnostics/ThirtyIceRainProtection/FortyOneWindshieldHeat/WindshieldHeatStatus2';
 import WindshieldHeatStatus3 from './pages/SystemDiagnostics/ThirtyIceRainProtection/FortyOneWindshieldHeat/WindshieldHeatStatus3';
+import Tsc1MiscStatus from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/SeventeenTouchscreenController1/Tsc1MiscStatus';
+import Tsc1TempStatus from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/SeventeenTouchscreenController1/Tsc1TempStatus';
+import FdrStatus from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/ThirtyOneFlightDataRecorder/FdrStatus';
+import ProgrammableCasContents from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/FortyProgrammableCasContents/ProgrammableCasContents';
+import DuAgmStatus from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/FortyOneMauDisplayLogic1/DuAgmStatus';
+import DuAgmStatus1 from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/FortyOneMauDisplayLogic1/DuAgmStatus1';
+import DuA429Status from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/FortyOneMauDisplayLogic1/DuA429Status';
+import MwcSwitchStatus from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/FortyOneMauDisplayLogic1/MwcSwitchStatus';
+import CcdStatus from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/SixtyThreeCursorControlDevices/CcdStatus';
+import CcdStatus1 from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/SixtyThreeCursorControlDevices/CcdStatus1';
+import XmReceiverStatus from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/SixtySevenXmWeather/XmReceiverStatus';
 
 function App() {
   return (
@@ -378,6 +389,17 @@ function App() {
         <Route path="/systemdiagnostics/thirtyicerainprotection/fortyonewindshieldheat/windshieldheatstatus1" element={<WindshieldHeatStatus1 />} />
         <Route path="/systemdiagnostics/thirtyicerainprotection/fortyonewindshieldheat/windshieldheatstatus2" element={<WindshieldHeatStatus2 />} />
         <Route path="/systemdiagnostics/thirtyicerainprotection/fortyonewindshieldheat/windshieldheatstatus3" element={<WindshieldHeatStatus3 />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/seventeentouchscreencontroller1/tsc1miscstatus" element={<Tsc1MiscStatus />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/seventeentouchscreencontroller1/tsc1tempstatus" element={<Tsc1TempStatus />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/thirtyoneflightdatarecorder/fdrstatus" element={<FdrStatus />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/fortyprogrammablecascontents/programmablecascontents" element={<ProgrammableCasContents />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/fortyonemaudisplaylogic1/duagmstatus" element={<DuAgmStatus />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/fortyonemaudisplaylogic1/duagmstatus1" element={<DuAgmStatus1 />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/fortyonemaudisplaylogic1/dua429status" element={<DuA429Status />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/fortyonemaudisplaylogic1/mwcswitchstatus" element={<MwcSwitchStatus />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/sixtythreecursorcontroldevices/ccdstatus" element={<CcdStatus />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/sixtythreecursorcontroldevices/ccdstatus1" element={<CcdStatus1 />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/sixtysevenxmweather/xmreceiverstatus" element={<XmReceiverStatus />} />
       </Routes>
     </Router>
   );

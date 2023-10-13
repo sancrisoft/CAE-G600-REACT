@@ -932,11 +932,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: TSC1 MISC STATUS',
-              href: '/systemdiagnostics/31-indicating-recording-systems/17-touchscreen-controller-1/tsc1-misc-status',
+              href: '/systemdiagnostics/thirtyoneindicatingrecordingsystems/seventeentouchscreencontroller1/tsc1miscstatus',
             },
             {
               text: 'DATA: TSC1 TEMPERATURE STATUS',
-              href: '/systemdiagnostics/31-indicating-recording-systems/17-touchscreen-controller-1/tsc1-temp-status',
+              href: '/systemdiagnostics/thirtyoneindicatingrecordingsystems/seventeentouchscreencontroller1/tsc1tempstatus',
             },
             {
               text: 'TEST TSC1 RESET TEST',
@@ -997,7 +997,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: FDR STATUS',
-              href: '/systemdiagnostics/31-indicating-recording-systems/31-flight-data-recorder/fdr-status',
+              href: '/systemdiagnostics/thirtyoneindicatingrecordingsystems/thirtyoneflightdatarecorder/fdrstatus',
             },
           ],
         },
@@ -1006,7 +1006,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: PROGRAMMABLE CAS CONTENTS',
-              href: '/systemdiagnostics/31-indicating-recording-systems/40-programmable-cas-contents/programmable-cas-contents',
+              href: '/systemdiagnostics/thirtyoneindicatingrecordingsystems/fortyprogrammablecascontents/programmablecascontents',
             },
           ],
         },
@@ -1015,15 +1015,15 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: DU/AGM STATUS',
-              href: '/systemdiagnostics/31-indicating-recording-systems/41-mau-display-logic-1/du-agm-status-1',
+              href: '/systemdiagnostics/thirtyoneindicatingrecordingsystems/fortyonemaudisplaylogic1/duagmstatus',
             },
             {
               text: 'DATA: DU A429 STATUS',
-              href: '/systemdiagnostics/31-indicating-recording-systems/41-mau-display-logic-1/du-a429-status',
+              href: '/systemdiagnostics/thirtyoneindicatingrecordingsystems/fortyonemaudisplaylogic1/dua429status',
             },
             {
               text: 'DATA: MWC SWITCH STATUS',
-              href: '/systemdiagnostics/31-indicating-recording-systems/41-mau-display-logic-1/mwc-switch-status',
+              href: '/systemdiagnostics/thirtyoneindicatingrecordingsystems/fortyonemaudisplaylogic1/mwcswitchstatus',
             },
           ],
         },
@@ -1050,7 +1050,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: CCD STATUS',
-              href: '/systemdiagnostics/31-indicating-recording-systems/63-cursor-control-devices/ccd-status-1',
+              href: '/systemdiagnostics/thirtyoneindicatingrecordingsystems/sixtythreecursorcontroldevices/ccdstatus',
             },
           ],
         },
@@ -1059,7 +1059,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: XM RECEIVER STATUS',
-              href: '/systemdiagnostics/31-indicating-recording-systems/67-xm-weather/xm-receiver-status',
+              href: '/systemdiagnostics/thirtyoneindicatingrecordingsystems/sixtysevenxmweather/xmreceiverstatus',
             },
           ],
         },
