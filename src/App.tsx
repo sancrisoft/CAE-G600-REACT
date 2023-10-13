@@ -115,6 +115,16 @@ import Right from './pages/SystemDiagnostics/TwentySixFireProtection/TenEngineFi
 import Right1 from './pages/SystemDiagnostics/TwentySixFireProtection/TenEngineFireDetection/Right1';
 import OverheatDetection from './pages/SystemDiagnostics/TwentySixFireProtection/FourteenEquipmentAreaOverheatDetection/OverheatDetection';
 import OverheatDetection1 from './pages/SystemDiagnostics/TwentySixFireProtection/FourteenEquipmentAreaOverheatDetection/OverheatDetection1';
+import PfcasCompensatorPosition from './pages/SystemDiagnostics/TwentySevenFlightControls/ZeroFcsPrimaryFltCtrlsActuation/PfcasCompensatorPosition';
+import PbitIbitStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/ZeroFcsPrimaryFltCtrlsActuation/PbitIbitStatus';
+import SidestickLPriFaultStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneActiveControlStickLeftChA/SidestickLPriFaultStatus';
+import SidestickLPriFaultStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneActiveControlStickLeftChA/SidestickLPriFaultStatus1';
+import SidestickLPriFaultStatus2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneActiveControlStickLeftChA/SidestickLPriFaultStatus2';
+import SidestickLPriFaultStatus3 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneActiveControlStickLeftChA/SidestickLPriFaultStatus3';
+import SidestickLPriFaultStatus4 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneActiveControlStickLeftChA/SidestickLPriFaultStatus4';
+import SidestickLPriFaultStatus5 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneActiveControlStickLeftChA/SidestickLPriFaultStatus5';
+import SidestickLPriModeStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneActiveControlStickLeftChA/SidestickLPriModeStatus';
+import SidestickLPriModeStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneActiveControlStickLeftChA/SidestickLPriModeStatus1';
 
 function App() {
   return (
@@ -235,6 +245,16 @@ function App() {
         <Route path="/systemdiagnostics/twentysixfireprotection/tenenginefiredetection/right1" element={<Right1 />} />
         <Route path="/systemdiagnostics/twentysixfireprotection/fourteenequipmentareaoverheatdetection/overheatdetection" element={<OverheatDetection />} />
         <Route path="/systemdiagnostics/twentysixfireprotection/fourteenequipmentareaoverheatdetection/overheatdetection1" element={<OverheatDetection1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/zerofcsprimaryfltctrlsactuation/pfcascompensatorposition" element={<PfcasCompensatorPosition />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/zerofcsprimaryfltctrlsactuation/pbitibitstatus" element={<PbitIbitStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprifaultstatus" element={<SidestickLPriFaultStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprifaultstatus1" element={<SidestickLPriFaultStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprifaultstatus2" element={<SidestickLPriFaultStatus2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprifaultstatus3" element={<SidestickLPriFaultStatus3 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprifaultstatus4" element={<SidestickLPriFaultStatus4 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprifaultstatus5" element={<SidestickLPriFaultStatus5 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprimodestatus" element={<SidestickLPriModeStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprimodestatus1" element={<SidestickLPriModeStatus1 />} />
       </Routes>
     </Router>
   );

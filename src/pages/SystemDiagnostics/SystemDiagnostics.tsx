@@ -365,11 +365,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: PFCAS COMPENSATOR POSITION',
-              href: '/systemdiagnostics/27-flight-controls/00-fcs-primary-flt-ctrls-actuation/pfcas-compensator-position',
+              href: '/systemdiagnostics/twentysevenflightcontrols/zerofcsprimaryfltctrlsactuation/pfcascompensatorposition',
             },
             {
               text: 'DATA: REU PBIT/IBIT STATUS',
-              href: '/systemdiagnostics/27-flight-controls/00-fcs-primary-flt-ctrls-actuation/pbit-ibit-status',
+              href: '/systemdiagnostics/twentysevenflightcontrols/zerofcsprimaryfltctrlsactuation/pbitibitstatus',
             },
             {
               text: 'TEST ALL SURFACES INTERACTIVE TEST',
@@ -382,11 +382,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: SIDESTICK L PRI FAULT STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-active-control-stick-left-ch-a/sidestick-l-pri-fault-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprifaultstatus',
             },
             {
               text: 'DATA: SIDESTICK L PRI MODE STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-active-control-stick-left-ch-a/sidestick-l-pri-mode-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprimodestatus',
             },
           ],
         },
@@ -424,39 +424,39 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: FCC1 AIRCRAFT SYSTEM STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer/aircraft-systems-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/aircraft-systems-status-1',
             },
             {
               text: 'DATA: FCC1 ENGAGEMENT STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer/engagement-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/engagement-status-1',
             },
             {
               text: 'DATA: FCC1 FACTORY TRIM DATA',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer/factory-trim-data',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/factory-trim-data',
             },
             {
               text: 'DATA: FCC1 FLIGHT DECK RVDT STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer/deck-rvdt-status',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/deck-rvdt-status',
             },
             {
               text: 'DATA: FCC1 FLIGHT DECK SW STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer/deck-sw-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/deck-sw-status-1',
             },
             {
               text: 'DATA: FCC1 FORCE SENSORS  STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer/force-sensors-status',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/force-sensors-status',
             },
             {
               text: 'DATA: FCC1 PFCS RIG VERIFICATION',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer/pfcs-rig-verification-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/pfcs-rig-verification-1',
             },
             {
               text: 'DATA: FCC1 VALIDITY STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer/validity-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/validity-status-1',
             },
             {
               text: 'DATA: FCC1 XTALK STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer/xtalk-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/xtalk-status-1',
             },
             {
               text: 'TEST FCC1 COPILOT STICK SENSOR RIG',
@@ -481,39 +481,39 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: FCC2 AIRCRAFT SYSTEM STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer-2/fcc-2-aircraft-systems-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1-2/fcc-2-aircraft-systems-status-1',
             },
             {
               text: 'DATA: FCC2 ENGAGEMENT STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer-2/fcc-2engagement-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1-2/fcc-2engagement-status-1',
             },
             {
               text: 'DATA: FCC2 FACTORY TRIM DATA',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer-2/fcc-2-factory-trim-data',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1-2/fcc-2-factory-trim-data',
             },
             {
               text: 'DATA: FCC2 FLIGHT DECK RVDT STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer-2/fcc-2-deck-rvdt-status',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1-2/fcc-2-deck-rvdt-status',
             },
             {
               text: 'DATA: FCC2 FLIGHT DECK SW STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer-2/fcc-2-deck-sw-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1-2/fcc-2-deck-sw-status-1',
             },
             {
               text: 'DATA: FCC2 FORCE SENSORS  STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer-2/fcc-2-force-sensors-status',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1-2/fcc-2-force-sensors-status',
             },
             {
               text: 'DATA: FCC2 PFCS RIG VERIFICATION',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer-2/fcc-2-pfcs-rig-verification-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1-2/fcc-2-pfcs-rig-verification-1',
             },
             {
               text: 'DATA: FCC2 VALIDITY STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer-2/fcc-2-validity-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1-2/fcc-2-validity-status-1',
             },
             {
               text: 'DATA: FCC2 XTALK STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer-2/fcc-2-xtalk-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1-2/fcc-2-xtalk-status-1',
             },
             {
               text: 'TEST FCC2 COPILOT STICK SENSOR RIG',
@@ -538,11 +538,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: BFCU RVDT STATUS',
-              href: '/systemdiagnostics/27-flight-controls/02-fcs-backuo-flight-control-unit/bfcu-rvdt-status',
+              href: '/systemdiagnostics/twentysevenflightcontrols/02-fcs-backuo-flight-control-unit/bfcu-rvdt-status',
             },
             {
               text: 'DATA: BFCU STATUS',
-              href: '/systemdiagnostics/27-flight-controls/02-fcs-backuo-flight-control-unit/bfcu-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/02-fcs-backuo-flight-control-unit/bfcu-status-1',
             },
           ],
         },
@@ -676,7 +676,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: HSTS DATA',
-              href: '/systemdiagnostics/27-flight-controls/40-fcs-horizontal-stabilizer/hsts-data',
+              href: '/systemdiagnostics/twentysevenflightcontrols/40-fcs-horizontal-stabilizer/hsts-data',
             },
             {
               text: 'TEST HSTS RIG',
@@ -693,11 +693,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: FLAPS OPERATIONAL STATUS',
-              href: '/systemdiagnostics/27-flight-controls/55-flap-system-control-lane/flaps-operational-status',
+              href: '/systemdiagnostics/twentysevenflightcontrols/55-flap-system-control-lane/flaps-operational-status',
             },
             {
               text: 'DATA: FLAPS SYSTEM STATUS',
-              href: '/systemdiagnostics/27-flight-controls/55-flap-system-control-lane/flaps-system-status',
+              href: '/systemdiagnostics/twentysevenflightcontrols/55-flap-system-control-lane/flaps-system-status',
             },
             {
               text: 'TEST FLAPS MANUAL IBIT',
