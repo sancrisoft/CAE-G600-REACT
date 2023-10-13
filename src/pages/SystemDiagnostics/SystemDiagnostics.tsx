@@ -146,15 +146,15 @@ const SystemDiagnostics = () => {
             },
             {
               text: 'DATA: CAU TEST STATUS',
-              href: '/systemdiagnostics/23-communications/02-radio-cabinet-1/cau-test-status',
+              href: '/systemdiagnostics/twentythreecommunications/tworadiocabinetone/cauteststatus',
             },
             {
               text: 'DATA: NIM STATUS',
-              href: '/systemdiagnostics/23-communications/02-radio-cabinet-1/nim-status',
+              href: '/systemdiagnostics/twentythreecommunications/tworadiocabinetone/nimstatus',
             },
             {
               text: 'DATA: NIM1 MAC BUS DIAGNOSTIC DATA',
-              href: '/systemdiagnostics/23-communications/02-radio-cabinet-1/busdiagnostic-status-1',
+              href: '/systemdiagnostics/twentythreecommunications/tworadiocabinetone/busdiagnosticstatus',
             },
             {
               text: 'TEST VDR LRM 1 IBIT',
@@ -167,7 +167,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: NIM2 MAC BUS DIAGNOSTIC DATA',
-              href: '/systemdiagnostics/23-communications/02-radio-cabinet-2/busdiagnostic-data-1',
+              href: '/systemdiagnostics/twentythreecommunications/tworadiocabinettwo/busdiagnosticdata',
             },
             {
               text: 'TEST VDR LRM 2 IBIT',
@@ -198,7 +198,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: SATCOM STATUS',
-              href: '/systemdiagnostics/23-communications/15-satelite-communications/satcom-status',
+              href: '/systemdiagnostics/twentythreecommunications/fifteensatelitecommunications/satcomstatus',
             },
           ],
         },
@@ -207,7 +207,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: CVR STATUS',
-              href: '/systemdiagnostics/23-communications/72-cockpit-voice-recorder/cvr-status',
+              href: '/systemdiagnostics/twentythreecommunications/seventytwocockpitvoicerecorder/cvrstatus',
             },
           ],
         },
@@ -221,7 +221,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: APU GCU & GEN STATUS',
-              href: '/systemdiagnostics/24-electrical-power/22-generator-control-unit-apu/gcu-gen-status-1',
+              href: '/systemdiagnostics/twentyfourelectricalpower/twentytwogeneratorcontrolunitapu/gcugenstatus',
             },
           ],
         },
@@ -230,11 +230,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: RAT CONTACTOR STATUS',
-              href: '/systemdiagnostics/24-electrical-power/23-ram-air-turbine/rat-contactor-status',
+              href: '/systemdiagnostics/twentyfourelectricalpower/twentythreeairturbine/ratcontactorstatus',
             },
             {
               text: 'DATA: RAT POWER',
-              href: '/systemdiagnostics/24-electrical-power/23-ram-air-turbine/rat-power',
+              href: '/systemdiagnostics/twentyfourelectricalpower/twentythreeairturbine/ratpower',
             },
           ],
         },
@@ -243,7 +243,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: LEFT GCU & GEN STATUS',
-              href: '/systemdiagnostics/24-electrical-power/25-generator-control-unit-left/gcu-gen-status-left-1',
+              href: '/systemdiagnostics/twentyfourelectricalpower/twentyfivegeneratorcontrolunitleft/gcugenstatusleft',
             },
           ],
         },
@@ -258,11 +258,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: PPDL BPCU STATUS',
-              href: '/systemdiagnostics/24-electrical-power/26-primary-power-distribution-left/ppdl-bpcu-status-left-01',
+              href: '/systemdiagnostics/twentyfourelectricalpower/twentysixprimarypowerdistributionleft/ppdlbpcustatusleft',
             },
             {
               text: 'DATA: PPDL PDB POWER STATUS',
-              href: '/systemdiagnostics/24-electrical-power/26-primary-power-distribution-left/ppdl-pdb-power-status-01',
+              href: '/systemdiagnostics/twentyfourelectricalpower/twentysixprimarypowerdistributionleft/ppdlpdbpowerstatus',
             },
           ],
         },
@@ -271,11 +271,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: PPDR BPCU STATUS',
-              href: '/systemdiagnostics/24-electrical-power/26-primary-power-distribution-right/ppdl-bpcu-status-right-01',
+              href: '/systemdiagnostics/twentyfourelectricalpower/twentysixprimarypowerdistributionright/ppdlbpcustatusright',
             },
             {
               text: 'DATA: PPDR PDB POWER STATUS',
-              href: '/systemdiagnostics/24-electrical-power/26-primary-power-distribution-right/ppdl-pdb-power-status-right-01',
+              href: '/systemdiagnostics/twentyfourelectricalpower/twentysixprimarypowerdistributionright/ppdlpdbpowerstatusright',
             },
           ],
         },
@@ -284,19 +284,19 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: EBHA BATTERY STATUS',
-              href: '/systemdiagnostics/24-electrical-power/34-battery/ebha-battery-status',
+              href: '/systemdiagnostics/twentyfourelectricalpower/thirtyfourbattery/ebhabatterystatus',
             },
             {
               text: 'DATA: EMERGENCY BATTERY STATUS',
-              href: '/systemdiagnostics/24-electrical-power/34-battery/emergency-battery-status-1',
+              href: '/systemdiagnostics/twentyfourelectricalpower/thirtyfourbattery/emergencybatterystatus',
             },
             {
               text: 'DATA: MAIN SHIP BATTERY STATUS',
-              href: '/systemdiagnostics/24-electrical-power/34-battery/ship-battery-status',
+              href: '/systemdiagnostics/twentyfourelectricalpower/thirtyfourbattery/shipbatterystatus',
             },
             {
               text: 'DATA: UPS BATTERY STATUS',
-              href: '/systemdiagnostics/24-electrical-power/34-battery/ups-battery-status',
+              href: '/systemdiagnostics/twentyfourelectricalpower/thirtyfourbattery/upsbatterystatus',
             },
           ],
         },
@@ -310,34 +310,26 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: OHP1 STATUS',
-              href: '/systemdiagnostics/25-equipment-furnishings/14-overhead-panel-ch-1/ohp1-status-1',
+              href: '/systemdiagnostics/twentyfiveequipmentfurnishings/fourteenoverheadpanelch1/ohp1status',
             },
             {
               text: 'DATA: OHP1 SW DEPRESSED STATUS',
-              href: '/systemdiagnostics/25-equipment-furnishings/14-overhead-panel-ch-1/ohp1-sw-status-1',
+              href: '/systemdiagnostics/twentyfiveequipmentfurnishings/fourteenoverheadpanelch1/ohp1swstatus',
             },
           ],
         },
         {
           text: '14 OVERHEAD PANEL CH2',
           children: [
-            {
-              text: 'DATA: OHP2 STATUS',
-            },
-            {
-              text: 'DATA: OHP2 SW DEPRESSED STATUS',
-            },
+            { text: 'DATA: OHP2 STATUS' },
+            { text: 'DATA: OHP2 SW DEPRESSED STATUS' },
           ],
         },
         {
           text: '14 OVERHEAD PANEL CH3',
           children: [
-            {
-              text: 'DATA: OHP3 STATUS',
-            },
-            {
-              text: 'DATA: OHP3 SW DEPRESSED STATUS',
-            },
+            { text: 'DATA: OHP3 STATUS' },
+            { text: 'DATA: OHP3 SW DEPRESSED STATUS' },
           ],
         },
       ],
@@ -350,7 +342,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: FIRE DETECTION STATUS',
-              href: '/systemdiagnostics/26-fire-protection/10-engine-fire-detection/left-1',
+              href: '/systemdiagnostics/twentysixfireprotection/tenenginefiredetection/left',
             },
           ],
         },
@@ -359,7 +351,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: OVERHEAT DETECTION',
-              href: '/systemdiagnostics/26-fire-protection/14-equipment-area-overheat-detection/overheat-detection-1',
+              href: '/systemdiagnostics/twentysixfireprotection/fourteenequipmentareaoverheatdetection/overheatdetection',
             },
           ],
         },
