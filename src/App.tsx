@@ -177,6 +177,11 @@ import BfcuStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/Two
 import HstsData from './pages/SystemDiagnostics/TwentySevenFlightControls/FortyFcsHorizontalStabilizer/HstsData';
 import FlapsOperationalStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/FiftyFiveFlapSystemControlLane/FlapsOperationalStatus';
 import FlapsSystemStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/FiftyFiveFlapSystemControlLane/FlapsSystemStatus';
+import HydraulicControlStatus from './pages/SystemDiagnostics/TwentyNineHydraulicControl/ZeroHydraulicControls/HydraulicControlStatus';
+import FqiHydraulicStatus from './pages/SystemDiagnostics/TwentyNineHydraulicControl/ThirtyHydraulicQuantity/FqiHydraulicStatus';
+import FqiHydraulicStatus1 from './pages/SystemDiagnostics/TwentyNineHydraulicControl/ThirtyHydraulicQuantity/FqiHydraulicStatus1';
+import FqiHydraulicStatus2 from './pages/SystemDiagnostics/TwentyNineHydraulicControl/ThirtyHydraulicQuantity/FqiHydraulicStatus2';
+import FqiHydraulicStatus3 from './pages/SystemDiagnostics/TwentyNineHydraulicControl/ThirtyHydraulicQuantity/FqiHydraulicStatus3';
 
 function App() {
   return (
@@ -359,6 +364,16 @@ function App() {
         <Route path="/systemdiagnostics/twentysevenflightcontrols/fortyfcshorizontalstabilizer/hstsdata" element={<HstsData />} />
         <Route path="/systemdiagnostics/twentysevenflightcontrols/fiftyfiveflapsystemcontrollane/flapsoperationalstatus" element={<FlapsOperationalStatus />} />
         <Route path="/systemdiagnostics/twentysevenflightcontrols/fiftyfiveflapsystemcontrollane/flapssystemstatus" element={<FlapsSystemStatus />} />
+        
+        <Route path="/systemdiagnostics/twentyninehydrauliccontrol/zerohydrauliccontrols/hydrauliccontrolstatus" element={<HydraulicControlStatus />} />
+        <Route path="/systemdiagnostics/twentyninehydrauliccontrol/thirtyhydraulicquantity/fqihydraulicstatus" element={<FqiHydraulicStatus />} />
+        <Route path="/systemdiagnostics/twentyninehydrauliccontrol/thirtyhydraulicquantity/fqihydraulicstatus1" element={<FqiHydraulicStatus1 />} />
+        <Route path="/systemdiagnostics/twentyninehydrauliccontrol/thirtyhydraulicquantity/fqihydraulicstatus2" element={<FqiHydraulicStatus2 />} />
+        <Route path="/systemdiagnostics/twentyninehydrauliccontrol/thirtyhydraulicquantity/fqihydraulicstatus3" element={<FqiHydraulicStatus3 />} />
+        <Route path="/systemdiagnostics" element={<SystemDiagnostics />} />
+        <Route path="/systemdiagnostics" element={<SystemDiagnostics />} />
+        <Route path="/systemdiagnostics" element={<SystemDiagnostics />} />
+        <Route path="/systemdiagnostics" element={<SystemDiagnostics />} />
       </Routes>
     </Router>
   );

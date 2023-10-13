@@ -895,7 +895,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: HYDRAULIC CONTROL STATUS',
-              href: '/systemdiagnostics/29-hydraulic-control/00-hydraulic-controls/hydraulic-control-status',
+              href: '/systemdiagnostics/twentyninehydrauliccontrol/zerohydrauliccontrols/hydrauliccontrolstatus',
             },
           ],
         },
@@ -904,7 +904,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: FQI HYDRAULIC STATUS',
-              href: '/systemdiagnostics/29-hydraulic-control/30-hydraulic-quantity/fqi-hydraulic-status-1',
+              href: '/systemdiagnostics/twentyninehydrauliccontrol/thirtyhydraulicquantity/fqihydraulicstatus',
             },
           ],
         },
@@ -918,7 +918,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: WINDSHIELD HEAT STATUS',
-              href: '/systemdiagnostics/30-ice-rain-protection/41-windshield-heat/windshield-heat-status-1',
+              href: '/systemdiagnostics/thirtyicerainprotection/41-windshield-heat/windshield-heat-status-1',
             },
           ],
         },
