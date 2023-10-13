@@ -918,7 +918,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: WINDSHIELD HEAT STATUS',
-              href: '/systemdiagnostics/thirtyicerainprotection/41-windshield-heat/windshield-heat-status-1',
+              href: '/systemdiagnostics/thirtyicerainprotection/fortyonewindshieldheat/windshieldheatstatus',
             },
           ],
         },
