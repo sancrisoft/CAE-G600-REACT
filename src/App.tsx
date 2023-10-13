@@ -182,6 +182,10 @@ import FqiHydraulicStatus from './pages/SystemDiagnostics/TwentyNineHydraulicCon
 import FqiHydraulicStatus1 from './pages/SystemDiagnostics/TwentyNineHydraulicControl/ThirtyHydraulicQuantity/FqiHydraulicStatus1';
 import FqiHydraulicStatus2 from './pages/SystemDiagnostics/TwentyNineHydraulicControl/ThirtyHydraulicQuantity/FqiHydraulicStatus2';
 import FqiHydraulicStatus3 from './pages/SystemDiagnostics/TwentyNineHydraulicControl/ThirtyHydraulicQuantity/FqiHydraulicStatus3';
+import WindshieldHeatStatus from './pages/SystemDiagnostics/ThirtyIceRainProtection/FortyOneWindshieldHeat/WindshieldHeatStatus';
+import WindshieldHeatStatus1 from './pages/SystemDiagnostics/ThirtyIceRainProtection/FortyOneWindshieldHeat/WindshieldHeatStatus1';
+import WindshieldHeatStatus2 from './pages/SystemDiagnostics/ThirtyIceRainProtection/FortyOneWindshieldHeat/WindshieldHeatStatus2';
+import WindshieldHeatStatus3 from './pages/SystemDiagnostics/ThirtyIceRainProtection/FortyOneWindshieldHeat/WindshieldHeatStatus3';
 
 function App() {
   return (
@@ -370,10 +374,10 @@ function App() {
         <Route path="/systemdiagnostics/twentyninehydrauliccontrol/thirtyhydraulicquantity/fqihydraulicstatus1" element={<FqiHydraulicStatus1 />} />
         <Route path="/systemdiagnostics/twentyninehydrauliccontrol/thirtyhydraulicquantity/fqihydraulicstatus2" element={<FqiHydraulicStatus2 />} />
         <Route path="/systemdiagnostics/twentyninehydrauliccontrol/thirtyhydraulicquantity/fqihydraulicstatus3" element={<FqiHydraulicStatus3 />} />
-        <Route path="/systemdiagnostics" element={<SystemDiagnostics />} />
-        <Route path="/systemdiagnostics" element={<SystemDiagnostics />} />
-        <Route path="/systemdiagnostics" element={<SystemDiagnostics />} />
-        <Route path="/systemdiagnostics" element={<SystemDiagnostics />} />
+        <Route path="/systemdiagnostics/thirtyicerainprotection/fortyonewindshieldheat/windshieldheatstatus" element={<WindshieldHeatStatus />} />
+        <Route path="/systemdiagnostics/thirtyicerainprotection/fortyonewindshieldheat/windshieldheatstatus1" element={<WindshieldHeatStatus1 />} />
+        <Route path="/systemdiagnostics/thirtyicerainprotection/fortyonewindshieldheat/windshieldheatstatus2" element={<WindshieldHeatStatus2 />} />
+        <Route path="/systemdiagnostics/thirtyicerainprotection/fortyonewindshieldheat/windshieldheatstatus3" element={<WindshieldHeatStatus3 />} />
       </Routes>
     </Router>
   );
