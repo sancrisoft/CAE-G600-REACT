@@ -125,6 +125,58 @@ import SidestickLPriFaultStatus4 from './pages/SystemDiagnostics/TwentySevenFlig
 import SidestickLPriFaultStatus5 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneActiveControlStickLeftChA/SidestickLPriFaultStatus5';
 import SidestickLPriModeStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneActiveControlStickLeftChA/SidestickLPriModeStatus';
 import SidestickLPriModeStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneActiveControlStickLeftChA/SidestickLPriModeStatus1';
+import AircraftSystemsStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/AircraftSystemsStatus';
+import AircraftSystemsStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/AircraftSystemsStatus1';
+import AircraftSystemsStatus2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/AircraftSystemsStatus2';
+import EngagementStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/EngagementStatus';
+import EngagementStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/EngagementStatus1';
+import EngagementStatus2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/EngagementStatus2';
+import EngagementStatus3 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/EngagementStatus3';
+import FactoryTrimData from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/FactoryTrimData';
+import DeckRvdtStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/DeckRvdtStatus';
+import DeckSwStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/DeckSwStatus';
+import DeckSwStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/DeckSwStatus1';
+import DeckSwStatus2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/DeckSwStatus2';
+import ForceSensorsStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/ForceSensorsStatus';
+import PfcsRigVerification from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/PfcsRigVerification';
+import PfcsRigVerification1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/PfcsRigVerification1';
+import PfcsRigVerification2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/PfcsRigVerification2';
+import PfcsRigVerification3 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/PfcsRigVerification3';
+import ValidityStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/ValidityStatus';
+import ValidityStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/ValidityStatus1';
+import ValidityStatus2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/ValidityStatus2';
+import ValidityStatus3 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/ValidityStatus3';
+import XTalkStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/XTalkStatus';
+import XTalkStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/XTalkStatus1';
+import Fcc2AircraftSystemsStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2AircraftSystemsStatus';
+import Fcc2AircraftSystemsStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2AircraftSystemsStatus1';
+import Fcc2AircraftSystemsStatus2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2AircraftSystemsStatus2';
+import Fcc2EngagementStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2EngagementStatus';
+import Fcc2EngagementStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2EngagementStatus1';
+import Fcc2EngagementStatus2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2EngagementStatus2';
+import Fcc2EngagementStatus3 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2EngagementStatus3';
+import Fcc2FactoryTrimData from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2FactoryTrimData';
+import Fcc2DeckRvdtStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2DeckRvdtStatus';
+import Fcc2DeckSwStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2DeckSwStatus';
+import Fcc2DeckSwStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2DeckSwStatus1';
+import Fcc2DeckSwStatus2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2DeckSwStatus2';
+import Fcc2ForceSensorsStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2ForceSensorsStatus';
+import Fcc2PfcsRigVerification from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2PfcsRigVerification';
+import Fcc2PfcsRigVerification1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2PfcsRigVerification1';
+import Fcc2PfcsRigVerification2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2PfcsRigVerification2';
+import Fcc2PfcsRigVerification3 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2PfcsRigVerification3';
+import Fcc2ValidityStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2ValidityStatus';
+import Fcc2ValidityStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2ValidityStatus1';
+import Fcc2ValidityStatus2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2ValidityStatus2';
+import Fcc2ValidityStatus3 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2ValidityStatus3';
+import Fcc2XtalkStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2XtalkStatus';
+import Fcc2XtalkStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2XtalkStatus1';
+import BfcuRvdtStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/TwoFcsBackupFlightControlUnit/BfcuRvdtStatus';
+import BfcuStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/TwoFcsBackupFlightControlUnit/BfcuStatus';
+import BfcuStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/TwoFcsBackupFlightControlUnit/BfcuStatus1';
+import HstsData from './pages/SystemDiagnostics/TwentySevenFlightControls/FortyFcsHorizontalStabilizer/HstsData';
+import FlapsOperationalStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/FiftyFiveFlapSystemControlLane/FlapsOperationalStatus';
+import FlapsSystemStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/FiftyFiveFlapSystemControlLane/FlapsSystemStatus';
 
 function App() {
   return (
@@ -255,6 +307,58 @@ function App() {
         <Route path="/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprifaultstatus5" element={<SidestickLPriFaultStatus5 />} />
         <Route path="/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprimodestatus" element={<SidestickLPriModeStatus />} />
         <Route path="/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprimodestatus1" element={<SidestickLPriModeStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/aircraftsystemsstatus" element={<AircraftSystemsStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/aircraftsystemsstatus1" element={<AircraftSystemsStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/aircraftsystemsstatus2" element={<AircraftSystemsStatus2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/engagementstatus" element={<EngagementStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/engagementstatus1" element={<EngagementStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/engagementstatus2" element={<EngagementStatus2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/engagementstatus3" element={<EngagementStatus3 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/factorytrimdata" element={<FactoryTrimData />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/deckrvdtstatus" element={<DeckRvdtStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/deckswstatus" element={<DeckSwStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/deckswstatus1" element={<DeckSwStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/deckswstatus2" element={<DeckSwStatus2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/forcesensorsstatus" element={<ForceSensorsStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/pfcsrigverification" element={<PfcsRigVerification />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/pfcsrigverification1" element={<PfcsRigVerification1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/pfcsrigverification2" element={<PfcsRigVerification2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/pfcsrigverification3" element={<PfcsRigVerification3 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/validitystatus" element={<ValidityStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/validitystatus1" element={<ValidityStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/validitystatus2" element={<ValidityStatus2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/validitystatus3" element={<ValidityStatus3 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/xtalkstatus" element={<XTalkStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/xtalkstatus1" element={<XTalkStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2aircraftsystemsstatus" element={<Fcc2AircraftSystemsStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2aircraftsystemsstatus1" element={<Fcc2AircraftSystemsStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2aircraftsystemsstatus2" element={<Fcc2AircraftSystemsStatus2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2engagementstatus" element={<Fcc2EngagementStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2engagementstatus1" element={<Fcc2EngagementStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2engagementstatus2" element={<Fcc2EngagementStatus2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2engagementstatus3" element={<Fcc2EngagementStatus3 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2factorytrimdata" element={<Fcc2FactoryTrimData />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2deckrvdtstatus" element={<Fcc2DeckRvdtStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2deckswstatus" element={<Fcc2DeckSwStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2deckswstatus1" element={<Fcc2DeckSwStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2deckswstatus2" element={<Fcc2DeckSwStatus2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2forcesensorsstatus" element={<Fcc2ForceSensorsStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2pfcsrigverification" element={<Fcc2PfcsRigVerification />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2pfcsrigverification1" element={<Fcc2PfcsRigVerification1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2pfcsrigverification2" element={<Fcc2PfcsRigVerification2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2pfcsrigverification3" element={<Fcc2PfcsRigVerification3 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2validitystatus" element={<Fcc2ValidityStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2validitystatus1" element={<Fcc2ValidityStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2validitystatus2" element={<Fcc2ValidityStatus2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2validitystatus3" element={<Fcc2ValidityStatus3 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2xtalkstatus" element={<Fcc2XtalkStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2xtalkstatus1" element={<Fcc2XtalkStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/twofcsbackupflightcontrolunit/bfcurvdtstatus" element={<BfcuRvdtStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/twofcsbackupflightcontrolunit/bfcustatus" element={<BfcuStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/twofcsbackupflightcontrolunit/bfcustatus1" element={<BfcuStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/fortyfcshorizontalstabilizer/hstsdata" element={<HstsData />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/fiftyfiveflapsystemcontrollane/flapsoperationalstatus" element={<FlapsOperationalStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/fiftyfiveflapsystemcontrollane/flapssystemstatus" element={<FlapsSystemStatus />} />
       </Routes>
     </Router>
   );
