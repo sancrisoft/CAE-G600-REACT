@@ -1,5 +1,5 @@
-import './styles/global.scss'
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import './styles/global.scss';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/Home';
 import Active from './pages/MaintenanceMessages/Active/Active';
 import CorrelatedFdes from './pages/MaintenanceMessages/Active/CorrelatedFdes';
@@ -115,6 +115,20 @@ import Right from './pages/SystemDiagnostics/TwentySixFireProtection/TenEngineFi
 import Right1 from './pages/SystemDiagnostics/TwentySixFireProtection/TenEngineFireDetection/Right1';
 import OverheatDetection from './pages/SystemDiagnostics/TwentySixFireProtection/FourteenEquipmentAreaOverheatDetection/OverheatDetection';
 import OverheatDetection1 from './pages/SystemDiagnostics/TwentySixFireProtection/FourteenEquipmentAreaOverheatDetection/OverheatDetection1';
+import FuelDistributionStatus1 from './pages/SystemDiagnostics/TwentyEightFuel/TwentyFuelDistribution/FuelDistributionStatus1';
+import FuelDistributionStatus2 from './pages/SystemDiagnostics/TwentyEightFuel/TwentyFuelDistribution/FuelDistributionStatus2';
+import FqmsFault from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsFault';
+import FqmsProveContamination1 from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsProbeContamination1';
+import FqmsProveContamination2 from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsProbeContamination2';
+import FqmsProbeDataCompensator from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsProbeDataCompensator';
+import FqmsProbeDataDensidometer from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsProbeDataDensidometer';
+import FqmsProbesDataCapf from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsProbesDataCapf';
+import FqmsProvesDataCovrdLength from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsProbesDataCovrdLength';
+import FqmsProbesTemperatureC from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsProbesTemperatureC';
+import FqmsProvesVoltageMv from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsProbesVoltageMv';
+import FqmsCtConfig from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneFuelQuantityChB/FqmsCtConfig';
+import FqmsFuelData from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneFuelQuantityChB/FqmsFuelData';
+import FqmsRefuelData from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneFuelQuantityChB/FqmsRefuelData';
 
 function App() {
   return (
@@ -235,6 +249,21 @@ function App() {
         <Route path="/systemdiagnostics/twentysixfireprotection/tenenginefiredetection/right1" element={<Right1 />} />
         <Route path="/systemdiagnostics/twentysixfireprotection/fourteenequipmentareaoverheatdetection/overheatdetection" element={<OverheatDetection />} />
         <Route path="/systemdiagnostics/twentysixfireprotection/fourteenequipmentareaoverheatdetection/overheatdetection1" element={<OverheatDetection1 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/fueldistributionsstatus1" element={<FuelDistributionStatus1 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/fueldistributionsstatus2" element={<FuelDistributionStatus2 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsfaults" element={<FqmsFault />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/FqmsProbeContamination1" element={<FqmsProveContamination1 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/FqmsProbeContamination2" element={<FqmsProveContamination2 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobedatacompensator" element={<FqmsProbeDataCompensator />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobedatadensidometer" element={<FqmsProbeDataDensidometer />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesdatacappf" element={<FqmsProbesDataCapf />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesdatacovrdlength" element={<FqmsProvesDataCovrdLength />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobestemperaturec" element={<FqmsProbesTemperatureC />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesdatadrycappf" element={<FqmsProbesDataCapf />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesvoltagemv" element={<FqmsProvesVoltageMv />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneFuelQuantityChB/fqmsctacconfig" element={<FqmsCtConfig />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneFuelQuantityChB/fqmsfueldata" element={<FqmsFuelData />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneFuelQuantityChB/fqmsrefuelfueldata" element={<FqmsRefuelData />} />
       </Routes>
     </Router>
   );

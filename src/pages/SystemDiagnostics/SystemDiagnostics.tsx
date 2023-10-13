@@ -1,12 +1,12 @@
-import Accordion, { AccordionItem } from "../../components/Accordion"
-import Footer from "../../components/Footer"
-import DefaultLayout from "../../components/Layout"
-import { NavBarButtonType } from "../../components/NavBar"
-import Title from "../../components/Title"
+import Accordion, { AccordionItem } from '../../components/Accordion';
+import Footer from '../../components/Footer';
+import DefaultLayout from '../../components/Layout';
+import { NavBarButtonType } from '../../components/NavBar';
+import Title from '../../components/Title';
 
 const SystemDiagnostics = () => {
   // const { maintenanceSwitch } = useAppFrameStatus()
-  const maintenanceSwitch = false
+  const maintenanceSwitch = false;
 
   const items: AccordionItem[] = [
     {
@@ -249,9 +249,7 @@ const SystemDiagnostics = () => {
         },
         {
           text: '25 GENERATOR CONTROL UNIT RIGHT',
-          children: [
-            { text: 'DATA: RIGHT GCU & GEN STATUS' },
-          ],
+          children: [{ text: 'DATA: RIGHT GCU & GEN STATUS' }],
         },
         {
           text: '26 PRIMARY POWER DISTRIBUTION LEFT',
@@ -320,17 +318,11 @@ const SystemDiagnostics = () => {
         },
         {
           text: '14 OVERHEAD PANEL CH2',
-          children: [
-            { text: 'DATA: OHP2 STATUS' },
-            { text: 'DATA: OHP2 SW DEPRESSED STATUS' },
-          ],
+          children: [{ text: 'DATA: OHP2 STATUS' }, { text: 'DATA: OHP2 SW DEPRESSED STATUS' }],
         },
         {
           text: '14 OVERHEAD PANEL CH3',
-          children: [
-            { text: 'DATA: OHP3 STATUS' },
-            { text: 'DATA: OHP3 SW DEPRESSED STATUS' },
-          ],
+          children: [{ text: 'DATA: OHP3 STATUS' }, { text: 'DATA: OHP3 SW DEPRESSED STATUS' }],
         },
       ],
     },
@@ -403,10 +395,7 @@ const SystemDiagnostics = () => {
         },
         {
           text: '01 ACTIVE CONTROL STICK RIGHT CH A',
-          children: [
-            { text: 'DATA: SIDESTICK R PRI FAULT STATUS' },
-            { text: 'DATA: SIDESTICK R PRI MODE STATUS' },
-          ],
+          children: [{ text: 'DATA: SIDESTICK R PRI FAULT STATUS' }, { text: 'DATA: SIDESTICK R PRI MODE STATUS' }],
         },
         {
           text: '01 ACTIVE CONTROL STICK RIGHT CH B',
@@ -821,7 +810,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: FUEL DISTRIBUTION STATUS',
-              href: '/systemdiagnostics/28-fuel/20-fuel-distribution/fuel-distribution-status-1',
+              href: '/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/fueldistributionsstatus1',
             },
           ],
         },
@@ -830,41 +819,41 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: FQMS FAULTS',
-              href: '/systemdiagnostics/28-fuel/41-fqms-ch-a/fqms-faults',
+              href: '/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsfaults',
             },
             { text: 'DATA: FQMS L/R PROBE STATUS-L WING' },
             { text: 'DATA: FQMS L/R PROBE STATUS-R WING' },
             {
               text: 'DATA: FQMS PROBE CONTAMINATION',
-              href: '/systemdiagnostics/28-fuel/41-fqms-ch-a/fqms-probe-contamination-1',
+              href: '/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/FqmsProbeContamination1',
             },
             {
               text: 'DATA: FQMS PROBE DATA-COMPENSATOR',
-              href: '/systemdiagnostics/28-fuel/41-fqms-ch-a/fqms-probe-data-compensator',
+              href: '/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobedatacompensator',
             },
             {
               text: 'DATA: FQMS PROBE DATA-DENSITOMETER',
-              href: '/systemdiagnostics/28-fuel/41-fqms-ch-a/fqms-probe-data-densidometer',
+              href: '/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobedatadensidometer',
             },
             {
               text: 'DATA: FQMS PROBES DATA-CAP (PF)',
-              href: '/systemdiagnostics/28-fuel/41-fqms-ch-a/fqms-probes-data-cap-pf',
+              href: '/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesdatacappf',
             },
             {
               text: 'DATA: FQMS PROBES DATA-COVRD LENGTH',
-              href: '/systemdiagnostics/28-fuel/41-fqms-ch-a/fqms-probes-data-covrd-length',
+              href: '/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesdatacovrdlength',
             },
             {
               text: 'DATA: FQMS PROBES DATA-DRY CAP (PF)',
-              href: '/systemdiagnostics/28-fuel/41-fqms-ch-a/fqms-probes-data-dry-cap-pf',
+              href: '/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesdatadrycappf',
             },
             {
               text: 'DATA: FQMS PROBES DATA-TEMP (C)',
-              href: '/systemdiagnostics/28-fuel/41-fqms-ch-a/fqms-probes-temperature-c',
+              href: '/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobestemperaturec',
             },
             {
               text: 'DATA: FQMS PROBES DATA VOLTS (MV)',
-              href: '/systemdiagnostics/28-fuel/41-fqms-ch-a/fqms-probes-voltage-mv',
+              href: '/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesvoltagemv',
             },
           ],
         },
@@ -873,15 +862,15 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: FQMS CT AND A/C CONFIG',
-              href: '/systemdiagnostics/28-fuel/41-fqms-ch-b/fqms-ct-ac-config',
+              href: '/systemdiagnostics/twentyeightfuel/FortyOneFuelQuantityChB/fqmsctacconfig',
             },
             {
               text: 'DATA: FQMS FUEL DATA',
-              href: '/systemdiagnostics/28-fuel/41-fqms-ch-b/fqms-fuel-data',
+              href: '/systemdiagnostics/twentyeightfuel/FortyOneFuelQuantityChB/fqmsfueldata',
             },
             {
               text: 'DATA: FQMS REFUEL DATA',
-              href: '/systemdiagnostics/28-fuel/41-fqms-ch-b/fqms-refuel-data',
+              href: '/systemdiagnostics/twentyeightfuel/FortyOneFuelQuantityChB/fqmsrefuelfueldata',
             },
           ],
         },
@@ -1407,9 +1396,7 @@ const SystemDiagnostics = () => {
         },
         {
           text: '23 ATTITUDE HEADING REFERENCE SYSTEM 2',
-          children: [
-            { text: 'DATA: AHRS 2 STATUS' },
-          ],
+          children: [{ text: 'DATA: AHRS 2 STATUS' }],
         },
         {
           text: '26 Head Up Display',
@@ -1610,10 +1597,7 @@ const SystemDiagnostics = () => {
         },
         {
           text: '12 BLEED AIR CONTROL RIGHT',
-          children: [
-            { text: 'DATA: BLEED AIR CONTROLLER STATUS R' },
-            { text: 'DATA: WING TEMP SWITCH STATUS R' },
-          ],
+          children: [{ text: 'DATA: BLEED AIR CONTROLLER STATUS R' }, { text: 'DATA: WING TEMP SWITCH STATUS R' }],
         },
       ],
     },
@@ -1827,73 +1811,43 @@ const SystemDiagnostics = () => {
         },
         {
           text: '33 DCN Remote Data Concentrator 12',
-          children: [
-            { text: 'DATA: DCN RDC 12 LINKS' },
-            { text: 'DATA: DCN DRC 12 STATUS' },
-          ],
+          children: [{ text: 'DATA: DCN RDC 12 LINKS' }, { text: 'DATA: DCN DRC 12 STATUS' }],
         },
         {
           text: '33 DCN Remote Data Concentrator 13',
-          children: [
-            { text: 'DATA: DCN RDC 13 LINKS' },
-            { text: 'DATA: DCN DRC 13 STATUS' },
-          ],
+          children: [{ text: 'DATA: DCN RDC 13 LINKS' }, { text: 'DATA: DCN DRC 13 STATUS' }],
         },
         {
           text: '33 DCN Remote Data Concentrator 14',
-          children: [
-            { text: 'DATA: DCN RDC 14 LINKS' },
-            { text: 'DATA: DCN DRC 14 STATUS' },
-          ],
+          children: [{ text: 'DATA: DCN RDC 14 LINKS' }, { text: 'DATA: DCN DRC 14 STATUS' }],
         },
         {
           text: '33 DCN Remote Data Concentrator 15',
-          children: [
-            { text: 'DATA: DCN RDC 15 LINKS' },
-            { text: 'DATA: DCN DRC 15 STATUS' },
-          ],
+          children: [{ text: 'DATA: DCN RDC 15 LINKS' }, { text: 'DATA: DCN DRC 15 STATUS' }],
         },
         {
           text: '33 DCN Remote Data Concentrator 16',
-          children: [
-            { text: 'DATA: DCN RDC 16 LINKS' },
-            { text: 'DATA: DCN DRC 16 STATUS' },
-          ],
+          children: [{ text: 'DATA: DCN RDC 16 LINKS' }, { text: 'DATA: DCN DRC 16 STATUS' }],
         },
         {
           text: '33 DCN Remote Data Concentrator 17',
-          children: [
-            { text: 'DATA: DCN RDC 17 LINKS' },
-            { text: 'DATA: DCN DRC 17 STATUS' },
-          ],
+          children: [{ text: 'DATA: DCN RDC 17 LINKS' }, { text: 'DATA: DCN DRC 17 STATUS' }],
         },
         {
           text: '33 DCN Remote Data Concentrator 18',
-          children: [
-            { text: 'DATA: DCN RDC 18 LINKS' },
-            { text: 'DATA: DCN DRC 18 STATUS' },
-          ],
+          children: [{ text: 'DATA: DCN RDC 18 LINKS' }, { text: 'DATA: DCN DRC 18 STATUS' }],
         },
         {
           text: '33 DCN Remote Data Concentrator 19',
-          children: [
-            { text: 'DATA: DCN RDC 19 LINKS' },
-            { text: 'DATA: DCN DRC 19 STATUS' },
-          ],
+          children: [{ text: 'DATA: DCN RDC 19 LINKS' }, { text: 'DATA: DCN DRC 19 STATUS' }],
         },
         {
           text: '33 DCN Remote Data Concentrator 20',
-          children: [
-            { text: 'DATA: DCN RDC 20 LINKS' },
-            { text: 'DATA: DCN DRC 20 STATUS' },
-          ],
+          children: [{ text: 'DATA: DCN RDC 20 LINKS' }, { text: 'DATA: DCN DRC 20 STATUS' }],
         },
         {
           text: '33 DCN Remote Data Concentrator 22',
-          children: [
-            { text: 'DATA: DCN RDC 22 LINKS' },
-            { text: 'DATA: DCN DRC 22 STATUS' },
-          ],
+          children: [{ text: 'DATA: DCN RDC 22 LINKS' }, { text: 'DATA: DCN DRC 22 STATUS' }],
         },
         {
           text: '33 DCN Remote Interface Unit 51',
@@ -1977,9 +1931,7 @@ const SystemDiagnostics = () => {
         },
         {
           text: '94 Auxiliary Power Unit Oil',
-          children: [
-            { text: 'DATA: FQI APU OIL STATUS' },
-          ],
+          children: [{ text: 'DATA: FQI APU OIL STATUS' }],
         },
       ],
     },
@@ -2044,12 +1996,7 @@ const SystemDiagnostics = () => {
         },
         {
           text: '21 Engine Control Left Ch B',
-          children: [
-            { text: 'DATA: VIBRATION BALANCE LB' },
-            { text: 'DATA: VIBRATION ERAZE WEIGHTS LB' },
-            { text: 'DATA: VIBRATION READ WEIGHTS LB' },
-            { text: 'DATA: VIBRATION SET WEIGHTS LB' },
-          ],
+          children: [{ text: 'DATA: VIBRATION BALANCE LB' }, { text: 'DATA: VIBRATION ERAZE WEIGHTS LB' }, { text: 'DATA: VIBRATION READ WEIGHTS LB' }, { text: 'DATA: VIBRATION SET WEIGHTS LB' }],
         },
         {
           text: '21 Engine Control Right Ch A',
@@ -2072,11 +2019,7 @@ const SystemDiagnostics = () => {
         },
         {
           text: '21 Engine Control Right Ch B',
-          children: [
-            { text: 'DATA: VIBRATION BALANCE RB' },
-            { text: 'DATA: VIBRATION ERAZE WEIGHTS RB' },
-            { text: 'DATA: VIBRATION READ WEIGHTS RB' },
-          ],
+          children: [{ text: 'DATA: VIBRATION BALANCE RB' }, { text: 'DATA: VIBRATION ERAZE WEIGHTS RB' }, { text: 'DATA: VIBRATION READ WEIGHTS RB' }],
         },
       ],
     },
@@ -2095,7 +2038,7 @@ const SystemDiagnostics = () => {
       ],
     },
     { text: '80 STARTING' },
-  ]
+  ];
 
   const navBarButtons: NavBarButtonType[] = [
     {
@@ -2103,7 +2046,7 @@ const SystemDiagnostics = () => {
       disabled: true,
       position: 1,
     },
-  ]
+  ];
 
   return (
     <DefaultLayout
@@ -2120,7 +2063,7 @@ const SystemDiagnostics = () => {
       <Title>Select a system</Title>
       <Accordion items={items} />
     </DefaultLayout>
-  )
-}
+  );
+};
 
-export default SystemDiagnostics
+export default SystemDiagnostics;
