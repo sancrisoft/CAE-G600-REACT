@@ -310,34 +310,26 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: OHP1 STATUS',
-              href: '/systemdiagnostics/25-equipment-furnishings/14-overhead-panel-ch-1/ohp1-status-1',
+              href: '/systemdiagnostics/twentyfiveequipmentfurnishings/fourteenoverheadpanelch1/ohp1status',
             },
             {
               text: 'DATA: OHP1 SW DEPRESSED STATUS',
-              href: '/systemdiagnostics/25-equipment-furnishings/14-overhead-panel-ch-1/ohp1-sw-status-1',
+              href: '/systemdiagnostics/twentyfiveequipmentfurnishings/fourteenoverheadpanelch1/ohp1swstatus',
             },
           ],
         },
         {
           text: '14 OVERHEAD PANEL CH2',
           children: [
-            {
-              text: 'DATA: OHP2 STATUS',
-            },
-            {
-              text: 'DATA: OHP2 SW DEPRESSED STATUS',
-            },
+            { text: 'DATA: OHP2 STATUS' },
+            { text: 'DATA: OHP2 SW DEPRESSED STATUS' },
           ],
         },
         {
           text: '14 OVERHEAD PANEL CH3',
           children: [
-            {
-              text: 'DATA: OHP3 STATUS',
-            },
-            {
-              text: 'DATA: OHP3 SW DEPRESSED STATUS',
-            },
+            { text: 'DATA: OHP3 STATUS' },
+            { text: 'DATA: OHP3 SW DEPRESSED STATUS' },
           ],
         },
       ],

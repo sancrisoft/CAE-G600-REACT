@@ -105,6 +105,10 @@ import EmergencyBatteryStatus from './pages/SystemDiagnostics/TwentyFourElectric
 import EmergencyBatteryStatus1 from './pages/SystemDiagnostics/TwentyFourElectricalPower/ThirtyFourBattery/EmergencyBatteryStatus1';
 import ShipBatteryStatus from './pages/SystemDiagnostics/TwentyFourElectricalPower/ThirtyFourBattery/ShipBatteryStatus';
 import UpsBatteryStatus from './pages/SystemDiagnostics/TwentyFourElectricalPower/ThirtyFourBattery/UpsBatteryStatus';
+import Ohp1Status from './pages/SystemDiagnostics/TwentyFiveEquipmentFurnishings/FourteenOverheadPanelCh1/Ohp1Status';
+import Ohp1Status1 from './pages/SystemDiagnostics/TwentyFiveEquipmentFurnishings/FourteenOverheadPanelCh1/Ohp1Status1';
+import Ohp1SwStatus from './pages/SystemDiagnostics/TwentyFiveEquipmentFurnishings/FourteenOverheadPanelCh1/Ohp1SwStatus';
+import Ohp1SwStatus1 from './pages/SystemDiagnostics/TwentyFiveEquipmentFurnishings/FourteenOverheadPanelCh1/Ohp1SwStatus1';
 
 function App() {
   return (
@@ -215,6 +219,10 @@ function App() {
         <Route path="/systemdiagnostics/twentyfourelectricalpower/thirtyfourbattery/emergencybatterystatus1" element={<EmergencyBatteryStatus1 />} />
         <Route path="/systemdiagnostics/twentyfourelectricalpower/thirtyfourbattery/shipbatterystatus" element={<ShipBatteryStatus />} />
         <Route path="/systemdiagnostics/twentyfourelectricalpower/thirtyfourbattery/upsbatterystatus" element={<UpsBatteryStatus />} />
+        <Route path="/systemdiagnostics/twentyfiveequipmentfurnishings/fourteenoverheadpanelch1/ohp1status" element={<Ohp1Status />} />
+        <Route path="/systemdiagnostics/twentyfiveequipmentfurnishings/fourteenoverheadpanelch1/ohp1status1" element={<Ohp1Status1 />} />
+        <Route path="/systemdiagnostics/twentyfiveequipmentfurnishings/fourteenoverheadpanelch1/ohp1swstatus" element={<Ohp1SwStatus />} />
+        <Route path="/systemdiagnostics/twentyfiveequipmentfurnishings/fourteenoverheadpanelch1/ohp1swstatus1" element={<Ohp1SwStatus1 />} />
       </Routes>
     </Router>
   );
