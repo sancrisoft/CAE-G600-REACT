@@ -342,7 +342,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: FIRE DETECTION STATUS',
-              href: '/systemdiagnostics/26-fire-protection/10-engine-fire-detection/left-1',
+              href: '/systemdiagnostics/twentysixfireprotection/tenenginefiredetection/left',
             },
           ],
         },
@@ -351,7 +351,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: OVERHEAT DETECTION',
-              href: '/systemdiagnostics/26-fire-protection/14-equipment-area-overheat-detection/overheat-detection-1',
+              href: '/systemdiagnostics/twentysixfireprotection/fourteenequipmentareaoverheatdetection/overheatdetection',
             },
           ],
         },

@@ -109,6 +109,12 @@ import Ohp1Status from './pages/SystemDiagnostics/TwentyFiveEquipmentFurnishings
 import Ohp1Status1 from './pages/SystemDiagnostics/TwentyFiveEquipmentFurnishings/FourteenOverheadPanelCh1/Ohp1Status1';
 import Ohp1SwStatus from './pages/SystemDiagnostics/TwentyFiveEquipmentFurnishings/FourteenOverheadPanelCh1/Ohp1SwStatus';
 import Ohp1SwStatus1 from './pages/SystemDiagnostics/TwentyFiveEquipmentFurnishings/FourteenOverheadPanelCh1/Ohp1SwStatus1';
+import Left from './pages/SystemDiagnostics/TwentySixFireProtection/TenEngineFireDetection/Left';
+import Left1 from './pages/SystemDiagnostics/TwentySixFireProtection/TenEngineFireDetection/Left1';
+import Right from './pages/SystemDiagnostics/TwentySixFireProtection/TenEngineFireDetection/Right';
+import Right1 from './pages/SystemDiagnostics/TwentySixFireProtection/TenEngineFireDetection/Right1';
+import OverheatDetection from './pages/SystemDiagnostics/TwentySixFireProtection/FourteenEquipmentAreaOverheatDetection/OverheatDetection';
+import OverheatDetection1 from './pages/SystemDiagnostics/TwentySixFireProtection/FourteenEquipmentAreaOverheatDetection/OverheatDetection1';
 
 function App() {
   return (
@@ -223,6 +229,12 @@ function App() {
         <Route path="/systemdiagnostics/twentyfiveequipmentfurnishings/fourteenoverheadpanelch1/ohp1status1" element={<Ohp1Status1 />} />
         <Route path="/systemdiagnostics/twentyfiveequipmentfurnishings/fourteenoverheadpanelch1/ohp1swstatus" element={<Ohp1SwStatus />} />
         <Route path="/systemdiagnostics/twentyfiveequipmentfurnishings/fourteenoverheadpanelch1/ohp1swstatus1" element={<Ohp1SwStatus1 />} />
+        <Route path="/systemdiagnostics/twentysixfireprotection/tenenginefiredetection/left" element={<Left />} />
+        <Route path="/systemdiagnostics/twentysixfireprotection/tenenginefiredetection/left1" element={<Left1 />} />
+        <Route path="/systemdiagnostics/twentysixfireprotection/tenenginefiredetection/right" element={<Right />} />
+        <Route path="/systemdiagnostics/twentysixfireprotection/tenenginefiredetection/right1" element={<Right1 />} />
+        <Route path="/systemdiagnostics/twentysixfireprotection/fourteenequipmentareaoverheatdetection/overheatdetection" element={<OverheatDetection />} />
+        <Route path="/systemdiagnostics/twentysixfireprotection/fourteenequipmentareaoverheatdetection/overheatdetection1" element={<OverheatDetection1 />} />
       </Routes>
     </Router>
   );
