@@ -210,6 +210,24 @@ import AscbStatus from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvion
 import LanStatus from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenAvionicsDataComm/LanStatus';
 import LanStatus1 from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenAvionicsDataComm/LanStatus1';
 import MonitorWwStatus from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenAvionicsDataComm/MonitorWwStatus';
+import CmcUtilities from './pages/SystemDiagnostics/FortyFiveCentralMaintenanceSystems/FortyFiveCmcUtilities/CmcUtilities';
+import AhtmuStatus from './pages/SystemDiagnostics/FortySixInfoSystems/ThirtyFiveAircraftHealthTrendMonitor/AhtmuStatus';
+import AhtmuStatus1 from './pages/SystemDiagnostics/FortySixInfoSystems/ThirtyFiveAircraftHealthTrendMonitor/AhtmuStatus1';
+import MainDoorFaultsStatus from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorFaultsStatus';
+import MainDoorFaultsStatus1 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorFaultsStatus1';
+import MainDoorFaultsStatus2 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorFaultsStatus2';
+import MainDoorFaultsStatus3 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorFaultsStatus3';
+import MainDoorFaultsStatus4 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorFaultsStatus4';
+import MainDoorFaultsStatus5 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorFaultsStatus5';
+import MainDoorFaultsStatus6 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorFaultsStatus6';
+import MainDoorStatus from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorStatus';
+import MainDoorStatus1 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorStatus1';
+import MainDoorStatus2 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorStatus2';
+import MainDoorStatus3 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorStatus3';
+import MainDoorStatus4 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorStatus4';
+import MainDoorStatus5 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorStatus5';
+import ServiceDoors from './pages/SystemDiagnostics/FiftyTwoDoors/FortyServiceDoors/ServiceDoors';
+import ServiceDoors1 from './pages/SystemDiagnostics/FiftyTwoDoors/FortyServiceDoors/ServiceDoors1';
 
 function App() {
   return (
@@ -427,6 +445,24 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/lanstatus" element={<LanStatus />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/lanstatus1" element={<LanStatus1 />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/monitorwwstatus" element={<MonitorWwStatus />} />
+        <Route path="/systemdiagnostics/fortyfivecentralmaintenancesystems/fortyfivecmcutilities/cmcutilities" element={<CmcUtilities />} />
+        <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus" element={<AhtmuStatus />} />
+        <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus1" element={<AhtmuStatus1 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorfaultsstatus" element={<MainDoorFaultsStatus />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorfaultsstatus1" element={<MainDoorFaultsStatus1 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorfaultsstatus2" element={<MainDoorFaultsStatus2 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorfaultsstatus3" element={<MainDoorFaultsStatus3 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorfaultsstatus4" element={<MainDoorFaultsStatus4 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorfaultsstatus5" element={<MainDoorFaultsStatus5 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorfaultsstatus6" element={<MainDoorFaultsStatus6 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorstatus" element={<MainDoorStatus />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorstatus1" element={<MainDoorStatus1 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorstatus2" element={<MainDoorStatus2 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorstatus3" element={<MainDoorStatus3 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorstatus4" element={<MainDoorStatus4 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorstatus5" element={<MainDoorStatus5 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/fortyservicedoors/servicedoors" element={<ServiceDoors />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/fortyservicedoors/servicedoors1" element={<ServiceDoors1 />} />
       </Routes>
     </Router>
   );

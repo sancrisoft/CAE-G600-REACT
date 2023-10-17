@@ -1937,7 +1937,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: CMC UTILITIES',
-              href: '/systemdiagnostics/45-central-maintenance-systems/45-cmc-utilities/cmc-utilities',
+              href: '/systemdiagnostics/fortyfivecentralmaintenancesystems/fortyfivecmcutilities/cmcutilities',
             },
           ],
         },
@@ -1951,7 +1951,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: AHTMU STATUS',
-              href: '/systemdiagnostics/46-info-systems/35-aircraft-health-trend-monitor/ahtmu-status-1',
+              href: '/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus',
             },
           ],
         },
@@ -1991,11 +1991,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: MAIN DOOR FAULTS STATUS',
-              href: '/systemdiagnostics/52-doors/10-main-entry-control/main-door-faults-status-1',
+              href: '/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorfaultsstatus',
             },
             {
               text: 'DATA: MAIN DOOR STATUS',
-              href: '/systemdiagnostics/52-doors/10-main-entry-control/main-door-status-1',
+              href: '/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorstatus',
             },
           ],
         },
@@ -2004,7 +2004,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: SERVICE DOORS',
-              href: '/systemdiagnostics/52-doors/40-service-doors/service-doors-1',
+              href: '/systemdiagnostics/fiftytwodoors/fortyservicedoors/servicedoors',
             },
           ],
         },
