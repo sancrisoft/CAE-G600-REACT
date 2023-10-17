@@ -129,6 +129,31 @@ import FqmsProvesVoltageMv from './pages/SystemDiagnostics/TwentyEightFuel/Forty
 import FqmsCtConfig from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneFuelQuantityChB/FqmsCtConfig';
 import FqmsFuelData from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneFuelQuantityChB/FqmsFuelData';
 import FqmsRefuelData from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneFuelQuantityChB/FqmsRefuelData';
+import LgDoorProxSensors from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/LgdoorProxSensors';
+import LgDuLockProxSensor from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/LgDuLockProxSensor';
+import LgWowProxSensors from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/LgWowProxSensors';
+import LgCisConfig from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/LgCisConfig';
+import LgCisMaintModeStatus from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/LgCisMaintModeStatus';
+import LgCisPinProgrammingStatus from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/LgCisPinProgrammingStatus';
+import NlgSolenoidDriverStatus1 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/NlgSolenoidDriverStatus1';
+import NlgSolenoidDriverStatus2 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/NlgSolenoidDriverStatus2';
+import LgcisStatus1 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/LgcisStatus1';
+import LgcisStatus2 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/LgcisStatus2';
+import LgcisStatus3 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/LgcisStatus3';
+import LmlgProxSensorRigging from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/LmlgProxSensorRigging';
+import NlgProxSensorRigging from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/NlgProxSensorRigging';
+import RmlgProxSensorRigging from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/RmlgProxSensorRigging';
+import InboardBrakeStatus1 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FortyFourBrakeControlInboard/InboardBrakeStatus1';
+import InboardBrakeStatus4 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FortyFourBrakeControlInboard/InboardBrakeStatus4';
+import InboardBrakeStatus3 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FortyFourBrakeControlInboard/InboardBrakeStatus3';
+import InboardBrakeStatus2 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FortyFourBrakeControlInboard/InboardBrakeStatus2';
+import OutboardBrakeStatus1 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FortyFourBrakeControlOutboard/OutboardBrakeStatus1';
+import OutboardBrakeStatus2 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FortyFourBrakeControlOutboard/OutboardBrakeStatus2';
+import OutboardBrakeStatus3 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FortyFourBrakeControlOutboard/OutboardBrakeStatus3';
+import OutboardBrakeStatus4 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FortyFourBrakeControlOutboard/OutboardBrakeStatus4';
+import TpmsStatus1 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FortySevenTirePressure/TpmsStatus1';
+import TpmsStatus2 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FortySevenTirePressure/TpmsStatus2';
+import NoseWheelSteering from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FiftyTwoNoseWheelsteering/NoseWheelSteering';
 
 function App() {
   return (
@@ -264,6 +289,31 @@ function App() {
         <Route path="/systemdiagnostics/twentyeightfuel/FortyOneFuelQuantityChB/fqmsctacconfig" element={<FqmsCtConfig />} />
         <Route path="/systemdiagnostics/twentyeightfuel/FortyOneFuelQuantityChB/fqmsfueldata" element={<FqmsFuelData />} />
         <Route path="/systemdiagnostics/twentyeightfuel/FortyOneFuelQuantityChB/fqmsrefuelfueldata" element={<FqmsRefuelData />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgdoorproxsensors" element={<LgDoorProxSensors />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgdulockproxsensors" element={<LgDuLockProxSensor />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgwowproxsensors" element={<LgWowProxSensors />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgcisconfig" element={<LgCisConfig />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgcismaintmodestatus" element={<LgCisMaintModeStatus />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgcispinprogrammingstatus" element={<LgCisPinProgrammingStatus />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/nlgsolenoiddriverstatus1" element={<NlgSolenoidDriverStatus1 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/nlgsolenoiddriverstatus2" element={<NlgSolenoidDriverStatus2 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgcisstatus1" element={<LgcisStatus1 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgcisstatus2" element={<LgcisStatus2 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgcisstatus3" element={<LgcisStatus3 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lmlgproxsensorrigging" element={<LmlgProxSensorRigging />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/nlgproxsensorrigging" element={<NlgProxSensorRigging />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/rmlgproxsensorrigging" element={<RmlgProxSensorRigging />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyFourBrakeControlInboard/inboardbrakestatus1" element={<InboardBrakeStatus1 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyFourBrakeControlInboard/inboardbrakestatus2" element={<InboardBrakeStatus2 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyFourBrakeControlInboard/inboardbrakestatus3" element={<InboardBrakeStatus3 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyFourBrakeControlInboard/inboardbrakestatus4" element={<InboardBrakeStatus4 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/fortyfourbrakecontroloutboard/outboardbrakestatus1" element={<OutboardBrakeStatus1 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/fortyfourbrakecontroloutboard/outboardbrakestatus2" element={<OutboardBrakeStatus2 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/fortyfourbrakecontroloutboard/outboardbrakestatus3" element={<OutboardBrakeStatus3 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/fortyfourbrakecontroloutboard/outboardbrakestatus4" element={<OutboardBrakeStatus4 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/fortyseventirepressure/tpmsstatus1" element={<TpmsStatus1 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/fortyseventirepressure/tpmsstatus2" element={<TpmsStatus2 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/fiftytwonosewheelsteering/nosewheelposition" element={<NoseWheelSteering />} />
       </Routes>
     </Router>
   );

@@ -1062,47 +1062,47 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: LG DOOR PROXIMITY SENSORS',
-              href: '/systemdiagnostics/32-landing-gear/30-lg-control-indication/lg-door-prox-sensors',
+              href: '/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgdoorproxsensors',
             },
             {
               text: 'DATA: LG DOWN-UP LOCK PROX SENSORS',
-              href: '/systemdiagnostics/32-landing-gear/30-lg-control-indication/lg-du-lock-prox-sensors',
+              href: '/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgdulockproxsensors',
             },
             {
               text: 'DATA: LG WOW PROXIMITY SENSORS',
-              href: '/systemdiagnostics/32-landing-gear/30-lg-control-indication/lg-wow-prox-sensors',
+              href: '/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgwowproxsensors',
             },
             {
               text: 'DATA: LGCIS CONFIGURATION',
-              href: '/systemdiagnostics/32-landing-gear/30-lg-control-indication/lgcis-config',
+              href: '/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgcisconfig',
             },
             {
               text: 'DATA: LGCIS MAINTENANCE MODE STATUS',
-              href: '/systemdiagnostics/32-landing-gear/30-lg-control-indication/lgcis-maint-mode-status',
+              href: '/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgcismaintmodestatus',
             },
             {
               text: 'DATA: LGCIS PIN PROGRAMMING STATUS',
-              href: '/systemdiagnostics/32-landing-gear/30-lg-control-indication/lgcis-pin-programming-status',
+              href: '/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgcispinprogrammingstatus',
             },
             {
               text: 'DATA: LGCIS SOLENOID DRIVERS',
-              href: '/systemdiagnostics/32-landing-gear/30-lg-control-indication/nlg-solenoid-driver-status-1',
+              href: '/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/nlgsolenoiddriverstatus1',
             },
             {
               text: 'DATA: LGCIS STATUS',
-              href: '/systemdiagnostics/32-landing-gear/30-lg-control-indication/lgcis-status-1',
+              href: '/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgcisstatus1',
             },
             {
               text: 'DATA: LMLG PROXIMITY SENSOR RIGGING',
-              href: '/systemdiagnostics/32-landing-gear/30-lg-control-indication/lmlg-prox-sensor-rigging',
+              href: '/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lmlgproxsensorrigging',
             },
             {
               text: 'DATA: NLG PROXIMITY SENSOR RIGGING',
-              href: '/systemdiagnostics/32-landing-gear/30-lg-control-indication/nlg-prox-sensor-rigging',
+              href: '/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/nlgproxsensorrigging',
             },
             {
               text: 'DATA: RMLG PROXIMITY SENSOR RIGGING',
-              href: '/systemdiagnostics/32-landing-gear/30-lg-control-indication/rmlg-prox-sensor-rigging',
+              href: '/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/rmlgproxsensorrigging',
             },
           ],
         },
@@ -1111,7 +1111,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: INBOARD BRAKE SYSTEM STATUS',
-              href: '/systemdiagnostics/32-landing-gear/44-brake-control-inboard/inboard-brake-status-1',
+              href: '/systemdiagnostics/twentyeightfuel/FortyFourBrakeControlInboard/inboardbrakestatus1',
             },
           ],
         },
@@ -1120,7 +1120,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: OUTBOARD BRAKE SYSTEM STATUS',
-              href: '/systemdiagnostics/32-landing-gear/44-brake-control-outboard/outboard-brake-status-1',
+              href: '/systemdiagnostics/twentyeightfuel/fortyfourbrakecontroloutboard/outboardbrakestatus1',
             },
           ],
         },
@@ -1129,7 +1129,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: TPMS STATUS',
-              href: '/systemdiagnostics/32-landing-gear/47-tire-pressure/tpms-status-1',
+              href: '/systemdiagnostics/twentyeightfuel/fortyseventirepressure/tpmsstatus1',
             },
           ],
         },
@@ -1138,7 +1138,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: NOSE WHEEL POSITION',
-              href: '/systemdiagnostics/32-landing-gear/52-nose-wheel-steering/nose-wheel-position',
+              href: '/systemdiagnostics/twentyeightfuel/fiftytwonosewheelsteering/nosewheelposition',
             },
             {
               text: 'TEST AUTO RIG',
