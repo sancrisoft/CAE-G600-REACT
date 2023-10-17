@@ -197,6 +197,14 @@ import MwcSwitchStatus from './pages/SystemDiagnostics/ThirtyOneIndicatingRecord
 import CcdStatus from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/SixtyThreeCursorControlDevices/CcdStatus';
 import CcdStatus1 from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/SixtyThreeCursorControlDevices/CcdStatus1';
 import XmReceiverStatus from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/SixtySevenXmWeather/XmReceiverStatus';
+import DimmingAndAnnunciation from './pages/SystemDiagnostics/ThirtyThreeLights/ElevenDimmingAndAnnunciation/DimmingAndAnnunciation';
+import NavAclStatus from './pages/SystemDiagnostics/ThirtyThreeLights/FortyTwoNavigationAnticollistionLights/NavAclStatus';
+import LeftBleedAirStatus from './pages/SystemDiagnostics/ThirtySixPneumaticStatus/TwelveBleedAirControlLeft/LeftBleedAirStatus';
+import LeftBleedAirStatus1 from './pages/SystemDiagnostics/ThirtySixPneumaticStatus/TwelveBleedAirControlLeft/LeftBleedAirStatus1';
+import LeftBleedAirStatus2 from './pages/SystemDiagnostics/ThirtySixPneumaticStatus/TwelveBleedAirControlLeft/LeftBleedAirStatus2';
+import LeftBleedAirStatus3 from './pages/SystemDiagnostics/ThirtySixPneumaticStatus/TwelveBleedAirControlLeft/LeftBleedAirStatus3';
+import LeftBleedAirStatus4 from './pages/SystemDiagnostics/ThirtySixPneumaticStatus/TwelveBleedAirControlLeft/LeftBleedAirStatus4';
+import WingTempLeft from './pages/SystemDiagnostics/ThirtySixPneumaticStatus/TwelveBleedAirControlLeft/WingTempLeft';
 
 function App() {
   return (
@@ -400,6 +408,15 @@ function App() {
         <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/sixtythreecursorcontroldevices/ccdstatus" element={<CcdStatus />} />
         <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/sixtythreecursorcontroldevices/ccdstatus1" element={<CcdStatus1 />} />
         <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/sixtysevenxmweather/xmreceiverstatus" element={<XmReceiverStatus />} />
+      
+        <Route path="/systemdiagnostics/thirtythreelights/elevendimmingandannunciation/dimmingandannunciation" element={<DimmingAndAnnunciation />} />
+        <Route path="/systemdiagnostics/thirtythreelights/fortytwonavigationanticollistionlights/navaclstatus" element={<NavAclStatus />} />
+        <Route path="/systemdiagnostics/thirtysixpneumaticstatus/twelvebleedaircontrolleft/leftbleedairstatus" element={<LeftBleedAirStatus />} />
+        <Route path="/systemdiagnostics/thirtysixpneumaticstatus/twelvebleedaircontrolleft/leftbleedairstatus1" element={<LeftBleedAirStatus1 />} />
+        <Route path="/systemdiagnostics/thirtysixpneumaticstatus/twelvebleedaircontrolleft/leftbleedairstatus2" element={<LeftBleedAirStatus2 />} />
+        <Route path="/systemdiagnostics/thirtysixpneumaticstatus/twelvebleedaircontrolleft/leftbleedairstatus3" element={<LeftBleedAirStatus3 />} />
+        <Route path="/systemdiagnostics/thirtysixpneumaticstatus/twelvebleedaircontrolleft/leftbleedairstatus4" element={<LeftBleedAirStatus4 />} />
+        <Route path="/systemdiagnostics/thirtysixpneumaticstatus/twelvebleedaircontrolleft/wingtempleft" element={<WingTempLeft />} />
       </Routes>
     </Router>
   );

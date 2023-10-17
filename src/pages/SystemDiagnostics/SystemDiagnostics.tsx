@@ -1171,7 +1171,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: DIMMING AND ANNUNCIATION',
-              href: '/systemdiagnostics/33-lights/11-dimming-and-annunciation/dimming-and-annunciation-1',
+              href: '/systemdiagnostics/thirtythreelights/elevendimmingandannunciation/dimmingandannunciation',
             },
           ],
         },
@@ -1180,7 +1180,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: NAV/ACL STATUS ',
-              href: '/systemdiagnostics/33-lights/42-navigation-anticollistion-lights/nav-acl-status',
+              href: '/systemdiagnostics/thirtythreelights/fortytwonavigationanticollistionlights/navaclstatus',
             },
           ],
         },
@@ -1600,11 +1600,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: BLEED AIR CONTROLLER STATUS L',
-              href: '/systemdiagnostics/36-pneumatic-status/12-bleed-air-control-left/left-bleed-air-status-1',
+              href: '/systemdiagnostics/thirtysixpneumaticstatus/twelvebleedaircontrolleft/leftbleedairstatus',
             },
             {
               text: 'DATA: WING TEMP SWITCH STATUS L',
-              href: '/systemdiagnostics/36-pneumatic-status/12-bleed-air-control-left/wing-temp-left',
+              href: '/systemdiagnostics/thirtysixpneumaticstatus/twelvebleedaircontrolleft/wingtempleft',
             },
           ],
         },
