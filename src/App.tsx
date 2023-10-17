@@ -205,6 +205,11 @@ import LeftBleedAirStatus2 from './pages/SystemDiagnostics/ThirtySixPneumaticSta
 import LeftBleedAirStatus3 from './pages/SystemDiagnostics/ThirtySixPneumaticStatus/TwelveBleedAirControlLeft/LeftBleedAirStatus3';
 import LeftBleedAirStatus4 from './pages/SystemDiagnostics/ThirtySixPneumaticStatus/TwelveBleedAirControlLeft/LeftBleedAirStatus4';
 import WingTempLeft from './pages/SystemDiagnostics/ThirtySixPneumaticStatus/TwelveBleedAirControlLeft/WingTempLeft';
+import AscbMonitorStatus from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenAvionicsDataComm/AscbMonitorStatus';
+import AscbStatus from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenAvionicsDataComm/AscbStatus';
+import LanStatus from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenAvionicsDataComm/LanStatus';
+import LanStatus1 from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenAvionicsDataComm/LanStatus1';
+import MonitorWwStatus from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenAvionicsDataComm/MonitorWwStatus';
 
 function App() {
   return (
@@ -417,6 +422,11 @@ function App() {
         <Route path="/systemdiagnostics/thirtysixpneumaticstatus/twelvebleedaircontrolleft/leftbleedairstatus3" element={<LeftBleedAirStatus3 />} />
         <Route path="/systemdiagnostics/thirtysixpneumaticstatus/twelvebleedaircontrolleft/leftbleedairstatus4" element={<LeftBleedAirStatus4 />} />
         <Route path="/systemdiagnostics/thirtysixpneumaticstatus/twelvebleedaircontrolleft/wingtempleft" element={<WingTempLeft />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/ascbmonitorstatus" element={<AscbMonitorStatus />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/ascbstatus" element={<AscbStatus />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/lanstatus" element={<LanStatus />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/lanstatus1" element={<LanStatus1 />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/monitorwwstatus" element={<MonitorWwStatus />} />
       </Routes>
     </Router>
   );

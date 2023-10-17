@@ -1625,19 +1625,19 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: ASCB MONITOR STATUS',
-              href: '/systemdiagnostics/42-integrated-modular-avionics/11-avionics-data-comm/ascb-monitor-status',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/ascbmonitorstatus',
             },
             {
               text: 'DATA: ASCB STATUS',
-              href: '/systemdiagnostics/42-integrated-modular-avionics/11-avionics-data-comm/ascb-status',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/ascbstatus',
             },
             {
               text: 'DATA: LAN STATUS',
-              href: '/systemdiagnostics/42-integrated-modular-avionics/11-avionics-data-comm/lan-status-1',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/lanstatus',
             },
             {
               text: 'DATA: MONITOR WARNING/WOW STATUS',
-              href: '/systemdiagnostics/42-integrated-modular-avionics/11-avionics-data-comm/monitor-ww-status',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/monitorwwstatus',
             },
           ],
         },
