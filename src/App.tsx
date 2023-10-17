@@ -228,6 +228,10 @@ import MainDoorStatus4 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntr
 import MainDoorStatus5 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorStatus5';
 import ServiceDoors from './pages/SystemDiagnostics/FiftyTwoDoors/FortyServiceDoors/ServiceDoors';
 import ServiceDoors1 from './pages/SystemDiagnostics/FiftyTwoDoors/FortyServiceDoors/ServiceDoors1';
+import Fqi1OilStatus from './pages/SystemDiagnostics/SeventyNineOil/ThirtyOneFqiChannel1/Fqi1OilStatus';
+import Fqi1OilStatus1 from './pages/SystemDiagnostics/SeventyNineOil/ThirtyOneFqiChannel1/Fqi1OilStatus1';
+import Fqi1OilStatus2 from './pages/SystemDiagnostics/SeventyNineOil/ThirtyOneFqiChannel1/Fqi1OilStatus2';
+import Fqi1OilStatus3 from './pages/SystemDiagnostics/SeventyNineOil/ThirtyOneFqiChannel1/Fqi1OilStatus3';
 
 function App() {
   return (
@@ -463,6 +467,10 @@ function App() {
         <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorstatus5" element={<MainDoorStatus5 />} />
         <Route path="/systemdiagnostics/fiftytwodoors/fortyservicedoors/servicedoors" element={<ServiceDoors />} />
         <Route path="/systemdiagnostics/fiftytwodoors/fortyservicedoors/servicedoors1" element={<ServiceDoors1 />} />
+        <Route path="/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus" element={<Fqi1OilStatus />} />
+        <Route path="/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus1" element={<Fqi1OilStatus1 />} />
+        <Route path="/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus2" element={<Fqi1OilStatus2 />} />
+        <Route path="/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus3" element={<Fqi1OilStatus3 />} />
       </Routes>
     </Router>
   );

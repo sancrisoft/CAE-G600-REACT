@@ -2088,7 +2088,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: FQI1 OIL STATUS',
-              href: '/systemdiagnostics/79-oil/31-fqi-channel-1/fqi1-oil-status-1',
+              href: '/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus',
             },
           ],
         },
