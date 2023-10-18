@@ -1,0 +1,98 @@
+import { useNavigate } from 'react-router-dom';
+import { NavBarButtonType } from '../../../../components/NavBar';
+import DataFooter from '../../../../components/DataFooter';
+import DataHeader from '../../../../components/DataHeader';
+import DefaultLayout from '../../../../components/Layout';
+import DynamicTable from '../../../../components/DynamicTable';
+import Legend from '../../../../components/Legend';
+
+const AirDataStatus3 = () => {
+  const navigate = useNavigate();
+
+  const mainHeaders = [
+    { title: 'PARAMETER', alignLeft: true },
+    { title: 'ADS1', customSpan: 1, hasBorderBottom: false },
+    { title: 'ADS2', customSpan: 1, hasBorderBottom: false },
+  ];
+  const secondaryHeaders = [
+    { title: 'RDCI3', customSpan: 1 },
+    { title: 'RDCI2', customSpan: 1 },
+  ];
+  const thirdHeaders = [
+    { title: 'IOGM1', customSpan: 1, hasBorderBottom: false },
+    { title: 'IOGM3', customSpan: 1, hasBorderBottom: false },
+  ];
+
+  const data = [
+    {
+      parameter: 'MAINTENANCE MODE ACTIVE',
+      statuses: [true, true],
+      alignRight: true,
+    },
+    {
+      parameter: 'SSEC DEGRADED',
+      statuses: [true, true],
+      alignRight: true,
+    },
+    {
+      parameter: 'SSEC DISABLED',
+      statuses: [true, 'N/A'],
+      alignCenter: true,
+    },
+  ];
+
+  const data2 = [
+    {
+      parameter: 'OSP FAILURE',
+      statuses: [true, true],
+      alignRight: true,
+    },
+    {
+      parameter: 'CROSS-MFP HTR FAILURE',
+      statuses: [true, true],
+      alignRight: true,
+    },
+    {
+      parameter: 'CAN RX OSP INPUT INVALID',
+      statuses: [true, true],
+      alignCenter: true,
+    },
+  ];
+
+  const navBarButtons: NavBarButtonType[] = [
+    {
+      text: 'TEST MENU',
+      disabled: false,
+      position: 1,
+      onClick: () => {
+        navigate(-1);
+      },
+    },
+    {
+      text: 'PREV',
+      disabled: false,
+      position: 4,
+      onClick: () => {
+        navigate(-1);
+      },
+    },
+    {
+      text: 'fwd',
+      disabled: false,
+      position: 5,
+      href: '/systemdiagnostics/thirtyfournavigation/twelveairdatasystem/airdatastatus4',
+    },
+  ];
+
+  return (
+    <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'341203'} right={['select prev to go back', 'Select fwd to continue']} />}>
+      <DataHeader left={'ads status '} right={'3/7'} />
+      <Legend title="inactive" title2="active" />
+      <DynamicTable data={data} mainHeaders={mainHeaders} secondaryHeaders={secondaryHeaders} hasBorder thirdHeaders={thirdHeaders} />
+      <Legend title="inactive" title2="active" hasMarginTop />
+      <DynamicTable data={data2} mainHeaders={mainHeaders} secondaryHeaders={secondaryHeaders} hasBorder thirdHeaders={thirdHeaders} />
+    </DefaultLayout>
+  );
+};
+
+export default AirDataStatus3;

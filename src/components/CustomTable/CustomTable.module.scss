@@ -1,0 +1,26 @@
+.Container {
+  margin: var(--spacing-1) 0 0;
+  overflow: auto;
+}
+
+.Table {
+  border: 0.1vh solid var(--white);
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.Header {
+  border-bottom: 0.1vh solid var(--white);
+  color: var(--aqua);
+  padding: var(--spacing--1) 0 0 var(--spacing--1);
+  text-align: left;
+}
+
+.Cell1 {
+  padding-left: var(--spacing--1);
+}
+
+.Cell2 {
+  border-bottom: 0.1vh solid var(--white);
+  text-indent: var(--spacing-9);
+}
