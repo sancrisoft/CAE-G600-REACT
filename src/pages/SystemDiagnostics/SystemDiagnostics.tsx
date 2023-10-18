@@ -3,10 +3,10 @@ import Footer from "../../components/Footer"
 import DefaultLayout from "../../components/Layout"
 import { NavBarButtonType } from "../../components/NavBar"
 import Title from "../../components/Title"
+import { useAppFrameStatus } from "../../lib/appframe/hook"
 
 const SystemDiagnostics = () => {
-  // const { maintenanceSwitch } = useAppFrameStatus()
-  const maintenanceSwitch = false
+  const { maintenanceSwitch } = useAppFrameStatus()
 
   const items: AccordionItem[] = [
     {

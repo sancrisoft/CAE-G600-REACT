@@ -44,8 +44,6 @@ const SimpleColumnsTable: React.FC<SimpleColumnsTableProps> = ({ data, subheader
       </tbody>
     </table>
   )
-
-  return <div className={styles.Container}>{}</div>
 }
 
 export default SimpleColumnsTable
