@@ -1369,7 +1369,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: AIR DATA 1 STATUS',
-              href: '/systemdiagnostics/34-navigation/12-air-data-system-1/air-data-status-1',
+              href: '/systemdiagnostics/thirtyfournavigation/twelveairdatasystem/airdatastatus1',
             },
           ],
         },
@@ -1390,7 +1390,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: AHRS 1 STATUS',
-              href: '/systemdiagnostics/34-navigation/23-attitude-heading-reference-system-1/ahrs-1-status-1',
+              href: '/systemdiagnostics/thirtyfournavigation/twentythreeattitudeheading/ahrs1status1',
             },
           ],
         },
@@ -1403,15 +1403,15 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: HUD COMBINER STATUS',
-              href: '/systemdiagnostics/34-navigation/26-head-up-display/hud-combiner-status',
+              href: '/systemdiagnostics/thirtyfournavigation/twentysixheadupdisplay/hudcombinerstatus',
             },
             {
               text: 'DATA: HUD HPM CONTENTS',
-              href: '/systemdiagnostics/34-navigation/26-head-up-display/hud-hpm-contents',
+              href: '/systemdiagnostics/thirtyfournavigation/twentysixheadupdisplay/hudhpmcontents',
             },
             {
               text: 'DATA: HUD STATUS',
-              href: '/systemdiagnostics/34-navigation/26-head-up-display/hud-status-1',
+              href: '/systemdiagnostics/thirtyfournavigation/twentysixheadupdisplay/hudstatus1',
             },
             {
               text: 'TEST HUD NVM CLEAR',
@@ -1432,7 +1432,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: SFD1 STATUS',
-              href: '/systemdiagnostics/34-navigation/26-standby-flight-display-1/sfd1-status',
+              href: '/systemdiagnostics/thirtyfournavigation/twentysevenstandbyflightdisplay/sfd1status',
             },
             {
               text: 'TEST SFD1 TOUCH SENSOR TEST',
@@ -1455,7 +1455,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: EVS STATUS',
-              href: '/systemdiagnostics/34-navigation/29-enhanced-vision-system-sp/evs-status-1',
+              href: '/systemdiagnostics/thirtyfournavigation/twentynineenhancedvision/evsstatus1',
             },
           ],
         },
@@ -1464,7 +1464,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: IRS STATUS',
-              href: '/systemdiagnostics/34-navigation/42-inertial-reference-system-1/irs-status-1',
+              href: '/systemdiagnostics/thirtyfournavigation/fortytwoinertialreferencesystem1/irsstatus1',
             },
           ],
         },
@@ -1473,7 +1473,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: WEATHER RADAR CNTRLLER STATUS',
-              href: '/systemdiagnostics/34-navigation/44-weather-radar/weather-radar-cntrller-status',
+              href: '/systemdiagnostics/thirtyfournavigation/fortyfourweatherradar/weatherradarcntrllerstatus',
             },
             {
               text: 'TEST WEATHER RADAR RESET',
@@ -1486,15 +1486,15 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: EGPWM 1 APM CONFIG OPT',
-              href: '/systemdiagnostics/34-navigation/46-enhanced-ground-proximity-warning-1/egpvm-1-apm-config-opt-1',
+              href: '/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmconfigopt1',
             },
             {
               text: 'DATA: EGPWM 1 APM RAAS CONFIG OPT',
-              href: '/systemdiagnostics/34-navigation/46-enhanced-ground-proximity-warning-1/egpvm-1-apm-raas-config-opt-1',
+              href: '/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt1',
             },
             {
               text: 'DATA: EGPWM 1 COCkPIT SELECTIONS',
-              href: '/systemdiagnostics/34-navigation/46-enhanced-ground-proximity-warning-1/egpwm-coockpit-selections',
+              href: '/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpwmcoockpitselections',
             },
             {
               text: 'TEST EGPWM 1 SELF TEST',
@@ -1525,11 +1525,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: GPS STATUS',
-              href: '/systemdiagnostics/34-navigation/52-global-positioning-system-1/gps-status-1',
+              href: '/systemdiagnostics/thirtyfournavigation/fiftytwoglobalpositioningsystem1/gpsstatus1',
             },
             {
               text: 'DATA: GPS1 CLOCK',
-              href: '/systemdiagnostics/34-navigation/52-global-positioning-system-1/gps-clock-1',
+              href: '/systemdiagnostics/thirtyfournavigation/fiftytwoglobalpositioningsystem1/gpsclock1',
             },
           ],
         },
