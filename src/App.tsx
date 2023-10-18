@@ -1,5 +1,5 @@
-import './styles/global.scss'
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import './styles/global.scss';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/Home';
 import Active from './pages/MaintenanceMessages/Active/Active';
 import CorrelatedFdes from './pages/MaintenanceMessages/Active/CorrelatedFdes';
@@ -115,6 +115,66 @@ import Right from './pages/SystemDiagnostics/TwentySixFireProtection/TenEngineFi
 import Right1 from './pages/SystemDiagnostics/TwentySixFireProtection/TenEngineFireDetection/Right1';
 import OverheatDetection from './pages/SystemDiagnostics/TwentySixFireProtection/FourteenEquipmentAreaOverheatDetection/OverheatDetection';
 import OverheatDetection1 from './pages/SystemDiagnostics/TwentySixFireProtection/FourteenEquipmentAreaOverheatDetection/OverheatDetection1';
+import AirDataStatus1 from './pages/SystemDiagnostics/ThirtyFourNavigation/TwelveAirDataSystem/AirDataStatus1';
+import AirDataStatus7 from './pages/SystemDiagnostics/ThirtyFourNavigation/TwelveAirDataSystem/AirDataStatus7';
+import AirDataStatus6 from './pages/SystemDiagnostics/ThirtyFourNavigation/TwelveAirDataSystem/AirDataStatus6';
+import AirDataStatus5 from './pages/SystemDiagnostics/ThirtyFourNavigation/TwelveAirDataSystem/AirDataStatus5';
+import AirDataStatus4 from './pages/SystemDiagnostics/ThirtyFourNavigation/TwelveAirDataSystem/AirDataStatus4';
+import AirDataStatus3 from './pages/SystemDiagnostics/ThirtyFourNavigation/TwelveAirDataSystem/AirDataStatus3';
+import AirDataStatus2 from './pages/SystemDiagnostics/ThirtyFourNavigation/TwelveAirDataSystem/AirDataStatus2';
+import Ahrs1Status1 from './pages/SystemDiagnostics/ThirtyFourNavigation/TwentyThreeAttitudeHeading/Ahrs1Status1';
+import Ahrs1Status4 from './pages/SystemDiagnostics/ThirtyFourNavigation/TwentyThreeAttitudeHeading/Ahrs1Status4';
+import Ahrs1Status3 from './pages/SystemDiagnostics/ThirtyFourNavigation/TwentyThreeAttitudeHeading/Ahrs1Status3';
+import Ahrs1Status2 from './pages/SystemDiagnostics/ThirtyFourNavigation/TwentyThreeAttitudeHeading/Ahrs1Status2';
+import HudCombinerStatus from './pages/SystemDiagnostics/ThirtyFourNavigation/TwentySixHeadUpDisplay/HudCombinerStatus';
+import HudHpmContents from './pages/SystemDiagnostics/ThirtyFourNavigation/TwentySixHeadUpDisplay/HudHpmContents';
+import HudStatus1 from './pages/SystemDiagnostics/ThirtyFourNavigation/TwentySixHeadUpDisplay/HudStatus1';
+import HudStatus2 from './pages/SystemDiagnostics/ThirtyFourNavigation/TwentySixHeadUpDisplay/HudStatus2';
+import HudStatus3 from './pages/SystemDiagnostics/ThirtyFourNavigation/TwentySixHeadUpDisplay/HudStatus3';
+import HudStatus4 from './pages/SystemDiagnostics/ThirtyFourNavigation/TwentySixHeadUpDisplay/HudStatus4';
+import HudStatus5 from './pages/SystemDiagnostics/ThirtyFourNavigation/TwentySixHeadUpDisplay/HudStatus5';
+import Sfd1Status from './pages/SystemDiagnostics/ThirtyFourNavigation/TwentySevenStandbyFlightDisplay/Sfd1Status';
+import EvsStatus1 from './pages/SystemDiagnostics/ThirtyFourNavigation/TwentyNineEnhancedVision/EvsStatus1';
+import EvsStatus4 from './pages/SystemDiagnostics/ThirtyFourNavigation/TwentyNineEnhancedVision/EvsStatus4';
+import EvsStatus3 from './pages/SystemDiagnostics/ThirtyFourNavigation/TwentyNineEnhancedVision/EvsStatus3';
+import EvsStatus2 from './pages/SystemDiagnostics/ThirtyFourNavigation/TwentyNineEnhancedVision/EvsStatus2';
+import IrsStatus1 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortyTwoInertialReferenceSystem1/IrsStatus1';
+import IrsStatus3 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortyTwoInertialReferenceSystem1/IrsStatus3';
+import IrsStatus2 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortyTwoInertialReferenceSystem1/IrsStatus2';
+import WeatherRadarCntrllerStatus from './pages/SystemDiagnostics/ThirtyFourNavigation/FortyFoyrWeatherRadar/WeatherRadarCntrllerStatus';
+import Egpvm1ApmConfigOpt1 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmConfigOpt1';
+import Egpvm1ApmConfigOpt6 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmConfigOpt6';
+import Egpvm1ApmConfigOpt7 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmConfigOpt7';
+import Egpvm1ApmConfigOpt8 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmConfigOpt8';
+import Egpvm1ApmConfigOpt2 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmConfigOpt2';
+import Egpvm1ApmConfigOpt3 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmConfigOpt3';
+import Egpvm1ApmConfigOpt4 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmConfigOpt4';
+import Egpvm1ApmConfigOpt5 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmConfigOpt5';
+import Egpvm1ApmRaasConfigOpt1 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmRaasConfigOpt1';
+import Egpvm1ApmRaasConfigOpt2 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmRaasConfigOpt2';
+import Egpvm1ApmRaasConfigOpt3 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmRaasConfigOpt3';
+import Egpvm1ApmRaasConfigOpt4 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmRaasConfigOpt4';
+import Egpvm1ApmRaasConfigOpt5 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmRaasConfigOpt5';
+import Egpvm1ApmRaasConfigOpt6 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmRaasConfigOpt6';
+import Egpvm1ApmRaasConfigOpt7 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmRaasConfigOpt7';
+import Egpvm1ApmRaasConfigOpt8 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmRaasConfigOpt8';
+import Egpvm1ApmRaasConfigOpt9 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmRaasConfigOpt9';
+import Egpvm1ApmRaasConfigOpt10 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmRaasConfigOpt10';
+import Egpvm1ApmRaasConfigOpt11 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmRaasConfigOpt11';
+import Egpvm1ApmRaasConfigOpt12 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmRaasConfigOpt12';
+import Egpvm1ApmRaasConfigOpt13 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmRaasConfigOpt13';
+import Egpvm1ApmRaasConfigOpt14 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmRaasConfigOpt14';
+import Egpvm1ApmRaasConfigOpt15 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmRaasConfigOpt15';
+import Egpvm1ApmRaasConfigOpt16 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmRaasConfigOpt16';
+import Egpvm1ApmRaasConfigOpt17 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmRaasConfigOpt17';
+import Egpvm1ApmRaasConfigOpt18 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmRaasConfigOpt18';
+import Egpvm1ApmRaasConfigOpt19 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmRaasConfigOpt19';
+import Egpvm1ApmRaasConfigOpt20 from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/Egpvm1ApmRaasConfigOpt20';
+import EgpwmCoockpitSelections from './pages/SystemDiagnostics/ThirtyFourNavigation/FortySixEnhancedGroundProximity1/EgpwmCoockpitSelections';
+import GpsStatus1 from './pages/SystemDiagnostics/ThirtyFourNavigation/FiftyTwoGlobalPositioningSystem1/GpsStatus1';
+import GpsStatus2 from './pages/SystemDiagnostics/ThirtyFourNavigation/FiftyTwoGlobalPositioningSystem1/GpsStatus2';
+import GpsClock1 from './pages/SystemDiagnostics/ThirtyFourNavigation/FiftyTwoGlobalPositioningSystem1/GpsClock1';
+import GpsClock2 from './pages/SystemDiagnostics/ThirtyFourNavigation/FiftyTwoGlobalPositioningSystem1/GpsClock2';
 
 function App() {
   return (
@@ -235,6 +295,66 @@ function App() {
         <Route path="/systemdiagnostics/twentysixfireprotection/tenenginefiredetection/right1" element={<Right1 />} />
         <Route path="/systemdiagnostics/twentysixfireprotection/fourteenequipmentareaoverheatdetection/overheatdetection" element={<OverheatDetection />} />
         <Route path="/systemdiagnostics/twentysixfireprotection/fourteenequipmentareaoverheatdetection/overheatdetection1" element={<OverheatDetection1 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twelveairdatasystem/airdatastatus1" element={<AirDataStatus1 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twelveairdatasystem/airdatastatus2" element={<AirDataStatus2 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twelveairdatasystem/airdatastatus3" element={<AirDataStatus3 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twelveairdatasystem/airdatastatus4" element={<AirDataStatus4 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twelveairdatasystem/airdatastatus5" element={<AirDataStatus5 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twelveairdatasystem/airdatastatus6" element={<AirDataStatus6 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twelveairdatasystem/airdatastatus7" element={<AirDataStatus7 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twentythreeattitudeheading/ahrs1status1" element={<Ahrs1Status1 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twentythreeattitudeheading/ahrs1status2" element={<Ahrs1Status2 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twentythreeattitudeheading/ahrs1status3" element={<Ahrs1Status3 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twentythreeattitudeheading/ahrs1status4" element={<Ahrs1Status4 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twentysixheadupdisplay/hudcombinerstatus" element={<HudCombinerStatus />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twentysixheadupdisplay/hudhpmcontents" element={<HudHpmContents />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twentysixheadupdisplay/hudstatus1" element={<HudStatus1 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twentysixheadupdisplay/hudstatus2" element={<HudStatus2 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twentysixheadupdisplay/hudstatus3" element={<HudStatus3 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twentysixheadupdisplay/hudstatus4" element={<HudStatus4 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twentysixheadupdisplay/hudstatus5" element={<HudStatus5 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twentysevenstandbyflightdisplay/sfd1status" element={<Sfd1Status />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twentynineenhancedvision/evsstatus1" element={<EvsStatus1 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twentynineenhancedvision/evsstatus2" element={<EvsStatus2 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twentynineenhancedvision/evsstatus3" element={<EvsStatus3 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/twentynineenhancedvision/evsstatus4" element={<EvsStatus4 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortytwoinertialreferencesystem1/irsstatus1" element={<IrsStatus1 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortytwoinertialreferencesystem1/irsstatus2" element={<IrsStatus2 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortytwoinertialreferencesystem1/irsstatus3" element={<IrsStatus3 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortyfourweatherradar/weatherradarcntrllerstatus" element={<WeatherRadarCntrllerStatus />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmconfigopt1" element={<Egpvm1ApmConfigOpt1 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmconfigopt2" element={<Egpvm1ApmConfigOpt2 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmconfigopt3" element={<Egpvm1ApmConfigOpt3 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmconfigopt4" element={<Egpvm1ApmConfigOpt4 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmconfigopt5" element={<Egpvm1ApmConfigOpt5 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmconfigopt6" element={<Egpvm1ApmConfigOpt6 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmconfigopt7" element={<Egpvm1ApmConfigOpt7 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmconfigopt8" element={<Egpvm1ApmConfigOpt8 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt1" element={<Egpvm1ApmRaasConfigOpt1 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt2" element={<Egpvm1ApmRaasConfigOpt2 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt3" element={<Egpvm1ApmRaasConfigOpt3 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt4" element={<Egpvm1ApmRaasConfigOpt4 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt5" element={<Egpvm1ApmRaasConfigOpt5 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt6" element={<Egpvm1ApmRaasConfigOpt6 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt7" element={<Egpvm1ApmRaasConfigOpt7 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt8" element={<Egpvm1ApmRaasConfigOpt8 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt9" element={<Egpvm1ApmRaasConfigOpt9 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt10" element={<Egpvm1ApmRaasConfigOpt10 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt11" element={<Egpvm1ApmRaasConfigOpt11 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt12" element={<Egpvm1ApmRaasConfigOpt12 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt13" element={<Egpvm1ApmRaasConfigOpt13 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt14" element={<Egpvm1ApmRaasConfigOpt14 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt15" element={<Egpvm1ApmRaasConfigOpt15 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt16" element={<Egpvm1ApmRaasConfigOpt16 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt17" element={<Egpvm1ApmRaasConfigOpt17 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt18" element={<Egpvm1ApmRaasConfigOpt18 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt19" element={<Egpvm1ApmRaasConfigOpt19 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt20" element={<Egpvm1ApmRaasConfigOpt20 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpwmcoockpitselections" element={<EgpwmCoockpitSelections />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fiftytwoglobalpositioningsystem1/gpsstatus1" element={<GpsStatus1 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fiftytwoglobalpositioningsystem1/gpsstatus2" element={<GpsStatus2 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fiftytwoglobalpositioningsystem1/gpsclock1" element={<GpsClock1 />} />
+        <Route path="/systemdiagnostics/thirtyfournavigation/fiftytwoglobalpositioningsystem1/gpsclock2" element={<GpsClock2 />} />
       </Routes>
     </Router>
   );

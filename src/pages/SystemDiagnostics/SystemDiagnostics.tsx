@@ -1,12 +1,12 @@
-import Accordion, { AccordionItem } from "../../components/Accordion"
-import Footer from "../../components/Footer"
-import DefaultLayout from "../../components/Layout"
-import { NavBarButtonType } from "../../components/NavBar"
-import Title from "../../components/Title"
+import Accordion, { AccordionItem } from '../../components/Accordion';
+import Footer from '../../components/Footer';
+import DefaultLayout from '../../components/Layout';
+import { NavBarButtonType } from '../../components/NavBar';
+import Title from '../../components/Title';
 
 const SystemDiagnostics = () => {
   // const { maintenanceSwitch } = useAppFrameStatus()
-  const maintenanceSwitch = false
+  const maintenanceSwitch = false;
 
   const items: AccordionItem[] = [
     {
@@ -249,9 +249,7 @@ const SystemDiagnostics = () => {
         },
         {
           text: '25 GENERATOR CONTROL UNIT RIGHT',
-          children: [
-            { text: 'DATA: RIGHT GCU & GEN STATUS' },
-          ],
+          children: [{ text: 'DATA: RIGHT GCU & GEN STATUS' }],
         },
         {
           text: '26 PRIMARY POWER DISTRIBUTION LEFT',
@@ -320,17 +318,11 @@ const SystemDiagnostics = () => {
         },
         {
           text: '14 OVERHEAD PANEL CH2',
-          children: [
-            { text: 'DATA: OHP2 STATUS' },
-            { text: 'DATA: OHP2 SW DEPRESSED STATUS' },
-          ],
+          children: [{ text: 'DATA: OHP2 STATUS' }, { text: 'DATA: OHP2 SW DEPRESSED STATUS' }],
         },
         {
           text: '14 OVERHEAD PANEL CH3',
-          children: [
-            { text: 'DATA: OHP3 STATUS' },
-            { text: 'DATA: OHP3 SW DEPRESSED STATUS' },
-          ],
+          children: [{ text: 'DATA: OHP3 STATUS' }, { text: 'DATA: OHP3 SW DEPRESSED STATUS' }],
         },
       ],
     },
@@ -403,10 +395,7 @@ const SystemDiagnostics = () => {
         },
         {
           text: '01 ACTIVE CONTROL STICK RIGHT CH A',
-          children: [
-            { text: 'DATA: SIDESTICK R PRI FAULT STATUS' },
-            { text: 'DATA: SIDESTICK R PRI MODE STATUS' },
-          ],
+          children: [{ text: 'DATA: SIDESTICK R PRI FAULT STATUS' }, { text: 'DATA: SIDESTICK R PRI MODE STATUS' }],
         },
         {
           text: '01 ACTIVE CONTROL STICK RIGHT CH B',
@@ -1380,7 +1369,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: AIR DATA 1 STATUS',
-              href: '/systemdiagnostics/34-navigation/12-air-data-system-1/air-data-status-1',
+              href: '/systemdiagnostics/thirtyfournavigation/twelveairdatasystem/airdatastatus1',
             },
           ],
         },
@@ -1401,30 +1390,28 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: AHRS 1 STATUS',
-              href: '/systemdiagnostics/34-navigation/23-attitude-heading-reference-system-1/ahrs-1-status-1',
+              href: '/systemdiagnostics/thirtyfournavigation/twentythreeattitudeheading/ahrs1status1',
             },
           ],
         },
         {
           text: '23 ATTITUDE HEADING REFERENCE SYSTEM 2',
-          children: [
-            { text: 'DATA: AHRS 2 STATUS' },
-          ],
+          children: [{ text: 'DATA: AHRS 2 STATUS' }],
         },
         {
           text: '26 Head Up Display',
           children: [
             {
               text: 'DATA: HUD COMBINER STATUS',
-              href: '/systemdiagnostics/34-navigation/26-head-up-display/hud-combiner-status',
+              href: '/systemdiagnostics/thirtyfournavigation/twentysixheadupdisplay/hudcombinerstatus',
             },
             {
               text: 'DATA: HUD HPM CONTENTS',
-              href: '/systemdiagnostics/34-navigation/26-head-up-display/hud-hpm-contents',
+              href: '/systemdiagnostics/thirtyfournavigation/twentysixheadupdisplay/hudhpmcontents',
             },
             {
               text: 'DATA: HUD STATUS',
-              href: '/systemdiagnostics/34-navigation/26-head-up-display/hud-status-1',
+              href: '/systemdiagnostics/thirtyfournavigation/twentysixheadupdisplay/hudstatus1',
             },
             {
               text: 'TEST HUD NVM CLEAR',
@@ -1445,7 +1432,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: SFD1 STATUS',
-              href: '/systemdiagnostics/34-navigation/26-standby-flight-display-1/sfd1-status',
+              href: '/systemdiagnostics/thirtyfournavigation/twentysevenstandbyflightdisplay/sfd1status',
             },
             {
               text: 'TEST SFD1 TOUCH SENSOR TEST',
@@ -1468,7 +1455,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: EVS STATUS',
-              href: '/systemdiagnostics/34-navigation/29-enhanced-vision-system-sp/evs-status-1',
+              href: '/systemdiagnostics/thirtyfournavigation/twentynineenhancedvision/evsstatus1',
             },
           ],
         },
@@ -1477,7 +1464,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: IRS STATUS',
-              href: '/systemdiagnostics/34-navigation/42-inertial-reference-system-1/irs-status-1',
+              href: '/systemdiagnostics/thirtyfournavigation/fortytwoinertialreferencesystem1/irsstatus1',
             },
           ],
         },
@@ -1486,7 +1473,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: WEATHER RADAR CNTRLLER STATUS',
-              href: '/systemdiagnostics/34-navigation/44-weather-radar/weather-radar-cntrller-status',
+              href: '/systemdiagnostics/thirtyfournavigation/fortyfourweatherradar/weatherradarcntrllerstatus',
             },
             {
               text: 'TEST WEATHER RADAR RESET',
@@ -1499,15 +1486,15 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: EGPWM 1 APM CONFIG OPT',
-              href: '/systemdiagnostics/34-navigation/46-enhanced-ground-proximity-warning-1/egpvm-1-apm-config-opt-1',
+              href: '/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmconfigopt1',
             },
             {
               text: 'DATA: EGPWM 1 APM RAAS CONFIG OPT',
-              href: '/systemdiagnostics/34-navigation/46-enhanced-ground-proximity-warning-1/egpvm-1-apm-raas-config-opt-1',
+              href: '/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt1',
             },
             {
               text: 'DATA: EGPWM 1 COCkPIT SELECTIONS',
-              href: '/systemdiagnostics/34-navigation/46-enhanced-ground-proximity-warning-1/egpwm-coockpit-selections',
+              href: '/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpwmcoockpitselections',
             },
             {
               text: 'TEST EGPWM 1 SELF TEST',
@@ -1538,11 +1525,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: GPS STATUS',
-              href: '/systemdiagnostics/34-navigation/52-global-positioning-system-1/gps-status-1',
+              href: '/systemdiagnostics/thirtyfournavigation/fiftytwoglobalpositioningsystem1/gpsstatus1',
             },
             {
               text: 'DATA: GPS1 CLOCK',
-              href: '/systemdiagnostics/34-navigation/52-global-positioning-system-1/gps-clock-1',
+              href: '/systemdiagnostics/thirtyfournavigation/fiftytwoglobalpositioningsystem1/gpsclock1',
             },
           ],
         },
@@ -1610,10 +1597,7 @@ const SystemDiagnostics = () => {
         },
         {
           text: '12 BLEED AIR CONTROL RIGHT',
-          children: [
-            { text: 'DATA: BLEED AIR CONTROLLER STATUS R' },
-            { text: 'DATA: WING TEMP SWITCH STATUS R' },
-          ],
+          children: [{ text: 'DATA: BLEED AIR CONTROLLER STATUS R' }, { text: 'DATA: WING TEMP SWITCH STATUS R' }],
         },
       ],
     },
@@ -1827,73 +1811,43 @@ const SystemDiagnostics = () => {
         },
         {
           text: '33 DCN Remote Data Concentrator 12',
-          children: [
-            { text: 'DATA: DCN RDC 12 LINKS' },
-            { text: 'DATA: DCN DRC 12 STATUS' },
-          ],
+          children: [{ text: 'DATA: DCN RDC 12 LINKS' }, { text: 'DATA: DCN DRC 12 STATUS' }],
         },
         {
           text: '33 DCN Remote Data Concentrator 13',
-          children: [
-            { text: 'DATA: DCN RDC 13 LINKS' },
-            { text: 'DATA: DCN DRC 13 STATUS' },
-          ],
+          children: [{ text: 'DATA: DCN RDC 13 LINKS' }, { text: 'DATA: DCN DRC 13 STATUS' }],
         },
         {
           text: '33 DCN Remote Data Concentrator 14',
-          children: [
-            { text: 'DATA: DCN RDC 14 LINKS' },
-            { text: 'DATA: DCN DRC 14 STATUS' },
-          ],
+          children: [{ text: 'DATA: DCN RDC 14 LINKS' }, { text: 'DATA: DCN DRC 14 STATUS' }],
         },
         {
           text: '33 DCN Remote Data Concentrator 15',
-          children: [
-            { text: 'DATA: DCN RDC 15 LINKS' },
-            { text: 'DATA: DCN DRC 15 STATUS' },
-          ],
+          children: [{ text: 'DATA: DCN RDC 15 LINKS' }, { text: 'DATA: DCN DRC 15 STATUS' }],
         },
         {
           text: '33 DCN Remote Data Concentrator 16',
-          children: [
-            { text: 'DATA: DCN RDC 16 LINKS' },
-            { text: 'DATA: DCN DRC 16 STATUS' },
-          ],
+          children: [{ text: 'DATA: DCN RDC 16 LINKS' }, { text: 'DATA: DCN DRC 16 STATUS' }],
         },
         {
           text: '33 DCN Remote Data Concentrator 17',
-          children: [
-            { text: 'DATA: DCN RDC 17 LINKS' },
-            { text: 'DATA: DCN DRC 17 STATUS' },
-          ],
+          children: [{ text: 'DATA: DCN RDC 17 LINKS' }, { text: 'DATA: DCN DRC 17 STATUS' }],
         },
         {
           text: '33 DCN Remote Data Concentrator 18',
-          children: [
-            { text: 'DATA: DCN RDC 18 LINKS' },
-            { text: 'DATA: DCN DRC 18 STATUS' },
-          ],
+          children: [{ text: 'DATA: DCN RDC 18 LINKS' }, { text: 'DATA: DCN DRC 18 STATUS' }],
         },
         {
           text: '33 DCN Remote Data Concentrator 19',
-          children: [
-            { text: 'DATA: DCN RDC 19 LINKS' },
-            { text: 'DATA: DCN DRC 19 STATUS' },
-          ],
+          children: [{ text: 'DATA: DCN RDC 19 LINKS' }, { text: 'DATA: DCN DRC 19 STATUS' }],
         },
         {
           text: '33 DCN Remote Data Concentrator 20',
-          children: [
-            { text: 'DATA: DCN RDC 20 LINKS' },
-            { text: 'DATA: DCN DRC 20 STATUS' },
-          ],
+          children: [{ text: 'DATA: DCN RDC 20 LINKS' }, { text: 'DATA: DCN DRC 20 STATUS' }],
         },
         {
           text: '33 DCN Remote Data Concentrator 22',
-          children: [
-            { text: 'DATA: DCN RDC 22 LINKS' },
-            { text: 'DATA: DCN DRC 22 STATUS' },
-          ],
+          children: [{ text: 'DATA: DCN RDC 22 LINKS' }, { text: 'DATA: DCN DRC 22 STATUS' }],
         },
         {
           text: '33 DCN Remote Interface Unit 51',
@@ -1977,9 +1931,7 @@ const SystemDiagnostics = () => {
         },
         {
           text: '94 Auxiliary Power Unit Oil',
-          children: [
-            { text: 'DATA: FQI APU OIL STATUS' },
-          ],
+          children: [{ text: 'DATA: FQI APU OIL STATUS' }],
         },
       ],
     },
@@ -2044,12 +1996,7 @@ const SystemDiagnostics = () => {
         },
         {
           text: '21 Engine Control Left Ch B',
-          children: [
-            { text: 'DATA: VIBRATION BALANCE LB' },
-            { text: 'DATA: VIBRATION ERAZE WEIGHTS LB' },
-            { text: 'DATA: VIBRATION READ WEIGHTS LB' },
-            { text: 'DATA: VIBRATION SET WEIGHTS LB' },
-          ],
+          children: [{ text: 'DATA: VIBRATION BALANCE LB' }, { text: 'DATA: VIBRATION ERAZE WEIGHTS LB' }, { text: 'DATA: VIBRATION READ WEIGHTS LB' }, { text: 'DATA: VIBRATION SET WEIGHTS LB' }],
         },
         {
           text: '21 Engine Control Right Ch A',
@@ -2072,11 +2019,7 @@ const SystemDiagnostics = () => {
         },
         {
           text: '21 Engine Control Right Ch B',
-          children: [
-            { text: 'DATA: VIBRATION BALANCE RB' },
-            { text: 'DATA: VIBRATION ERAZE WEIGHTS RB' },
-            { text: 'DATA: VIBRATION READ WEIGHTS RB' },
-          ],
+          children: [{ text: 'DATA: VIBRATION BALANCE RB' }, { text: 'DATA: VIBRATION ERAZE WEIGHTS RB' }, { text: 'DATA: VIBRATION READ WEIGHTS RB' }],
         },
       ],
     },
@@ -2095,7 +2038,7 @@ const SystemDiagnostics = () => {
       ],
     },
     { text: '80 STARTING' },
-  ]
+  ];
 
   const navBarButtons: NavBarButtonType[] = [
     {
@@ -2103,7 +2046,7 @@ const SystemDiagnostics = () => {
       disabled: true,
       position: 1,
     },
-  ]
+  ];
 
   return (
     <DefaultLayout
@@ -2120,7 +2063,7 @@ const SystemDiagnostics = () => {
       <Title>Select a system</Title>
       <Accordion items={items} />
     </DefaultLayout>
-  )
-}
+  );
+};
 
-export default SystemDiagnostics
+export default SystemDiagnostics;
