@@ -357,11 +357,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: PFCAS COMPENSATOR POSITION',
-              href: '/systemdiagnostics/27-flight-controls/00-fcs-primary-flt-ctrls-actuation/pfcas-compensator-position',
+              href: '/systemdiagnostics/twentysevenflightcontrols/zerofcsprimaryfltctrlsactuation/pfcascompensatorposition',
             },
             {
               text: 'DATA: REU PBIT/IBIT STATUS',
-              href: '/systemdiagnostics/27-flight-controls/00-fcs-primary-flt-ctrls-actuation/pbit-ibit-status',
+              href: '/systemdiagnostics/twentysevenflightcontrols/zerofcsprimaryfltctrlsactuation/pbitibitstatus',
             },
             {
               text: 'TEST ALL SURFACES INTERACTIVE TEST',
@@ -374,11 +374,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: SIDESTICK L PRI FAULT STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-active-control-stick-left-ch-a/sidestick-l-pri-fault-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprifaultstatus',
             },
             {
               text: 'DATA: SIDESTICK L PRI MODE STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-active-control-stick-left-ch-a/sidestick-l-pri-mode-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprimodestatus',
             },
           ],
         },
@@ -413,39 +413,39 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: FCC1 AIRCRAFT SYSTEM STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer/aircraft-systems-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/aircraftsystemsstatus',
             },
             {
               text: 'DATA: FCC1 ENGAGEMENT STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer/engagement-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/engagementstatus',
             },
             {
               text: 'DATA: FCC1 FACTORY TRIM DATA',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer/factory-trim-data',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/factorytrimdata',
             },
             {
               text: 'DATA: FCC1 FLIGHT DECK RVDT STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer/deck-rvdt-status',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/deckrvdtstatus',
             },
             {
               text: 'DATA: FCC1 FLIGHT DECK SW STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer/deck-sw-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/deckswstatus',
             },
             {
               text: 'DATA: FCC1 FORCE SENSORS  STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer/force-sensors-status',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/forcesensorsstatus',
             },
             {
               text: 'DATA: FCC1 PFCS RIG VERIFICATION',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer/pfcs-rig-verification-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/pfcsrigverification',
             },
             {
               text: 'DATA: FCC1 VALIDITY STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer/validity-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/validitystatus',
             },
             {
               text: 'DATA: FCC1 XTALK STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer/xtalk-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/xtalkstatus',
             },
             {
               text: 'TEST FCC1 COPILOT STICK SENSOR RIG',
@@ -470,39 +470,39 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: FCC2 AIRCRAFT SYSTEM STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer-2/fcc-2-aircraft-systems-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2aircraftsystemsstatus',
             },
             {
               text: 'DATA: FCC2 ENGAGEMENT STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer-2/fcc-2engagement-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2engagementstatus',
             },
             {
               text: 'DATA: FCC2 FACTORY TRIM DATA',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer-2/fcc-2-factory-trim-data',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2factorytrimdata',
             },
             {
               text: 'DATA: FCC2 FLIGHT DECK RVDT STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer-2/fcc-2-deck-rvdt-status',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2deckrvdtstatus',
             },
             {
               text: 'DATA: FCC2 FLIGHT DECK SW STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer-2/fcc-2-deck-sw-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2deckswstatus',
             },
             {
               text: 'DATA: FCC2 FORCE SENSORS  STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer-2/fcc-2-force-sensors-status',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2forcesensorsstatus',
             },
             {
               text: 'DATA: FCC2 PFCS RIG VERIFICATION',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer-2/fcc-2-pfcs-rig-verification-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2pfcsrigverification',
             },
             {
               text: 'DATA: FCC2 VALIDITY STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer-2/fcc-2-validity-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2validitystatus',
             },
             {
               text: 'DATA: FCC2 XTALK STATUS',
-              href: '/systemdiagnostics/27-flight-controls/01-fcs-flight-control-computer-2/fcc-2-xtalk-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2xtalkstatus',
             },
             {
               text: 'TEST FCC2 COPILOT STICK SENSOR RIG',
@@ -527,11 +527,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: BFCU RVDT STATUS',
-              href: '/systemdiagnostics/27-flight-controls/02-fcs-backuo-flight-control-unit/bfcu-rvdt-status',
+              href: '/systemdiagnostics/twentysevenflightcontrols/twofcsbackupflightcontrolunit/bfcurvdtstatus',
             },
             {
               text: 'DATA: BFCU STATUS',
-              href: '/systemdiagnostics/27-flight-controls/02-fcs-backuo-flight-control-unit/bfcu-status-1',
+              href: '/systemdiagnostics/twentysevenflightcontrols/twofcsbackupflightcontrolunit/bfcustatus',
             },
           ],
         },
@@ -665,7 +665,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: HSTS DATA',
-              href: '/systemdiagnostics/27-flight-controls/40-fcs-horizontal-stabilizer/hsts-data',
+              href: '/systemdiagnostics/twentysevenflightcontrols/fortyfcshorizontalstabilizer/hstsdata',
             },
             {
               text: 'TEST HSTS RIG',
@@ -682,11 +682,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: FLAPS OPERATIONAL STATUS',
-              href: '/systemdiagnostics/27-flight-controls/55-flap-system-control-lane/flaps-operational-status',
+              href: '/systemdiagnostics/twentysevenflightcontrols/fiftyfiveflapsystemcontrollane/flapsoperationalstatus',
             },
             {
               text: 'DATA: FLAPS SYSTEM STATUS',
-              href: '/systemdiagnostics/27-flight-controls/55-flap-system-control-lane/flaps-system-status',
+              href: '/systemdiagnostics/twentysevenflightcontrols/fiftyfiveflapsystemcontrollane/flapssystemstatus',
             },
             {
               text: 'TEST FLAPS MANUAL IBIT',
@@ -884,7 +884,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: HYDRAULIC CONTROL STATUS',
-              href: '/systemdiagnostics/29-hydraulic-control/00-hydraulic-controls/hydraulic-control-status',
+              href: '/systemdiagnostics/twentyninehydrauliccontrol/zerohydrauliccontrols/hydrauliccontrolstatus',
             },
           ],
         },
@@ -893,7 +893,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: FQI HYDRAULIC STATUS',
-              href: '/systemdiagnostics/29-hydraulic-control/30-hydraulic-quantity/fqi-hydraulic-status-1',
+              href: '/systemdiagnostics/twentyninehydrauliccontrol/thirtyhydraulicquantity/fqihydraulicstatus',
             },
           ],
         },
@@ -907,7 +907,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: WINDSHIELD HEAT STATUS',
-              href: '/systemdiagnostics/30-ice-rain-protection/41-windshield-heat/windshield-heat-status-1',
+              href: '/systemdiagnostics/thirtyicerainprotection/fortyonewindshieldheat/windshieldheatstatus',
             },
           ],
         },
@@ -921,11 +921,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: TSC1 MISC STATUS',
-              href: '/systemdiagnostics/31-indicating-recording-systems/17-touchscreen-controller-1/tsc1-misc-status',
+              href: '/systemdiagnostics/thirtyoneindicatingrecordingsystems/seventeentouchscreencontroller1/tsc1miscstatus',
             },
             {
               text: 'DATA: TSC1 TEMPERATURE STATUS',
-              href: '/systemdiagnostics/31-indicating-recording-systems/17-touchscreen-controller-1/tsc1-temp-status',
+              href: '/systemdiagnostics/thirtyoneindicatingrecordingsystems/seventeentouchscreencontroller1/tsc1tempstatus',
             },
             {
               text: 'TEST TSC1 RESET TEST',
@@ -986,7 +986,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: FDR STATUS',
-              href: '/systemdiagnostics/31-indicating-recording-systems/31-flight-data-recorder/fdr-status',
+              href: '/systemdiagnostics/thirtyoneindicatingrecordingsystems/thirtyoneflightdatarecorder/fdrstatus',
             },
           ],
         },
@@ -995,7 +995,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: PROGRAMMABLE CAS CONTENTS',
-              href: '/systemdiagnostics/31-indicating-recording-systems/40-programmable-cas-contents/programmable-cas-contents',
+              href: '/systemdiagnostics/thirtyoneindicatingrecordingsystems/fortyprogrammablecascontents/programmablecascontents',
             },
           ],
         },
@@ -1004,15 +1004,15 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: DU/AGM STATUS',
-              href: '/systemdiagnostics/31-indicating-recording-systems/41-mau-display-logic-1/du-agm-status-1',
+              href: '/systemdiagnostics/thirtyoneindicatingrecordingsystems/fortyonemaudisplaylogic1/duagmstatus',
             },
             {
               text: 'DATA: DU A429 STATUS',
-              href: '/systemdiagnostics/31-indicating-recording-systems/41-mau-display-logic-1/du-a429-status',
+              href: '/systemdiagnostics/thirtyoneindicatingrecordingsystems/fortyonemaudisplaylogic1/dua429status',
             },
             {
               text: 'DATA: MWC SWITCH STATUS',
-              href: '/systemdiagnostics/31-indicating-recording-systems/41-mau-display-logic-1/mwc-switch-status',
+              href: '/systemdiagnostics/thirtyoneindicatingrecordingsystems/fortyonemaudisplaylogic1/mwcswitchstatus',
             },
           ],
         },
@@ -1039,7 +1039,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: CCD STATUS',
-              href: '/systemdiagnostics/31-indicating-recording-systems/63-cursor-control-devices/ccd-status-1',
+              href: '/systemdiagnostics/thirtyoneindicatingrecordingsystems/sixtythreecursorcontroldevices/ccdstatus',
             },
           ],
         },
@@ -1048,7 +1048,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: XM RECEIVER STATUS',
-              href: '/systemdiagnostics/31-indicating-recording-systems/67-xm-weather/xm-receiver-status',
+              href: '/systemdiagnostics/thirtyoneindicatingrecordingsystems/sixtysevenxmweather/xmreceiverstatus',
             },
           ],
         },
@@ -1160,7 +1160,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: DIMMING AND ANNUNCIATION',
-              href: '/systemdiagnostics/33-lights/11-dimming-and-annunciation/dimming-and-annunciation-1',
+              href: '/systemdiagnostics/thirtythreelights/elevendimmingandannunciation/dimmingandannunciation',
             },
           ],
         },
@@ -1169,7 +1169,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: NAV/ACL STATUS ',
-              href: '/systemdiagnostics/33-lights/42-navigation-anticollistion-lights/nav-acl-status',
+              href: '/systemdiagnostics/thirtythreelights/fortytwonavigationanticollistionlights/navaclstatus',
             },
           ],
         },
@@ -1587,11 +1587,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: BLEED AIR CONTROLLER STATUS L',
-              href: '/systemdiagnostics/36-pneumatic-status/12-bleed-air-control-left/left-bleed-air-status-1',
+              href: '/systemdiagnostics/thirtysixpneumaticstatus/twelvebleedaircontrolleft/leftbleedairstatus',
             },
             {
               text: 'DATA: WING TEMP SWITCH STATUS L',
-              href: '/systemdiagnostics/36-pneumatic-status/12-bleed-air-control-left/wing-temp-left',
+              href: '/systemdiagnostics/thirtysixpneumaticstatus/twelvebleedaircontrolleft/wingtempleft',
             },
           ],
         },
@@ -1609,19 +1609,19 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: ASCB MONITOR STATUS',
-              href: '/systemdiagnostics/42-integrated-modular-avionics/11-avionics-data-comm/ascb-monitor-status',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/ascbmonitorstatus',
             },
             {
               text: 'DATA: ASCB STATUS',
-              href: '/systemdiagnostics/42-integrated-modular-avionics/11-avionics-data-comm/ascb-status',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/ascbstatus',
             },
             {
               text: 'DATA: LAN STATUS',
-              href: '/systemdiagnostics/42-integrated-modular-avionics/11-avionics-data-comm/lan-status-1',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/lanstatus',
             },
             {
               text: 'DATA: MONITOR WARNING/WOW STATUS',
-              href: '/systemdiagnostics/42-integrated-modular-avionics/11-avionics-data-comm/monitor-ww-status',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/monitorwwstatus',
             },
           ],
         },
@@ -1891,7 +1891,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: CMC UTILITIES',
-              href: '/systemdiagnostics/45-central-maintenance-systems/45-cmc-utilities/cmc-utilities',
+              href: '/systemdiagnostics/fortyfivecentralmaintenancesystems/fortyfivecmcutilities/cmcutilities',
             },
           ],
         },
@@ -1905,7 +1905,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: AHTMU STATUS',
-              href: '/systemdiagnostics/46-info-systems/35-aircraft-health-trend-monitor/ahtmu-status-1',
+              href: '/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus',
             },
           ],
         },
@@ -1943,11 +1943,11 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: MAIN DOOR FAULTS STATUS',
-              href: '/systemdiagnostics/52-doors/10-main-entry-control/main-door-faults-status-1',
+              href: '/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorfaultsstatus',
             },
             {
               text: 'DATA: MAIN DOOR STATUS',
-              href: '/systemdiagnostics/52-doors/10-main-entry-control/main-door-status-1',
+              href: '/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorstatus',
             },
           ],
         },
@@ -1956,7 +1956,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: SERVICE DOORS',
-              href: '/systemdiagnostics/52-doors/40-service-doors/service-doors-1',
+              href: '/systemdiagnostics/fiftytwodoors/fortyservicedoors/servicedoors',
             },
           ],
         },
@@ -2031,7 +2031,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: FQI1 OIL STATUS',
-              href: '/systemdiagnostics/79-oil/31-fqi-channel-1/fqi1-oil-status-1',
+              href: '/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus',
             },
           ],
         },
