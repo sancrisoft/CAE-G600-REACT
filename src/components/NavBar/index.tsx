@@ -17,7 +17,6 @@ export interface NavBarProps<As extends ElementType = ElementType> extends HTMLA
   ariaLabel?: string
   element?: As
   buttons?: NavBarButtonType[]
-  noPrev?: boolean
 }
 
 const NavBar: FC<NavBarProps> = (props) => {
@@ -32,23 +31,19 @@ const NavBar: FC<NavBarProps> = (props) => {
     disabled: true,
   }
 
-  const prev = props.noPrev
-    ? emptyItem
-    : {
-        text: 'Prev',
-        onClick: () => { 
-          navigate(-1)
-        },
-        disabled: false,
-      }
-
   const navItems: NavBarButtonType[] = [
     {
       text: 'Main Menu',
       href: '/',
       disabled: false,
     },
-    prev,
+    {
+      text: 'Prev',
+      onClick: () => { 
+        navigate(-1)
+      },
+      disabled: false,
+    },
     emptyItem,
     emptyItem,
     emptyItem,
