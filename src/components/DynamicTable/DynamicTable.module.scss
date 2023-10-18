@@ -1,0 +1,141 @@
+@import '../../styles/common';
+
+.Container {
+  margin: var(--spacing--0) 0;
+  margin: var(--spacing--2) 0 var(--spacing-0) 0;
+}
+
+.halfWidth {
+  width: 50%;
+}
+
+.CustomContainer {
+  margin: unset;
+}
+
+.Table {
+  border-collapse: collapse;
+  border-top: 0.1vh solid var(--white);
+
+  color: var(--white);
+  padding-top: var(--spacing--2);
+  text-align: left;
+  text-transform: uppercase;
+  width: 99%;
+
+  th {
+    border-right: 0.1vh solid var(--white);
+    border-left: 0.1vh solid var(--white);
+    color: var(--aqua);
+    height: var(--spacing-3);
+    text-align: center;
+  }
+
+  .AlignLeft {
+    text-align: left;
+  }
+
+  .HeaderBorder {
+    border-bottom: 0.1vh solid var(--white);
+  }
+
+  td {
+    border-left: 0.1vh solid var(--white);
+    border-right: 0.1vh solid var(--white);
+    height: var(--spacing-3);
+  }
+
+  td:first-child {
+    padding-left: var(--spacing-2);
+    text-align: left;
+    width: 48%;
+  }
+
+  .Border {
+    border-bottom: 0.1vh solid var(--white);
+    color: var(--white);
+    padding-top: var(--spacing--2);
+    text-align: left;
+  }
+}
+
+.CustomWidth{
+  width: 10%;
+}
+
+.Square {
+  height: 12px;
+  margin: auto;
+  width: 12px;
+}
+
+.Green {
+  background: var(--green);
+}
+
+.Red {
+  background: var(--red);
+}
+
+.NoData {
+  border: 0.1vh solid #000;
+  border-radius: 50%;
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.NoData::after,
+.NoData::before,
+.Separator::before {
+  border-left: 3px solid #000;
+  content: '';
+  height: 20px;
+  margin-left: 8px;
+  position: absolute;
+}
+
+.NoData::after {
+  transform: rotate(45deg);
+}
+
+.NoData::before {
+  transform: rotate(-45deg);
+}
+
+.Separator::before {
+  border-left: 0.1vh solid #fff;
+  margin-left: 0;
+  transform: rotate(45deg);
+}
+
+.AlignLeft {
+  padding-left: var(--spacing-2);
+  text-align: left;
+}
+
+.MarginTop {
+  margin-top: var(--spacing-4);
+}
+
+.AlignCenter {
+  text-align: center;
+}
+
+.AlignRight {
+  padding-right: var(--spacing-0);
+  text-align: right;
+}
+
+.CustomClass td:first-child {
+  border: unset;
+}
+
+.CustomClass td:last-child {
+  border-bottom: 0.1vh solid var(--white);
+}
+
+.TableHeadClass th{
+  height: unset;
+  padding-top: var(--spacing--3);
+}

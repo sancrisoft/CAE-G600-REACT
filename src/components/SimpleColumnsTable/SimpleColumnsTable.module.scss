@@ -1,0 +1,23 @@
+@import '../../styles/common';
+
+.Table {
+  border: 0.1vh solid var(--white);
+  border-collapse: collapse;
+  margin-top: var(--spacing--3);
+  text-transform: uppercase;
+  width: 99%;
+
+  th, td {
+    border: 0.1vh solid var(--white);
+    height: var(--spacing-3);
+  }
+
+  td {
+    text-align: right;
+    padding-right: var(--spacing-0);
+  }
+}
+
+.Header {
+  color: var(--aqua);
+}
