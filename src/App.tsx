@@ -175,6 +175,162 @@ import GpsStatus1 from './pages/SystemDiagnostics/ThirtyFourNavigation/FiftyTwoG
 import GpsStatus2 from './pages/SystemDiagnostics/ThirtyFourNavigation/FiftyTwoGlobalPositioningSystem1/GpsStatus2';
 import GpsClock1 from './pages/SystemDiagnostics/ThirtyFourNavigation/FiftyTwoGlobalPositioningSystem1/GpsClock1';
 import GpsClock2 from './pages/SystemDiagnostics/ThirtyFourNavigation/FiftyTwoGlobalPositioningSystem1/GpsClock2';
+import FuelDistributionStatus1 from './pages/SystemDiagnostics/TwentyEightFuel/TwentyFuelDistribution/FuelDistributionStatus1';
+import FuelDistributionStatus2 from './pages/SystemDiagnostics/TwentyEightFuel/TwentyFuelDistribution/FuelDistributionStatus2';
+import FqmsFault from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsFault';
+import FqmsProveContamination1 from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsProbeContamination1';
+import FqmsProveContamination2 from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsProbeContamination2';
+import FqmsProbeDataCompensator from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsProbeDataCompensator';
+import FqmsProbeDataDensidometer from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsProbeDataDensidometer';
+import FqmsProbesDataCapf from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsProbesDataCapf';
+import FqmsProvesDataCovrdLength from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsProbesDataCovrdLength';
+import FqmsProbesTemperatureC from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsProbesTemperatureC';
+import FqmsProvesVoltageMv from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsProbesVoltageMv';
+import FqmsCtConfig from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneFuelQuantityChB/FqmsCtConfig';
+import FqmsFuelData from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneFuelQuantityChB/FqmsFuelData';
+import FqmsRefuelData from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneFuelQuantityChB/FqmsRefuelData';
+import LgDoorProxSensors from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/LgdoorProxSensors';
+import LgDuLockProxSensor from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/LgDuLockProxSensor';
+import LgWowProxSensors from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/LgWowProxSensors';
+import LgCisConfig from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/LgCisConfig';
+import LgCisMaintModeStatus from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/LgCisMaintModeStatus';
+import LgCisPinProgrammingStatus from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/LgCisPinProgrammingStatus';
+import NlgSolenoidDriverStatus1 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/NlgSolenoidDriverStatus1';
+import NlgSolenoidDriverStatus2 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/NlgSolenoidDriverStatus2';
+import LgcisStatus1 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/LgcisStatus1';
+import LgcisStatus2 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/LgcisStatus2';
+import LgcisStatus3 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/LgcisStatus3';
+import LmlgProxSensorRigging from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/LmlgProxSensorRigging';
+import NlgProxSensorRigging from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/NlgProxSensorRigging';
+import RmlgProxSensorRigging from './pages/SystemDiagnostics/ThirtyTwoLandingGear/ThirthyLgControlIndication/RmlgProxSensorRigging';
+import InboardBrakeStatus1 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FortyFourBrakeControlInboard/InboardBrakeStatus1';
+import InboardBrakeStatus4 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FortyFourBrakeControlInboard/InboardBrakeStatus4';
+import InboardBrakeStatus3 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FortyFourBrakeControlInboard/InboardBrakeStatus3';
+import InboardBrakeStatus2 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FortyFourBrakeControlInboard/InboardBrakeStatus2';
+import OutboardBrakeStatus1 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FortyFourBrakeControlOutboard/OutboardBrakeStatus1';
+import OutboardBrakeStatus2 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FortyFourBrakeControlOutboard/OutboardBrakeStatus2';
+import OutboardBrakeStatus3 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FortyFourBrakeControlOutboard/OutboardBrakeStatus3';
+import OutboardBrakeStatus4 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FortyFourBrakeControlOutboard/OutboardBrakeStatus4';
+import TpmsStatus1 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FortySevenTirePressure/TpmsStatus1';
+import TpmsStatus2 from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FortySevenTirePressure/TpmsStatus2';
+import NoseWheelSteering from './pages/SystemDiagnostics/ThirtyTwoLandingGear/FiftyTwoNoseWheelsteering/NoseWheelSteering';
+import PfcasCompensatorPosition from './pages/SystemDiagnostics/TwentySevenFlightControls/ZeroFcsPrimaryFltCtrlsActuation/PfcasCompensatorPosition';
+import PbitIbitStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/ZeroFcsPrimaryFltCtrlsActuation/PbitIbitStatus';
+import SidestickLPriFaultStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneActiveControlStickLeftChA/SidestickLPriFaultStatus';
+import SidestickLPriFaultStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneActiveControlStickLeftChA/SidestickLPriFaultStatus1';
+import SidestickLPriFaultStatus2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneActiveControlStickLeftChA/SidestickLPriFaultStatus2';
+import SidestickLPriFaultStatus3 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneActiveControlStickLeftChA/SidestickLPriFaultStatus3';
+import SidestickLPriFaultStatus4 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneActiveControlStickLeftChA/SidestickLPriFaultStatus4';
+import SidestickLPriFaultStatus5 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneActiveControlStickLeftChA/SidestickLPriFaultStatus5';
+import SidestickLPriModeStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneActiveControlStickLeftChA/SidestickLPriModeStatus';
+import SidestickLPriModeStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneActiveControlStickLeftChA/SidestickLPriModeStatus1';
+import AircraftSystemsStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/AircraftSystemsStatus';
+import AircraftSystemsStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/AircraftSystemsStatus1';
+import AircraftSystemsStatus2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/AircraftSystemsStatus2';
+import EngagementStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/EngagementStatus';
+import EngagementStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/EngagementStatus1';
+import EngagementStatus2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/EngagementStatus2';
+import EngagementStatus3 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/EngagementStatus3';
+import FactoryTrimData from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/FactoryTrimData';
+import DeckRvdtStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/DeckRvdtStatus';
+import DeckSwStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/DeckSwStatus';
+import DeckSwStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/DeckSwStatus1';
+import DeckSwStatus2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/DeckSwStatus2';
+import ForceSensorsStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/ForceSensorsStatus';
+import PfcsRigVerification from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/PfcsRigVerification';
+import PfcsRigVerification1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/PfcsRigVerification1';
+import PfcsRigVerification2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/PfcsRigVerification2';
+import PfcsRigVerification3 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/PfcsRigVerification3';
+import ValidityStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/ValidityStatus';
+import ValidityStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/ValidityStatus1';
+import ValidityStatus2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/ValidityStatus2';
+import ValidityStatus3 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/ValidityStatus3';
+import XTalkStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/XTalkStatus';
+import XTalkStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer1/XTalkStatus1';
+import Fcc2AircraftSystemsStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2AircraftSystemsStatus';
+import Fcc2AircraftSystemsStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2AircraftSystemsStatus1';
+import Fcc2AircraftSystemsStatus2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2AircraftSystemsStatus2';
+import Fcc2EngagementStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2EngagementStatus';
+import Fcc2EngagementStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2EngagementStatus1';
+import Fcc2EngagementStatus2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2EngagementStatus2';
+import Fcc2EngagementStatus3 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2EngagementStatus3';
+import Fcc2FactoryTrimData from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2FactoryTrimData';
+import Fcc2DeckRvdtStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2DeckRvdtStatus';
+import Fcc2DeckSwStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2DeckSwStatus';
+import Fcc2DeckSwStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2DeckSwStatus1';
+import Fcc2DeckSwStatus2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2DeckSwStatus2';
+import Fcc2ForceSensorsStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2ForceSensorsStatus';
+import Fcc2PfcsRigVerification from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2PfcsRigVerification';
+import Fcc2PfcsRigVerification1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2PfcsRigVerification1';
+import Fcc2PfcsRigVerification2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2PfcsRigVerification2';
+import Fcc2PfcsRigVerification3 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2PfcsRigVerification3';
+import Fcc2ValidityStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2ValidityStatus';
+import Fcc2ValidityStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2ValidityStatus1';
+import Fcc2ValidityStatus2 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2ValidityStatus2';
+import Fcc2ValidityStatus3 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2ValidityStatus3';
+import Fcc2XtalkStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2XtalkStatus';
+import Fcc2XtalkStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/OneFcsFlightControlComputer2/Fcc2XtalkStatus1';
+import BfcuRvdtStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/TwoFcsBackupFlightControlUnit/BfcuRvdtStatus';
+import BfcuStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/TwoFcsBackupFlightControlUnit/BfcuStatus';
+import BfcuStatus1 from './pages/SystemDiagnostics/TwentySevenFlightControls/TwoFcsBackupFlightControlUnit/BfcuStatus1';
+import HstsData from './pages/SystemDiagnostics/TwentySevenFlightControls/FortyFcsHorizontalStabilizer/HstsData';
+import FlapsOperationalStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/FiftyFiveFlapSystemControlLane/FlapsOperationalStatus';
+import FlapsSystemStatus from './pages/SystemDiagnostics/TwentySevenFlightControls/FiftyFiveFlapSystemControlLane/FlapsSystemStatus';
+import HydraulicControlStatus from './pages/SystemDiagnostics/TwentyNineHydraulicControl/ZeroHydraulicControls/HydraulicControlStatus';
+import FqiHydraulicStatus from './pages/SystemDiagnostics/TwentyNineHydraulicControl/ThirtyHydraulicQuantity/FqiHydraulicStatus';
+import FqiHydraulicStatus1 from './pages/SystemDiagnostics/TwentyNineHydraulicControl/ThirtyHydraulicQuantity/FqiHydraulicStatus1';
+import FqiHydraulicStatus2 from './pages/SystemDiagnostics/TwentyNineHydraulicControl/ThirtyHydraulicQuantity/FqiHydraulicStatus2';
+import FqiHydraulicStatus3 from './pages/SystemDiagnostics/TwentyNineHydraulicControl/ThirtyHydraulicQuantity/FqiHydraulicStatus3';
+import WindshieldHeatStatus from './pages/SystemDiagnostics/ThirtyIceRainProtection/FortyOneWindshieldHeat/WindshieldHeatStatus';
+import WindshieldHeatStatus1 from './pages/SystemDiagnostics/ThirtyIceRainProtection/FortyOneWindshieldHeat/WindshieldHeatStatus1';
+import WindshieldHeatStatus2 from './pages/SystemDiagnostics/ThirtyIceRainProtection/FortyOneWindshieldHeat/WindshieldHeatStatus2';
+import WindshieldHeatStatus3 from './pages/SystemDiagnostics/ThirtyIceRainProtection/FortyOneWindshieldHeat/WindshieldHeatStatus3';
+import Tsc1MiscStatus from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/SeventeenTouchscreenController1/Tsc1MiscStatus';
+import Tsc1TempStatus from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/SeventeenTouchscreenController1/Tsc1TempStatus';
+import FdrStatus from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/ThirtyOneFlightDataRecorder/FdrStatus';
+import ProgrammableCasContents from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/FortyProgrammableCasContents/ProgrammableCasContents';
+import DuAgmStatus from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/FortyOneMauDisplayLogic1/DuAgmStatus';
+import DuAgmStatus1 from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/FortyOneMauDisplayLogic1/DuAgmStatus1';
+import DuA429Status from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/FortyOneMauDisplayLogic1/DuA429Status';
+import MwcSwitchStatus from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/FortyOneMauDisplayLogic1/MwcSwitchStatus';
+import CcdStatus from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/SixtyThreeCursorControlDevices/CcdStatus';
+import CcdStatus1 from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/SixtyThreeCursorControlDevices/CcdStatus1';
+import XmReceiverStatus from './pages/SystemDiagnostics/ThirtyOneIndicatingRecordingSystems/SixtySevenXmWeather/XmReceiverStatus';
+import DimmingAndAnnunciation from './pages/SystemDiagnostics/ThirtyThreeLights/ElevenDimmingAndAnnunciation/DimmingAndAnnunciation';
+import NavAclStatus from './pages/SystemDiagnostics/ThirtyThreeLights/FortyTwoNavigationAnticollistionLights/NavAclStatus';
+import LeftBleedAirStatus from './pages/SystemDiagnostics/ThirtySixPneumaticStatus/TwelveBleedAirControlLeft/LeftBleedAirStatus';
+import LeftBleedAirStatus1 from './pages/SystemDiagnostics/ThirtySixPneumaticStatus/TwelveBleedAirControlLeft/LeftBleedAirStatus1';
+import LeftBleedAirStatus2 from './pages/SystemDiagnostics/ThirtySixPneumaticStatus/TwelveBleedAirControlLeft/LeftBleedAirStatus2';
+import LeftBleedAirStatus3 from './pages/SystemDiagnostics/ThirtySixPneumaticStatus/TwelveBleedAirControlLeft/LeftBleedAirStatus3';
+import LeftBleedAirStatus4 from './pages/SystemDiagnostics/ThirtySixPneumaticStatus/TwelveBleedAirControlLeft/LeftBleedAirStatus4';
+import WingTempLeft from './pages/SystemDiagnostics/ThirtySixPneumaticStatus/TwelveBleedAirControlLeft/WingTempLeft';
+import AscbMonitorStatus from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenAvionicsDataComm/AscbMonitorStatus';
+import AscbStatus from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenAvionicsDataComm/AscbStatus';
+import LanStatus from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenAvionicsDataComm/LanStatus';
+import LanStatus1 from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenAvionicsDataComm/LanStatus1';
+import MonitorWwStatus from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenAvionicsDataComm/MonitorWwStatus';
+import CmcUtilities from './pages/SystemDiagnostics/FortyFiveCentralMaintenanceSystems/FortyFiveCmcUtilities/CmcUtilities';
+import AhtmuStatus from './pages/SystemDiagnostics/FortySixInfoSystems/ThirtyFiveAircraftHealthTrendMonitor/AhtmuStatus';
+import AhtmuStatus1 from './pages/SystemDiagnostics/FortySixInfoSystems/ThirtyFiveAircraftHealthTrendMonitor/AhtmuStatus1';
+import MainDoorFaultsStatus from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorFaultsStatus';
+import MainDoorFaultsStatus1 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorFaultsStatus1';
+import MainDoorFaultsStatus2 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorFaultsStatus2';
+import MainDoorFaultsStatus3 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorFaultsStatus3';
+import MainDoorFaultsStatus4 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorFaultsStatus4';
+import MainDoorFaultsStatus5 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorFaultsStatus5';
+import MainDoorFaultsStatus6 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorFaultsStatus6';
+import MainDoorStatus from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorStatus';
+import MainDoorStatus1 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorStatus1';
+import MainDoorStatus2 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorStatus2';
+import MainDoorStatus3 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorStatus3';
+import MainDoorStatus4 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorStatus4';
+import MainDoorStatus5 from './pages/SystemDiagnostics/FiftyTwoDoors/TenMainEntryControl/MainDoorStatus5';
+import ServiceDoors from './pages/SystemDiagnostics/FiftyTwoDoors/FortyServiceDoors/ServiceDoors';
+import ServiceDoors1 from './pages/SystemDiagnostics/FiftyTwoDoors/FortyServiceDoors/ServiceDoors1';
+import Fqi1OilStatus from './pages/SystemDiagnostics/SeventyNineOil/ThirtyOneFqiChannel1/Fqi1OilStatus';
+import Fqi1OilStatus1 from './pages/SystemDiagnostics/SeventyNineOil/ThirtyOneFqiChannel1/Fqi1OilStatus1';
+import Fqi1OilStatus2 from './pages/SystemDiagnostics/SeventyNineOil/ThirtyOneFqiChannel1/Fqi1OilStatus2';
+import Fqi1OilStatus3 from './pages/SystemDiagnostics/SeventyNineOil/ThirtyOneFqiChannel1/Fqi1OilStatus3';
 
 function App() {
   return (
@@ -355,6 +511,165 @@ function App() {
         <Route path="/systemdiagnostics/thirtyfournavigation/fiftytwoglobalpositioningsystem1/gpsstatus2" element={<GpsStatus2 />} />
         <Route path="/systemdiagnostics/thirtyfournavigation/fiftytwoglobalpositioningsystem1/gpsclock1" element={<GpsClock1 />} />
         <Route path="/systemdiagnostics/thirtyfournavigation/fiftytwoglobalpositioningsystem1/gpsclock2" element={<GpsClock2 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/fueldistributionsstatus1" element={<FuelDistributionStatus1 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/fueldistributionsstatus2" element={<FuelDistributionStatus2 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsfaults" element={<FqmsFault />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/FqmsProbeContamination1" element={<FqmsProveContamination1 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/FqmsProbeContamination2" element={<FqmsProveContamination2 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobedatacompensator" element={<FqmsProbeDataCompensator />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobedatadensidometer" element={<FqmsProbeDataDensidometer />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesdatacappf" element={<FqmsProbesDataCapf />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesdatacovrdlength" element={<FqmsProvesDataCovrdLength />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobestemperaturec" element={<FqmsProbesTemperatureC />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesdatadrycappf" element={<FqmsProbesDataCapf />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesvoltagemv" element={<FqmsProvesVoltageMv />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneFuelQuantityChB/fqmsctacconfig" element={<FqmsCtConfig />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneFuelQuantityChB/fqmsfueldata" element={<FqmsFuelData />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneFuelQuantityChB/fqmsrefuelfueldata" element={<FqmsRefuelData />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgdoorproxsensors" element={<LgDoorProxSensors />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgdulockproxsensors" element={<LgDuLockProxSensor />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgwowproxsensors" element={<LgWowProxSensors />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgcisconfig" element={<LgCisConfig />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgcismaintmodestatus" element={<LgCisMaintModeStatus />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgcispinprogrammingstatus" element={<LgCisPinProgrammingStatus />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/nlgsolenoiddriverstatus1" element={<NlgSolenoidDriverStatus1 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/nlgsolenoiddriverstatus2" element={<NlgSolenoidDriverStatus2 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgcisstatus1" element={<LgcisStatus1 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgcisstatus2" element={<LgcisStatus2 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lgcisstatus3" element={<LgcisStatus3 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/lmlgproxsensorrigging" element={<LmlgProxSensorRigging />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/nlgproxsensorrigging" element={<NlgProxSensorRigging />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/twentyFuelDistribution/rmlgproxsensorrigging" element={<RmlgProxSensorRigging />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyFourBrakeControlInboard/inboardbrakestatus1" element={<InboardBrakeStatus1 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyFourBrakeControlInboard/inboardbrakestatus2" element={<InboardBrakeStatus2 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyFourBrakeControlInboard/inboardbrakestatus3" element={<InboardBrakeStatus3 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyFourBrakeControlInboard/inboardbrakestatus4" element={<InboardBrakeStatus4 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/fortyfourbrakecontroloutboard/outboardbrakestatus1" element={<OutboardBrakeStatus1 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/fortyfourbrakecontroloutboard/outboardbrakestatus2" element={<OutboardBrakeStatus2 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/fortyfourbrakecontroloutboard/outboardbrakestatus3" element={<OutboardBrakeStatus3 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/fortyfourbrakecontroloutboard/outboardbrakestatus4" element={<OutboardBrakeStatus4 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/fortyseventirepressure/tpmsstatus1" element={<TpmsStatus1 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/fortyseventirepressure/tpmsstatus2" element={<TpmsStatus2 />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/fiftytwonosewheelsteering/nosewheelposition" element={<NoseWheelSteering />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/zerofcsprimaryfltctrlsactuation/pfcascompensatorposition" element={<PfcasCompensatorPosition />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/zerofcsprimaryfltctrlsactuation/pbitibitstatus" element={<PbitIbitStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprifaultstatus" element={<SidestickLPriFaultStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprifaultstatus1" element={<SidestickLPriFaultStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprifaultstatus2" element={<SidestickLPriFaultStatus2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprifaultstatus3" element={<SidestickLPriFaultStatus3 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprifaultstatus4" element={<SidestickLPriFaultStatus4 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprifaultstatus5" element={<SidestickLPriFaultStatus5 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprimodestatus" element={<SidestickLPriModeStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/oneactivecontrolstickleftcha/sidesticklprimodestatus1" element={<SidestickLPriModeStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/aircraftsystemsstatus" element={<AircraftSystemsStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/aircraftsystemsstatus1" element={<AircraftSystemsStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/aircraftsystemsstatus2" element={<AircraftSystemsStatus2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/engagementstatus" element={<EngagementStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/engagementstatus1" element={<EngagementStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/engagementstatus2" element={<EngagementStatus2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/engagementstatus3" element={<EngagementStatus3 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/factorytrimdata" element={<FactoryTrimData />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/deckrvdtstatus" element={<DeckRvdtStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/deckswstatus" element={<DeckSwStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/deckswstatus1" element={<DeckSwStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/deckswstatus2" element={<DeckSwStatus2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/forcesensorsstatus" element={<ForceSensorsStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/pfcsrigverification" element={<PfcsRigVerification />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/pfcsrigverification1" element={<PfcsRigVerification1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/pfcsrigverification2" element={<PfcsRigVerification2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/pfcsrigverification3" element={<PfcsRigVerification3 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/validitystatus" element={<ValidityStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/validitystatus1" element={<ValidityStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/validitystatus2" element={<ValidityStatus2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/validitystatus3" element={<ValidityStatus3 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/xtalkstatus" element={<XTalkStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer1/xtalkstatus1" element={<XTalkStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2aircraftsystemsstatus" element={<Fcc2AircraftSystemsStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2aircraftsystemsstatus1" element={<Fcc2AircraftSystemsStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2aircraftsystemsstatus2" element={<Fcc2AircraftSystemsStatus2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2engagementstatus" element={<Fcc2EngagementStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2engagementstatus1" element={<Fcc2EngagementStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2engagementstatus2" element={<Fcc2EngagementStatus2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2engagementstatus3" element={<Fcc2EngagementStatus3 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2factorytrimdata" element={<Fcc2FactoryTrimData />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2deckrvdtstatus" element={<Fcc2DeckRvdtStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2deckswstatus" element={<Fcc2DeckSwStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2deckswstatus1" element={<Fcc2DeckSwStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2deckswstatus2" element={<Fcc2DeckSwStatus2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2forcesensorsstatus" element={<Fcc2ForceSensorsStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2pfcsrigverification" element={<Fcc2PfcsRigVerification />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2pfcsrigverification1" element={<Fcc2PfcsRigVerification1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2pfcsrigverification2" element={<Fcc2PfcsRigVerification2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2pfcsrigverification3" element={<Fcc2PfcsRigVerification3 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2validitystatus" element={<Fcc2ValidityStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2validitystatus1" element={<Fcc2ValidityStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2validitystatus2" element={<Fcc2ValidityStatus2 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2validitystatus3" element={<Fcc2ValidityStatus3 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2xtalkstatus" element={<Fcc2XtalkStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2xtalkstatus1" element={<Fcc2XtalkStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/twofcsbackupflightcontrolunit/bfcurvdtstatus" element={<BfcuRvdtStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/twofcsbackupflightcontrolunit/bfcustatus" element={<BfcuStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/twofcsbackupflightcontrolunit/bfcustatus1" element={<BfcuStatus1 />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/fortyfcshorizontalstabilizer/hstsdata" element={<HstsData />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/fiftyfiveflapsystemcontrollane/flapsoperationalstatus" element={<FlapsOperationalStatus />} />
+        <Route path="/systemdiagnostics/twentysevenflightcontrols/fiftyfiveflapsystemcontrollane/flapssystemstatus" element={<FlapsSystemStatus />} />
+
+        <Route path="/systemdiagnostics/twentyninehydrauliccontrol/zerohydrauliccontrols/hydrauliccontrolstatus" element={<HydraulicControlStatus />} />
+        <Route path="/systemdiagnostics/twentyninehydrauliccontrol/thirtyhydraulicquantity/fqihydraulicstatus" element={<FqiHydraulicStatus />} />
+        <Route path="/systemdiagnostics/twentyninehydrauliccontrol/thirtyhydraulicquantity/fqihydraulicstatus1" element={<FqiHydraulicStatus1 />} />
+        <Route path="/systemdiagnostics/twentyninehydrauliccontrol/thirtyhydraulicquantity/fqihydraulicstatus2" element={<FqiHydraulicStatus2 />} />
+        <Route path="/systemdiagnostics/twentyninehydrauliccontrol/thirtyhydraulicquantity/fqihydraulicstatus3" element={<FqiHydraulicStatus3 />} />
+        <Route path="/systemdiagnostics/thirtyicerainprotection/fortyonewindshieldheat/windshieldheatstatus" element={<WindshieldHeatStatus />} />
+        <Route path="/systemdiagnostics/thirtyicerainprotection/fortyonewindshieldheat/windshieldheatstatus1" element={<WindshieldHeatStatus1 />} />
+        <Route path="/systemdiagnostics/thirtyicerainprotection/fortyonewindshieldheat/windshieldheatstatus2" element={<WindshieldHeatStatus2 />} />
+        <Route path="/systemdiagnostics/thirtyicerainprotection/fortyonewindshieldheat/windshieldheatstatus3" element={<WindshieldHeatStatus3 />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/seventeentouchscreencontroller1/tsc1miscstatus" element={<Tsc1MiscStatus />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/seventeentouchscreencontroller1/tsc1tempstatus" element={<Tsc1TempStatus />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/thirtyoneflightdatarecorder/fdrstatus" element={<FdrStatus />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/fortyprogrammablecascontents/programmablecascontents" element={<ProgrammableCasContents />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/fortyonemaudisplaylogic1/duagmstatus" element={<DuAgmStatus />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/fortyonemaudisplaylogic1/duagmstatus1" element={<DuAgmStatus1 />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/fortyonemaudisplaylogic1/dua429status" element={<DuA429Status />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/fortyonemaudisplaylogic1/mwcswitchstatus" element={<MwcSwitchStatus />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/sixtythreecursorcontroldevices/ccdstatus" element={<CcdStatus />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/sixtythreecursorcontroldevices/ccdstatus1" element={<CcdStatus1 />} />
+        <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/sixtysevenxmweather/xmreceiverstatus" element={<XmReceiverStatus />} />
+
+        <Route path="/systemdiagnostics/thirtythreelights/elevendimmingandannunciation/dimmingandannunciation" element={<DimmingAndAnnunciation />} />
+        <Route path="/systemdiagnostics/thirtythreelights/fortytwonavigationanticollistionlights/navaclstatus" element={<NavAclStatus />} />
+        <Route path="/systemdiagnostics/thirtysixpneumaticstatus/twelvebleedaircontrolleft/leftbleedairstatus" element={<LeftBleedAirStatus />} />
+        <Route path="/systemdiagnostics/thirtysixpneumaticstatus/twelvebleedaircontrolleft/leftbleedairstatus1" element={<LeftBleedAirStatus1 />} />
+        <Route path="/systemdiagnostics/thirtysixpneumaticstatus/twelvebleedaircontrolleft/leftbleedairstatus2" element={<LeftBleedAirStatus2 />} />
+        <Route path="/systemdiagnostics/thirtysixpneumaticstatus/twelvebleedaircontrolleft/leftbleedairstatus3" element={<LeftBleedAirStatus3 />} />
+        <Route path="/systemdiagnostics/thirtysixpneumaticstatus/twelvebleedaircontrolleft/leftbleedairstatus4" element={<LeftBleedAirStatus4 />} />
+        <Route path="/systemdiagnostics/thirtysixpneumaticstatus/twelvebleedaircontrolleft/wingtempleft" element={<WingTempLeft />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/ascbmonitorstatus" element={<AscbMonitorStatus />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/ascbstatus" element={<AscbStatus />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/lanstatus" element={<LanStatus />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/lanstatus1" element={<LanStatus1 />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/monitorwwstatus" element={<MonitorWwStatus />} />
+        <Route path="/systemdiagnostics/fortyfivecentralmaintenancesystems/fortyfivecmcutilities/cmcutilities" element={<CmcUtilities />} />
+        <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus" element={<AhtmuStatus />} />
+        <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus1" element={<AhtmuStatus1 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorfaultsstatus" element={<MainDoorFaultsStatus />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorfaultsstatus1" element={<MainDoorFaultsStatus1 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorfaultsstatus2" element={<MainDoorFaultsStatus2 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorfaultsstatus3" element={<MainDoorFaultsStatus3 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorfaultsstatus4" element={<MainDoorFaultsStatus4 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorfaultsstatus5" element={<MainDoorFaultsStatus5 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorfaultsstatus6" element={<MainDoorFaultsStatus6 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorstatus" element={<MainDoorStatus />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorstatus1" element={<MainDoorStatus1 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorstatus2" element={<MainDoorStatus2 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorstatus3" element={<MainDoorStatus3 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorstatus4" element={<MainDoorStatus4 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/tenmainentrycontrol/maindoorstatus5" element={<MainDoorStatus5 />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/fortyservicedoors/servicedoors" element={<ServiceDoors />} />
+        <Route path="/systemdiagnostics/fiftytwodoors/fortyservicedoors/servicedoors1" element={<ServiceDoors1 />} />
+        <Route path="/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus" element={<Fqi1OilStatus />} />
+        <Route path="/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus1" element={<Fqi1OilStatus1 />} />
+        <Route path="/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus2" element={<Fqi1OilStatus2 />} />
+        <Route path="/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus3" element={<Fqi1OilStatus3 />} />
       </Routes>
     </Router>
   );
