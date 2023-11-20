@@ -9,16 +9,16 @@ const PresentLeg = () => {
     {
       text: '21 Air Conditioning',
       children: [
-        { text: '20 Air Distribution System' },
-        { text: '30 Pressurization Control' },
-        { text: '50 Cooling' },
+        { text: '20 AIR DISTRIBUTION SYSTEM' },
+        { text: '30 PRESSURIZATION CONTROL' },
+        { text: '50 COOLING' },
       ],
     },
     {
       text: '22 Autoflight',
       children: [
-        { text: '10 Autopilot' },
-        { text: '30 Auto Throttle' },
+        { text: '10 AUTOPILOT' },
+        { text: '30 AUTO THROTTLE' },
       ],
     },
     { text: '23 Communications' },
