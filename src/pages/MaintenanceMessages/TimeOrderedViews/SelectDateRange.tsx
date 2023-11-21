@@ -14,7 +14,7 @@ const SelectDateRange = () => {
             { text: '02 Sunday' },
             {
               text: '04 Tuesday',
-              children: [{ text: 'FLIGHT LEG 1' }],
+              children: [{ text: 'FLIGHT LEG 1 ' }],
             },
             {
               text: '09 Sunday',
