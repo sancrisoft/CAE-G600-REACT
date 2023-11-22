@@ -34,7 +34,7 @@ const TestTnicOneModuleResetTestTwo = () => {
     footer={
       <>
       <DataFooter left={''} right={['Select test menu to abort']} notLeft={true}/>
-      <DataFooter left={'422101'} right={['Select confirm to continue']} />
+      <DataFooter left={'422102'} right={['Select confirm to continue']} />
       </>
     }
     >
