@@ -54,7 +54,7 @@ const StatusTable: React.FC<StatusTableProps> = ({
           )}
           {hasDobleTitle && tableHeader && (
             <>
-              <tr className={styles.Header}>
+              <tr className={headerLanStatus ? styles.HeaderLanStatus : styles.Header}>
                 <th rowSpan={2}>{tableHeader[0].title}</th>
                 <th className={`${styles.HeaderTitle} ${styles.Title1}`}>{title1}</th>
                 {title2 ? <th className={`${styles.HeaderTitle} ${styles.Title2}`}>{title2}</th> : null}
