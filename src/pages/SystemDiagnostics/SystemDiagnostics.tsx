@@ -1627,7 +1627,12 @@ const SystemDiagnostics = () => {
         },
         {
           text: '11 NIC 2',
-          children: [{ text: '11 NIC 2' }],
+          children: [
+            {
+              text: 'TEST: NIC2 MODULE RESET TEST',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/elevennictwo/testnictwomoduleresettestone'
+            },
+          ],
         },
         {
           text: '11 NIC 3',
@@ -1642,7 +1647,7 @@ const SystemDiagnostics = () => {
           text: '11 Timing NIC 1',
           children: [
             {
-              text: 'TEST TNIC1 MODULE RESET TEST',
+              text: 'TEST: TNIC1 MODULE RESET TEST',
               href: '/systemdiagnostics/fortytwointegratedmodularavionics/eleventimingnicone/testtniconemoduleresettestone'
             },
           ],
