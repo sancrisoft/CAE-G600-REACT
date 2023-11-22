@@ -26,7 +26,7 @@ const TestTnicOneModuleResetTestPassed = () => {
       showNavBar 
       navBarButtons={navBarButtons}
     >
-      <DataHeader left={'TNIC1 MODULE RESET TEST'} success={true} right={''} />
+      <DataHeader left={'TNIC1 MODULE RESET TEST'} isSuccess={true} right={''} />
       <Text indentSize={'l'} text={''} />
       <div className={styles.Body}>
         <div className={styles.Section}>
