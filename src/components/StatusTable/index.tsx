@@ -9,6 +9,7 @@ interface StatusTableProps {
   title2?: string
   isHalfWidth?: boolean
   supHeader?: string
+  headerLanStatus?: boolean
 }
 
 interface IItems {
@@ -36,6 +37,7 @@ const StatusTable: React.FC<StatusTableProps> = ({
   title2 = 'RDC12',
   isHalfWidth = false,
   supHeader,
+  headerLanStatus
 }) => {
   const containerClassName = isHalfWidth ? `${styles.Container} ${styles.halfWidth}` : styles.Container
   function getStatusClass(status: any) {
@@ -69,7 +71,7 @@ const StatusTable: React.FC<StatusTableProps> = ({
               </tr>
             </>
           )}
-          <tr className={styles.Header}>
+          <tr className={headerLanStatus ? styles.HeaderLanStatus : styles.Header}>
             {hasHeader && !hasDobleTitle && tableHeader?.map((header, index) => <th key={index}>{header.title}</th>)}
           </tr>
         </thead>

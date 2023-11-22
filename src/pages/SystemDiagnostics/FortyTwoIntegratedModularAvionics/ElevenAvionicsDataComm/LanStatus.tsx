@@ -9,7 +9,7 @@ import StatusTable from "../../../../components/StatusTable";
 const LanStatus = () => {
   const navigate = useNavigate();
 
-  const tableHeader = [{ title: 'LDG MAINT SERVICE PNL' }, { title: 'CMC' }]
+  const tableHeader = [{ title: 'PARAMETER' }, { title: 'CMC' }]
   const data = [
     { parameter: 'NIC1', status1: true },
     { parameter: 'NIC2', status1: true },
@@ -52,7 +52,7 @@ const LanStatus = () => {
     >
       <DataHeader left={'Lan status'} right={'1/2'} />
       <Legend title="No Fault" title2="Fault" />
-      <StatusTable data={data} tableHeader={tableHeader} />
+      <StatusTable data={data} tableHeader={tableHeader} headerLanStatus={true}/>
     </DefaultLayout>
   )
 }
