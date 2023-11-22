@@ -4,10 +4,11 @@ import styles from './DataFooter.module.scss'
 export interface DataFooterProps {
   left: string
   right: string[]
-  screen?: boolean
+  screen?: boolean,
+  notLeft?: boolean
 }
 
-const DataFooter: FC<DataFooterProps> = ({ left, right, screen }) => {
+const DataFooter: FC<DataFooterProps> = ({ left, right, screen, notLeft }) => {
   const rightElements = (
     <span className={styles.Text}>
       {right[0]} <br /> {right[1]}
@@ -16,7 +17,10 @@ const DataFooter: FC<DataFooterProps> = ({ left, right, screen }) => {
   return (
     <div className={styles.Container}>
       <span className={styles.Text}>
-        {screen ? 'SCREEN' : ''} SCR # {left}
+        {
+          notLeft ? '' : (screen ? 'SCREEN SCR #' : 'SCR # ') + left
+        }
+        
       </span>
       {right.length > 1 ? rightElements : <span className={styles.Text}>{right[0]}</span>}
     </div>
