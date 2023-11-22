@@ -7,14 +7,44 @@ const SelectDateRange = () => {
     {
       text: '2023',
       children: [
-        { text: 'February' },
-        { text: 'March' },
+        { text: 'February',
+          children: [
+            {
+              text: '16 Thursday'
+            }
+          ]
+        },
+        { text: 'March',
+          children: [
+            {
+              text: '07 Tuesday'
+            },
+            {
+              text: '19 Sunday'
+            },
+            {
+              text: '20 Monday'
+            },
+            {
+              text: '21 Tuesday'
+            },
+            {
+              text: '26 Sunday'
+            },
+            {
+              text: '29 Wednesday'
+            },
+            {
+              text: '31 Friday'
+            },
+          ]
+        },
         { text: 'April',
           children: [
             { text: '02 Sunday' },
             {
               text: '04 Tuesday',
-              children: [{ text: 'FLIGHT LEG 1' }],
+              children: [{ text: 'FLIGHT LEG 1 ' }],
             },
             {
               text: '09 Sunday',
