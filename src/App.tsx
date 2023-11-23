@@ -336,6 +336,8 @@ import TestTnicOneModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoInt
 import TestTnicOneModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenTimingNicOne/TestTnicOneModuleResetTestPassed';
 import TestNicTwoModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenNicTwo/TestNicTwoModuleResetTestOne';
 import TestNicTwoModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenNicTwo/TestNicTwoModuleResetTestPassed';
+import TestTnicFourModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenTimingNicFour/TestTnicFourModuleResetTestPassed';
+import TestTnicFourModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenTimingNicFour/TestTnicFourModuleResetTestOne';
 
 function App() {
   return (
@@ -653,11 +655,13 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/lanstatus" element={<LanStatus />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/lanstatus1" element={<LanStatus1 />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/monitorwwstatus" element={<MonitorWwStatus />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevennictwo/testnictwomoduleresettestone" element={<TestNicTwoModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevennictwo/testnictwomoduleresetpassed" element={<TestNicTwoModuleResetTestPassed />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/eleventimingnicone/testtniconemoduleresettestone" element={<TestTnicOneModuleResetTestOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/eleventimingnicone/testtniconemoduleresettesttwo" element={<TestTnicOneModuleResetTestTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/eleventimingnicone/testtniconemoduleresettestpassed" element={<TestTnicOneModuleResetTestPassed />} />
-        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevennictwo/testnictwomoduleresettestone" element={<TestNicTwoModuleResetTestOne />} />
-        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevennictwo/testnictwomoduleresetpassed" element={<TestNicTwoModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/eleventimingnicfour/testtnicfourmoduleresettestone" element={<TestTnicFourModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/eleventimingnicfour/testtnicfourmoduleresettestpassed" element={<TestTnicFourModuleResetTestPassed />} />
         <Route path="/systemdiagnostics/fortyfivecentralmaintenancesystems/fortyfivecmcutilities/cmcutilities" element={<CmcUtilities />} />
         <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus" element={<AhtmuStatus />} />
         <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus1" element={<AhtmuStatus1 />} />

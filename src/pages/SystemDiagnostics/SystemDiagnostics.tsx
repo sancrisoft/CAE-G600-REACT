@@ -1657,7 +1657,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'TEST TNIC4 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/eleventimingnicfour/testtnicfourmoduleresettestone'
             },
           ],
         },
