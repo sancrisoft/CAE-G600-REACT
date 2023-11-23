@@ -338,6 +338,8 @@ import TestNicTwoModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoInte
 import TestNicTwoModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenNicTwo/TestNicTwoModuleResetTestPassed';
 import TestTnicFourModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenTimingNicFour/TestTnicFourModuleResetTestPassed';
 import TestTnicFourModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenTimingNicFour/TestTnicFourModuleResetTestOne';
+import TestNicThreeModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenNicThree/TestNicThreeModuleResetTestOne';
+import TestNicThreeModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenNicThree/TestNicThreeModuleResetTestPassed';
 
 function App() {
   return (
@@ -662,6 +664,8 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/eleventimingnicone/testtniconemoduleresettestpassed" element={<TestTnicOneModuleResetTestPassed />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/eleventimingnicfour/testtnicfourmoduleresettestone" element={<TestTnicFourModuleResetTestOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/eleventimingnicfour/testtnicfourmoduleresettestpassed" element={<TestTnicFourModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevennicthree/testnicthreemoduleresettestone" element={<TestNicThreeModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevennicthree/testnicthreemoduleresetpassed" element={<TestNicThreeModuleResetTestPassed />} />
         <Route path="/systemdiagnostics/fortyfivecentralmaintenancesystems/fortyfivecmcutilities/cmcutilities" element={<CmcUtilities />} />
         <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus" element={<AhtmuStatus />} />
         <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus1" element={<AhtmuStatus1 />} />

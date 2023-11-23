@@ -1639,7 +1639,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'TEST NIC3 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/elevennicthree/testnicthreemoduleresettestone',
             },
           ],
         },
