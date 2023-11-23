@@ -1707,16 +1707,16 @@ const SystemDiagnostics = () => {
           ],
         },
         {
-          text: '20 Processor Module 1',
+          text: '21 Processor Module 1',
           children: [
             {
               text: 'TEST PRC1 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduleone/testprconemoduleresettestone',
             },
           ],
         },
         {
-          text: '20 Processor Module 2',
+          text: '21 Processor Module 2',
           children: [
             {
               text: 'TEST PRC2 MODULE RESET TEST',
@@ -1725,7 +1725,7 @@ const SystemDiagnostics = () => {
           ],
         },
         {
-          text: '20 Processor Module 3',
+          text: '21 Processor Module 3',
           children: [
             {
               text: 'TEST PRC3 MODULE RESET TEST',
@@ -1734,7 +1734,7 @@ const SystemDiagnostics = () => {
           ],
         },
         {
-          text: '20 Processor Module 4',
+          text: '21 Processor Module 4',
           children: [
             {
               text: 'TEST PRC4 MODULE RESET TEST',
