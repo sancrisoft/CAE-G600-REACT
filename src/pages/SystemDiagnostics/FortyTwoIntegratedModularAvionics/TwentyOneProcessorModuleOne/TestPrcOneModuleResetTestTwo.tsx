@@ -39,7 +39,7 @@ const TestPrcOneModuleResetTestTwo = () => {
     }
     >
       <DataHeader left={'PRC1 MODULE RESET TEST'} right={'2/2'} />
-      <Text indentSize={'l'} text={''} />
+      <Text indentSize={'l'} text={''}/>
       <div className={styles.Body}>
         <div className={styles.Section}>
           <span className={styles.Title}>SELECTION OF THE "CONFIRM" BEZEL BUTTON</span>
