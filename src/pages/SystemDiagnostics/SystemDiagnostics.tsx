@@ -1665,8 +1665,8 @@ const SystemDiagnostics = () => {
           text: '20 Processor Module 5',
           children: [
             {
-              text: 'TEST PRC5 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              text: 'TEST: PRC5 MODULE RESET TEST',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormodulefive/testprcfivermoduleresettestone',
             },
           ],
         },
