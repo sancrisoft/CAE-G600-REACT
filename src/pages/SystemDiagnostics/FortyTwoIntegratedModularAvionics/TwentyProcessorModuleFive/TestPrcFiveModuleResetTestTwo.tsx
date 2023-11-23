@@ -21,7 +21,7 @@ const TestPrcFiveModuleResetTestTwo = () => {
     },
     {
       text: 'CONFIRM',
-      href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormodulefive/testprcfivermoduleresettestpassed',
+      href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormodulefive/testprcfivemoduleresettestpassed',
       disabled: false,
       position: 2,
     },

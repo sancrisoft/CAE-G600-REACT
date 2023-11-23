@@ -693,9 +693,9 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormodulefour/testprcfourmoduleresettestone" element={<TestPrcFourModuleResetTestOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormodulefour/testprcfourmoduleresettesttwo" element={<TestPrcFourModuleResetTestTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormodulefour/testprcfourmoduleresettestpassed" element={<TestPrcFourModuleResetTestPassed />} />
-        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormodulefive/testprcfivermoduleresettestone" element={<TestPrcFiveModuleResetTestOne />} />
-        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormodulefive/testprcfivermoduleresettesttwo" element={<TestPrcFiveModuleResetTestTwo />} />
-        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormodulefive/testprcfivermoduleresettestpassed" element={<TestPrcFiveModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormodulefive/testprcfivemoduleresettestone" element={<TestPrcFiveModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormodulefive/testprcfivemoduleresettesttwo" element={<TestPrcFiveModuleResetTestTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormodulefive/testprcfivemoduleresettestpassed" element={<TestPrcFiveModuleResetTestPassed />} />
         <Route path="/systemdiagnostics/fortyfivecentralmaintenancesystems/fortyfivecmcutilities/cmcutilities" element={<CmcUtilities />} />
         <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus" element={<AhtmuStatus />} />
         <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus1" element={<AhtmuStatus1 />} />
