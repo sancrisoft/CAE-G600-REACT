@@ -1720,7 +1720,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'TEST PRC2 MODULE RESET TEST',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduleone/testprctwomoduleresettestone',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduletwo/testprctwomoduleresettestone',
             },
           ],
         },
@@ -1729,7 +1729,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'TEST PRC3 MODULE RESET TEST',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduleone/testprcthreemoduleresettestone',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormodulethree/testprcthreemoduleresettestone',
             },
           ],
         },
@@ -1738,7 +1738,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'TEST PRC4 MODULE RESET TEST',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduleone/testprcfourmoduleresettestone',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormodulefour/testprcfourmoduleresettestone',
             },
           ],
         },

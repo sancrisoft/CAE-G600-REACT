@@ -8,7 +8,7 @@ import Text from "../../../../components/Text";
 import styles from './DataFooter.module.scss'
 
 
-const TestPrcTwoModuleResetTestOne = () => {
+const TestPrcThreeModuleResetTestTwo = () => {
   const navigate = useNavigate();
   const navBarButtons: NavBarButtonType[] = [
     {
@@ -16,12 +16,12 @@ const TestPrcTwoModuleResetTestOne = () => {
       disabled: false,
       position: 1,
       onClick: () => { 
-        navigate(-1)
+        navigate(-2)
       },
     },
     {
       text: 'CONFIRM',
-      href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduleone/testprctwomoduleresettesttwo',
+      href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormodulethree/testprcthreemoduleresettestpassed',
       disabled: false,
       position: 2,
     },
@@ -34,23 +34,23 @@ const TestPrcTwoModuleResetTestOne = () => {
     footer={
       <>
       <DataFooter left={''} right={['Select test menu to abort']} notLeft={true}/>
-      <DataFooter left={'422121'} right={['Select confirm to continue']} />
+      <DataFooter left={'422132'} right={['Select confirm to continue']} />
       </>
     }
     >
-      <DataHeader left={'PRC2 MODULE RESET TEST'} right={'1/2'} />
+      <DataHeader left={'PRC3 MODULE RESET TEST'} right={'2/2'} />
+      <Text indentSize={'l'} text={''}/>
+      <div className={styles.Body}>
+        <div className={styles.Section}>
+          <span className={styles.Title}>SELECTION OF THE "CONFIRM" BEZEL BUTTON</span>
+        </div>
+        <div className={styles.Section}>
+          <span className={styles.Title}>WILL INITIATE THE TEST</span>
+        </div>
+      </div>
       <Text indentSize={'l'} text={''} />
-      <Text indentSize={'l'} text={''} />
-
-      <Text text={'THIS TEST WILL INITIATE SOFTWARE RESET'} />
-      <Text text={'OF MAU 1 PROCESSOR MODULE 2'} />
-      <Text indentSize={'l'} text={''} />
-      <Text indentSize={'l'} text={''} />
-      <Text text={'RUNNING THIS TEST WILL CAUSE THE'} />
-      <Text text={'FOLLOWING CAS MESSAGES TO BE DISPLAYED:'} />
-      <Text indentSize={'s'} text={'     FMS 1 FAIL'} />
     </DefaultLayout>
   )
 }
 
-export default TestPrcTwoModuleResetTestOne
+export default TestPrcThreeModuleResetTestTwo

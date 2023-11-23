@@ -21,7 +21,7 @@ const TestPrcFourModuleResetTestOne = () => {
     },
     {
       text: 'CONFIRM',
-      href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduleone/testprcfourmoduleresettesttwo',
+      href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormodulefour/testprcfourmoduleresettesttwo',
       disabled: false,
       position: 2,
     },

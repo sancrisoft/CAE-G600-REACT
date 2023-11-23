@@ -8,7 +8,7 @@ import Text from "../../../../components/Text";
 import styles from './DataFooter.module.scss'
 
 
-const TestPrcTwoModuleResetTestTwo = () => {
+const TestPrcFourModuleResetTestTwo = () => {
   const navigate = useNavigate();
   const navBarButtons: NavBarButtonType[] = [
     {
@@ -21,7 +21,7 @@ const TestPrcTwoModuleResetTestTwo = () => {
     },
     {
       text: 'CONFIRM',
-      href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduleone/testprctwomoduleresettestpassed',
+      href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormodulefour/testprcfourmoduleresettestpassed',
       disabled: false,
       position: 2,
     },
@@ -34,11 +34,11 @@ const TestPrcTwoModuleResetTestTwo = () => {
     footer={
       <>
       <DataFooter left={''} right={['Select test menu to abort']} notLeft={true}/>
-      <DataFooter left={'422122'} right={['Select confirm to continue']} />
+      <DataFooter left={'422142'} right={['Select confirm to continue']} />
       </>
     }
     >
-      <DataHeader left={'PRC2 MODULE RESET TEST'} right={'2/2'} />
+      <DataHeader left={'PRC4 MODULE RESET TEST'} right={'2/2'} />
       <Text indentSize={'l'} text={''}/>
       <div className={styles.Body}>
         <div className={styles.Section}>
@@ -53,4 +53,4 @@ const TestPrcTwoModuleResetTestTwo = () => {
   )
 }
 
-export default TestPrcTwoModuleResetTestTwo
+export default TestPrcFourModuleResetTestTwo
