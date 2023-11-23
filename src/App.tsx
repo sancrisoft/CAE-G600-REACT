@@ -343,6 +343,9 @@ import TestNicThreeModuleResetTestPassed from './pages/SystemDiagnostics/FortyTw
 import TestPrcOneModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyOneProcessorModuleOne/TestPrcOneModuleResetTestOne';
 import TestPrcOneModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyOneProcessorModuleOne/TestPrcOneModuleResetTestTwo';
 import TestPrcOneModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyOneProcessorModuleOne/TestPrcOneModuleResetTestPassed';
+import TestPrcTwoModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyTwoProcessorModuleOne/TestPrcTwoModuleResetTestOne';
+import TestPrcTwoModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyTwoProcessorModuleOne/TestPrcTwoModuleResetTestTwo';
+import TestPrcTwoModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyTwoProcessorModuleOne/TestPrcTwoModuleResetTestPassed';
 
 function App() {
   return (
@@ -672,6 +675,9 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduleone/testprconemoduleresettestone" element={<TestPrcOneModuleResetTestOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduleone/testprconemoduleresettesttwo" element={<TestPrcOneModuleResetTestTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduleone/testprconemoduleresettestpassed" element={<TestPrcOneModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduleone/testprctwomoduleresettestone" element={<TestPrcTwoModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduleone/testprctwomoduleresettesttwo" element={<TestPrcTwoModuleResetTestTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduleone/testprctwomoduleresettestpassed" element={<TestPrcTwoModuleResetTestPassed />} />
         <Route path="/systemdiagnostics/fortyfivecentralmaintenancesystems/fortyfivecmcutilities/cmcutilities" element={<CmcUtilities />} />
         <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus" element={<AhtmuStatus />} />
         <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus1" element={<AhtmuStatus1 />} />
