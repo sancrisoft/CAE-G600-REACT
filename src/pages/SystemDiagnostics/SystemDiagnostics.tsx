@@ -1797,19 +1797,19 @@ const SystemDiagnostics = () => {
           ],
         },
         {
-          text: '31 Input Output Gateway 1 with Video',
+          text: '32 Input Output Gateway 1 with Video',
           children: [
             {
-              text: 'TEST IOG1 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              text: 'TEST: IOG1 MODULE RESET TEST',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayonewithvideo/iogonemoduleresettestone',
             },
           ],
         },
         {
-          text: '31 Input Output Gateway 4 with Video',
+          text: '32 Input Output Gateway 4 with Video',
           children: [
             {
-              text: 'TEST IOG4 MODULE RESET TEST',
+              text: 'TEST: IOG4 MODULE RESET TEST',
               hide: !maintenanceSwitch,
             },
           ],
