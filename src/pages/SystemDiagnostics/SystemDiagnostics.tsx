@@ -1810,7 +1810,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'TEST: IOG4 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayfourwithvideo/iogfourmoduleresettestone',
             },
           ],
         },

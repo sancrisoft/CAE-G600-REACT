@@ -367,6 +367,9 @@ import TestPrcNineModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwo
 import TestIOGOneModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyTwoIOGatewayOneWithVideo/TestIOGOneModuleResetTestTwo';
 import TestIOGOneModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyTwoIOGatewayOneWithVideo/TestIOGOneModuleResetTestOne';
 import TestIOGOneModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyTwoIOGatewayOneWithVideo/TestIOGOneModuleResetTestPassed';
+import TestIOGFourModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyTwoIOGatewayFourWithVideo/TestIOGFourModuleResetTestOne';
+import TestIOGFourModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyTwoIOGatewayFourWithVideo/TestIOGFourModuleResetTestTwo';
+import TestIOGFourModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyTwoIOGatewayFourWithVideo/TestIOGFourModuleResetTestPassed';
 
 function App() {
   return (
@@ -720,6 +723,9 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayonewithvideo/iogonemoduleresettestone" element={<TestIOGOneModuleResetTestOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayonewithvideo/iogonemoduleresettesttwo" element={<TestIOGOneModuleResetTestTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayonewithvideo/iogonemoduleresettestpassed" element={<TestIOGOneModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayfourwithvideo/iogfourmoduleresettestone" element={<TestIOGFourModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayfourwithvideo/iogfourmoduleresettesttwo" element={<TestIOGFourModuleResetTestTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayfourwithvideo/iogfourmoduleresettestpassed" element={<TestIOGFourModuleResetTestPassed />} />
         <Route path="/systemdiagnostics/fortyfivecentralmaintenancesystems/fortyfivecmcutilities/cmcutilities" element={<CmcUtilities />} />
         <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus" element={<AhtmuStatus />} />
         <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus1" element={<AhtmuStatus1 />} />
