@@ -1693,7 +1693,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'TEST PRC8 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormoduleeight/testprceightmoduleresettestone',
             },
           ],
         },
