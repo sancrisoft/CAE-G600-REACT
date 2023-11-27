@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import DataFooter from "../../../../components/DataFooter";
 import DataHeader from "../../../../components/DataHeader";
 import DefaultLayout from "../../../../components/Layout";
 import { NavBarButtonType } from "../../../../components/NavBar";
