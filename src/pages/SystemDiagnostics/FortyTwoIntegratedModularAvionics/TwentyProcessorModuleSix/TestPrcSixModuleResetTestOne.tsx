@@ -3,10 +3,7 @@ import DataFooter from "../../../../components/DataFooter";
 import DataHeader from "../../../../components/DataHeader";
 import DefaultLayout from "../../../../components/Layout";
 import { NavBarButtonType } from "../../../../components/NavBar";
-import Warning from "../../../../components/Warning";
 import Text from "../../../../components/Text";
-import styles from './DataFooter.module.scss'
-
 
 const TestPrcSixModuleResetTestOne = () => {
   const navigate = useNavigate();
