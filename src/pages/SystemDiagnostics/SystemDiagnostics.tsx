@@ -1782,8 +1782,8 @@ const SystemDiagnostics = () => {
           text: '31 Input Output Gateway 2',
           children: [
             {
-              text: 'TEST IOG2 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              text: 'TEST: IOG2 MODULE RESET TEST',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtyoneinputoutputgatewaytwo/iogtwomoduleresettestone',
             },
           ],
         },
