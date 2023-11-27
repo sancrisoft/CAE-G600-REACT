@@ -376,6 +376,9 @@ import TestPrcEightModuleResetTestPassed from './pages/SystemDiagnostics/FortyTw
 import TestIOGTwoModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyOneIOGatewayTwo/TestIOGTwoModuleResetTestOne';
 import TestIOGTwoModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyOneIOGatewayTwo/TestIOGTwoModuleResetTestTwo';
 import TestIOGTwoModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyOneIOGatewayTwo/TestIOGTwoModuleResetTestPassed';
+import TestIOGThreeModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyOneIOGatewayThree/TestIOGThreeModuleResetTestOne';
+import TestIOGThreeModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyOneIOGatewayThree/TestIOGThreeModuleResetTestTwo';
+import TestIOGThreeModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyOneIOGatewayThree/TestIOGThreeModuleResetTestPassed';
 
 function App() {
   return (
@@ -732,6 +735,9 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtyoneinputoutputgatewaytwo/iogtwomoduleresettestone" element={<TestIOGTwoModuleResetTestOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtyoneinputoutputgatewaytwo/iogtwomoduleresettesttwo" element={<TestIOGTwoModuleResetTestTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtyoneinputoutputgatewaytwo/iogtwomoduleresettestpassed" element={<TestIOGTwoModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtyoneinputoutputgatewaythree/iogthreemoduleresettestone" element={<TestIOGThreeModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtyoneinputoutputgatewaythree/iogthreemoduleresettesttwo" element={<TestIOGThreeModuleResetTestTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtyoneinputoutputgatewaythree/iogthreemoduleresettestpassed" element={<TestIOGThreeModuleResetTestPassed />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayonewithvideo/iogonemoduleresettestone" element={<TestIOGOneModuleResetTestOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayonewithvideo/iogonemoduleresettesttwo" element={<TestIOGOneModuleResetTestTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayonewithvideo/iogonemoduleresettestpassed" element={<TestIOGOneModuleResetTestPassed />} />
