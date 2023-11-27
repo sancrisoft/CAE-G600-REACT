@@ -1627,14 +1627,19 @@ const SystemDiagnostics = () => {
         },
         {
           text: '11 NIC 2',
-          children: [{ text: '11 NIC 2' }],
+          children: [
+            {
+              text: 'TEST: NIC2 MODULE RESET TEST',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/elevennictwo/testnictwomoduleresettestone'
+            },
+          ],
         },
         {
           text: '11 NIC 3',
           children: [
             {
               text: 'TEST NIC3 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/elevennicthree/testnicthreemoduleresettestone',
             },
           ],
         },
@@ -1642,8 +1647,8 @@ const SystemDiagnostics = () => {
           text: '11 Timing NIC 1',
           children: [
             {
-              text: 'TEST TNIC1 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              text: 'TEST: TNIC1 MODULE RESET TEST',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/eleventimingnicone/testtniconemoduleresettestone'
             },
           ],
         },
@@ -1652,7 +1657,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'TEST TNIC4 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/eleventimingnicfour/testtnicfourmoduleresettestone'
             },
           ],
         },
@@ -1660,8 +1665,8 @@ const SystemDiagnostics = () => {
           text: '20 Processor Module 5',
           children: [
             {
-              text: 'TEST PRC5 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              text: 'TEST: PRC5 MODULE RESET TEST',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormodulefive/testprcfivemoduleresettestone',
             },
           ],
         },
@@ -1669,8 +1674,8 @@ const SystemDiagnostics = () => {
           text: '20 Processor Module 6',
           children: [
             {
-              text: 'TEST PRC6 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              text: 'TEST: PRC6 MODULE RESET TEST',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormodulesix/testprcsixmoduleresettestone',
             },
           ],
         },
@@ -1678,8 +1683,8 @@ const SystemDiagnostics = () => {
           text: '20 Processor Module 7',
           children: [
             {
-              text: 'TEST PRC7 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              text: 'TEST: PRC7 MODULE RESET TEST',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormoduleseven/testprcsevenmoduleresettestone',
             },
           ],
         },
@@ -1688,7 +1693,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'TEST PRC8 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormoduleeight/testprceightmoduleresettestone',
             },
           ],
         },
@@ -1696,44 +1701,44 @@ const SystemDiagnostics = () => {
           text: '20 Processor Module 9',
           children: [
             {
-              text: 'TEST PRC9 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              text: 'TEST: PRC9 MODULE RESET TEST',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormodulenine/testprcninemoduleresettestone',
             },
           ],
         },
         {
-          text: '20 Processor Module 1',
+          text: '21 Processor Module 1',
           children: [
             {
               text: 'TEST PRC1 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduleone/testprconemoduleresettestone',
             },
           ],
         },
         {
-          text: '20 Processor Module 2',
+          text: '21 Processor Module 2',
           children: [
             {
               text: 'TEST PRC2 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduletwo/testprctwomoduleresettestone',
             },
           ],
         },
         {
-          text: '20 Processor Module 3',
+          text: '21 Processor Module 3',
           children: [
             {
               text: 'TEST PRC3 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormodulethree/testprcthreemoduleresettestone',
             },
           ],
         },
         {
-          text: '20 Processor Module 4',
+          text: '21 Processor Module 4',
           children: [
             {
               text: 'TEST PRC4 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormodulefour/testprcfourmoduleresettestone',
             },
           ],
         },
@@ -1777,8 +1782,8 @@ const SystemDiagnostics = () => {
           text: '31 Input Output Gateway 2',
           children: [
             {
-              text: 'TEST IOG2 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              text: 'TEST: IOG2 MODULE RESET TEST',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtyoneinputoutputgatewaytwo/iogtwomoduleresettestone',
             },
           ],
         },
@@ -1786,26 +1791,26 @@ const SystemDiagnostics = () => {
           text: '31 Input Output Gateway 3',
           children: [
             {
-              text: 'TEST IOG3 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              text: 'TEST: IOG3 MODULE RESET TEST',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtyoneinputoutputgatewaythree/iogthreemoduleresettestone',
             },
           ],
         },
         {
-          text: '31 Input Output Gateway 1 with Video',
+          text: '32 Input Output Gateway 1 with Video',
           children: [
             {
-              text: 'TEST IOG1 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              text: 'TEST: IOG1 MODULE RESET TEST',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayonewithvideo/iogonemoduleresettestone',
             },
           ],
         },
         {
-          text: '31 Input Output Gateway 4 with Video',
+          text: '32 Input Output Gateway 4 with Video',
           children: [
             {
-              text: 'TEST IOG4 MODULE RESET TEST',
-              hide: !maintenanceSwitch,
+              text: 'TEST: IOG4 MODULE RESET TEST',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayfourwithvideo/iogfourmoduleresettestone',
             },
           ],
         },
