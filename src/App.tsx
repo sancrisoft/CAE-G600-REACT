@@ -379,6 +379,11 @@ import TestIOGTwoModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoI
 import TestIOGThreeModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyOneIOGatewayThree/TestIOGThreeModuleResetTestOne';
 import TestIOGThreeModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyOneIOGatewayThree/TestIOGThreeModuleResetTestTwo';
 import TestIOGThreeModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyOneIOGatewayThree/TestIOGThreeModuleResetTestPassed';
+import DataDCNRDCTwelveLinksOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorTwelve/DataDCNRDCTwelveLinks/DataDCNRDCTwelveLinksOne';
+import DataDCNRDCTwelveLinksTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorTwelve/DataDCNRDCTwelveLinks/DataDCNRDCTwelveLinksTwo';
+import DataDCNRDCTwelveLinksThree from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorTwelve/DataDCNRDCTwelveLinks/DataDCNRDCTwelveLinksThree';
+import DataDCNRDCTwelveLinksFour from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorTwelve/DataDCNRDCTwelveLinks/DataDCNRDCTwelveLinksFour';
+import DataDCNRDCTwelveLinksFive from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorTwelve/DataDCNRDCTwelveLinks/DataDCNRDCTwelveLinksFive';
 
 function App() {
   return (
@@ -744,6 +749,11 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayfourwithvideo/iogfourmoduleresettestone" element={<TestIOGFourModuleResetTestOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayfourwithvideo/iogfourmoduleresettesttwo" element={<TestIOGFourModuleResetTestTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayfourwithvideo/iogfourmoduleresettestpassed" element={<TestIOGFourModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwelve/datadcnrdctwelvelinksone" element={<DataDCNRDCTwelveLinksOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwelve/datadcnrdctwelvelinkstwo" element={<DataDCNRDCTwelveLinksTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwelve/datadcnrdctwelvelinksthree" element={<DataDCNRDCTwelveLinksThree />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwelve/datadcnrdctwelvelinksfour" element={<DataDCNRDCTwelveLinksFour />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwelve/datadcnrdctwelvelinksfive" element={<DataDCNRDCTwelveLinksFive />} />
         <Route path="/systemdiagnostics/fortyfivecentralmaintenancesystems/fortyfivecmcutilities/cmcutilities" element={<CmcUtilities />} />
         <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus" element={<AhtmuStatus />} />
         <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus1" element={<AhtmuStatus1 />} />
