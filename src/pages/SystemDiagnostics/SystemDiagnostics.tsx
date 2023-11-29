@@ -1842,7 +1842,16 @@ const SystemDiagnostics = () => {
         },
         {
           text: '33 DCN Remote Data Concentrator 14',
-          children: [{ text: 'DATA: DCN RDC 14 LINKS' }, { text: 'DATA: DCN DRC 14 STATUS' }],
+          children: [
+            { 
+              text: 'DATA: DCN RDC 14 LINKS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfourteen/datadcnrdcfourteenlinksone'
+            }, 
+            { 
+              text: 'DATA: DCN DRC 14 STATUS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfourteen/datadcnrdcfourteenstatusone'
+            }
+          ],
         },
         {
           text: '33 DCN Remote Data Concentrator 15',
