@@ -41,7 +41,7 @@ const MonitorWwStatus = () => {
     >
       <DataHeader left={'monitor warning/wow status'} right={'1/1'} />
       <Legend title="on gnd" title2="in air" />
-      <StatusTable data={data} tableHeader={tableHeader} hasDobleTitle title1="MW1" title2="MW2" />
+      <StatusTable data={data} tableHeader={tableHeader} hasDobleTitle title1="MW1" title2="MW2" headerLanStatus={true} />
     </DefaultLayout>
   )
 }

@@ -50,6 +50,20 @@
   th:first-of-type {
     padding-left: var(--spacing-2);
     text-align: left;
+    width: 35%;
+  }
+}
+
+.HeaderLanStatus {
+  th {
+    border-right: 0.1vh solid var(--white);
+    color: var(--aqua);
+    height: var(--spacing-3);
+  }
+
+  th:first-of-type {
+    padding-left: var(--spacing-2);
+    text-align: left;
     width: 65%;
   }
 }

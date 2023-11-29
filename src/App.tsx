@@ -331,6 +331,70 @@ import Fqi1OilStatus from './pages/SystemDiagnostics/SeventyNineOil/ThirtyOneFqi
 import Fqi1OilStatus1 from './pages/SystemDiagnostics/SeventyNineOil/ThirtyOneFqiChannel1/Fqi1OilStatus1';
 import Fqi1OilStatus2 from './pages/SystemDiagnostics/SeventyNineOil/ThirtyOneFqiChannel1/Fqi1OilStatus2';
 import Fqi1OilStatus3 from './pages/SystemDiagnostics/SeventyNineOil/ThirtyOneFqiChannel1/Fqi1OilStatus3';
+import TestTnicOneModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenTimingNicOne/TestTnicOneModuleResetTestOne';
+import TestTnicOneModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenTimingNicOne/TestTnicOneModuleResetTestTwo';
+import TestTnicOneModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenTimingNicOne/TestTnicOneModuleResetTestPassed';
+import TestNicTwoModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenNicTwo/TestNicTwoModuleResetTestOne';
+import TestNicTwoModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenNicTwo/TestNicTwoModuleResetTestPassed';
+import TestTnicFourModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenTimingNicFour/TestTnicFourModuleResetTestPassed';
+import TestTnicFourModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenTimingNicFour/TestTnicFourModuleResetTestOne';
+import TestNicThreeModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenNicThree/TestNicThreeModuleResetTestOne';
+import TestNicThreeModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ElevenNicThree/TestNicThreeModuleResetTestPassed';
+import TestPrcOneModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyOneProcessorModuleOne/TestPrcOneModuleResetTestOne';
+import TestPrcOneModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyOneProcessorModuleOne/TestPrcOneModuleResetTestTwo';
+import TestPrcOneModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyOneProcessorModuleOne/TestPrcOneModuleResetTestPassed';
+import TestPrcTwoModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyOneProcessorModuleTwo/TestPrcTwoModuleResetTestOne';
+import TestPrcTwoModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyOneProcessorModuleTwo/TestPrcTwoModuleResetTestTwo';
+import TestPrcTwoModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyOneProcessorModuleTwo/TestPrcTwoModuleResetTestPassed';
+import TestPrcThreeModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyOneProcessorModuleThree/TestPrcThreeModuleResetTestOne';
+import TestPrcThreeModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyOneProcessorModuleThree/TestPrcThreeModuleResetTestTwo';
+import TestPrcThreeModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyOneProcessorModuleThree/TestPrcThreeModuleResetTestPassed';
+import TestPrcFourModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyOneProcessorModuleFour/TestPrcFourModuleResetTestOne';
+import TestPrcFourModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyOneProcessorModuleFour/TestPrcFourModuleResetTestTwo';
+import TestPrcFourModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyOneProcessorModuleFour/TestPrcFourModuleResetTestPassed';
+import TestPrcFiveModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyProcessorModuleFive/TestPrcFiveModuleResetTestOne';
+import TestPrcFiveModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyProcessorModuleFive/TestPrcFiveModuleResetTestTwo';
+import TestPrcFiveModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyProcessorModuleFive/TestPrcFiveModuleResetTestPassed';
+import TestPrcSixModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyProcessorModuleSix/TestPrcSixModuleResetTestOne';
+import TestPrcSixModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyProcessorModuleSix/TestPrcSixModuleResetTestTwo';
+import TestPrcSixModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyProcessorModuleSix/TestPrcSixModuleResetTestPassed';
+import TestPrcSevenModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyProcessorModuleSeven/TestPrcSevenModuleResetTestOne';
+import TestPrcSevenModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyProcessorModuleSeven/TestPrcSevenModuleResetTestTwo';
+import TestPrcSevenModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyProcessorModuleSeven/TestPrcSevenModuleResetTestPassed';
+import TestPrcNineModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyProcessorModuleNine/TestPrcNineModuleResetTestOne';
+import TestPrcNineModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyProcessorModuleNine/TestPrcNineModuleResetTestTwo';
+import TestPrcNineModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyProcessorModuleNine/TestPrcNineModuleResetTestPassed';
+import TestIOGOneModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyTwoIOGatewayOneWithVideo/TestIOGOneModuleResetTestTwo';
+import TestIOGOneModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyTwoIOGatewayOneWithVideo/TestIOGOneModuleResetTestOne';
+import TestIOGOneModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyTwoIOGatewayOneWithVideo/TestIOGOneModuleResetTestPassed';
+import TestIOGFourModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyTwoIOGatewayFourWithVideo/TestIOGFourModuleResetTestOne';
+import TestIOGFourModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyTwoIOGatewayFourWithVideo/TestIOGFourModuleResetTestTwo';
+import TestIOGFourModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyTwoIOGatewayFourWithVideo/TestIOGFourModuleResetTestPassed';
+import TestPrcEightModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyProcessorModuleEight/TestPrcEightModuleResetTestOne';
+import TestPrcEightModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyProcessorModuleEight/TestPrcEightModuleResetTestTwo';
+import TestPrcEightModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/TwentyProcessorModuleEight/TestPrcEightModuleResetTestPassed';
+import TestIOGTwoModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyOneIOGatewayTwo/TestIOGTwoModuleResetTestOne';
+import TestIOGTwoModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyOneIOGatewayTwo/TestIOGTwoModuleResetTestTwo';
+import TestIOGTwoModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyOneIOGatewayTwo/TestIOGTwoModuleResetTestPassed';
+import TestIOGThreeModuleResetTestOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyOneIOGatewayThree/TestIOGThreeModuleResetTestOne';
+import TestIOGThreeModuleResetTestTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyOneIOGatewayThree/TestIOGThreeModuleResetTestTwo';
+import TestIOGThreeModuleResetTestPassed from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyOneIOGatewayThree/TestIOGThreeModuleResetTestPassed';
+import DataDCNRDCTwelveLinksOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorTwelve/DataDCNRDCTwelveLinks/DataDCNRDCTwelveLinksOne';
+import DataDCNRDCTwelveLinksTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorTwelve/DataDCNRDCTwelveLinks/DataDCNRDCTwelveLinksTwo';
+import DataDCNRDCTwelveLinksThree from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorTwelve/DataDCNRDCTwelveLinks/DataDCNRDCTwelveLinksThree';
+import DataDCNRDCTwelveLinksFour from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorTwelve/DataDCNRDCTwelveLinks/DataDCNRDCTwelveLinksFour';
+import DataDCNRDCTwelveLinksFive from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorTwelve/DataDCNRDCTwelveLinks/DataDCNRDCTwelveLinksFive';
+import DataDCNRDCTwelveStatusOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorTwelve/DataDCNRDCTwelveStatus/DataDCNRDCTwelveStatusOne';
+import DataDCNRDCTwelveStatusTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorTwelve/DataDCNRDCTwelveStatus/DataDCNRDCTwelveStatusTwo';
+import DataDCNRDCThirteenLinksOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorThirteen/DataDCNRDCThirteenLinks/DataDCNRDCThirteenLinksOne';
+import DataDCNRDCThirteenLinksTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorThirteen/DataDCNRDCThirteenLinks/DataDCNRDCThirteenLinksTwo';
+import DataDCNRDCThirteenLinksThree from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorThirteen/DataDCNRDCThirteenLinks/DataDCNRDCThirteenLinksThree';
+import DataDCNRDCThirteenLinksFour from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorThirteen/DataDCNRDCThirteenLinks/DataDCNRDCThirteenLinksFour';
+import DataDCNRDCThirteenLinksFive from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorThirteen/DataDCNRDCThirteenLinks/DataDCNRDCThirteenLinksFive';
+import DataDCNRDCThirteenLinksSix from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorThirteen/DataDCNRDCThirteenLinks/DataDCNRDCThirteenLinksSix';
+import DataDCNRDCThirteenLinksSeven from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorThirteen/DataDCNRDCThirteenLinks/DataDCNRDCThirteenLinksSeven';
+import DataDCNRDCThirteenStatusOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorThirteen/DataDCNRDCThirteenStatus/DataDCNRDCThirteenStatusOne';
+import DataDCNRDCThirteenStatusTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorThirteen/DataDCNRDCThirteenStatus/DataDCNRDCThirteenStatusTwo';
 
 function App() {
   return (
@@ -648,6 +712,70 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/lanstatus" element={<LanStatus />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/lanstatus1" element={<LanStatus1 />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevenavionicsdatacomm/monitorwwstatus" element={<MonitorWwStatus />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevennictwo/testnictwomoduleresettestone" element={<TestNicTwoModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevennictwo/testnictwomoduleresetpassed" element={<TestNicTwoModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/eleventimingnicone/testtniconemoduleresettestone" element={<TestTnicOneModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/eleventimingnicone/testtniconemoduleresettesttwo" element={<TestTnicOneModuleResetTestTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/eleventimingnicone/testtniconemoduleresettestpassed" element={<TestTnicOneModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/eleventimingnicfour/testtnicfourmoduleresettestone" element={<TestTnicFourModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/eleventimingnicfour/testtnicfourmoduleresettestpassed" element={<TestTnicFourModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevennicthree/testnicthreemoduleresettestone" element={<TestNicThreeModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/elevennicthree/testnicthreemoduleresetpassed" element={<TestNicThreeModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduleone/testprconemoduleresettestone" element={<TestPrcOneModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduleone/testprconemoduleresettesttwo" element={<TestPrcOneModuleResetTestTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduleone/testprconemoduleresettestpassed" element={<TestPrcOneModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduletwo/testprctwomoduleresettestone" element={<TestPrcTwoModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduletwo/testprctwomoduleresettesttwo" element={<TestPrcTwoModuleResetTestTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormoduletwo/testprctwomoduleresettestpassed" element={<TestPrcTwoModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormodulethree/testprcthreemoduleresettestone" element={<TestPrcThreeModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormodulethree/testprcthreemoduleresettesttwo" element={<TestPrcThreeModuleResetTestTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormodulethree/testprcthreemoduleresettestpassed" element={<TestPrcThreeModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormodulefour/testprcfourmoduleresettestone" element={<TestPrcFourModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormodulefour/testprcfourmoduleresettesttwo" element={<TestPrcFourModuleResetTestTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyoneprocessormodulefour/testprcfourmoduleresettestpassed" element={<TestPrcFourModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormodulefive/testprcfivemoduleresettestone" element={<TestPrcFiveModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormodulefive/testprcfivemoduleresettesttwo" element={<TestPrcFiveModuleResetTestTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormodulefive/testprcfivemoduleresettestpassed" element={<TestPrcFiveModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormodulesix/testprcsixmoduleresettestone" element={<TestPrcSixModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormodulesix/testprcsixmoduleresettesttwo" element={<TestPrcSixModuleResetTestTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormodulesix/testprcsixmoduleresettestpassed" element={<TestPrcSixModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormoduleseven/testprcsevenmoduleresettestone" element={<TestPrcSevenModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormoduleseven/testprcsevenmoduleresettesttwo" element={<TestPrcSevenModuleResetTestTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormoduleseven/testprcsevenmoduleresettestpassed" element={<TestPrcSevenModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormoduleeight/testprceightmoduleresettestone" element={<TestPrcEightModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormoduleeight/testprceightmoduleresettesttwo" element={<TestPrcEightModuleResetTestTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormoduleeight/testprceightmoduleresettestpassed" element={<TestPrcEightModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormodulenine/testprcninemoduleresettestone" element={<TestPrcNineModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormodulenine/testprcninemoduleresettesttwo" element={<TestPrcNineModuleResetTestTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/twentyprocessormodulenine/testprcninemoduleresettestpassed" element={<TestPrcNineModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtyoneinputoutputgatewaytwo/iogtwomoduleresettestone" element={<TestIOGTwoModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtyoneinputoutputgatewaytwo/iogtwomoduleresettesttwo" element={<TestIOGTwoModuleResetTestTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtyoneinputoutputgatewaytwo/iogtwomoduleresettestpassed" element={<TestIOGTwoModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtyoneinputoutputgatewaythree/iogthreemoduleresettestone" element={<TestIOGThreeModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtyoneinputoutputgatewaythree/iogthreemoduleresettesttwo" element={<TestIOGThreeModuleResetTestTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtyoneinputoutputgatewaythree/iogthreemoduleresettestpassed" element={<TestIOGThreeModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayonewithvideo/iogonemoduleresettestone" element={<TestIOGOneModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayonewithvideo/iogonemoduleresettesttwo" element={<TestIOGOneModuleResetTestTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayonewithvideo/iogonemoduleresettestpassed" element={<TestIOGOneModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayfourwithvideo/iogfourmoduleresettestone" element={<TestIOGFourModuleResetTestOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayfourwithvideo/iogfourmoduleresettesttwo" element={<TestIOGFourModuleResetTestTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtytwoinputoutputgatewayfourwithvideo/iogfourmoduleresettestpassed" element={<TestIOGFourModuleResetTestPassed />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwelve/datadcnrdctwelvelinksone" element={<DataDCNRDCTwelveLinksOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwelve/datadcnrdctwelvelinkstwo" element={<DataDCNRDCTwelveLinksTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwelve/datadcnrdctwelvelinksthree" element={<DataDCNRDCTwelveLinksThree />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwelve/datadcnrdctwelvelinksfour" element={<DataDCNRDCTwelveLinksFour />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwelve/datadcnrdctwelvelinksfive" element={<DataDCNRDCTwelveLinksFive />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwelve/datadcnrdctwelvestatusone" element={<DataDCNRDCTwelveStatusOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwelve/datadcnrdctwelvestatustwo" element={<DataDCNRDCTwelveStatusTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorthirteen/datadcnrdcthirteenlinksone" element={<DataDCNRDCThirteenLinksOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorthirteen/datadcnrdcthirteenlinkstwo" element={<DataDCNRDCThirteenLinksTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorthirteen/datadcnrdcthirteenlinksthree" element={<DataDCNRDCThirteenLinksThree />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorthirteen/datadcnrdcthirteenlinksfour" element={<DataDCNRDCThirteenLinksFour />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorthirteen/datadcnrdcthirteenlinksfive" element={<DataDCNRDCThirteenLinksFive />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorthirteen/datadcnrdcthirteenlinkssix" element={<DataDCNRDCThirteenLinksSix />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorthirteen/datadcnrdcthirteenlinksseven" element={<DataDCNRDCThirteenLinksSeven />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorthirteen/datadcnrdcthirteenstatusone" element={<DataDCNRDCThirteenStatusOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorthirteen/datadcnrdcthirteenstatustwo" element={<DataDCNRDCThirteenStatusTwo />} />
         <Route path="/systemdiagnostics/fortyfivecentralmaintenancesystems/fortyfivecmcutilities/cmcutilities" element={<CmcUtilities />} />
         <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus" element={<AhtmuStatus />} />
         <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus1" element={<AhtmuStatus1 />} />
