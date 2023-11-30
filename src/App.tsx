@@ -414,6 +414,13 @@ import DataDCNRDCSixteenLinksFour from './pages/SystemDiagnostics/FortyTwoIntegr
 import DataDCNRDCSixteenLinksFive from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorSixteen/DataDCNRDCSixteenLinks/DataDCNRDCSixteenLinksFive';
 import DataDCNRDCSixteenStatusOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorSixteen/DataDCNRDCSixteenStatus/DataDCNRDCSixteenStatusOne';
 import DataDCNRDCSixteenStatusTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorSixteen/DataDCNRDCSixteenStatus/DataDCNRDCSixteenStatusTwo';
+import DataDCNRDCSeventeenLinksOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorSeventeen/DataDCNRDCSeventeenLinks/DataDCNRDCSeventeenLinksOne';
+import DataDCNRDCSeventeenLinksTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorSeventeen/DataDCNRDCSeventeenLinks/DataDCNRDCSeventeenLinksTwo';
+import DataDCNRDCSeventeenLinksThree from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorSeventeen/DataDCNRDCSeventeenLinks/DataDCNRDCSeventeenLinksThree';
+import DataDCNRDCSeventeenLinksFour from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorSeventeen/DataDCNRDCSeventeenLinks/DataDCNRDCSeventeenLinksFour';
+import DataDCNRDCSeventeenLinksFive from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorSeventeen/DataDCNRDCSeventeenLinks/DataDCNRDCSeventeenLinksFive';
+import DataDCNRDCSeventeenStatusOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorSeventeen/DataDCNRDCSeventeenStatus/DataDCNRDCSeventeenStatusOne';
+import DataDCNRDCSeventeenStatusTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorSeventeen/DataDCNRDCSeventeenStatus/DataDCNRDCSeventeenStatusTwo';
 
 function App() {
   return (
@@ -815,7 +822,15 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenlinksfour" element={<DataDCNRDCSixteenLinksFour />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenlinksfive" element={<DataDCNRDCSixteenLinksFive />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenstatusone" element={<DataDCNRDCSixteenStatusOne />} />
-        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenstatustwo" element={<DataDCNRDCSixteenStatusTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenstatustwo" element={<DataDCNRDCSixteenStatusTwo />} />ç
+
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinksone" element={<DataDCNRDCSeventeenLinksOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinkstwo" element={<DataDCNRDCSeventeenLinksTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinksthree" element={<DataDCNRDCSeventeenLinksThree />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinksfour" element={<DataDCNRDCSeventeenLinksFour />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinksfive" element={<DataDCNRDCSeventeenLinksFive />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenstatusone" element={<DataDCNRDCSeventeenStatusOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenstatustwo" element={<DataDCNRDCSeventeenStatusTwo />} />
         
         <Route path="/systemdiagnostics/fortyfivecentralmaintenancesystems/fortyfivecmcutilities/cmcutilities" element={<CmcUtilities />} />
         <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus" element={<AhtmuStatus />} />
