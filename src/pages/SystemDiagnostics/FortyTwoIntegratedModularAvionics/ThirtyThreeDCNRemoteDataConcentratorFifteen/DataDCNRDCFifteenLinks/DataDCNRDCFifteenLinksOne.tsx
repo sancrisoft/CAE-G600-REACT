@@ -11,20 +11,20 @@ const DataDCNRDCFifteenLinksOne = () => {
 
   const tableHeader = [{ title: 'PARAMETER' }, { title: 'IOGM1' }, { title: 'IOGM4' }]
   const data = [
-    { parameter: 'ADS 3 A429 RX PINS', status1: true, status2: true },
-    { parameter: 'ADS 3 A429 TX PINS', status1: true, status2: true },
-    { parameter: 'AUX TRU HOT A PINS', status1: true, status2: true },
-    { parameter: 'BCU OTBD A429 RX PINS', status1: true, status2: true },
-    { parameter: 'BCU OTBD A429 TX PINS', status1: true, status2: true },
-    { parameter: 'EMED CH1 AUXPMP CMD PINS', status1: true, status2: true },
-    { parameter: 'EMED CH1 FAULT BIT0 PINS', status1: true, status2: true },
-    { parameter: 'EMED CH1 SFTY SW ON PINS', status1: true, status2: true },
-    { parameter: 'FCC 1 A429 RX PINS', status1: true, status2: true },
-    { parameter: 'FCC 1 A429 TX PINS', status1: true, status2: true },
-    { parameter: 'FECU CMD A429 RX PINS', status1: true, status2: true },
-    { parameter: 'FECU MON A429 RX PINS', status1: true, status2: true },
-    { parameter: 'FLAP HDL/POS DIS PINS', status1: true, status2: true },
-    { parameter: 'FOSC DATA 2 A825 PINS', status1: true, status2: true },
+    { parameter: 'ADS 3 A429 RX PINS', status1: true, status2: true, noData: true, },
+    { parameter: 'ADS 3 A429 TX PINS', status1: true, status2: true, noData: true, },
+    { parameter: 'AUX TRU HOT A PINS', status1: true, status2: true, noData: true, },
+    { parameter: 'BCU OTBD A429 RX PINS', status1: true, status2: true, noData: true, },
+    { parameter: 'BCU OTBD A429 TX PINS', status1: true, status2: true, noData: true, },
+    { parameter: 'EMED CH1 AUXPMP CMD PINS', status1: true, status2: true, noData: true, },
+    { parameter: 'EMED CH1 FAULT BIT0 PINS', status1: true, status2: true, noData: true, },
+    { parameter: 'EMED CH1 SFTY SW ON PINS', status1: true, status2: true, noData: true, },
+    { parameter: 'FCC 1 A429 RX PINS', status1: true, status2: true, noData: true, },
+    { parameter: 'FCC 1 A429 TX PINS', status1: true, status2: true, noData: true, },
+    { parameter: 'FECU CMD A429 RX PINS', status1: true, status2: true, noData: true, },
+    { parameter: 'FECU MON A429 RX PINS', status1: true, status2: true, noData: true, },
+    { parameter: 'FLAP HDL/POS DIS PINS', status1: true, status2: true, noData: true, },
+    { parameter: 'FOSC DATA 2 A825 PINS', status1: true, status2: true, noData: true, },
   ]
 
   const navBarButtons: NavBarButtonType[] = [
