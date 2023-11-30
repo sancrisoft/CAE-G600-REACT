@@ -6,7 +6,7 @@ import Legend from "../../../../../components/Legend";
 import { NavBarButtonType } from "../../../../../components/NavBar";
 import StatusTable from "../../../../../components/StatusTable";
 
-const DataDCNRDCFourteenLinksFive = () => {
+const DataDCNRDCFourteenLinksFour = () => {
   const navigate = useNavigate();
 
   const tableHeader = [{ title: 'PARAMETER' }, { title: 'IOGM1' }, { title: 'IOGM4' }]
@@ -22,7 +22,7 @@ const DataDCNRDCFourteenLinksFive = () => {
       disabled: false,
       position: 1,
       onClick: () => { 
-        navigate(-1)
+        navigate('/systemdiagnostics')
       },
     },
     {
@@ -54,4 +54,4 @@ const DataDCNRDCFourteenLinksFive = () => {
   )
 }
 
-export default DataDCNRDCFourteenLinksFive
+export default DataDCNRDCFourteenLinksFour

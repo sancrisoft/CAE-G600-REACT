@@ -25,7 +25,6 @@ const DataDCNRDCFourteenLinksOne = () => {
     { parameter: 'FCS UPS BATT FAULT PINS', status1: true, status2: true },
     { parameter: 'FCS UPS PWR OFF PINS', status1: true, status2: true },
     { parameter: 'FD2 BUTTON ARM PINS', status1: true, status2: true },
-    { parameter: 'BCU INBD A429 TX PINS', status1: true, status2: true },
   ]
 
   const navBarButtons: NavBarButtonType[] = [
