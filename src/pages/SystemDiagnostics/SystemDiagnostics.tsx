@@ -1887,7 +1887,8 @@ const SystemDiagnostics = () => {
               href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinksone' 
             }, 
             { 
-              text: 'DATA: DCN DRC 17 STATUS' 
+              text: 'DATA: DCN DRC 17 STATUS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenstatusone'
             }
           ],
         },
