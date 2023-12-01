@@ -1910,7 +1910,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: DCN RDC 19 LINKS', 
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinksone' 
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratornineteen/datadcnrdcnineteenlinksone' 
             }, 
             { 
               text: 'DATA: DCN DRC 19 STATUS', 
