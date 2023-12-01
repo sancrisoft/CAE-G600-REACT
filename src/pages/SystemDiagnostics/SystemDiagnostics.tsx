@@ -1894,15 +1894,42 @@ const SystemDiagnostics = () => {
         },
         {
           text: '33 DCN Remote Data Concentrator 18',
-          children: [{ text: 'DATA: DCN RDC 18 LINKS' }, { text: 'DATA: DCN DRC 18 STATUS' }],
+          children: [
+            { 
+              text: 'DATA: DCN RDC 18 LINKS', 
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratoreighteen/datadcnrdceighteenlinksone' 
+            }, 
+            { 
+              text: 'DATA: DCN DRC 18 STATUS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratoreighteen/datadcnrdceighteenstatusone' 
+            }
+          ],
         },
         {
           text: '33 DCN Remote Data Concentrator 19',
-          children: [{ text: 'DATA: DCN RDC 19 LINKS' }, { text: 'DATA: DCN DRC 19 STATUS' }],
+          children: [
+            {
+              text: 'DATA: DCN RDC 19 LINKS', 
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinksone' 
+            }, 
+            { 
+              text: 'DATA: DCN DRC 19 STATUS', 
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinksone' 
+            }
+          ],
         },
         {
           text: '33 DCN Remote Data Concentrator 20',
-          children: [{ text: 'DATA: DCN RDC 20 LINKS' }, { text: 'DATA: DCN DRC 20 STATUS' }],
+          children: [
+            {
+              text: 'DATA: DCN RDC 20 LINKS', 
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinksone' 
+            }, 
+            {
+              text: 'DATA: DCN DRC 20 STATUS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinksone' 
+            }
+          ],
         },
         {
           text: '33 DCN Remote Data Concentrator 22',
