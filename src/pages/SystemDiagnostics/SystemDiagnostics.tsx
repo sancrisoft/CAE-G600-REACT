@@ -1955,7 +1955,12 @@ const SystemDiagnostics = () => {
         },
         {
           text: '33 DCN Remote Interface Unit 52',
-          children: [{ text: 'DATA: DCN RIU 52 STATUS' }],
+          children: [
+            {
+              text: 'DATA: DCN RIU 52 STATUS', 
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftytwo/datadcnriufiftytwostatusone' 
+            }
+          ],
         },
         {
           text: '33 DCN Remote Interface Unit 53',
