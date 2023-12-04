@@ -1940,7 +1940,7 @@ const SystemDiagnostics = () => {
             }, 
             { 
               text: 'DATA: DCN DRC 22 STATUS',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwenty/datadcnrdctwentylinksone' 
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwentytwo/datadcnrdctwentytwostatusone' 
             }
           ],
         },
