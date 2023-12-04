@@ -21,7 +21,9 @@ interface IItems {
   color?: string
   colspan?: number
   rowTitlePadding?: boolean
-  noData?: boolean
+  noData?: boolean,
+  noDataStatus1?: boolean
+  noDataStatus2?: boolean
 }
 
 interface IHeader {
@@ -114,16 +116,16 @@ const StatusTable: React.FC<StatusTableProps> = ({
                 <tr key={index} className={rowClass}>
                   <td className={styles.Parameter}>{item.parameter}</td>
                   <td colSpan={colspan}>
-                    {typeof item.status1 === 'boolean' ? (
-                      <div className={`${fan1Status} ${item.noData ? styles.NoData : ''} ${styles.Square} `}></div>
-                    ) : (
-                      <p className={`${styles.AlignCenter} ${colorStatus}`}>{item.status1}</p>
-                    )}
+                  {typeof item.status1 === 'boolean' ? (
+                    <div className={`${fan1Status} ${(item.noData || item.noDataStatus1) ? styles.NoData : ''} ${styles.Square}`}></div>
+                  ) : (
+                    <p className={`${styles.AlignCenter} ${colorStatus}`}>{item.status1}</p>
+                  )}
                   </td>
 
                   {hasStatus2 ? null : typeof item.status2 === 'boolean' ? (
                     <td>
-                      <div className={`${fan2Status} ${item.noData ? styles.NoData : ''} ${styles.Square}`}></div>
+                      <div className={`${fan2Status} ${(item.noData || item.noDataStatus2) ? styles.NoData : ''} ${styles.Square}`}></div>
                     </td>
                   ) : (
                     <td>
