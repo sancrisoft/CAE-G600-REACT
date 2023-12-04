@@ -461,6 +461,8 @@ import DataDCNRIUFiftyTwoStatusOne from './pages/SystemDiagnostics/FortyTwoInteg
 import DataDCNRIUFiftyTwoStatusTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteInterfaceUnitFiftyTwo/DataDCNRIUFiftyTwoStatusTwo';
 import DataDCNRIUFiftyThreeStatusOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteInterfaceUnitFiftyThree/DataDCNRIUFiftyThreeStatusOne';
 import DataDCNRIUFiftyThreeStatusTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteInterfaceUnitFiftyThree/DataDCNRIUFiftyThreeStatusTwo';
+import DataDCNRIUFiftyFourStatusOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteInterfaceUnitFiftyFour/DataDCNRIUFiftyFourStatusOne';
+import DataDCNRIUFiftyFourStatusTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteInterfaceUnitFiftyFour/DataDCNRIUFiftyFourStatusTwo';
 
 function App() {
   return (
@@ -918,6 +920,9 @@ function App() {
 
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftythree/datadcnriufiftythreestatusone" element={<DataDCNRIUFiftyThreeStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftythree/datadcnriufiftythreestatustwo" element={<DataDCNRIUFiftyThreeStatusTwo />} />
+
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftyfour/datadcnriufiftyfourstatusone" element={<DataDCNRIUFiftyFourStatusOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftyfour/datadcnriufiftyfourstatustwo" element={<DataDCNRIUFiftyFourStatusTwo />} />
         
         <Route path="/systemdiagnostics/fortyfivecentralmaintenancesystems/fortyfivecmcutilities/cmcutilities" element={<CmcUtilities />} />
         <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus" element={<AhtmuStatus />} />
