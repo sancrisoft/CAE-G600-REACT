@@ -19,8 +19,30 @@ const DataDCNSwitchOneStatusTwo = () => {
   ]
 
   const data2 = [
-    { parameter: 'DATALOAD INHBIT', status1: false, status2: false },
+    { parameter: 'DATALOAD INHIBIT', status1: false, status2: false },
   ]
+
+  const mainHeaders = [
+    { title: 'INTERNAL TEMPERATURE', customSpan: 0, hasBorderBottom: true },
+    { title: 'IOGM1', customSpan: 0, hasBorderBottom: true },
+    { title: '45         C', customSpan: 0, hasBorderBottom: true },
+  ];
+  
+  const secHeaders = [
+    { title: 'IOGM4', customSpan: 3, hasBorderBottom: true },
+    { title: '45        C', customSpan: 1, hasBorderBottom: true },
+  ];
+
+  const mainHeaders2 = [
+    { title: 'SWITCH MODE', customSpan: 0, hasBorderBottom: true },
+    { title: 'IOGM1', customSpan: 0, hasBorderBottom: true },
+    { title: 'NORMAL OPERATION', customSpan: 0, hasBorderBottom: true },
+  ];
+  
+  const secHeaders2 = [
+    { title: 'IOGM4', customSpan: 3, hasBorderBottom: true },
+    { title: 'NORMAL OPERATION', customSpan: 1, hasBorderBottom: true },
+  ];
   
   const navBarButtons: NavBarButtonType[] = [
     {
@@ -46,29 +68,6 @@ const DataDCNSwitchOneStatusTwo = () => {
       position: 5,
     },
   ]
-
-  const mainHeaders = [
-    { title: 'INTERNAL TEMPERATURE', customSpan: 0, hasBorderBottom: true },
-    { title: 'IOGM1', customSpan: 0, hasBorderBottom: true }, // Spanning 2 columns
-    { title: '45         C', customSpan: 0, hasBorderBottom: true }, // Spanning 2 columns
-  ];
-  
-  const secHeaders = [
-    { title: 'IOGM4', customSpan: 3, hasBorderBottom: true }, // Spanning 1 column, directly under FCC1
-    { title: '45        C', customSpan: 1, hasBorderBottom: true }, // Spanning 1 column, directly under FCC2
-  ];
-
-  const mainHeaders2 = [
-    { title: 'SWITCH MODE', customSpan: 0, hasBorderBottom: true },
-    { title: 'IOGM1', customSpan: 0, hasBorderBottom: true }, // Spanning 2 columns
-    { title: 'NORMAL OPERATION', customSpan: 0, hasBorderBottom: true }, // Spanning 2 columns
-  ];
-  
-  const secHeaders2 = [
-    { title: 'IOGM4', customSpan: 3, hasBorderBottom: true }, // Spanning 1 column, directly under FCC1
-    { title: 'NORMAL OPERATION', customSpan: 1, hasBorderBottom: true }, // Spanning 1 column, directly under FCC2
-  ];
-  
 
   return (
     <DefaultLayout
