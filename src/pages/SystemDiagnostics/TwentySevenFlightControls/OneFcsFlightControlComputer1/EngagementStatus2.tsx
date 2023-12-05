@@ -14,19 +14,19 @@ const EngagementStatus2 = () => {
   const thirdHeaders = [{ title: 'FCC1' }, { title: 'FCC2' }]
 
   const data = [
-    { parameter: 'PITCH PLT RVDTI ENGAGED', statuses: [false, false, false, false], noData: true },
-    { parameter: 'PITCH PLT RVDT2 ENGAGED', statuses: [false, false, false, false], noData: true },
-    { parameter: 'PITCH CPLT RVDT1 ENGAGED', statuses: [false, false, false, false], noData: true },
-    { parameter: 'PITCH CPLT RVDT2 ENGAGED', statuses: [false, false, false, false], noData: true },
-    { parameter: 'ROLL PLT RVDT1 ENGAGED', statuses: [false, false, false, false], noData: true },
-    { parameter: 'ROLL PLT RVDT2 ENGAGED', statuses: [false, false, false, false], noData: true },
-    { parameter: 'ROLL CPLT RVDT1 ENGAGED', statuses: [false, false, false, false], noData: true },
-    { parameter: 'ROLL CPLT RVDT2 ENGAGED', statuses: [false, false, false, false], noData: true },
-    { parameter: 'YAW RVDT1 ENGAGED', statuses: [false, false, false, false], noData: true },
-    { parameter: 'YAW RVDT2 ENGAGED', statuses: [false, false, false, false], noData: true },
-    { parameter: 'SBH RVDT1 ENGAGED', statuses: [false, false, false, false], noData: true },
-    { parameter: 'SDBH RVDT2 ENGAGED', statuses: [false, false, false, false], noData: true },
-    { parameter: 'YAW TRIM RVDT ENGAGED', statuses: [false, false, false, false], noData: true },
+    { parameter: 'PITCH PLT RVDTI ENGAGED', statuses: [true, false, false, true] },
+    { parameter: 'PITCH PLT RVDT2 ENGAGED', statuses: [true, false, false, true] },
+    { parameter: 'PITCH CPLT RVDT1 ENGAGED', statuses: [true, false, false, true] },
+    { parameter: 'PITCH CPLT RVDT2 ENGAGED', statuses: [true, false, false, true] },
+    { parameter: 'ROLL PLT RVDT1 ENGAGED', statuses: [true, false, false, true] },
+    { parameter: 'ROLL PLT RVDT2 ENGAGED', statuses: [true, false, false, true] },
+    { parameter: 'ROLL CPLT RVDT1 ENGAGED', statuses: [true, false, false, true] },
+    { parameter: 'ROLL CPLT RVDT2 ENGAGED', statuses: [true, false, false, true] },
+    { parameter: 'YAW RVDT1 ENGAGED', statuses: [true, false, false, true] },
+    { parameter: 'YAW RVDT2 ENGAGED', statuses: [true, false, false, true] },
+    { parameter: 'SBH RVDT1 ENGAGED', statuses: [true, false, false, true] },
+    { parameter: 'SBH RVDT2 ENGAGED', statuses: [true, false, false, true] },
+    { parameter: 'YAW TRIM RVDT ENGAGED', statuses: [true, false, false, true] },
   ]
 
   const navBarButtons: NavBarButtonType[] = [

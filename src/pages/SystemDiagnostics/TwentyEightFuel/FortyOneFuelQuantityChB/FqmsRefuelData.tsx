@@ -11,7 +11,7 @@ const FqmsRefuelData = () => {
 
   const tableHeader1 = [{ title: 'PARAMETER' }, { title: 'CH A' }, { title: 'CH B' }];
   const data1 = [
-    { parameter: 'REFUEL SYS FAL', status1: false, status2: false },
+    { parameter: 'REFUEL SYS FAIL', status1: false, status2: false },
     { parameter: 'REFUEL ABORT', status1: false, status2: false },
     { parameter: 'REFUEL COMPLETE', status1: false, status2: false },
     { parameter: 'REFUEL IN PROGRESS', status1: false, status2: false },
