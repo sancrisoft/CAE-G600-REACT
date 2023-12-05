@@ -466,6 +466,9 @@ import DataDCNRIUFiftyFourStatusTwo from './pages/SystemDiagnostics/FortyTwoInte
 import DataDCNSwitchOneStatusOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNSwitchOne/DataDCNSwitchOneStatusOne';
 import DataDCNSwitchOneStatusTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNSwitchOne/DataDCNSwitchOneStatusTwo';
 import DataDCNSwitchOneStatusThree from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNSwitchOne/DataDCNSwitchOneStatusThree';
+import DataDCNSwitchTwoStatusOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNSwitchTwo/DataDCNSwitchTwoStatusOne';
+import DataDCNSwitchTwoStatusTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNSwitchTwo/DataDCNSwitchTwoStatusTwo';
+import DataDCNSwitchTwoStatusThree from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNSwitchTwo/DataDCNSwitchTwoStatusThree';
 
 function App() {
   return (
@@ -930,6 +933,10 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchone/datadcnswitchonestatusone" element={<DataDCNSwitchOneStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchone/datadcnswitchonestatustwo" element={<DataDCNSwitchOneStatusTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchone/datadcnswitchonestatusthree" element={<DataDCNSwitchOneStatusThree />} />
+
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchtwo/datadcnswitchtwostatusone" element={<DataDCNSwitchTwoStatusOne />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchtwo/datadcnswitchtwostatustwo" element={<DataDCNSwitchTwoStatusTwo />} />
+        <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchtwo/datadcnswitchtwostatusthree" element={<DataDCNSwitchTwoStatusThree />} />
         
         <Route path="/systemdiagnostics/fortyfivecentralmaintenancesystems/fortyfivecmcutilities/cmcutilities" element={<CmcUtilities />} />
         <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus" element={<AhtmuStatus />} />

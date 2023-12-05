@@ -1993,7 +1993,8 @@ const SystemDiagnostics = () => {
           text: '33 DCN Switch 2',
           children: [
             {
-              text: 'DATA: DCN SWITCH 02 STATUS' 
+              text: 'DATA: DCN SWITCH 02 STATUS', 
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchtwo/datadcnswitchtwostatusone'
             }
           ],
         },
