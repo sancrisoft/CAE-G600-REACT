@@ -1982,19 +1982,36 @@ const SystemDiagnostics = () => {
         },
         {
           text: '33 DCN Switch 1',
-          children: [{ text: 'DATA: DCN SWITCH 01 STATUS' }],
+          children: [
+            { 
+              text: 'DATA: DCN SWITCH 01 STATUS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchone/datadcnswitchonestatusone'
+            }
+          ],
         },
         {
           text: '33 DCN Switch 2',
-          children: [{ text: 'DATA: DCN SWITCH 02 STATUS' }],
+          children: [
+            {
+              text: 'DATA: DCN SWITCH 02 STATUS' 
+            }
+          ],
         },
         {
           text: '33 DCN Switch 3',
-          children: [{ text: 'DATA: DCN SWITCH 03 STATUS' }],
+          children: [
+            { 
+              text: 'DATA: DCN SWITCH 03 STATUS' 
+            }
+          ],
         },
         {
           text: '33 DCN Switch 4',
-          children: [{ text: 'DATA: DCN SWITCH 04 STATUS' }],
+          children: [
+            { 
+              text: 'DATA: DCN SWITCH 04 STATUS' 
+            }
+          ],
         },
       ],
     },
