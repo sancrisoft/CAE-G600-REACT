@@ -12,7 +12,7 @@ const FqmsProbeDataDensidometer = () => {
   const tableHeader1 = [{ title: 'PARAMETERS' }, { title: 'CH A' }, { title: 'CH B' }];
   const data1 = [
     { parameter: 'K2 COEFFICIENT', status1: '0.30', status2: '0.30' },
-    { parameter: 'K0 COEFFICIENT', status1: '-832.81', status2: '-832.81' },
+    { parameter: 'K0 COEFFICIENT', status1: '-820.81', status2: '-820.81' },
     { parameter: 'DENSITY (LB/GAL)', status1: '0.00', status2: '0.00' },
     { parameter: 'TEMP (C)', status1: '0.00', status2: '0.00' },
     { parameter: 'PERIOD', status1: '0.00', status2: '0.00' },

@@ -10,6 +10,7 @@ interface StatusTableProps {
   isHalfWidth?: boolean
   supHeader?: string
   headerLanStatus?: boolean
+  noMargin?: boolean
 }
 
 interface IItems {
@@ -21,7 +22,9 @@ interface IItems {
   color?: string
   colspan?: number
   rowTitlePadding?: boolean
-  noData?: boolean
+  noData?: boolean,
+  noDataStatus1?: boolean
+  noDataStatus2?: boolean
 }
 
 interface IHeader {
@@ -37,15 +40,16 @@ const StatusTable: React.FC<StatusTableProps> = ({
   title2 = 'RDC12',
   isHalfWidth = false,
   supHeader,
+  noMargin = false,
   headerLanStatus
 }) => {
-  const containerClassName = isHalfWidth ? `${styles.Container} ${styles.halfWidth}` : styles.Container
+  const containerClassName = isHalfWidth ? `${styles.Container} ${styles.halfWidth}` : noMargin ? styles.ContainerNoMargin : styles.Container
   function getStatusClass(status: any) {
     return status !== undefined ? (status ? styles.Green : styles.Red) : ''
   }
   return (
     <div className={containerClassName}>
-      <table className={styles.Table}>
+      <table className={`${styles.Table} ${noMargin ? styles.TableNoMargin : ''}`}>
         <thead>
           {supHeader && (
             <tr>
@@ -114,16 +118,16 @@ const StatusTable: React.FC<StatusTableProps> = ({
                 <tr key={index} className={rowClass}>
                   <td className={styles.Parameter}>{item.parameter}</td>
                   <td colSpan={colspan}>
-                    {typeof item.status1 === 'boolean' ? (
-                      <div className={`${fan1Status} ${item.noData ? styles.NoData : ''} ${styles.Square} `}></div>
-                    ) : (
-                      <p className={`${styles.AlignCenter} ${colorStatus}`}>{item.status1}</p>
-                    )}
+                  {typeof item.status1 === 'boolean' ? (
+                    <div className={`${fan1Status} ${(item.noData || item.noDataStatus1) ? styles.NoData : ''} ${styles.Square}`}></div>
+                  ) : (
+                    <p className={`${styles.AlignCenter} ${colorStatus}`}>{item.status1}</p>
+                  )}
                   </td>
 
                   {hasStatus2 ? null : typeof item.status2 === 'boolean' ? (
                     <td>
-                      <div className={`${fan2Status} ${item.noData ? styles.NoData : ''} ${styles.Square}`}></div>
+                      <div className={`${fan2Status} ${(item.noData || item.noDataStatus2) ? styles.NoData : ''} ${styles.Square}`}></div>
                     </td>
                   ) : (
                     <td>

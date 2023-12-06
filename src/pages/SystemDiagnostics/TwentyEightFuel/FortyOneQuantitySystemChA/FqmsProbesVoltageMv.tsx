@@ -46,7 +46,7 @@ const FqmsProvesVoltageMv = () => {
   ];
 
   return (
-    <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'4110'} right={['Select done to continue']} />}>
+    <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'284110'} right={['Select done to continue']} />}>
       <DataHeader left={'fqms probes voltage (mv)'} right={'1/1'} />
       <DataTable data={data} mainHeaders={tableHeader} />
     </DefaultLayout>

@@ -4,7 +4,7 @@ var path = require('path');
 const config = {
   version: '1.2',
   organization: 'Civil Aviation | CAE',
-  title: 'AW139',
+  title: 'G500/600',
   language: 'en-US',
   masteryScore: 80,
   startingPage: 'index.html',
@@ -14,8 +14,8 @@ const config = {
       zip: true,
       author: 'Xennial Digital',
       outputFolder: path.join(__dirname, '../scorm-packages'),
-      description: 'AW139 Simulator',
-      keywords: ['scorm', 'aw139', 'course'],
+      description: 'G500-600 Simulator',
+      keywords: ['scorm', 'g500600', 'course'],
       typicalDuration: 'PT0H5M0S',
       rights: `©CAE Inc. ${new Date().getFullYear()}. All rights reserved.`,
       vcard: {

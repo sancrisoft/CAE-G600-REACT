@@ -16,7 +16,7 @@ const HomePage = () => {
       <Menu>
         <Button href="/maintenancemessages">Maintenance Messages</Button>
         <Button href="/systemdiagnostics">System Diagnostics</Button>
-        <Button>Extended Maintenance</Button>
+        <Button href="/extendedmaintenance"> Extended Maintenance</Button>
         <Button>Print Destination Setup</Button>
       </Menu>
     </DefaultLayout>
