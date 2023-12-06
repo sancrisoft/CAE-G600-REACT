@@ -51,11 +51,11 @@ const Fcc2PfcsRigVerification1 = () => {
     { parameter: 'L ELEV REU 6', statuses: ['16.40'], hasBorderBottom: false, alignCenter: true },
     { parameter: 'L ELEV REU 7', statuses: ['16.44'], hasBorderBottom: false, alignCenter: true },
     { parameter: 'L ELEV REU 8', statuses: ['16.51'], hasBorderBottom: false, alignCenter: true },
-    { parameter: 'L ELEV REU 6', statuses: ['17.26'], hasBorderBottom: false, alignCenter: true },
-    { parameter: 'L ELEV REU 7', statuses: ['16.91'], hasBorderBottom: false, alignCenter: true },
-    { parameter: 'L ELEV REU 8', statuses: ['17.12'], hasBorderBottom: true, alignCenter: true },
+    { parameter: 'R ELEV REU 6', statuses: ['17.26'], hasBorderBottom: false, alignCenter: true },
+    { parameter: 'R ELEV REU 7', statuses: ['16.91'], hasBorderBottom: false, alignCenter: true },
+    { parameter: 'R ELEV REU 8', statuses: ['17.12'], hasBorderBottom: true, alignCenter: true },
     { parameter: 'L ELEV VOTED', statuses: ['16.44'], hasBorderBottom: false, alignCenter: true },
-    { parameter: 'L ELEV VOTED', statuses: ['17.12'], hasBorderBottom: true, alignCenter: true },
+    { parameter: 'R ELEV VOTED', statuses: ['17.12'], hasBorderBottom: true, alignCenter: true },
     { parameter: '', statuses: ['-degrees-'], customSpan: 4, alignCenter: true },
   ]
 

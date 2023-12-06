@@ -25,7 +25,7 @@ const Fcc2EngagementStatus2 = () => {
     { parameter: 'YAW RVDT1 ENGAGED', statuses: [false, true, true, false] },
     { parameter: 'YAW RVDT2 ENGAGED', statuses: [false, true, true, false] },
     { parameter: 'SBH RVDT1 ENGAGED', statuses: [false, true, true, false] },
-    { parameter: 'SDBH RVDT2 ENGAGED', statuses: [false, true, true, false] },
+    { parameter: 'SBH RVDT2 ENGAGED', statuses: [false, true, true, false] },
     { parameter: 'YAW TRIM RVDT ENGAGED', statuses: [false, true, true, false] },
   ]
 

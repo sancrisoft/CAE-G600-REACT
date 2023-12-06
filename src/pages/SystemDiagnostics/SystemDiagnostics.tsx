@@ -1842,67 +1842,179 @@ const SystemDiagnostics = () => {
         },
         {
           text: '33 DCN Remote Data Concentrator 14',
-          children: [{ text: 'DATA: DCN RDC 14 LINKS' }, { text: 'DATA: DCN DRC 14 STATUS' }],
+          children: [
+            { 
+              text: 'DATA: DCN RDC 14 LINKS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfourteen/datadcnrdcfourteenlinksone'
+            }, 
+            { 
+              text: 'DATA: DCN DRC 14 STATUS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfourteen/datadcnrdcfourteenstatusone'
+            }
+          ],
         },
         {
           text: '33 DCN Remote Data Concentrator 15',
-          children: [{ text: 'DATA: DCN RDC 15 LINKS' }, { text: 'DATA: DCN DRC 15 STATUS' }],
+          children: [
+            {
+              text: 'DATA: DCN RDC 15 LINKS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfifteen/datadcnrdcfifteenlinksone'
+            }, 
+            { 
+              text: 'DATA: DCN DRC 15 STATUS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfifteen/datadcnrdcfifteenstatusone'
+            }
+          ],
         },
         {
           text: '33 DCN Remote Data Concentrator 16',
-          children: [{ text: 'DATA: DCN RDC 16 LINKS' }, { text: 'DATA: DCN DRC 16 STATUS' }],
+          children: [
+            {
+             text: 'DATA: DCN RDC 16 LINKS',
+             href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenlinksone'
+            }, 
+            { 
+              text: 'DATA: DCN DRC 16 STATUS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenstatusone'
+            }
+          ],
         },
         {
           text: '33 DCN Remote Data Concentrator 17',
-          children: [{ text: 'DATA: DCN RDC 17 LINKS' }, { text: 'DATA: DCN DRC 17 STATUS' }],
+          children: [
+            { 
+              text: 'DATA: DCN RDC 17 LINKS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinksone' 
+            }, 
+            { 
+              text: 'DATA: DCN DRC 17 STATUS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenstatusone'
+            }
+          ],
         },
         {
           text: '33 DCN Remote Data Concentrator 18',
-          children: [{ text: 'DATA: DCN RDC 18 LINKS' }, { text: 'DATA: DCN DRC 18 STATUS' }],
+          children: [
+            { 
+              text: 'DATA: DCN RDC 18 LINKS', 
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratoreighteen/datadcnrdceighteenlinksone' 
+            }, 
+            { 
+              text: 'DATA: DCN DRC 18 STATUS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratoreighteen/datadcnrdceighteenstatusone' 
+            }
+          ],
         },
         {
           text: '33 DCN Remote Data Concentrator 19',
-          children: [{ text: 'DATA: DCN RDC 19 LINKS' }, { text: 'DATA: DCN DRC 19 STATUS' }],
+          children: [
+            {
+              text: 'DATA: DCN RDC 19 LINKS', 
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratornineteen/datadcnrdcnineteenlinksone' 
+            }, 
+            { 
+              text: 'DATA: DCN DRC 19 STATUS', 
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratornineteen/datadcnrdcnineteenstatusone' 
+            }
+          ],
         },
         {
           text: '33 DCN Remote Data Concentrator 20',
-          children: [{ text: 'DATA: DCN RDC 20 LINKS' }, { text: 'DATA: DCN DRC 20 STATUS' }],
+          children: [
+            {
+              text: 'DATA: DCN RDC 20 LINKS', 
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwenty/datadcnrdctwentylinksone' 
+            },
+            {
+              text: 'DATA: DCN DRC 20 STATUS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwenty/datadcnrdctwentystatusone' 
+            }
+          ],
         },
         {
           text: '33 DCN Remote Data Concentrator 22',
-          children: [{ text: 'DATA: DCN RDC 22 LINKS' }, { text: 'DATA: DCN DRC 22 STATUS' }],
+          children: [
+            {
+              text: 'DATA: DCN RDC 22 LINKS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwentytwo/datadcnrdctwentytwolinksone' 
+            }, 
+            { 
+              text: 'DATA: DCN DRC 22 STATUS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwentytwo/datadcnrdctwentytwostatusone' 
+            }
+          ],
         },
         {
           text: '33 DCN Remote Interface Unit 51',
-          children: [{ text: 'DATA: DCN RIU 51 STATUS' }],
+          children: [
+            { 
+              text: 'DATA: DCN RIU 51 STATUS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftyone/datadcnriufiftyonestatusone' 
+            }
+          ],
         },
         {
           text: '33 DCN Remote Interface Unit 52',
-          children: [{ text: 'DATA: DCN RIU 52 STATUS' }],
+          children: [
+            {
+              text: 'DATA: DCN RIU 52 STATUS', 
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftytwo/datadcnriufiftytwostatusone' 
+            }
+          ],
         },
         {
           text: '33 DCN Remote Interface Unit 53',
-          children: [{ text: 'DATA: DCN RIU 53 STATUS' }],
+          children: [
+            { 
+              text: 'DATA: DCN RIU 53 STATUS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftythree/datadcnriufiftythreestatusone'
+            }
+          ],
         },
         {
           text: '33 DCN Remote Interface Unit 54',
-          children: [{ text: 'DATA: DCN RIU 54 STATUS' }],
+          children: [
+            { 
+              text: 'DATA: DCN RIU 54 STATUS', 
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftyfour/datadcnriufiftyfourstatusone'
+            }
+          ],
         },
         {
           text: '33 DCN Switch 1',
-          children: [{ text: 'DATA: DCN SWITCH 01 STATUS' }],
+          children: [
+            { 
+              text: 'DATA: DCN SWITCH 01 STATUS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchone/datadcnswitchonestatusone'
+            }
+          ],
         },
         {
           text: '33 DCN Switch 2',
-          children: [{ text: 'DATA: DCN SWITCH 02 STATUS' }],
+          children: [
+            {
+              text: 'DATA: DCN SWITCH 02 STATUS', 
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchtwo/datadcnswitchtwostatusone'
+            }
+          ],
         },
         {
           text: '33 DCN Switch 3',
-          children: [{ text: 'DATA: DCN SWITCH 03 STATUS' }],
+          children: [
+            { 
+              text: 'DATA: DCN SWITCH 03 STATUS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchthree/datadcnswitchthreestatusone'
+            }
+          ],
         },
         {
           text: '33 DCN Switch 4',
-          children: [{ text: 'DATA: DCN SWITCH 04 STATUS' }],
+          children: [
+            { 
+              text: 'DATA: DCN SWITCH 04 STATUS' ,
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchfour/datadcnswitchfourstatusone'
+            }
+          ],
         },
       ],
     },

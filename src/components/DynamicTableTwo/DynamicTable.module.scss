@@ -1,0 +1,115 @@
+@import '../../styles/common';
+
+.Container {
+  margin: var(--spacing--0) 0;
+  margin: var(--spacing--2) 0 var(--spacing-0) 0;
+}
+
+.halfWidth {
+  width: 50%;
+}
+
+.CustomContainer {
+  margin: unset;
+}
+
+.Table {
+  border-collapse: collapse;
+  border-top: 0.1vh solid var(--white);
+
+  color: var(--white);
+  padding-top: var(--spacing--2);
+  text-align: left;
+  text-transform: uppercase;
+  width: 99%;
+
+  th {
+    border-right: 0.1vh solid var(--white);
+    border-left: 0.1vh solid var(--white);
+    color: var(--aqua);
+    height: var(--spacing-3);
+    text-align: center;
+  }
+
+  .AlignLeft {
+    text-align: left;
+  }
+
+  .HeaderBorder {
+    border-bottom: 0.1vh solid var(--white);
+  }
+
+  td {
+    border-left: 0.1vh solid var(--white);
+    border-right: 0.1vh solid var(--white);
+    height: var(--spacing-3);
+  }
+
+  td:first-child {
+    padding-left: var(--spacing-2);
+    text-align: left;
+    width: 48%;
+  }
+
+  .Border {
+    border-bottom: 0.1vh solid var(--white);
+    color: var(--white);
+    padding-top: var(--spacing--2);
+    text-align: left;
+  }
+}
+
+.Square {
+  height: 12px;
+  margin: auto;
+  width: 12px;
+}
+
+.Green {
+  background: var(--green);
+}
+
+.Red {
+  background: var(--red);
+}
+
+.Separator::before {
+  border-left: 0.1vh solid #fff;
+  margin-left: 0;
+  transform: rotate(45deg);
+}
+
+.AlignLeft {
+  padding-left: var(--spacing-2);
+  text-align: left;
+}
+
+.MarginTop {
+  margin-top: var(--spacing-1);
+}
+
+.AlignCenter {
+  text-align: center;
+}
+
+.AlignRight {
+  padding-right: var(--spacing-0);
+  text-align: right;
+}
+
+.CustomClass td:first-child {
+  border: unset;
+}
+
+.CustomClass td:last-child {
+  border-bottom: 0.1vh solid var(--white);
+}
+
+.TableHeadClass th{
+  height: unset;
+  padding-top: var(--spacing--3);
+}
+
+.whiteText {
+  color: white !important;/* This sets the text color to white */
+}
