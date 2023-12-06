@@ -5,7 +5,6 @@ import DefaultLayout from "../../../../components/Layout";
 import Legend from "../../../../components/Legend";
 import { NavBarButtonType } from "../../../../components/NavBar";
 import StatusTable from "../../../../components/StatusTable";
-import Text from "../../../../components/Text";
 import DynamicTable from "../../../../components/DynamicTableTwo";
 
 const DataDCNSwitchFourStatusTwo = () => {
