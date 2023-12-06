@@ -395,6 +395,8 @@ import DataDCNRDCThirteenLinksSix from './pages/SystemDiagnostics/FortyTwoIntegr
 import DataDCNRDCThirteenLinksSeven from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorThirteen/DataDCNRDCThirteenLinks/DataDCNRDCThirteenLinksSeven';
 import DataDCNRDCThirteenStatusOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorThirteen/DataDCNRDCThirteenStatus/DataDCNRDCThirteenStatusOne';
 import DataDCNRDCThirteenStatusTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorThirteen/DataDCNRDCThirteenStatus/DataDCNRDCThirteenStatusTwo';
+import ExtendedMaintenance from './pages/ExtendedMaintenance/ExtendedMaintenance';
+import MemberSystemStatus from './pages/ExtendedMaintenance/MemberSystemStatus/MemberSystemStatus';
 import DataDCNRDCFourteenLinksOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorFourteen/DataDCNRDCFourteenLinks/DataDCNRDCFourteenLinksOne';
 import DataDCNRDCFourteenLinksTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorFourteen/DataDCNRDCFourteenLinks/DataDCNRDCFourteenLinksTwo';
 import DataDCNRDCFourteenLinksThree from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorFourteen/DataDCNRDCFourteenLinks/DataDCNRDCFourteenLinksThree';
@@ -975,6 +977,10 @@ function App() {
         <Route path="/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus1" element={<Fqi1OilStatus1 />} />
         <Route path="/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus2" element={<Fqi1OilStatus2 />} />
         <Route path="/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus3" element={<Fqi1OilStatus3 />} />
+      
+        <Route path="/extendedmaintenance" element={<ExtendedMaintenance />} />
+        <Route path="/extendedmaintenance/membersystemstatus" element={<MemberSystemStatus />} />
+
       </Routes>
     </Router>
   );
