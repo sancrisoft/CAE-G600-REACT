@@ -26,7 +26,7 @@ const Fcc2PfcsRigVerification = () => {
     },
     {
       parameter: 'COPILOT RVDT1',
-      statuses: ['XXXXXX', '0.00', '-0.07', 'XXXXXX'],
+      statuses: ['XXX', '0.00', '-0.07', 'XXXXXX'],
       alignRight: true,
       hasBorderBottom: false,
     },

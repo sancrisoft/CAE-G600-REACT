@@ -52,8 +52,8 @@ const FqmsProbeDataCompensator = () => {
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'284106'} right={['Select done to continue']} />}>
       <DataHeader left={'fqms probe data - compensator'} right={'1/1'} />
       <Legend title="true" title2="false" />
-      <StatusTable data={data1} tableHeader={tableHeader1} />
-      <StatusTable data={data2} tableHeader={tableHeader2} />
+      <StatusTable data={data1} tableHeader={tableHeader1} noMargin/>
+      <StatusTable data={data2} tableHeader={tableHeader2} noMargin/>
     </DefaultLayout>
   );
 };

@@ -14,13 +14,13 @@ const Fcc2EngagementStatus = () => {
   const thirdHeaders = [{ title: 'FCC1' }, { title: 'FCC2' }]
 
   const data = [
-    { parameter: 'FCC ENGAGED', statuses: [false, false, true, true] },
-    { parameter: 'FCC ENGAGED MCE', statuses: [false, false, true, true] },
-    { parameter: 'FCC ENGAGED CTRL', statuses: [false, false, true, true] },
-    { parameter: 'FCC ENGAGED EXT1', statuses: [false, false, true, true] },
-    { parameter: 'FCC ENGAGED EXT2', statuses: [false, false, true, true] },
-    { parameter: 'FCC ENGAGED SIDESTICK', statuses: [false, false, true, true] },
-    { parameter: 'FCC ENGAGED BFCU', statuses: [false, false, true, true] },
+    { parameter: 'FCC ENGAGED', statuses: [false, true, true, false] },
+    { parameter: 'FCC ENGAGED MCE', statuses: [false, true, true, false] },
+    { parameter: 'FCC ENGAGED CTRL', statuses: [false, true, true, false] },
+    { parameter: 'FCC ENGAGED EXT1', statuses: [false, true, true, false] },
+    { parameter: 'FCC ENGAGED EXT2', statuses: [false, true, true, false] },
+    { parameter: 'FCC ENGAGED SIDESTICK', statuses: [false, true, true, false] },
+    { parameter: 'FCC ENGAGED BFCU', statuses: [false, true, true, false] },
   ]
 
   const navBarButtons: NavBarButtonType[] = [

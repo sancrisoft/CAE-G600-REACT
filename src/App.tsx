@@ -395,6 +395,7 @@ import DataDCNRDCThirteenLinksSix from './pages/SystemDiagnostics/FortyTwoIntegr
 import DataDCNRDCThirteenLinksSeven from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorThirteen/DataDCNRDCThirteenLinks/DataDCNRDCThirteenLinksSeven';
 import DataDCNRDCThirteenStatusOne from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorThirteen/DataDCNRDCThirteenStatus/DataDCNRDCThirteenStatusOne';
 import DataDCNRDCThirteenStatusTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNRemoteDataConcentratorThirteen/DataDCNRDCThirteenStatus/DataDCNRDCThirteenStatusTwo';
+import FqmsProbesDataDryCapPf from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsProbesDataDryCapPf';
 
 function App() {
   return (
@@ -585,7 +586,7 @@ function App() {
         <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesdatacappf" element={<FqmsProbesDataCapf />} />
         <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesdatacovrdlength" element={<FqmsProvesDataCovrdLength />} />
         <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobestemperaturec" element={<FqmsProbesTemperatureC />} />
-        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesdatadrycappf" element={<FqmsProbesDataCapf />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesdatadrycappf" element={<FqmsProbesDataDryCapPf />} />
         <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesvoltagemv" element={<FqmsProvesVoltageMv />} />
         <Route path="/systemdiagnostics/twentyeightfuel/FortyOneFuelQuantityChB/fqmsctacconfig" element={<FqmsCtConfig />} />
         <Route path="/systemdiagnostics/twentyeightfuel/FortyOneFuelQuantityChB/fqmsfueldata" element={<FqmsFuelData />} />

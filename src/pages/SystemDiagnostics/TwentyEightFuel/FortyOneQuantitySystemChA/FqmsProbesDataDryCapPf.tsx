@@ -41,7 +41,7 @@ const FqmsProbesDataDryCapPf = () => {
       text: 'DONE',
       disabled: false,
       position: 5,
-      href: '/system-diagnostics',
+      href: '/systemdiagnostics',
     },
   ];
 

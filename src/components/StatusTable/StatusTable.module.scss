@@ -4,6 +4,10 @@
   margin-bottom: var(--spacing-1);
 }
 
+.ContainerNoMargin {
+  margin-bottom: 0;
+}
+
 .halfWidth {
   width: 50%;
 }
@@ -36,6 +40,9 @@
   }
 }
 
+.TableNoMargin{
+  margin-top: unset;
+}
 .RowTitlePadding td:first-child {
   padding-left: var(--spacing--3);
 }
