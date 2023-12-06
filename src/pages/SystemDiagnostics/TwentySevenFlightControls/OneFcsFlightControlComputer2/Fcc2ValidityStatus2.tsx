@@ -49,7 +49,7 @@ const Fcc2ValidityStatus2 = () => {
       text: 'fwd',
       disabled: false,
       position: 5,
-      href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc-2validitystatus3',
+      href: '/systemdiagnostics/twentysevenflightcontrols/onefcsflightcontrolcomputer2/fcc2validitystatus3x`',
     },
   ]
 

@@ -13,7 +13,7 @@ const EngagementStatus3 = () => {
   const secondaryHeaders = [{ title: '1A' }, { title: '1B' }, { title: '2A' }, { title: '2B' }]
   const thirdHeaders = [{ title: 'FCC1' }, { title: 'FCC2' }]
 
-  const data = [{ parameter: 'RUD PEDAL FORCE ENGAGED', statuses: [false, false, false, false], noData: true }]
+  const data = [{ parameter: 'RUD PEDAL FORCE ENGAGED', statuses: [true, false, false, true] }];
 
   const navBarButtons: NavBarButtonType[] = [
     {

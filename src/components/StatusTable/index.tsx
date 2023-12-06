@@ -10,6 +10,7 @@ interface StatusTableProps {
   isHalfWidth?: boolean
   supHeader?: string
   headerLanStatus?: boolean
+  noMargin?: boolean
 }
 
 interface IItems {
@@ -39,15 +40,16 @@ const StatusTable: React.FC<StatusTableProps> = ({
   title2 = 'RDC12',
   isHalfWidth = false,
   supHeader,
+  noMargin = false,
   headerLanStatus
 }) => {
-  const containerClassName = isHalfWidth ? `${styles.Container} ${styles.halfWidth}` : styles.Container
+  const containerClassName = isHalfWidth ? `${styles.Container} ${styles.halfWidth}` : noMargin ? styles.ContainerNoMargin : styles.Container
   function getStatusClass(status: any) {
     return status !== undefined ? (status ? styles.Green : styles.Red) : ''
   }
   return (
     <div className={containerClassName}>
-      <table className={styles.Table}>
+      <table className={`${styles.Table} ${noMargin ? styles.TableNoMargin : ''}`}>
         <thead>
           {supHeader && (
             <tr>

@@ -666,7 +666,7 @@ function App() {
         <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesdatacappf" element={<FqmsProbesDataCapf />} />
         <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesdatacovrdlength" element={<FqmsProvesDataCovrdLength />} />
         <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobestemperaturec" element={<FqmsProbesTemperatureC />} />
-        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesdatadrycappf" element={<FqmsProbesDataCapf />} />
+        <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesdatadrycappf" element={<FqmsProbesDataDryCapPf />} />
         <Route path="/systemdiagnostics/twentyeightfuel/FortyOneQuantitySystemChA/fqmsprobesvoltagemv" element={<FqmsProvesVoltageMv />} />
         <Route path="/systemdiagnostics/twentyeightfuel/FortyOneFuelQuantityChB/fqmsctacconfig" element={<FqmsCtConfig />} />
         <Route path="/systemdiagnostics/twentyeightfuel/FortyOneFuelQuantityChB/fqmsfueldata" element={<FqmsFuelData />} />

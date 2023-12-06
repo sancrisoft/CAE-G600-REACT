@@ -30,7 +30,7 @@ const Fcc2DeckSwStatus = () => {
       type: ['noData', 'square', 'square', 'noData'],
     },
     {
-      parameter: 'PILOT ROLL TRIM L WING DM',
+      parameter: 'PILOT ROLL TRIM L WING DN',
       statuses: [false, false, false, false],
       type: ['noData', 'square', 'square', 'noData'],
     },
