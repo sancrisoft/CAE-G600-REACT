@@ -41,53 +41,106 @@ const MemberSystemStatus = () => {
       text: '34 navigation',
       children: [
         {
-          text: '10 attitute heading reference system 1',
+          text: '02 modular Radio Cabinet1 - nav Clust',
           secondColumn: ' operational',
         },
         {
-          text: '10 attitute heading reference system 1',
+          text: '02 modular Radio Cabinet2 - nav Clust',
           secondColumn: ' operational',
         },
         {
-          text: '10 attitute heading reference system 2',
-          secondColumn: ' operational',
+          text: '12 air data system 1',
+          secondColumn: 'operational',
         },
         {
-          text: '10 attitute heading reference system 2',
-          secondColumn: ' operational',
+          text: '12 air data system 2',
+          secondColumn: 'operational',
         },
         {
-          text: '15 air daa application 1',
-          secondColumn: ' operational',
+          text: '12 air data system 3',
+          secondColumn: 'operational',
         },
         {
-          text: '15 air daa application 2',
-          secondColumn: ' operational',
+          text: '12 air data system 4',
+          secondColumn: 'operational',
         },
         {
-          text: '40 weather radar',
-          secondColumn: ' operational',
+          text: '23 attitude heading reference system1',
+          secondColumn: 'operational',
         },
         {
-          text: '40 weather radar (wx-700)',
-          secondColumn: ' operational',
+          text: '23 attitude heading reference system2',
+          secondColumn: 'operational',
         },
         {
-          text: '50 global positioning system 1 gnssu',
-          secondColumn: ' operational',
+          text: '26 head up display',
+          secondColumn: 'operational',
         },
         {
-          text: '50 global positioning system 2',
-          secondColumn: ' operational',
+          text: '27 standby flight display1',
+          secondColumn: 'operational',
         },
         {
-          text: '61 fms application 1',
-          secondColumn: ' operational',
+          text: '27 standby flight display2',
+          secondColumn: 'operational',
         },
         {
-          text: '61 fms application 2',
-          secondColumn: ' operational',
+          text: '29 enhanced vision system sp',
+          secondColumn: 'operational',
         },
+        {
+          text: '42 intertial reference system 1',
+          secondColumn: 'operational',
+        },
+        {
+          text: '42 intertial reference system 2',
+          secondColumn: 'operational',
+        },
+        {
+          text: '42 intertial reference system 3',
+          secondColumn: 'operational',
+        },
+        {
+          text: '44 weather radar',
+          secondColumn: 'operational',
+        },
+        {
+          text: '46 enhanced ground proximity warning 1',
+          secondColumn: 'operational',
+        },
+        {
+          text: '46 enhanced ground proximity warning 2',
+          secondColumn: 'operational',
+        },
+        {
+          text: '47 traffic collission avoidance system',
+          secondColumn: 'operational',
+        },
+        {
+          text: '52 global positioning system 1',
+          secondColumn: 'operational',
+        },
+        {
+          text: '52 global positioning system 2',
+          secondColumn: 'operational',
+        },
+        {
+          text: 'navcom',
+          secondColumn: 'operational',
+        },
+        {
+          text: '61 flight management system 1',
+          secondColumn: 'operational',
+        },
+        {
+          text: '61 flight management system 2',
+          secondColumn: 'operational',
+        },
+        {
+          text: '61 flight management system 3',
+          secondColumn: 'operational',
+        },
+
       ],
     },
     {
