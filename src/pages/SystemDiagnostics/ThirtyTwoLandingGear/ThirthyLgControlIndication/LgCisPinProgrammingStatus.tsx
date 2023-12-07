@@ -46,8 +46,8 @@ const LgCisPinProgrammingStatus = () => {
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'323017'} right={['Select done to continue']} />}>
       <DataHeader left={'LGCIS pin programming status'} right={'1/1'} />
       <Legend title="true" title2="false" />
-      <StatusTable data={data1} tableHeader={tableHeader1} />
-      <StatusTable data={data2} tableHeader={tableHeader2} />
+      <StatusTable data={data1} tableHeader={tableHeader1} reducedHeaderTitle/>
+      <StatusTable data={data2} tableHeader={tableHeader2} reducedHeaderTitle/>
     </DefaultLayout>
   );
 };
