@@ -42,8 +42,8 @@ const MwcSwitchStatus = () => {
     >
       <DataHeader left={'Master Warn/Caution Switch Status'} right={'1/1'} />
       <Legend />
-      <StatusTable data={data1} tableHeader={header1} />
-      <StatusTable data={data2} tableHeader={header2} />
+      <StatusTable data={data1} tableHeader={header1} reducedHeaderTitle={true}/>
+      <StatusTable data={data2} tableHeader={header2} reducedHeaderTitle={true}/>
     </DefaultLayout>
   )
 }
