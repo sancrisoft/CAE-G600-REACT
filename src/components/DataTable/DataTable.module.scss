@@ -17,6 +17,7 @@
 
 .Header {
   border-right: 0.1vh solid var(--white);
+  padding: 10px;
 }
 
 .subHeader {
@@ -63,7 +64,7 @@
 
   th:first-child {
     border-right: 0.1vh solid var(--white);
-    padding-left: var(--spacing-0);
+    padding-left: 2%;
     text-align: left;
     width: 40%;
   }
@@ -128,14 +129,14 @@
   }
 
   td:first-child {
-    padding-left: var(--spacing-0);
     text-align: left;
+    padding-left: 2%;
   }
 }
 
 .LeftAlign {
   td {
-    padding-left: var(--spacing-0);
+    padding-left: 2%;
     text-align: left;
   }
 }
@@ -148,6 +149,6 @@
 }
 
 .LeftAlign ~ th {
-  padding-left: var(--spacing-0);
+  padding-left: 2%;
   text-align: left;
 }
