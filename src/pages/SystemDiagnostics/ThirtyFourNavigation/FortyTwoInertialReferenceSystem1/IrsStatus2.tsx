@@ -104,7 +104,7 @@ const ItsStatus2 = () => {
   ];
 
   return (
-    <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'344201'} right={['select prev to go back', 'Select fwd to continue']} />}>
+    <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'344202'} right={['select prev to go back', 'Select fwd to continue']} />}>
       <DataHeader left={'irs status'} right={'2/3'} />
       <DynamicTable data={data} mainHeaders={mainHeaders} secondaryHeaders={secHedaers} hasHeightHeader={false} />
       <DynamicTable data={data2} hasMarginTop />

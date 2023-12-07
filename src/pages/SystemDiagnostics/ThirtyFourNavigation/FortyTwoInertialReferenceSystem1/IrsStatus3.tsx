@@ -69,11 +69,11 @@ const IrsStatus3 = () => {
   ];
   const data2 = [
     {
-      parameter: 'irs1 alignment',
+      parameter: 'irs3a alignment',
       statuses: ['XXXXXXXXXXXXXXXXX'],
     },
     {
-      parameter: 'irs2 alignment',
+      parameter: 'irs3b alignment',
       statuses: ['XXXXXXXXXXXXXXXXXXXXXXX'],
     },
   ];

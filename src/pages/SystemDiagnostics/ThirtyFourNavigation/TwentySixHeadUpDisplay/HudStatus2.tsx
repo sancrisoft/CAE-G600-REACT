@@ -74,7 +74,7 @@ const HudStatus2 = () => {
       <DynamicTable data={data2} mainHeaders={mainHeaders2} hasMarginTop />
       <Text text={'note: the hud fan current display is in %'} />
       <Text text={'the hud nominal fan current is from '} indentSize="m" />
-      <Text text={'10% to 75%'} indentSize="s" />
+      <Text text={'10% to 75%'} indentSize="m" />
     </DefaultLayout>
   );
 };

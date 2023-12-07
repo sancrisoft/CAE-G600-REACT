@@ -1443,7 +1443,9 @@ const SystemDiagnostics = () => {
         {
           text: '27 Standby Flight Display 2',
           children: [
-            { text: 'DATA: SFD2 STATUS' },
+            {
+               text: 'DATA: SFD2 STATUS'
+            },
             {
               text: 'TEST SFD2 TOUCH SENSOR TEST',
               hide: !maintenanceSwitch,

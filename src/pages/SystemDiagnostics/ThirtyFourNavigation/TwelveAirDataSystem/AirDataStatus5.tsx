@@ -39,6 +39,10 @@ const AirDataStaus5 = () => {
       statuses: [true, true],
       alignCenter: true,
     },
+    {
+      parameter: '',
+      statuses: ['', ''],
+    }
   ];
 
   const data2 = [

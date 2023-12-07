@@ -42,7 +42,7 @@ const Page = () => {
 
   const data2 = [
     {
-      parameter: 'INPUT FROM WX EVS-RDCI2',
+      parameter: 'INPUT FROM EVS-RDCI2',
       statuses: [false, false],
     },
   ];

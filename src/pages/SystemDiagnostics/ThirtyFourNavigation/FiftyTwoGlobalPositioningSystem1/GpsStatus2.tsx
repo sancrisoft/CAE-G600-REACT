@@ -10,6 +10,7 @@ const GpsStatus2 = () => {
   const navigate = useNavigate();
 
   const mainHeaders = [{ title: 'GPS1 ', alignLeft: true }, { title: 'IOGM2' }];
+  const mainHeaders2 = [{ title: 'GPS2 ', alignLeft: true }, { title: 'IOGM3' }];
 
   const data = [
     {
@@ -24,6 +25,23 @@ const GpsStatus2 = () => {
     {
       parameter: 'SATELLITE VISIBLE',
       statuses: ['1'],
+      alignRight: true,
+    },
+  ];
+
+  const data2 = [
+    {
+      parameter: 'GPS SENSOR MODE',
+      statuses: ['ACQUISITION MODE'],
+    },
+    {
+      parameter: 'SATELLITE TRACKED',
+      statuses: ['1'],
+      alignRight: true,
+    },
+    {
+      parameter: 'SATELLITE VISIBLE',
+      statuses: ['0'],
       alignRight: true,
     },
   ];
@@ -56,8 +74,10 @@ const GpsStatus2 = () => {
   return (
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'345202'} right={['select prev to go back', 'Select done to continue']} />}>
       <DataHeader left={'gps status'} right={'2/2'} />
-      <Legend title="no faukt" title2="fault" />
+      <Legend title="no fault" title2="fault" />
       <DynamicTable data={data} mainHeaders={mainHeaders} />
+      <DynamicTable data={data2} mainHeaders={mainHeaders2}  hasMarginTop/>
+
     </DefaultLayout>
   );
 };

@@ -39,6 +39,10 @@ const AirDataStatus3 = () => {
       statuses: [true, 'N/A'],
       alignCenter: true,
     },
+    {
+      parameter: '',
+      statuses: ['', ''],
+    }
   ];
 
   const data2 = [

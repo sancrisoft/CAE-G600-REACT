@@ -12,6 +12,7 @@ interface DynamicTableProps {
   customContainer?: boolean
   customWidth?: boolean
   hasHeightHeader?: boolean
+  hasInsideBorder?: Boolean
 }
 
 interface IItems {
@@ -43,6 +44,7 @@ const DynamicTable: React.FC<DynamicTableProps> = ({
   customContainer = false,
   customWidth = false,
   hasHeightHeader = true,
+  hasInsideBorder = true,
 }) => {
   const tableClassNames = hasMarginTop ? `${styles.Table} ${styles.MarginTop}` : styles.Table
   const containerClassName = isHalfWidth
@@ -136,7 +138,7 @@ const DynamicTable: React.FC<DynamicTableProps> = ({
 
   return (
     <div className={containerClassName}>
-      <table className={tableClassNames}>
+      <table className={`${tableClassNames} ${hasInsideBorder ?   '' : styles.ConditionalFlagClass}`}>
         <thead className={hasHeightHeader ? '' : styles.TableHeadClass}>
           <tr>{headers}</tr>
           {thirdHeadersRow && thirdHeadersRow.length > 0 && <tr>{thirdHeadersRow}</tr>}

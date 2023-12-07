@@ -25,11 +25,11 @@ const Egpvm1ApmRaasConfigOpt15 = () => {
     },
     {
       row1: 'ON RUNWAY ADVISORY VOLUME',
-      row2: '12DB BELOW NORMAL /25%EGPWS)',
+      row2: '12DB BELOW NORMAL (/25%EGPWS)',
     },
     {
       row1: 'RUNWAY  END ADVISORY VOLUME',
-      row2: '12DB BELOW NORMAL /25%EGPWS)',
+      row2: '12DB BELOW NORMAL (/25%EGPWS)',
     },
     {
       row1: 'DIST REMAIN ADVISORY VOLUME',
@@ -37,11 +37,11 @@ const Egpvm1ApmRaasConfigOpt15 = () => {
     },
     {
       row1: 'RTO AND LONG LANDING DREM VOLUME',
-      row2: '12DB BELOW NORMAL /25%EGPWS)',
+      row2: '12DB BELOW NORMAL (/25%EGPWS)',
     },
     {
       row1: 'EXTENDED HOLDING ADVISORY VOLUME',
-      row2: '12DB BELOW NORMAL /25%EGPWS)',
+      row2: '12DB BELOW NORMAL (/25%EGPWS)',
     },
     {
       row1: 'ON TAXWAY ADVISORY VOLUME',
@@ -67,7 +67,7 @@ const Egpvm1ApmRaasConfigOpt15 = () => {
       },
     },
     {
-      text: 'done',
+      text: 'fwd',
       disabled: false,
       position: 5,
       href: '/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt16',
@@ -75,7 +75,7 @@ const Egpvm1ApmRaasConfigOpt15 = () => {
   ];
 
   return (
-    <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'344616'} right={['select prev to go back', 'Select done to continue']} />}>
+    <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'344614'} right={['select prev to go back', 'Select done to continue']} />}>
       <DataHeader left={'eg pwm apm raas config options'} right={'15/20'} />
       <CustomTable data={data} headers={mainHeaders} />
     </DefaultLayout>
