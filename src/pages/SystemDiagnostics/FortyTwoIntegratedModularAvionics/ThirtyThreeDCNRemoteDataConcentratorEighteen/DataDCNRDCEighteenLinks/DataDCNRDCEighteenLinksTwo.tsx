@@ -60,7 +60,7 @@ const DataDCNRDCEighteenLinksTwo = () => {
     >
       <DataHeader left={'DCN RDC 18 LINKS'} right={'2/8'} />
       <Legend title="no fault" title2="fault" />
-      <StatusTable data={data} tableHeader={tableHeader} headerLanStatus={true}/>
+      <StatusTable data={data} tableHeader={tableHeader} reducedHeaderTitle={true}/>
     </DefaultLayout>
   )
 }

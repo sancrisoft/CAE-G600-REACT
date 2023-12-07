@@ -59,9 +59,9 @@ const DataDCNSwitchFourStatusThree = () => {
     >
       <DataHeader left={'SWITCH 04 STATUS'} right={'3/3'} />
       <Legend title="no fault" title2="fault" />
-      <StatusTable data={data} tableHeader={tableHeader} headerLanStatus={true} />
+      <StatusTable data={data} tableHeader={tableHeader} reducedHeaderTitle={true} />
       <Legend title="no fault" title2="chk cond" />
-      <StatusTable data={data2} tableHeader={tableHeader} headerLanStatus={true} />
+      <StatusTable data={data2} tableHeader={tableHeader} reducedHeaderTitle={true} />
     </DefaultLayout>
   )
 }

@@ -76,9 +76,9 @@ const DataDCNSwitchOneStatusTwo = () => {
     >
       <DataHeader left={'SWITCH 01 STATUS'} right={'2/3'} />
       <Legend title="no fault" title2="fault" />
-      <StatusTable data={data} tableHeader={tableHeader} headerLanStatus={true}/>
+      <StatusTable data={data} tableHeader={tableHeader} reducedHeaderTitle={true}/>
       <Legend title="no fault" title2="fault" />
-      <StatusTable data={data2} tableHeader={tableHeader} headerLanStatus={true}/>
+      <StatusTable data={data2} tableHeader={tableHeader} reducedHeaderTitle={true}/>
       <DynamicTable 
         mainHeaders={mainHeaders} 
         secondaryHeaders={secHeaders} 

@@ -48,13 +48,13 @@ const FdrStatus = () => {
     >
       <DataHeader left={'FDR Status'} right={'1/1'} />
       <Legend title="No Fault" title2="Fault" />
-      <StatusTable data={data1} tableHeader={fdrHeader} hasDobleTitle title1="IOGM2" title2="" headerLanStatus={true}/>
+      <StatusTable data={data1} tableHeader={fdrHeader} hasDobleTitle title1="IOGM2" title2="" reducedHeaderTitle={true}/>
       <Legend title="True" title2="False" />
-      <StatusTable data={data2} tableHeader={fdrHeader} hasDobleTitle title1="IOGM2" title2="" headerLanStatus={true}/>
+      <StatusTable data={data2} tableHeader={fdrHeader} hasDobleTitle title1="IOGM2" title2="" reducedHeaderTitle={true}/>
       <Legend title="Record" title2="No rec" />
-      <StatusTable data={data3} tableHeader={rdcHeader} hasDobleTitle title1="IOGM2" title2="" headerLanStatus={true}/>
+      <StatusTable data={data3} tableHeader={rdcHeader} hasDobleTitle title1="IOGM2" title2="" reducedHeaderTitle={true}/>
       <Legend title="No Fault" title2="Fault" />
-      <StatusTable data={data4} tableHeader={powerHeader} headerLanStatus={true}/>
+      <StatusTable data={data4} tableHeader={powerHeader} reducedHeaderTitle={true}/>
     </DefaultLayout>
   )
 }
