@@ -50,7 +50,7 @@ const Page = () => {
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'323003'} right={['Select prev to go back', 'Select done to continue']} />}>
       <DataHeader left={'MLG SOLENOID DRIVER STATUS'} right={'2/2'} />
       <Legend title="on" title2="off" />
-      <StatusTable data={data} tableHeader={tableHeader} />
+      <StatusTable data={data} tableHeader={tableHeader} reducedHeaderTitle/>
     </DefaultLayout>
   );
 };

@@ -43,7 +43,7 @@ const NlgSolenoidDriverStatus1 = () => {
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'323002'} right={['Select fwd to continue']} />}>
       <DataHeader left={'NLG SOLENOID DRIVER STATUS'} right={'1/2'} />
       <Legend title="on" title2="off" />
-      <StatusTable data={data} tableHeader={tableHeader} />
+      <StatusTable data={data} tableHeader={tableHeader} reducedHeaderTitle/>
     </DefaultLayout>
   );
 };
