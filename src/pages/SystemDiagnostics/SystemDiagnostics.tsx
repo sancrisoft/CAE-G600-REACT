@@ -937,10 +937,10 @@ const SystemDiagnostics = () => {
           text: '17 TOUCHSCREEN CONTROLLER 2',
           children: [
             {
-              text: 'DATA: TSC2 MISC STATUS',
+              text: 'DATA:TSC2 MISC STATUS',
             },
             {
-              text: 'DATA: TSC2 TEMPERATURE STATUS',
+              text: 'DATA:TSC2 TEMPERATURE STATUS',
             },
             {
               text: 'TEST TSC2 RESET TEST',
