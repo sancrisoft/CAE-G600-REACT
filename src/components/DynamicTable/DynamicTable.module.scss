@@ -139,3 +139,18 @@
   height: unset;
   padding-top: var(--spacing--3);
 }
+
+.ConditionalFlagClass {
+  border: 0.1vh solid var(--white);
+  
+  th {
+    border-right: none;
+    border-left: none;
+  }
+
+  td {
+    border-left: none;
+    border-right: none;
+  }
+
+}

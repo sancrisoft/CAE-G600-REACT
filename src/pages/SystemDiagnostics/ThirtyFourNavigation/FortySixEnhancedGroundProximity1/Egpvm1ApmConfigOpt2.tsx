@@ -79,7 +79,7 @@ const Egpvm1ApmConfigOpt2 = () => {
   return (
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'344602'} right={['select prev to go back', 'Select fwd to continue']} />}>
       <DataHeader left={'egpwm apm config options'} right={'2/8'} />
-      <DynamicTable data={data} mainHeaders={mainHeaders} customWidth />
+      <DynamicTable data={data} mainHeaders={mainHeaders} customWidth hasInsideBorder={false}/>
     </DefaultLayout>
   );
 };
