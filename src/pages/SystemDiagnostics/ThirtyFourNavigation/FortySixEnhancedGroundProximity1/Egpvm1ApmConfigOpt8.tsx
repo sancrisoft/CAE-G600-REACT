@@ -77,9 +77,9 @@ const Egpvm1ApmConfigOpt8 = () => {
   ];
 
   return (
-    <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'344604'} right={['select prev to go back', 'Select done to continue']} />}>
+    <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'344608'} right={['select prev to go back', 'Select done to continue']} />}>
       <DataHeader left={'egpwm apm config options'} right={'8/8'} />
-      <DynamicTable data={data} mainHeaders={mainHeaders} />
+      <DynamicTable data={data} mainHeaders={mainHeaders} hasInsideBorder={false}/>
     </DefaultLayout>
   );
 };

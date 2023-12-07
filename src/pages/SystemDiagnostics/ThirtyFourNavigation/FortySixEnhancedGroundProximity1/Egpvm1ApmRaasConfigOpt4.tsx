@@ -4,6 +4,7 @@ import DataFooter from '../../../../components/DataFooter';
 import DataHeader from '../../../../components/DataHeader';
 import DefaultLayout from '../../../../components/Layout';
 import DynamicTable from '../../../../components/DynamicTable';
+import CustomTable from '../../../../components/CustomTable';
 
 const Egpvm1ApmRaasConfigOpt4 = () => {
   const navigate = useNavigate();
@@ -39,11 +40,7 @@ const Egpvm1ApmRaasConfigOpt4 = () => {
       statuses: ['MALE'],
       alignCenter: true,
     },
-    {
-      parameter: 'STABLE APPR INHIBIT TYPE ',
-      statuses: ['INHIBIT VIA RAAS INHIBIT SELECT'],
-      alignCenter: true,
-    },
+
   ];
   const data2 = [
     {
@@ -61,12 +58,20 @@ const Egpvm1ApmRaasConfigOpt4 = () => {
       statuses: ['MALE'],
       alignCenter: true,
     },
-    {
-      parameter: 'ALTIMETER MONITOR INHIBIT TYPE',
-      statuses: ['INHIBIT VIA RAAS INHIBIT SELECT'],
-      alignCenter: true,
-    },
   ];
+  const data3 = [
+    {
+      row1: 'STABLE APPR INHIBIT TYPE',
+      row2: 'INHIBIT VIA RAAS INHIBIT SELECT',
+    },
+  ]
+
+  const data4 = [
+    {
+      row1: 'ALTIMETER MONITOR INHIBIT TYPE',
+      row2: 'INHIBIT VIA RAAS INHIBIT SELECT',
+    },
+  ]
   const navBarButtons: NavBarButtonType[] = [
     {
       text: 'TEST MENU',
@@ -96,7 +101,10 @@ const Egpvm1ApmRaasConfigOpt4 = () => {
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'344609'} right={['select prev to go back', 'Select fwd to continue']} />}>
       <DataHeader left={'eg pwm apm raas config options'} right={'4/20'} />
       <DynamicTable data={data} mainHeaders={mainHeaders} />
+      <CustomTable data={data3} customStyle />
       <DynamicTable data={data2} mainHeaders={mainHeaders} hasMarginTop />
+      <CustomTable data={data4} customStyle />
+
     </DefaultLayout>
   );
 };

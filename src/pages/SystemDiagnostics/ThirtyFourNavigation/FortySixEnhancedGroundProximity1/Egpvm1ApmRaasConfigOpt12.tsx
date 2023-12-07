@@ -58,7 +58,7 @@ const Egpvm1ApmRaasConfigOpt12 = () => {
   const data2 = [
     {
       parameter: 'INITIAL HOLDING TIME',
-      statuses: ['90 ESCONDS'],
+      statuses: ['90 SECONDS'],
     },
     {
       parameter: 'REPEAT HOLDING TIME ',

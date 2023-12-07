@@ -67,7 +67,7 @@ const GpsStatus1 = () => {
   return (
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'345201'} right={['Select fwd to continue']} />}>
       <DataHeader left={'gps status'} right={'1/2'} />
-      <Legend title="no faukt" title2="fault" />
+      <Legend title="no fault" title2="fault" />
       <DynamicTable data={data} mainHeaders={mainHeaders} secondaryHeaders={secHeaders} />
     </DefaultLayout>
   );

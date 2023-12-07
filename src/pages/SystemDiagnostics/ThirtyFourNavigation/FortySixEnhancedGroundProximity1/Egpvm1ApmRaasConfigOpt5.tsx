@@ -25,11 +25,11 @@ const Egpvm1ApmRaasConfigOpt5 = () => {
     },
     {
       row1: 'ON RUNWAY ADVISORY VOLUME',
-      row2: '12DB BELOW NORMAL /25%EGPWS)',
+      row2: '12DB BELOW NORMAL (/25%EGPWS)',
     },
     {
       row1: 'RUNWAY  END ADVISORY VOLUME',
-      row2: '12DB BELOW NORMAL /25%EGPWS)',
+      row2: '12DB BELOW NORMAL (/25%EGPWS)',
     },
     {
       row1: 'DIST REMAIN ADVISORY VOLUME',
@@ -37,11 +37,11 @@ const Egpvm1ApmRaasConfigOpt5 = () => {
     },
     {
       row1: 'RTO AND LONG LANDING DREM VOLUME',
-      row2: '12DB BELOW NORMAL /25%EGPWS)',
+      row2: '12DB BELOW NORMAL (/25%EGPWS)',
     },
     {
       row1: 'EXTENDED HOLDING ADVISORY VOLUME',
-      row2: '12DB BELOW NORMAL /25%EGPWS)',
+      row2: '12DB BELOW NORMAL (/25%EGPWS)',
     },
     {
       row1: 'ON TAXWAY ADVISORY VOLUME',
@@ -67,7 +67,7 @@ const Egpvm1ApmRaasConfigOpt5 = () => {
       },
     },
     {
-      text: 'done',
+      text: 'fwd',
       disabled: false,
       position: 5,
       href: '/systemdiagnostics/thirtyfournavigation/fortysixenhancedgroundproximity1/egpvm1apmraasconfigopt6',

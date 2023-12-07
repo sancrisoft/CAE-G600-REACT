@@ -90,7 +90,7 @@ const AirDataStatus4 = () => {
   ];
 
   return (
-    <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'341203'} right={['select prev to go back', 'Select fwd to continue']} />}>
+    <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'341204'} right={['select prev to go back', 'Select fwd to continue']} />}>
       <DataHeader left={'ads status '} right={'4/7'} />
       <Legend title="true" title2="false" />
       <DynamicTable data={data} mainHeaders={mainHeaders} secondaryHeaders={secondaryHeaders} hasBorder thirdHeaders={thirdHeaders} />

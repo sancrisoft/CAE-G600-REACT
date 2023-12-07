@@ -70,7 +70,7 @@ const Egpvm1ApmRaasConfigOpt6 = () => {
     {
       text: 'PREV',
       disabled: false,
-      position: 1,
+      position: 4,
       onClick: () => {
         navigate(-1);
       },
