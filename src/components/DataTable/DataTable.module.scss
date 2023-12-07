@@ -56,6 +56,19 @@
   }
 }
 
+.MergedHeaders2 {
+  th {
+    color: var(--aqua);
+  }
+
+  th:first-child {
+    border-right: 0.1vh solid var(--white);
+    padding-left: var(--spacing-0);
+    text-align: left;
+    width: 40%;
+  }
+}
+
 .VerticalCenter:first-of-type {
   margin-top: -18px;
 }
@@ -96,6 +109,21 @@
     border: 0.1vh solid var(--white);
     color: var(--white);
     padding-right: var(--spacing-0);
+    text-align: center;
+  }
+
+  td:first-child {
+    padding-left: var(--spacing-0);
+    text-align: left;
+  }
+}
+
+.Rows2 {
+  td {
+    border: 0.1vh solid var(--white);
+    color: var(--white);
+    padding-right: var(--spacing-0);
+    padding-block: 7px;
     text-align: center;
   }
 

@@ -9,7 +9,8 @@ interface DataTableProps {
   leftAlign?: boolean
   headerLeftAlign?: boolean
   rightAlign?: boolean
-  marginTop?: boolean
+  marginTop?: boolean,
+  reducedHeaderStatus1?: boolean
 }
 
 interface IItems {
@@ -29,6 +30,7 @@ const DataTable: React.FC<DataTableProps> = ({
   mainHeaders,
   secondaryHeaders,
   mergedHeader,
+  reducedHeaderStatus1 = false,
   hasBorder = false,
   leftAlign = false,
   rightAlign,
@@ -37,7 +39,7 @@ const DataTable: React.FC<DataTableProps> = ({
 }) => {
   const headerClass = mergedHeader ? '' : styles.Header
   const headerAlign = headerLeftAlign ? styles.LeftAlign : ''
-  const rowClass = mergedHeader ? styles.TablesRows : styles.Rows
+  const rowClass = mergedHeader ? styles.TablesRows : reducedHeaderStatus1 ? styles.Rows2 : styles.Rows
   const rowAlign = leftAlign ? styles.LeftAlign : rightAlign ? styles.RightAlign : ''
 
   const headers = mainHeaders.map((header, index) => {
@@ -84,16 +86,16 @@ const DataTable: React.FC<DataTableProps> = ({
             </>
           ) : mergedHeader ? (
             <>
-              <tr className={hasBorder ? styles.MergedHeadersBorder : styles.MergedHeaders}>
+              <tr className={hasBorder ? styles.MergedHeadersBorder : (reducedHeaderStatus1 ? styles.MergedHeaders2 : styles.MergedHeaders)}>
                 <th></th>
                 <th colSpan={2}>
                   <p className={styles.MergedHeader}>{mergedHeader}</p>
                 </th>
               </tr>
-              <tr className={hasBorder ? styles.MergedHeadersBorder : styles.MergedHeaders}>{headers}</tr>
+              <tr className={hasBorder ? styles.MergedHeadersBorder : (reducedHeaderStatus1 ? styles.MergedHeaders2 : styles.MergedHeaders)}>{headers}</tr>
             </>
           ) : (
-            <tr className={styles.MergedHeaders}>{headers}</tr>
+            <tr className={(reducedHeaderStatus1 ? styles.MergedHeaders2 : styles.MergedHeaders)}>{headers}</tr>
           )}
         </thead>
         <tbody>{rows}</tbody>

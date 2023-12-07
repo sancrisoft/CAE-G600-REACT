@@ -48,8 +48,8 @@ const LgDoorProxSensors = () => {
   return (
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'323012'} right={['Select done to continue']} />}>
       <DataHeader left={'LG door proximity sensor rigging'} right={'1/1'} isTitleLeft />
-      <DataTable data={data1} mainHeaders={tableHeader1} />
-      <DataTable data={data2} mainHeaders={tableHeader2} marginTop />
+      <DataTable data={data1} mainHeaders={tableHeader1} reducedHeaderStatus1={true}/>
+      <DataTable data={data2} mainHeaders={tableHeader2} reducedHeaderStatus1={true} marginTop />
     </DefaultLayout>
   );
 };
