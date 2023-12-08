@@ -2,7 +2,7 @@
 
 .Container {
   margin: var(--spacing--0) 0;
-  margin: var(--spacing--2) 0 var(--spacing-0) 0;
+  margin: var(--spacing--2) 0 var(--spacing--2) 0;
 }
 
 .halfWidth {
@@ -48,7 +48,7 @@
   td:first-child {
     padding-left: var(--spacing-2);
     text-align: left;
-    width: 48%;
+    width: 40%;
   }
 
   .Border {

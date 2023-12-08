@@ -4,28 +4,28 @@ import DataHeader from "../../../../components/DataHeader";
 import DefaultLayout from "../../../../components/Layout";
 import Legend from "../../../../components/Legend";
 import { NavBarButtonType } from "../../../../components/NavBar";
-import StatusTable from "../../../../components/StatusTable";
+import DynamicTable from "../../../../components/DynamicTable";
 
 const ServiceDoors = () => {
   const navigate = useNavigate();
 
-  const tableHeader = [{ title: 'SERVICE DOOR' }, { title: 'IOGM1' }, { title: 'IOGM2' }]
+  const tableHeader = [{ title: 'SERVICE DOOR', alignLeft: true }, { title: 'IOGM1' }, { title: 'IOGM2' }]
   const data = [
-    { parameter: 'FWD EXT SW PNL (SECURITY)', status1: true, status2: true },
-    { parameter: 'L COWL ACCESS DOOR', status1: true, status2: true },
-    { parameter: 'ACOUSTIC DOOR', status1: false, status2: false },
-    { parameter: 'OXYGEN SERVICE DOOR', status1: true, status2: true },
-    { parameter: 'L ENGINE ACCESS (OIL)', status1: true, status2: true },
-    { parameter: 'L ENGINE ACCESS (BLOWOUT)', status1: true, status2: true },
-    { parameter: 'FUEL DRAIN VALVE', status1: true, status2: true },
-    { parameter: 'L FUEL HOPPER DRAIN VALVE', status1: true, status2: true },
-    { parameter: 'R FUEL DRAIN VALVE', status1: true, status2: true },
-    { parameter: 'R FUEL HOPPER DRAIN VALVE', status1: true, status2: true },
-    { parameter: 'RAT DOOR', status1: true, status2: true },
-    { parameter: 'LDG GEAR MAINT PNL DOOR', status1: true, status2: true },
-    { parameter: 'WASTE SERVICE DOOR', status1: true, status2: true },
-    { parameter: 'INTERNAL BAGGAGE DOOR', status1: false, status2: false },
-    { parameter: 'EXTERNAL BAGGAGE DOOR SW 2', status1: true, status2: true },
+    { parameter: 'FWD EXT SW PNL (SECURITY)', statuses: [true, true], customSpan: 2},
+    { parameter: 'L COWL ACCESS DOOR', statuses: [true, true], customSpan: 2 },
+    { parameter: 'ACOUSTIC DOOR', statuses: [false, false], customSpan: 2},
+    { parameter: 'OXYGEN SERVICE DOOR', statuses: [true, true], customSpan: 2  },
+    { parameter: 'L ENGINE ACCESS (OIL)', statuses: [true, true], customSpan: 2  },
+    { parameter: 'L ENGINE ACCESS (BLOWOUT)', statuses: [true, true], customSpan: 2  },
+    { parameter: 'FUEL DRAIN VALVE', statuses: [true, true], customSpan: 2  },
+    { parameter: 'L FUEL HOPPER DRAIN VALVE', statuses: [true, true], customSpan: 2  },
+    { parameter: 'R FUEL DRAIN VALVE', statuses: [true, true], customSpan: 2  },
+    { parameter: 'R FUEL HOPPER DRAIN VALVE', statuses: [true, true], customSpan: 2  },
+    { parameter: 'RAT DOOR', statuses: [true, true], customSpan: 2  },
+    { parameter: 'LDG GEAR MAINT PNL DOOR', statuses: [true, true], customSpan: 2 },
+    { parameter: 'WASTE SERVICE DOOR', statuses: [true, true], customSpan: 2 },
+    { parameter: 'INTERNAL BAGGAGE DOOR', statuses: [false, false], customSpan: 2 },
+    { parameter: 'EXTERNAL BAGGAGE DOOR SW 2', statuses: [true, true], customSpan: 2},
   ]
 
   const navBarButtons: NavBarButtonType[] = [
@@ -51,9 +51,10 @@ const ServiceDoors = () => {
       navBarButtons={navBarButtons}
       footer={<DataFooter left={'524001'} right={['Select fwd to continue']} />}
     >
-      <DataHeader left={'service door status'} right={'1/2'} />
+      <DataHeader left={'service doors status'} right={'1/2'} />
       <Legend title="closed" title2="open" />
-      <StatusTable data={data} tableHeader={tableHeader} />
+      <DynamicTable data={data} mainHeaders={tableHeader} />
+
     </DefaultLayout>
   )
 }
