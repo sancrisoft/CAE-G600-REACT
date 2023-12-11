@@ -38,7 +38,7 @@ const LgWowProxSensors = () => {
   return (
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'323014'} right={['Select done to continue']} />}>
       <DataHeader left={'LG wow proximity sensor rigging'} right={'1/1'} isTitleLeft />
-      <DataTable data={data} mainHeaders={tableHeader} leftAlign headerLeftAlign />
+      <DataTable data={data} mainHeaders={tableHeader} leftAlign headerLeftAlign reducedHeaderStatus1 />
     </DefaultLayout>
   );
 };

@@ -53,7 +53,7 @@ const OutboardBrakeStatus4 = () => {
   return (
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'324008'} right={['Select prev to go back', 'Select done to continue']} />}>
       <DataHeader left={'brake ctrl unit outboard sys status'} right={'4/4'} isTitleLeft />
-      <StatusTable data={data} tableHeader={tableHeader} />
+      <StatusTable data={data} tableHeader={tableHeader} reducedHeaderTitle/>
     </DefaultLayout>
   );
 };

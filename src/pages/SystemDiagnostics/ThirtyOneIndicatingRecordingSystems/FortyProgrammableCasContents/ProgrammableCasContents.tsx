@@ -29,7 +29,7 @@ const ProgrammableCasContents = () => {
 
   const items: AccordionItem[] = [
     {
-      text: '31 INDICATING/RECORDING SYSTEMS',
+      text: 'IDENT',
       children: [
         {
           text: 'PROG',

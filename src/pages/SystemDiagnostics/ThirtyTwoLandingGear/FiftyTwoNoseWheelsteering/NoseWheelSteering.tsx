@@ -41,8 +41,8 @@ const NoseWheelSteering = () => {
   return (
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'325201'} right={['Select done to continue']} />}>
       <DataHeader left={'Nose wheel position'} right={'1/1'} />
-      <StatusTable data={data1} tableHeader={tableHeader1} />
-      <StatusTable data={data2} tableHeader={tableHeader2} />
+      <StatusTable data={data1} tableHeader={tableHeader1} reducedHeaderTitle/>
+      <StatusTable data={data2} tableHeader={tableHeader2} reducedHeaderTitle/>
     </DefaultLayout>
   );
 };

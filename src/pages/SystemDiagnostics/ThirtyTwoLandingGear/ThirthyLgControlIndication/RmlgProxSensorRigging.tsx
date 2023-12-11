@@ -42,7 +42,7 @@ const RmlgProxSensorRigging = () => {
   return (
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'323010'} right={['Select done to continue']} />}>
       <DataHeader left={'RMLG proximity sensor rigging'} right={'1/1'} />
-      <DataTable data={data} mainHeaders={tableHeader} leftAlign headerLeftAlign />
+      <DataTable data={data} mainHeaders={tableHeader} leftAlign headerLeftAlign reducedHeaderStatus1/>
     </DefaultLayout>
   );
 };

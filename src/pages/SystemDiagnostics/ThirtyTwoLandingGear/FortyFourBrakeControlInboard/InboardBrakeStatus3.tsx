@@ -53,8 +53,8 @@ const InboardBrakeStatus3 = () => {
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'324003'} right={['Select prev to go back', 'Select fwd to continue']} />}>
       <DataHeader left={'brake ctrl unit inboard sys status'} right={'3/4'} isTitleLeft />
       <Legend />
-      <StatusTable data={data1} tableHeader={tableHeader} />
-      <StatusTable data={data2} tableHeader={tableHeader} />
+      <StatusTable data={data1} tableHeader={tableHeader} reducedHeaderTitle/>
+      <StatusTable data={data2} tableHeader={tableHeader} reducedHeaderTitle/>
     </DefaultLayout>
   );
 };

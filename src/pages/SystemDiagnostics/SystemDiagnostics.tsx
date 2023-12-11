@@ -917,14 +917,14 @@ const SystemDiagnostics = () => {
       text: '31 INDICATING/RECORDING SYSTEMS',
       children: [
         {
-          text: '17 TOUCH SCREEN CONTROLLER 1',
+          text: '17 TOUCHSCREEN CONTROLLER 1',
           children: [
             {
-              text: 'DATA: TSC1 MISC STATUS',
+              text: 'DATA:TSC1 MISC STATUS',
               href: '/systemdiagnostics/thirtyoneindicatingrecordingsystems/seventeentouchscreencontroller1/tsc1miscstatus',
             },
             {
-              text: 'DATA: TSC1 TEMPERATURE STATUS',
+              text: 'DATA:TSC1 TEMPERATURE STATUS',
               href: '/systemdiagnostics/thirtyoneindicatingrecordingsystems/seventeentouchscreencontroller1/tsc1tempstatus',
             },
             {
@@ -934,13 +934,13 @@ const SystemDiagnostics = () => {
           ],
         },
         {
-          text: '17 TOUCH SCREEN CONTROLLER 2',
+          text: '17 TOUCHSCREEN CONTROLLER 2',
           children: [
             {
-              text: 'DATA: TSC2 MISC STATUS',
+              text: 'DATA:TSC2 MISC STATUS',
             },
             {
-              text: 'DATA: TSC2 TEMPERATURE STATUS',
+              text: 'DATA:TSC2 TEMPERATURE STATUS',
             },
             {
               text: 'TEST TSC2 RESET TEST',
@@ -949,10 +949,10 @@ const SystemDiagnostics = () => {
           ],
         },
         {
-          text: '17 TOUCH SCREEN CONTROLLER 3',
+          text: '17 TOUCHSCREEN CONTROLLER 3',
           children: [
-            { text: 'DATA: TSC3 MISC STATUS' },
-            { text: 'DATA: TSC3 TEMPERATURE STATUS' },
+            { text: 'DATA:TSC3 MISC STATUS' },
+            { text: 'DATA:TSC3 TEMPERATURE STATUS' },
             {
               text: 'TEST TSC3 RESET TEST',
               hide: !maintenanceSwitch,
@@ -960,10 +960,10 @@ const SystemDiagnostics = () => {
           ],
         },
         {
-          text: '17 TOUCH SCREEN CONTROLLER 4',
+          text: '17 TOUCHSCREEN CONTROLLER 4',
           children: [
-            { text: 'DATA: TSC4 MISC STATUS' },
-            { text: 'DATA: TSC4 TEMPERATURE STATUS' },
+            { text: 'DATA:TSC4 MISC STATUS' },
+            { text: 'DATA:TSC4 TEMPERATURE STATUS' },
             {
               text: 'TEST TSC4 RESET TEST',
               hide: !maintenanceSwitch,
@@ -971,10 +971,10 @@ const SystemDiagnostics = () => {
           ],
         },
         {
-          text: '17 TOUCH SCREEN CONTROLLER 5',
+          text: '17 TOUCHSCREEN CONTROLLER 5',
           children: [
-            { text: 'DATA: TSC5 MISC STATUS' },
-            { text: 'DATA: TSC5 TEMPERATURE STATUS' },
+            { text: 'DATA:TSC5 MISC STATUS' },
+            { text: 'DATA:TSC5 TEMPERATURE STATUS' },
             {
               text: 'TEST TSC5 RESET TEST',
               hide: !maintenanceSwitch,

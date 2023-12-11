@@ -45,7 +45,7 @@ const Tsc1TempStatus = () => {
     <DefaultLayout
       showNavBar
       navBarButtons={navBarButtons}
-      footer={<DataFooter left={'212501'} right={['Select done to continue']} />}
+      footer={<DataFooter left={'311702'} right={['Select done to continue']} />}
     >
       <DataHeader left={'TSC1 temperature status in celsius'} right={'1/1'} />
       <StatusTable data={data} tableHeader={header} />

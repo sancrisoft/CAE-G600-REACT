@@ -42,9 +42,9 @@ const TpmsStatus2 = () => {
 
   return (
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'324902'} right={['Select prev to go back', 'Select done to continue']} />}>
-      <DataHeader left={'tpms fault status screen 1'} right={'1/2'} />
+      <DataHeader left={'tpms fault status screen 2'} right={'1/2'} />
       <Legend title="No Fault" title2="Fault" />
-      <StatusTable data={data} tableHeader={tableHeader} />
+      <StatusTable data={data} tableHeader={tableHeader} reducedHeaderTitle/>
     </DefaultLayout>
   );
 };

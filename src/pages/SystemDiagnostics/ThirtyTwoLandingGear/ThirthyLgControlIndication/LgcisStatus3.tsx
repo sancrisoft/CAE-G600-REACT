@@ -51,7 +51,7 @@ const Page = () => {
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'323006'} right={['Select prev to go back', 'Select done to continue']} />}>
       <DataHeader left={'LGCIS status'} right={'3/3'} />
       <Legend title="true" title2="false" />
-      <StatusTable data={data} tableHeader={tableHeader} />
+      <StatusTable data={data} tableHeader={tableHeader} reducedHeaderTitle />
     </DefaultLayout>
   );
 };

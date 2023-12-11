@@ -9,7 +9,7 @@ interface StatusTableProps {
   title2?: string
   isHalfWidth?: boolean
   supHeader?: string
-  headerLanStatus?: boolean
+  reducedHeaderTitle?: boolean
   noMargin?: boolean
 }
 
@@ -41,7 +41,7 @@ const StatusTable: React.FC<StatusTableProps> = ({
   isHalfWidth = false,
   supHeader,
   noMargin = false,
-  headerLanStatus
+  reducedHeaderTitle
 }) => {
   const containerClassName = isHalfWidth ? `${styles.Container} ${styles.halfWidth}` : noMargin ? styles.ContainerNoMargin : styles.Container
   function getStatusClass(status: any) {
@@ -58,7 +58,7 @@ const StatusTable: React.FC<StatusTableProps> = ({
           )}
           {hasDobleTitle && tableHeader && (
             <>
-              <tr className={headerLanStatus ? styles.HeaderLanStatus : styles.Header}>
+              <tr className={reducedHeaderTitle ? styles.reducedHeaderTitle : styles.Header}>
                 <th rowSpan={2}>{tableHeader[0].title}</th>
                 <th className={`${styles.HeaderTitle} ${styles.Title1}`}>{title1}</th>
                 {title2 ? <th className={`${styles.HeaderTitle} ${styles.Title2}`}>{title2}</th> : null}
@@ -75,7 +75,7 @@ const StatusTable: React.FC<StatusTableProps> = ({
               </tr>
             </>
           )}
-          <tr className={headerLanStatus ? styles.HeaderLanStatus : styles.Header}>
+          <tr className={reducedHeaderTitle ? styles.reducedHeaderTitle : styles.Header}>
             {hasHeader && !hasDobleTitle && tableHeader?.map((header, index) => <th key={index}>{header.title}</th>)}
           </tr>
         </thead>

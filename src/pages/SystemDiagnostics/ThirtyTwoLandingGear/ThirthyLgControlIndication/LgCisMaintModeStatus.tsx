@@ -9,7 +9,7 @@ import StatusTable from '../../../../components/StatusTable';
 const LgCisMaintModeStatus = () => {
   const navigate = useNavigate();
 
-  const tableHeader = [{ title: 'LDG MAINT SERVICE PNL' }, { title: 'CL 1' }, { title: 'CL 2' }];
+  const tableHeader = [{ title: 'LDG MAINT SERVICE PNL' }, { title: 'CL1' }, { title: 'CL2' }];
   const data = [
     { parameter: 'LGCIS MM SELECTED', status1: true, status2: true },
     { parameter: 'MM WOW ON GROUND SELECTED', status1: false, status2: false },
@@ -46,7 +46,7 @@ const LgCisMaintModeStatus = () => {
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'323001'} right={['Select done to continue']} />}>
       <DataHeader left={'LGCIS maint mode status'} right={'1/1'} />
       <Legend title="true" title2="false" />
-      <StatusTable data={data} tableHeader={tableHeader} />
+      <StatusTable data={data} tableHeader={tableHeader} reducedHeaderTitle />
     </DefaultLayout>
   );
 };
