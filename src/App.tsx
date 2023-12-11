@@ -3,7 +3,8 @@ import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/Home';
 import Active from './pages/MaintenanceMessages/Active/Active';
 import CorrelatedFdes from './pages/MaintenanceMessages/Active/CorrelatedFdes';
-import HistoricalByDate from './pages/MaintenanceMessages/HistoricalByAta/HistoricalByAta';
+import HistoricalByDate from './pages/MaintenanceMessages/HistoricalByDate/HistoricalByDate';
+import HistoricalByAta from './pages/MaintenanceMessages/HistoricalByAta/HistoricalByAta';
 import MaintenanceMessagesPage from './pages/MaintenanceMessages/MaintenanceMessages';
 import PresentLeg from './pages/MaintenanceMessages/PresentLeg/PresentLeg';
 import TimeOrderedViews from './pages/MaintenanceMessages/TimeOrderedViews/TimeOrderedViews';
@@ -489,6 +490,7 @@ function App() {
         <Route path="/maintenancemessages/active/correlatedfdes" element={<CorrelatedFdes />} />
         <Route path="/maintenancemessages/presentleg" element={<PresentLeg />} />
         <Route path="/maintenancemessages/historicalbydate" element={<HistoricalByDate />} />
+        <Route path="/maintenancemessages/historicalbyAta" element={<HistoricalByAta />} />
         <Route path="/maintenancemessages/timeorderedviews" element={<TimeOrderedViews />} />
         <Route path="/maintenancemessages/timeorderedviews/active" element={<TmoActive />} />
         <Route path="/maintenancemessages/timeorderedviews/currentleg" element={<CurrentLeg />} />

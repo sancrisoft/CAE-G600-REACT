@@ -55,7 +55,6 @@ const PresentLeg = () => {
         { text: '60 SPOILER CONTROL SYSTEM' }
       ]
     },
-    { text: '28 Fuel' },
     { text: '30 Ice And Rain Protection' },
     { text: '31 Indicating/Recording Systems' },
     { text: '32 Landing Gear' },
@@ -70,12 +69,7 @@ const PresentLeg = () => {
     { text: '49 Airborne Auxiliary Power' },
     { text: '52 Doors' },
     { text: '73 Engine Fuel And Control' },
-    { text: '75 Air' },
-    { text: '76 Engine Controls' },
-    { text: '77 Engine Indicating' },
-    { text: '78 Exhaust' },
     { text: '79 Oil' },
-    { text: '80 Starting' },
   ]
 
   const navBarButton: NavBarButtonType = {

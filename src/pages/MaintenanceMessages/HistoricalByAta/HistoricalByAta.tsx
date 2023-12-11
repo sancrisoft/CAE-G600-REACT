@@ -55,7 +55,6 @@ const HistoricalByDate = () => {
         { text: '60 SPOILER CONTROL SYSTEM' },
       ],
     },
-    { text: '28 FUEL' },
     { text: '30 ICE AND RAIN PROTECTION' },
     { text: '31 INDICATING/RECORDING SYSTEMS' },
     { text: '32 LANDING GEAR' },
