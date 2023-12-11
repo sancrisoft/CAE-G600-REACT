@@ -4,15 +4,15 @@ import DataHeader from "../../../../components/DataHeader";
 import DefaultLayout from "../../../../components/Layout";
 import Legend from "../../../../components/Legend";
 import { NavBarButtonType } from "../../../../components/NavBar";
-import StatusTable from "../../../../components/StatusTable";
+import DynamicTable from "../../../../components/DynamicTable";
 
 const MainDoorStatus2 = () => {
   const navigate = useNavigate();
 
-  const tableHeader = [{ title: 'DISCRETES' }, { title: 'CH1' }, { title: 'CH2' }]
+  const tableHeader = [{ title: 'DISCRETES', alignLeft: true }, { title: 'CH1' }, { title: 'CH2' }]
   const data = [
-    { parameter: '11-CONTROL PATH HEALTH', status1: true, status2: true },
-    { parameter: '12-MONITOR PATH HEALTH', status1: true, status2: true },
+    { parameter: '11-CONTROL PATH HEALTH', statuses: [true, true], customSpan: 2 },
+    { parameter: '12-MONITOR PATH HEALTH', statuses: [true, true], customSpan: 2 },
   ]
 
   const navBarButtons: NavBarButtonType[] = [
@@ -48,7 +48,7 @@ const MainDoorStatus2 = () => {
     >
       <DataHeader left={'DOOR STATUS #3 (A429 L353/L364)'} right={'3/6'} />
       <Legend title="true" title2="false" />
-      <StatusTable data={data} tableHeader={tableHeader} />
+      <DynamicTable data={data} mainHeaders={tableHeader}/>
     </DefaultLayout>
   )
 }

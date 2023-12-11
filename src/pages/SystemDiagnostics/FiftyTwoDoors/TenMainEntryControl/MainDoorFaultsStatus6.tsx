@@ -4,16 +4,16 @@ import DataHeader from "../../../../components/DataHeader";
 import DefaultLayout from "../../../../components/Layout";
 import Legend from "../../../../components/Legend";
 import { NavBarButtonType } from "../../../../components/NavBar";
-import StatusTable from "../../../../components/StatusTable";
+import DynamicTable from "../../../../components/DynamicTable";
 
 const MainDoorFaultsStatus6 = () => {
   const navigate = useNavigate();
 
-  const tableHeader = [{ title: 'DISCRETES' }, { title: 'status' }]
+  const tableHeader = [{ title: 'DISCRETES', alignLeft:true }, { title: 'status' }]
   const data = [
-    { parameter: '25-LATCH UNLATCH LO-SIDE FAULT2', status1: false },
-    { parameter: '26-SENSOR POWER 2 FAULT', status1: false },
-    { parameter: '27-SUPPLY ISOLATION FAULT LANE2', status1: false },
+    { parameter: '25-LATCH UNLATCH LO-SIDE FAULT2', statuses: [false] },
+    { parameter: '26-SENSOR POWER 2 FAULT', statuses: [false] },
+    { parameter: '27-SUPPLY ISOLATION FAULT LANE2', statuses: [false] },
   ]
 
   const navBarButtons: NavBarButtonType[] = [
@@ -49,7 +49,7 @@ const MainDoorFaultsStatus6 = () => {
     >
       <DataHeader left={'DOOR FAULT #7 (A429 LBL 362)'} right={'7/7'} />
       <Legend title="true" title2="false" />
-      <StatusTable data={data} tableHeader={tableHeader} />
+      <DynamicTable data={data} mainHeaders={tableHeader} />
     </DefaultLayout>
   )
 }
