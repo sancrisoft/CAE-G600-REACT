@@ -12,13 +12,12 @@ const DataDCNRDCThirteenLinksOne = () => {
   const tableHeader = [{ title: 'PARAMETER' }, { title: 'IOGM1' }, { title: 'IOGM4' }]
   const data = [
     { parameter: '60HZ OBSVR ENABLE PINS', status1: true, status2: true },
-    { parameter: '60 HZ L CNS ENABLE PINS', status1: true, status2: true },
+    { parameter: '60HZ L CNSL ENABLE PINS', status1: true, status2: true },
     { parameter: 'A/T DISCONNECT 1 PINS', status1: true, status2: true },
     { parameter: 'A/T DISCONNECT 2 PINS', status1: true, status2: true },
     { parameter: 'A/T ENG/DISENG 1 PINS', status1: true, status2: true },
-    { parameter: 'A/T ENG/DISENG 2 PINS', status1: true, status2: true },
-    { parameter: 'ADS A429 RX PINS', status1: true, status2: true },
-    { parameter: 'ADS A429 TX PINS', status1: true, status2: true },
+    { parameter: 'ADS 1 A429 RX PINS', status1: true, status2: true },
+    { parameter: 'ADS 1 A429 TX PINS', status1: true, status2: true },
     { parameter: 'API BUTTON ARM PINS', status1: true, status2: true },
     { parameter: 'BARO INHIBIT IN PINS', status1: true, status2: true },
     { parameter: 'BCU INBD A429 RX PINS', status1: true, status2: true },

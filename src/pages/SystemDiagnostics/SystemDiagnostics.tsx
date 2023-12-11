@@ -2174,7 +2174,6 @@ const SystemDiagnostics = () => {
         },
       ],
     },
-    { text: '80 STARTING' },
   ];
 
   const navBarButtons: NavBarButtonType[] = [
