@@ -54,7 +54,7 @@ const LgcisStatus2 = () => {
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'323005'} right={['Select prev to go back', 'Select fwd to continue']} />}>
       <DataHeader left={'LGCIS status'} right={'2/3'} />
       <Legend title="true" title2="false" />
-      <StatusTable data={data} tableHeader={tableHeader} />
+      <StatusTable data={data} tableHeader={tableHeader} reducedHeaderTitle />
     </DefaultLayout>
   );
 };
