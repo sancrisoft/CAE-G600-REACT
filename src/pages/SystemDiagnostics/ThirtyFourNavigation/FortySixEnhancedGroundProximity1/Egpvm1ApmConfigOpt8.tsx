@@ -57,7 +57,7 @@ const Egpvm1ApmConfigOpt8 = () => {
       disabled: false,
       position: 1,
       onClick: () => {
-        navigate(-1);
+        navigate('/systemdiagnostics');
       },
     },
     {
