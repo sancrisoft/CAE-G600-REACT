@@ -479,6 +479,8 @@ import DataDCNSwitchFourStatusOne from './pages/SystemDiagnostics/FortyTwoIntegr
 import DataDCNSwitchFourStatusTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNSwitchFour/DataDCNSwitchFourStatusTwo';
 import DataDCNSwitchFourStatusThree from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNSwitchFour/DataDCNSwitchFourStatusThree';
 import FqmsProbesDataDryCapPf from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsProbesDataDryCapPf';
+import VibrationCounters from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/VibrationCounters';
+import EngineTemperature from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/EngineTemperature';
 
 function App() {
   return (
@@ -762,7 +764,6 @@ function App() {
         <Route path="/systemdiagnostics/twentysevenflightcontrols/fortyfcshorizontalstabilizer/hstsdata" element={<HstsData />} />
         <Route path="/systemdiagnostics/twentysevenflightcontrols/fiftyfiveflapsystemcontrollane/flapsoperationalstatus" element={<FlapsOperationalStatus />} />
         <Route path="/systemdiagnostics/twentysevenflightcontrols/fiftyfiveflapsystemcontrollane/flapssystemstatus" element={<FlapsSystemStatus />} />
-
         <Route path="/systemdiagnostics/twentyninehydrauliccontrol/zerohydrauliccontrols/hydrauliccontrolstatus" element={<HydraulicControlStatus />} />
         <Route path="/systemdiagnostics/twentyninehydrauliccontrol/thirtyhydraulicquantity/fqihydraulicstatus" element={<FqiHydraulicStatus />} />
         <Route path="/systemdiagnostics/twentyninehydrauliccontrol/thirtyhydraulicquantity/fqihydraulicstatus1" element={<FqiHydraulicStatus1 />} />
@@ -783,7 +784,6 @@ function App() {
         <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/sixtythreecursorcontroldevices/ccdstatus" element={<CcdStatus />} />
         <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/sixtythreecursorcontroldevices/ccdstatus1" element={<CcdStatus1 />} />
         <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/sixtysevenxmweather/xmreceiverstatus" element={<XmReceiverStatus />} />
-
         <Route path="/systemdiagnostics/thirtythreelights/elevendimmingandannunciation/dimmingandannunciation" element={<DimmingAndAnnunciation />} />
         <Route path="/systemdiagnostics/thirtythreelights/fortytwonavigationanticollistionlights/navaclstatus" element={<NavAclStatus />} />
         <Route path="/systemdiagnostics/thirtysixpneumaticstatus/twelvebleedaircontrolleft/leftbleedairstatus" element={<LeftBleedAirStatus />} />
@@ -867,14 +867,12 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfourteen/datadcnrdcfourteenlinksfour" element={<DataDCNRDCFourteenLinksFour />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfourteen/datadcnrdcfourteenstatusone" element={<DataDCNRDCFourteenStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfourteen/datadcnrdcfourteenstatustwo" element={<DataDCNRDCFourteenStatusTwo />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfifteen/datadcnrdcfifteenlinksone" element={<DataDCNRDCFifteenLinksOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfifteen/datadcnrdcfifteenlinkstwo" element={<DataDCNRDCFifteenLinksTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfifteen/datadcnrdcfifteenlinksthree" element={<DataDCNRDCFifteenLinksThree />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfifteen/datadcnrdcfifteenlinksfour" element={<DataDCNRDCFifteenLinksFour />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfifteen/datadcnrdcfifteenstatusone" element={<DataDCNRDCFifteenStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfifteen/datadcnrdcfifteenstatustwo" element={<DataDCNRDCFifteenStatusTwo />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenlinksone" element={<DataDCNRDCSixteenLinksOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenlinkstwo" element={<DataDCNRDCSixteenLinksTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenlinksthree" element={<DataDCNRDCSixteenLinksThree />} />
@@ -882,7 +880,6 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenlinksfive" element={<DataDCNRDCSixteenLinksFive />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenstatusone" element={<DataDCNRDCSixteenStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenstatustwo" element={<DataDCNRDCSixteenStatusTwo />} />ç
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinksone" element={<DataDCNRDCSeventeenLinksOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinkstwo" element={<DataDCNRDCSeventeenLinksTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinksthree" element={<DataDCNRDCSeventeenLinksThree />} />
@@ -890,7 +887,6 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinksfive" element={<DataDCNRDCSeventeenLinksFive />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenstatusone" element={<DataDCNRDCSeventeenStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenstatustwo" element={<DataDCNRDCSeventeenStatusTwo />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratoreighteen/datadcnrdceighteenlinksone" element={<DataDCNRDCEighteenLinksOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratoreighteen/datadcnrdceighteenlinkstwo" element={<DataDCNRDCEighteenLinksTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratoreighteen/datadcnrdceighteenlinksthree" element={<DataDCNRDCEighteenLinksThree />} />
@@ -901,7 +897,6 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratoreighteen/datadcnrdceighteenlinkseight" element={<DataDCNRDCEighteenLinksEight />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratoreighteen/datadcnrdceighteenstatusone" element={<DataDCNRDCEighteenStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratoreighteen/datadcnrdceighteenstatustwo" element={<DataDCNRDCEighteenStatusTwo />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratornineteen/datadcnrdcnineteenlinksone" element={<DataDCNRDCNineteenLinksOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratornineteen/datadcnrdcnineteenlinkstwo" element={<DataDCNRDCNineteenLinksTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratornineteen/datadcnrdcnineteenlinksthree" element={<DataDCNRDCNineteenLinksThree />} />
@@ -909,7 +904,6 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratornineteen/datadcnrdcnineteenlinksfive" element={<DataDCNRDCNineteenLinksFive />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratornineteen/datadcnrdcnineteenstatusone" element={<DataDCNRDCNineteenStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratornineteen/datadcnrdcnineteenstatustwo" element={<DataDCNRDCNineteenStatusTwo />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwenty/datadcnrdctwentylinksone" element={<DataDCNRDCTwentyLinksOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwenty/datadcnrdctwentylinkstwo" element={<DataDCNRDCTwentyLinksTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwenty/datadcnrdctwentylinksthree" element={<DataDCNRDCTwentyLinksThree />} />
@@ -921,42 +915,32 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwenty/datadcnrdctwentylinksnine" element={<DataDCNRDCTwentyLinksNine />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwenty/datadcnrdctwentystatusone" element={<DataDCNRDCTwentyStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwenty/datadcnrdctwentystatustwo" element={<DataDCNRDCTwentyStatusTwo />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwentytwo/datadcnrdctwentytwolinksone" element={<DataDCNRDCTwentyTwoLinksOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwentytwo/datadcnrdctwentytwolinkstwo" element={<DataDCNRDCTwentyTwoLinksTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwentytwo/datadcnrdctwentytwolinksthree" element={<DataDCNRDCTwentyTwoLinksThree />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwentytwo/datadcnrdctwentytwolinksfour" element={<DataDCNRDCTwentyTwoLinksFour />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwentytwo/datadcnrdctwentytwostatusone" element={<DataDCNRDCTwentyTwoStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwentytwo/datadcnrdctwentytwostatustwo" element={<DataDCNRDCTwentyTwoStatusTwo />} />
-        
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftyone/datadcnriufiftyonestatusone" element={<DataDCNRIUFiftyOneStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftyone/datadcnriufiftyonestatustwo" element={<DataDCNRIUFiftyOneStatusTwo />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftytwo/datadcnriufiftytwostatusone" element={<DataDCNRIUFiftyTwoStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftytwo/datadcnriufiftytwostatustwo" element={<DataDCNRIUFiftyTwoStatusTwo />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftythree/datadcnriufiftythreestatusone" element={<DataDCNRIUFiftyThreeStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftythree/datadcnriufiftythreestatustwo" element={<DataDCNRIUFiftyThreeStatusTwo />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftyfour/datadcnriufiftyfourstatusone" element={<DataDCNRIUFiftyFourStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftyfour/datadcnriufiftyfourstatustwo" element={<DataDCNRIUFiftyFourStatusTwo />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchone/datadcnswitchonestatusone" element={<DataDCNSwitchOneStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchone/datadcnswitchonestatustwo" element={<DataDCNSwitchOneStatusTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchone/datadcnswitchonestatusthree" element={<DataDCNSwitchOneStatusThree />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchtwo/datadcnswitchtwostatusone" element={<DataDCNSwitchTwoStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchtwo/datadcnswitchtwostatustwo" element={<DataDCNSwitchTwoStatusTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchtwo/datadcnswitchtwostatusthree" element={<DataDCNSwitchTwoStatusThree />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchthree/datadcnswitchthreestatusone" element={<DataDCNSwitchThreeStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchthree/datadcnswitchthreestatustwo" element={<DataDCNSwitchThreeStatusTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchthree/datadcnswitchthreestatusthree" element={<DataDCNSwitchThreeStatusThree />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchfour/datadcnswitchfourstatusone" element={<DataDCNSwitchFourStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchfour/datadcnswitchfourstatustwo" element={<DataDCNSwitchFourStatusTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchfour/datadcnswitchfourstatusthree" element={<DataDCNSwitchFourStatusThree />} />
-        
         <Route path="/systemdiagnostics/fortyfivecentralmaintenancesystems/fortyfivecmcutilities/cmcutilities" element={<CmcUtilities />} />
         <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus" element={<AhtmuStatus />} />
         <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus1" element={<AhtmuStatus1 />} />
@@ -979,10 +963,10 @@ function App() {
         <Route path="/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus1" element={<Fqi1OilStatus1 />} />
         <Route path="/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus2" element={<Fqi1OilStatus2 />} />
         <Route path="/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus3" element={<Fqi1OilStatus3 />} />
-      
+        <Route path="/systemdiagnostics/seventythreeengine/twnetyoneleftcha/vibrationcounters" element={<VibrationCounters />} />
+        <Route path="/systemdiagnostics/seventythreeengine/twnetyoneleftcha/enginetemperature" element={<EngineTemperature />} />
         <Route path="/extendedmaintenance" element={<ExtendedMaintenance />} />
         <Route path="/extendedmaintenance/membersystemstatus" element={<MemberSystemStatus />} />
-
       </Routes>
     </Router>
   );
