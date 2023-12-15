@@ -33,7 +33,7 @@ const LanStatus = () => {
       disabled: false,
       position: 1,
       onClick: () => { 
-        navigate(-1)
+        navigate('/systemdiagnostics');
       },
     },
     {
@@ -52,7 +52,7 @@ const LanStatus = () => {
     >
       <DataHeader left={'Lan status'} right={'1/2'} />
       <Legend title="No Fault" title2="Fault" />
-      <StatusTable data={data} tableHeader={tableHeader} headerLanStatus={true}/>
+      <StatusTable data={data} tableHeader={tableHeader} reducedHeaderTitle={true}/>
     </DefaultLayout>
   )
 }

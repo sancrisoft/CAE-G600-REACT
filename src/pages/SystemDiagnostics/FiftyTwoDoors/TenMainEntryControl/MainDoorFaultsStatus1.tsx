@@ -4,16 +4,16 @@ import DataHeader from "../../../../components/DataHeader";
 import DefaultLayout from "../../../../components/Layout";
 import Legend from "../../../../components/Legend";
 import { NavBarButtonType } from "../../../../components/NavBar";
-import StatusTable from "../../../../components/StatusTable";
+import DynamicTable from "../../../../components/DynamicTable";
 
 const MainDoorFaultsStatus1 = () => {
   const navigate = useNavigate();
 
-  const tableHeader = [{ title: 'DISCRETES' }, { title: 'status' }]
+  const tableHeader = [{ title: 'DISCRETES', alignLeft: true }, { title: 'status' }]
   const data = [
-    { parameter: '25-LOCKED HALL EFFECT CHB FAULT', status1: false },
-    { parameter: '26-UNLOCKED HALL EFFECT CHA FAULT', status1: false },
-    { parameter: '27-UNLOCKED HALL EFFECT CHB FAULT', status1: false },
+    { parameter: '25-LOCKED HALL EFFECT CHB FAULT', statuses: [false] },
+    { parameter: '26-UNLOCKED HALL EFFECT CHA FAULT', statuses: [false] },
+    { parameter: '27-UNLOCKED HALL EFFECT CHB FAULT', statuses: [false] },
   ]
 
   const navBarButtons: NavBarButtonType[] = [
@@ -22,7 +22,7 @@ const MainDoorFaultsStatus1 = () => {
       disabled: false,
       position: 1,
       onClick: () => { 
-        navigate(-1)
+        navigate('/systemdiagnostics');
       },
     },
     {
@@ -49,7 +49,8 @@ const MainDoorFaultsStatus1 = () => {
     >
       <DataHeader left={'DOOR FAULT #2 (A429 LBL 357)'} right={'2/7'} />
       <Legend title="true" title2="false" />
-      <StatusTable data={data} tableHeader={tableHeader} />
+      <DynamicTable data={data} mainHeaders={tableHeader} />
+
     </DefaultLayout>
   )
 }

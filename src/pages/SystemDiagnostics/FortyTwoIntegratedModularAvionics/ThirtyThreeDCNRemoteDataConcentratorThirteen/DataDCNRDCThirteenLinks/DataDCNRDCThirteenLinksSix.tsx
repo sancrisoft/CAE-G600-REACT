@@ -19,7 +19,7 @@ const DataDCNRDCThirteenLinksSix = () => {
     { parameter: 'PILOT ACS 2 A825 PINS', status1: true, status2: true },
     { parameter: 'PILOT ACS A429 RX PINS', status1: true, status2: true },
     { parameter: 'STBY 1 A429 RX PINS', status1: true, status2: true },
-    { parameter: 'STBY 1 A429 RT PINS', status1: true, status2: true },
+    { parameter: 'STBY 1 A429 TX PINS', status1: true, status2: true },
     { parameter: 'STBY 1 DATALD ENBALE PINS', status1: true, status2: true },
     { parameter: 'STBY 1 WOW PINS', status1: true, status2: true },
     { parameter: 'WARN CAUT RESET PINS', status1: true, status2: true },
@@ -59,7 +59,7 @@ const DataDCNRDCThirteenLinksSix = () => {
     >
       <DataHeader left={'DCN RDC 13 LINKS'} right={'6/7'} />
       <Legend title="no fault" title2="fault" />
-      <StatusTable data={data} tableHeader={tableHeader} headerLanStatus={true} />
+      <StatusTable data={data} tableHeader={tableHeader} reducedHeaderTitle={true} />
     </DefaultLayout>
   )
 }

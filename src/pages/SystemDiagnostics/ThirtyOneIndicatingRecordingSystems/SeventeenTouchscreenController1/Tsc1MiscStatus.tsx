@@ -29,7 +29,7 @@ const Tsc1MiscStatus = () => {
       disabled: false,
       position: 1,
       onClick: () => { 
-        navigate(-1)
+        navigate('/systemdiagnostics');
       },
     },
     {
@@ -44,7 +44,7 @@ const Tsc1MiscStatus = () => {
     <DefaultLayout
       showNavBar
       navBarButtons={navBarButtons}
-      footer={<DataFooter left={'212501'} right={['Select done to continue']} />}
+      footer={<DataFooter left={'311703'} right={['Select done to continue']} />}
     >
       <DataHeader left={'TSC1 misc status'} right={'1/1'} />
       <Text indentSize="m" text={'INITIAL COUNT IS 0'} />

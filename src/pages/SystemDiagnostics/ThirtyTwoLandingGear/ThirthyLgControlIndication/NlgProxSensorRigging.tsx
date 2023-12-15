@@ -28,7 +28,7 @@ const NlgProxSensorRigging = () => {
       disabled: false,
       position: 1,
       onClick: () => {
-        navigate(-1);
+        navigate('/systemdiagnostics');
       },
     },
     {
@@ -42,7 +42,7 @@ const NlgProxSensorRigging = () => {
   return (
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'323009'} right={['Select done to continue']} />}>
       <DataHeader left={'NLG proximity sensor rigging'} right={'1/1'} />
-      <DataTable data={data} mainHeaders={tableHeader} leftAlign headerLeftAlign />
+      <DataTable data={data} mainHeaders={tableHeader} leftAlign headerLeftAlign reducedHeaderStatus1/>
     </DefaultLayout>
   );
 };

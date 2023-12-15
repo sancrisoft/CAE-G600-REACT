@@ -33,7 +33,7 @@ const DataDCNRDCFifteenLinksOne = () => {
       disabled: false,
       position: 1,
       onClick: () => { 
-        navigate(-1)
+        navigate('/systemdiagnostics');
       },
     },
     {
@@ -52,7 +52,7 @@ const DataDCNRDCFifteenLinksOne = () => {
     >
       <DataHeader left={'DCN RDC 15 LINKS'} right={'1/4'} />
       <Legend title="no fault" title2="fault" />
-      <StatusTable data={data} tableHeader={tableHeader} headerLanStatus={true} />
+      <StatusTable data={data} tableHeader={tableHeader} reducedHeaderTitle={true} />
     </DefaultLayout>
   )
 }

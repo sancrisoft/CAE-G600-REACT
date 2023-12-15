@@ -6,7 +6,7 @@
 .Table {
   border: 0.1vh solid var(--white);
   border-collapse: collapse;
-  width: 100%;
+  width: 99%;
 }
 
 .Header {
@@ -23,4 +23,16 @@
 .Cell2 {
   border-bottom: 0.1vh solid var(--white);
   text-indent: var(--spacing-9);
+}
+
+
+.CustomTable{
+  border-collapse: collapse;
+  width: 99%;
+  border: 0.1vh solid var(--white);
+  border-top: unset;
+}
+
+.CustomMargin{
+  padding-left: var(--spacing-2);
 }

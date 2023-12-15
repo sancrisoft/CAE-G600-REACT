@@ -4,19 +4,20 @@ import DataHeader from "../../../../components/DataHeader";
 import DefaultLayout from "../../../../components/Layout";
 import Legend from "../../../../components/Legend";
 import { NavBarButtonType } from "../../../../components/NavBar";
-import StatusTable from "../../../../components/StatusTable";
+import DynamicTable from "../../../../components/DynamicTable";
 
 const Fqi1OilStatus1 = () => {
   const navigate = useNavigate();
-
-  const tableHeader = [{ title: 'PARAMETERS' }, { title: 'IOGM3' }, { title: 'IOGM2' }]
+  const tableHeader = [{ title: 'PARAMETERS', alignLeft: true }, { title: 'TX1', hasBorderBottom: false }, { title: 'TX2', hasBorderBottom: false }]
+  const secondaryHeaders = [{ title: 'IOGM3',  customSpan:2} , { title: 'IOGM2' }]
+  
   const data = [
-    { parameter: 'OIL FILL IN PROGRESS', status1: true, status2: true },
-    { parameter: 'OIL SVC SW INPUT FAULT', status1: true, status2: true },
-    { parameter: 'FQI CRITICAL FAULT', status1: true, status2: true },
-    { parameter: 'FQI MEASUREMENT FAULT', status1: true, status2: true },
-    { parameter: 'FQI USER INTERFACE FAULT', status1: true, status2: true },
-    { parameter: 'FQI MAINTENANCE FAULT', status1: true, status2: true },
+    { parameter: 'OIL FILL IN PROGRESS',  statuses: [true, true], customSpan: 2},
+    { parameter: 'OIL SVC SW INPUT FAULT',  statuses: [true, true], customSpan: 2},
+    { parameter: 'FQI CRITICAL FAULT',  statuses: [true, true], customSpan: 2},
+    { parameter: 'FQI MEASUREMENT FAULT',  statuses: [true, true], customSpan: 2},
+    { parameter: 'FQI USER INTERFACE FAULT',  statuses: [true, true], customSpan: 2},
+    { parameter: 'FQI MAINTENANCE FAULT',  statuses: [true, true], customSpan: 2},
   ]
 
   const navBarButtons: NavBarButtonType[] = [
@@ -25,7 +26,7 @@ const Fqi1OilStatus1 = () => {
       disabled: false,
       position: 1,
       onClick: () => { 
-        navigate(-1)
+        navigate('/systemdiagnostics');
       },
     },
     {
@@ -52,7 +53,7 @@ const Fqi1OilStatus1 = () => {
     >
       <DataHeader left={'fqi eng oil status'} right={'2/4'} />
       <Legend />
-      <StatusTable data={data} hasHeader tableHeader={tableHeader} hasDobleTitle title1="TX1" title2="TX2" />
+      <DynamicTable data={data} mainHeaders={tableHeader} secondaryHeaders={secondaryHeaders}/>
     </DefaultLayout>
   )
 }

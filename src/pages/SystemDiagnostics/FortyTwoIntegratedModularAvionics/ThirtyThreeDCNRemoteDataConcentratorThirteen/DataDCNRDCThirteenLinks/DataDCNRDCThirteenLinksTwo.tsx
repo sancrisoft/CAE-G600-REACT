@@ -20,7 +20,7 @@ const DataDCNRDCThirteenLinksTwo = () => {
     { parameter: 'CTRL LN1 HDL SEL UP PINS', status1: true, status2: true },
     { parameter: 'CTRL LN1 HDL SEL DN PINS', status1: true, status2: true },
     { parameter: 'DAB 1 A825 PINS', status1: true, status2: true },
-    { parameter: 'DUMU L/R MAIN WOW PINS', status1: true, status2: true },
+    { parameter: 'DLMU L/R MAIN WOW PINS', status1: true, status2: true },
     { parameter: 'DU1 SHTDWN PINS', status1: true, status2: true },
     { parameter: 'DU1 SHTDWN DIP PINS', status1: true, status2: true },
     { parameter: 'EXT BATT SW ON PINS', status1: true, status2: true },
@@ -60,7 +60,7 @@ const DataDCNRDCThirteenLinksTwo = () => {
     >
       <DataHeader left={'DCN RDC 13 LINKS'} right={'2/7'} />
       <Legend title="no fault" title2="fault" />
-      <StatusTable data={data} tableHeader={tableHeader} headerLanStatus={true}/>
+      <StatusTable data={data} tableHeader={tableHeader} reducedHeaderTitle={true}/>
     </DefaultLayout>
   )
 }

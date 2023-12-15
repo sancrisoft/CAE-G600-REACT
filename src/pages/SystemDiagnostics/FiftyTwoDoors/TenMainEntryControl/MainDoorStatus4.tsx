@@ -2,24 +2,24 @@ import { useNavigate } from "react-router-dom";
 import AltLegend from "../../../../components/AltLegend";
 import DataFooter from "../../../../components/DataFooter";
 import DataHeader from "../../../../components/DataHeader";
-import DataTable from "../../../../components/DataTable";
 import DefaultLayout from "../../../../components/Layout";
 import { NavBarButtonType } from "../../../../components/NavBar";
+import DynamicTable from "../../../../components/DynamicTable";
 
 const MainDoorStatus4 = () => {
   const navigate = useNavigate();
 
-  const tableHeader = [{ title: 'DISCRETES' }, { title: 'STATUS' }]
+  const tableHeader = [{ title: 'DISCRETES', alignLeft: true }, { title: 'STATUS' }]
   const data = [
-    { parameter: '11,12-COCKPIT DOOR OPEN COMMAND 1', status1: '1' },
-    { parameter: '13,14-COCKPIT DOOR OPEN COMMAND 2', status1: '1' },
-    { parameter: '15,16-COCKPIT SAFETY SWITCH 1', status1: '1' },
-    { parameter: '17,18-COCKPIT SAFETY SWITCH 2', status1: '1' },
-    { parameter: '19,20-DOOR CLOSED PROX SWITCH 1', status1: '1' },
-    { parameter: '21,22-DOOR CLOSED PROX SWITCH 2', status1: '1' },
-    { parameter: '23,24-FWD BAYONET SWITCH', status1: '1' },
-    { parameter: '25,26-AFT BAYONET SWITCH', status1: '1' },
-    { parameter: '27,28-P_BIT_ON_GROUND 1', status1: '2' },
+    { parameter: '11,12-COCKPIT DOOR OPEN COMMAND 1', statuses: ['1'] },
+    { parameter: '13,14-COCKPIT DOOR OPEN COMMAND 2', statuses: ['1'] },
+    { parameter: '15,16-COCKPIT SAFETY SWITCH 1', statuses: ['1'] },
+    { parameter: '17,18-COCKPIT SAFETY SWITCH 2', statuses: ['1'] },
+    { parameter: '19,20-DOOR CLOSED PROX SWITCH 1', statuses: ['1'] },
+    { parameter: '21,22-DOOR CLOSED PROX SWITCH 2', statuses: ['1'] },
+    { parameter: '23,24-FWD BAYONET SWITCH', statuses: ['1'] },
+    { parameter: '25,26-AFT BAYONET SWITCH', statuses: ['1'] },
+    { parameter: '27,28-P_BIT_ON_GROUND 1', statuses: ['2'] },
   ]
 
   const navBarButtons: NavBarButtonType[] = [
@@ -28,7 +28,7 @@ const MainDoorStatus4 = () => {
       disabled: false,
       position: 1,
       onClick: () => { 
-        navigate(-1)
+        navigate('/systemdiagnostics');
       },
     },
     {
@@ -55,7 +55,7 @@ const MainDoorStatus4 = () => {
     >
       <DataHeader left={'DOOR STATUS #5 (A429 LBL 355)'} right={'5/6'} />
       <AltLegend />
-      <DataTable data={data} mainHeaders={tableHeader} rightAlign />
+      <DynamicTable data={data} mainHeaders={tableHeader} />
     </DefaultLayout>
   )
 }

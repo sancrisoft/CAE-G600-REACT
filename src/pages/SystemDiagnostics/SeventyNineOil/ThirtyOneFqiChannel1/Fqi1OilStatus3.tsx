@@ -4,21 +4,25 @@ import DataHeader from "../../../../components/DataHeader";
 import DefaultLayout from "../../../../components/Layout";
 import Legend from "../../../../components/Legend";
 import { NavBarButtonType } from "../../../../components/NavBar";
-import StatusTable from "../../../../components/StatusTable";
+import DynamicTable from "../../../../components/DynamicTable";
 
 const Fqi1OilStatus3 = () => {
   const navigate = useNavigate();
 
-  const tableHeader1 = [{ title: 'PARAMETERS' }, { title: 'IOGM3' }, { title: 'IOGM2' }]
+  const tableHeader = [{ title: 'PARAMETERS', alignLeft: true }, { title: 'TX1', hasBorderBottom: false }, { title: 'TX2', hasBorderBottom: false }]
+  const secondaryHeaders = [{ title: 'IOGM3',  customSpan:2} , { title: 'IOGM2' }]
+
+  const tableHeader2 = [{ title: 'PARAMETER', alignLeft: true }, { title: 'TX1', hasBorderBottom: false }, { title: 'TX2', hasBorderBottom: false }]
+  const secondaryHeaders2 = [{ title: 'IOGM3',  customSpan:2} , { title: 'IOGM2' }]
+
   const data1 = [
-    { parameter: 'L FUEL SHUTOFF SWITCH', status1: false, status2: false },
-    { parameter: 'R FUEL SHUTOFF SWITCH', status1: false, status2: false },
+    { parameter: 'L FUEL SHUTOFF SWITCH', statuses: [false, false], customSpan: 2 },
+    { parameter: 'R FUEL SHUTOFF SWITCH', statuses: [false, false], customSpan: 2 },
   ]
 
-  const tableHeader2 = [{ title: 'PARAMETER' }, { title: 'IOGM3' }, { title: 'IOGM2' }]
   const data2 = [
-    { parameter: 'CONFIGURATION-2 G500', status1: true, status2: true },
-    { parameter: 'CONFIGURATION-3 G600', status1: false, status2: false },
+    { parameter: 'CONFIGURATION-2 G500', statuses: [true, true], customSpan: 2  },
+    { parameter: 'CONFIGURATION-3 G600', statuses: [false, false], customSpan: 2  },
   ]
 
   const navBarButtons: NavBarButtonType[] = [
@@ -27,7 +31,7 @@ const Fqi1OilStatus3 = () => {
       disabled: false,
       position: 1,
       onClick: () => { 
-        navigate(-1)
+        navigate('/systemdiagnostics');
       },
     },
     {
@@ -54,9 +58,9 @@ const Fqi1OilStatus3 = () => {
     >
       <DataHeader left={'fqi eng oil status'} right={'4/4'} />
       <Legend title="run" title2="cut" />
-      <StatusTable data={data1} tableHeader={tableHeader1} hasDobleTitle title1="TX1" title2="TX2" />
+      <DynamicTable data={data1} mainHeaders={tableHeader} secondaryHeaders={secondaryHeaders} />
       <Legend title="no" title2="yes" />
-      <StatusTable data={data2} tableHeader={tableHeader2} hasDobleTitle title1="TX1" title2="TX2" />
+      <DynamicTable data={data2} mainHeaders={tableHeader2} secondaryHeaders={secondaryHeaders2} />
     </DefaultLayout>
   )
 }

@@ -34,7 +34,7 @@ const LgDuLockProxSensor = () => {
       disabled: false,
       position: 1,
       onClick: () => {
-        navigate(-1);
+        navigate('/systemdiagnostics');
       },
     },
     {
@@ -48,8 +48,8 @@ const LgDuLockProxSensor = () => {
   return (
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'323013'} right={['Select done to continue']} />}>
       <DataHeader left={'LG down-up lock prox sensor rigging'} right={'1/1'} isTitleLeft />
-      <DataTable data={data1} mainHeaders={tableHeader1} leftAlign headerLeftAlign />
-      <DataTable data={data2} mainHeaders={tableHeader2} leftAlign headerLeftAlign marginTop />
+      <DataTable data={data1} mainHeaders={tableHeader1} leftAlign headerLeftAlign reducedHeaderStatus1/>
+      <DataTable data={data2} mainHeaders={tableHeader2} leftAlign headerLeftAlign marginTop reducedHeaderStatus1/>
     </DefaultLayout>
   );
 };

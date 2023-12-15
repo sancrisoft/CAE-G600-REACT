@@ -33,7 +33,7 @@ const WindshieldHeatStatus2 = () => {
       disabled: false,
       position: 1,
       onClick: () => { 
-        navigate(-1)
+        navigate('/systemdiagnostics');
       },
     },
     {

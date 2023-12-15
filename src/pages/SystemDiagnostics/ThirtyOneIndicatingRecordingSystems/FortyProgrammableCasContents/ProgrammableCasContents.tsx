@@ -29,7 +29,7 @@ const ProgrammableCasContents = () => {
 
   const items: AccordionItem[] = [
     {
-      text: '31 INDICATING/RECORDING SYSTEMS',
+      text: 'IDENT',
       children: [
         {
           text: 'PROG',
@@ -153,7 +153,7 @@ const ProgrammableCasContents = () => {
       disabled: false,
       position: 1,
       onClick: () => { 
-        navigate(-1)
+        navigate('/systemdiagnostics');
       },
     },
     {

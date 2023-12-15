@@ -6,9 +6,10 @@ export interface TextProps {
   style?: 'header' | 'body'
   indentSize?: 's' | 'm' | 'l'
   aqua?: boolean
+  marginTop?: boolean;
 }
 
-const Text: FC<TextProps> = ({ text, style, indentSize, aqua }) => {
+const Text: FC<TextProps> = ({ text, style, indentSize, aqua, marginTop }) => {
   const extend = style === 'header' ? styles.HeaderStyle : styles.BodyStyle
   const indent =
     indentSize === 's'
@@ -19,7 +20,8 @@ const Text: FC<TextProps> = ({ text, style, indentSize, aqua }) => {
       ? styles.LargeIn
       : ''
   const color = aqua ? styles.Aqua : ''
-  return <p className={`${extend} ${indent} ${color} ${styles.Text}`}>{text}</p>
+  const marginTopClass = marginTop ? styles.MarginTop : '';
+  return <p className={`${extend} ${indent} ${color} ${marginTopClass} ${styles.Text}`}>{text}</p>
 }
 
 export default Text

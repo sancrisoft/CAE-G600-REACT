@@ -39,6 +39,10 @@ const AirDataStatus3 = () => {
       statuses: [true, 'N/A'],
       alignCenter: true,
     },
+    {
+      parameter: '',
+      statuses: ['', ''],
+    }
   ];
 
   const data2 = [
@@ -65,7 +69,7 @@ const AirDataStatus3 = () => {
       disabled: false,
       position: 1,
       onClick: () => {
-        navigate(-1);
+        navigate('/systemdiagnostics');
       },
     },
     {

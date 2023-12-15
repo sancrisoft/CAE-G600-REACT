@@ -29,7 +29,7 @@ const DataDCNRIUFiftyFourStatusOne = () => {
       disabled: false,
       position: 1,
       onClick: () => { 
-        navigate(-1)
+        navigate('/systemdiagnostics');
       },
     },
     {
@@ -48,7 +48,7 @@ const DataDCNRIUFiftyFourStatusOne = () => {
     >
       <DataHeader left={'DCN RIU 54 STATUS'} right={'1/2'} />
       <Legend title="no fault" title2="fault" />
-      <StatusTable data={data} tableHeader={tableHeader} headerLanStatus={true} />
+      <StatusTable data={data} tableHeader={tableHeader} reducedHeaderTitle={true} />
     </DefaultLayout>
   )
 }

@@ -4,23 +4,23 @@ import DataHeader from "../../../../components/DataHeader";
 import DefaultLayout from "../../../../components/Layout";
 import Legend from "../../../../components/Legend";
 import { NavBarButtonType } from "../../../../components/NavBar";
-import StatusTable from "../../../../components/StatusTable";
+import DynamicTable from "../../../../components/DynamicTable";
 
 const MainDoorFaultsStatus2 = () => {
   const navigate = useNavigate();
 
-  const tableHeader = [{ title: 'DISCRETES' }, { title: 'status' }]
+  const tableHeader = [{ title: 'DISCRETES', alignLeft:true }, { title: 'status' }]
   const data = [
-    { parameter: '11-OPEN OPERATION TIMEOUT', status1: false },
-    { parameter: '12-CLOSE OPERATION TIMEOUT', status1: false },
-    { parameter: '13-LANE FAILOVER DETECTED', status1: false },
-    { parameter: '14-ACTIVE LANE ALTERNATION FAULT', status1: false },
-    { parameter: '15-LANE PREF SIGNAL FAULT', status1: false },
-    { parameter: '16-SHIFT REGISTER DATA FAULT', status1: false },
-    { parameter: '17-PREFERRED LANE 1', status1: false },
-    { parameter: '18-PREFERRED LANE 2', status1: true },
-    { parameter: '19-CLAMP TEST 1 FAULT', status1: false },
-    { parameter: '20-CLAMP TEST 2 FAULT', status1: false },
+    { parameter: '11-OPEN OPERATION TIMEOUT', statuses: [false] },
+    { parameter: '12-CLOSE OPERATION TIMEOUT', statuses: [false] },
+    { parameter: '13-LANE FAILOVER DETECTED', statuses: [false] },
+    { parameter: '14-ACTIVE LANE ALTERNATION FAULT', statuses: [false] },
+    { parameter: '15-LANE PREF SIGNAL FAULT', statuses: [false] },
+    { parameter: '16-SHIFT REGISTER DATA FAULT', statuses: [false] },
+    { parameter: '17-PREFERRED LANE 1', statuses: [false] },
+    { parameter: '18-PREFERRED LANE 2', statuses: [true ]},
+    { parameter: '19-CLAMP TEST 1 FAULT', statuses: [false] },
+    { parameter: '20-CLAMP TEST 2 FAULT', statuses: [false] },
   ]
 
   const navBarButtons: NavBarButtonType[] = [
@@ -29,7 +29,7 @@ const MainDoorFaultsStatus2 = () => {
       disabled: false,
       position: 1,
       onClick: () => { 
-        navigate(-1)
+        navigate('/systemdiagnostics');
       },
     },
     {
@@ -56,7 +56,8 @@ const MainDoorFaultsStatus2 = () => {
     >
       <DataHeader left={'DOOR FAULT #3 (A429 LBL 360)'} right={'3/7'} />
       <Legend title="true" title2="false" />
-      <StatusTable data={data} tableHeader={tableHeader} />
+      <DynamicTable data={data} mainHeaders={tableHeader} />
+
     </DefaultLayout>
   )
 }

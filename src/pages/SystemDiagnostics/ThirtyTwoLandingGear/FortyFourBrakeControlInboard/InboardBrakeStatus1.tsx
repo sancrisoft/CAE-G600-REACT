@@ -32,7 +32,7 @@ const InboardBrakeStatus1 = () => {
       disabled: false,
       position: 1,
       onClick: () => {
-        navigate(-1);
+        navigate('/systemdiagnostics');
       },
     },
     {
@@ -48,7 +48,7 @@ const InboardBrakeStatus1 = () => {
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'324001'} right={['Select fwd to continue']} />}>
       <DataHeader left={'brake ctrl unit inboard sys status'} right={'1/4'} isTitleLeft />
       <Legend />
-      <StatusTable data={data} tableHeader={tableHeader} />
+      <StatusTable data={data} tableHeader={tableHeader} reducedHeaderTitle/>
     </DefaultLayout>
   );
 };

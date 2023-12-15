@@ -58,7 +58,7 @@ const Egpvm1ApmRaasConfigOpt2 = () => {
   const data2 = [
     {
       parameter: 'INITIAL HOLDING TIME',
-      statuses: ['90 ESCONDS'],
+      statuses: ['90 SECONDS'],
     },
     {
       parameter: 'REPEAT HOLDING TIME GENDER',
@@ -75,7 +75,7 @@ const Egpvm1ApmRaasConfigOpt2 = () => {
       disabled: false,
       position: 1,
       onClick: () => {
-        navigate(-1);
+        navigate('/systemdiagnostics');
       },
     },
     {

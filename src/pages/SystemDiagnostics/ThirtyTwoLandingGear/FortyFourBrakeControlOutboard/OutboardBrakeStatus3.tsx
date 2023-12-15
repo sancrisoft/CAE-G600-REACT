@@ -30,7 +30,7 @@ const OutboardBrakeStatus3 = () => {
       disabled: false,
       position: 1,
       onClick: () => {
-        navigate(-1);
+        navigate('/systemdiagnostics');
       },
     },
     {
@@ -53,8 +53,8 @@ const OutboardBrakeStatus3 = () => {
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'324007'} right={['Select prev to go back', 'Select fwd to continue']} />}>
       <DataHeader left={'brake ctrl unit outboard sys status'} right={'3/4'} isTitleLeft />
       <Legend />
-      <StatusTable data={data1} tableHeader={tableHeader} />
-      <StatusTable data={data2} tableHeader={tableHeader} />
+      <StatusTable data={data1} tableHeader={tableHeader} reducedHeaderTitle/>
+      <StatusTable data={data2} tableHeader={tableHeader} reducedHeaderTitle/>
     </DefaultLayout>
   );
 };

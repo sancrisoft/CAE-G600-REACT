@@ -4,27 +4,28 @@ import DataHeader from "../../../../components/DataHeader";
 import DefaultLayout from "../../../../components/Layout";
 import Legend from "../../../../components/Legend";
 import { NavBarButtonType } from "../../../../components/NavBar";
-import StatusTable from "../../../../components/StatusTable";
+import DynamicTable from "../../../../components/DynamicTable";
 
 const ServiceDoors1 = () => {
   const navigate = useNavigate();
 
-  const tableHeader = [{ title: 'SERVICE DOOR' }, { title: 'IOGM3' }, { title: 'IOGM4' }]
+  const tableHeader = [{ title: 'SERVICE DOOR', alignLeft: true }, { title: 'IOGM3' }, { title: 'IOGM4' }]
+
   const data = [
-    { parameter: 'RADOME', status1: true, status2: true },
-    { parameter: 'EXTERNAL BAGGAGE DOOR SW1', status1: true, status2: true },
-    { parameter: 'HYDRAULICS SERVICE DOOR', status1: true, status2: true },
-    { parameter: 'EXTERNAL AC POWER DOOR', status1: false, status2: false },
-    { parameter: 'EXTERNAL DC POWER DOOR', status1: true, status2: true },
-    { parameter: 'R COWL ACCESS DOOR', status1: true, status2: true },
-    { parameter: 'R ENGINE ACCESS (OIL)', status1: true, status2: true },
-    { parameter: 'R ENGINE ACCESS (BLOWOUT)', status1: true, status2: true },
-    { parameter: 'TAIL COMPARTMENT DOOR', status1: true, status2: true },
-    { parameter: 'MID CABIN DOOR', status1: true, status2: true },
-    { parameter: 'FUEL PANEL SERVICE DOOR', status1: true, status2: true },
-    { parameter: 'REFUEL PORT SERVICE DOOR', status1: true, status2: true },
-    { parameter: 'WATER SERVICE DOOR', status1: true, status2: true },
-    { parameter: 'PNEUMATIC SERVICE DOOR', status1: true, status2: true },
+    { parameter: 'RADOME', statuses: [true, true], customSpan: 2},
+    { parameter: 'EXTERNAL BAGGAGE DOOR SW1', statuses: [true, true], customSpan: 2},
+    { parameter: 'HYDRAULICS SERVICE DOOR', statuses: [true, true], customSpan: 2},
+    { parameter: 'EXTERNAL AC POWER DOOR', statuses: [false, false], customSpan: 2 },
+    { parameter: 'EXTERNAL DC POWER DOOR', statuses: [true, true], customSpan: 2},
+    { parameter: 'R COWL ACCESS DOOR', statuses: [true, true], customSpan: 2},
+    { parameter: 'R ENGINE ACCESS (OIL)', statuses: [true, true], customSpan: 2},
+    { parameter: 'R ENGINE ACCESS (BLOWOUT)', statuses: [true, true], customSpan: 2},
+    { parameter: 'TAIL COMPARTMENT DOOR', statuses: [true, true], customSpan: 2},
+    { parameter: 'MID CABIN DOOR', statuses: [true, true], customSpan: 2},
+    { parameter: 'FUEL PANEL SERVICE DOOR', statuses: [true, true], customSpan: 2},
+    { parameter: 'REFUEL PORT SERVICE DOOR', statuses: [true, true], customSpan: 2},
+    { parameter: 'WATER SERVICE DOOR', statuses: [true, true], customSpan: 2},
+    { parameter: 'PNEUMATIC SERVICE DOOR', statuses: [true, true], customSpan: 2},
   ]
 
   const navBarButtons: NavBarButtonType[] = [
@@ -33,7 +34,7 @@ const ServiceDoors1 = () => {
       disabled: false,
       position: 1,
       onClick: () => { 
-        navigate(-1)
+        navigate('/systemdiagnostics');
       },
     },
     {
@@ -60,7 +61,7 @@ const ServiceDoors1 = () => {
     >
       <DataHeader left={'service door status'} right={'2/2'} />
       <Legend title="closed" title2="open" />
-      <StatusTable data={data} tableHeader={tableHeader} />
+      <DynamicTable data={data} mainHeaders={tableHeader}/>
     </DefaultLayout>
   )
 }

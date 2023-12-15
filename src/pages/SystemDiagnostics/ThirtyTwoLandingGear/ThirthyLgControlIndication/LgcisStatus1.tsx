@@ -31,7 +31,7 @@ const LgcisStatus1 = () => {
       disabled: false,
       position: 1,
       onClick: () => {
-        navigate(-1);
+        navigate('/systemdiagnostics');
       },
     },
     {
@@ -47,7 +47,7 @@ const LgcisStatus1 = () => {
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'323004'} right={['Select fwd to continue']} />}>
       <DataHeader left={'LGCIS status'} right={'1/3'} />
       <Legend title="true" title2="false" />
-      <StatusTable data={data} tableHeader={tableHeader} />
+      <StatusTable data={data} tableHeader={tableHeader} reducedHeaderTitle/>
     </DefaultLayout>
   );
 };

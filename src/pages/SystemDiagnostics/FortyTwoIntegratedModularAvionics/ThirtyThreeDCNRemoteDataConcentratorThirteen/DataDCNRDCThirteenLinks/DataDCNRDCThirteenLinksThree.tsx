@@ -19,9 +19,9 @@ const DataDCNRDCThirteenLinksThree = () => {
     { parameter: 'HF 1 PTT PINS', status1: true, status2: true },
     { parameter: 'HF 2 PTT PINS', status1: true, status2: true },
     { parameter: 'HUD BUS A429 RX PINS', status1: true, status2: true },
-    { parameter: 'HUD BUS 1 A429 RX PINS', status1: true, status2: true },
-    { parameter: 'HUD BUS 2 A429 RX PINS', status1: true, status2: true },
-    { parameter: 'ID PULL UP PINS', status1: true, status2: true },
+    { parameter: 'HUD BUS 1 A429 TX PINS', status1: true, status2: true },
+    { parameter: 'HUD BUS 2 A429 TX PINS', status1: true, status2: true },
+    { parameter: 'IDS PULL UP PINS', status1: true, status2: true },
     { parameter: 'L FQI FUEL SW PINS', status1: true, status2: true },
     { parameter: 'L SERVO ENGAGE PINS', status1: true, status2: true },
     { parameter: 'R SERVO ENGAGE PINS', status1: true, status2: true },
@@ -60,7 +60,7 @@ const DataDCNRDCThirteenLinksThree = () => {
     >
       <DataHeader left={'DCN RDC 13 LINKS'} right={'3/7'} />
       <Legend title="no fault" title2="fault" />
-      <StatusTable data={data} tableHeader={tableHeader} headerLanStatus={true}/>
+      <StatusTable data={data} tableHeader={tableHeader} reducedHeaderTitle={true}/>
     </DefaultLayout>
   )
 }

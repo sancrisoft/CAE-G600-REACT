@@ -39,6 +39,10 @@ const AirDataStaus5 = () => {
       statuses: [true, true],
       alignCenter: true,
     },
+    {
+      parameter: '',
+      statuses: ['', ''],
+    }
   ];
 
   const data2 = [
@@ -65,7 +69,7 @@ const AirDataStaus5 = () => {
       disabled: false,
       position: 1,
       onClick: () => {
-        navigate(-1);
+        navigate('/systemdiagnostics');
       },
     },
     {

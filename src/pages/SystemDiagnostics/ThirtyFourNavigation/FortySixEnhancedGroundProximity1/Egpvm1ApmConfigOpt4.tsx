@@ -57,7 +57,7 @@ const Egpvm1ApmConfigOpt4 = () => {
       disabled: false,
       position: 1,
       onClick: () => {
-        navigate(-1);
+        navigate('/systemdiagnostics');
       },
     },
     {
@@ -79,7 +79,7 @@ const Egpvm1ApmConfigOpt4 = () => {
   return (
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'344604'} right={['select prev to go back', 'Select fwd to continue']} />}>
       <DataHeader left={'egpwm apm config options'} right={'4/8'} />
-      <DynamicTable data={data} mainHeaders={mainHeaders} />
+      <DynamicTable data={data} mainHeaders={mainHeaders} hasInsideBorder={false}/>
     </DefaultLayout>
   );
 };

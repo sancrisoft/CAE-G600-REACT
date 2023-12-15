@@ -49,7 +49,7 @@ const HudStatus4 = () => {
       statuses: [true, true],
     },
     {
-      parameter: 'INPUT FROM RGEAR DISC-RDCI3',
+      parameter: 'INPUT FROM GEAR DISC-RDCI3',
       statuses: [true, true],
     },
     {
@@ -65,7 +65,7 @@ const HudStatus4 = () => {
       statuses: [true, true],
     },
     {
-      parameter: 'INPUT FROM AMWS-RDCI3',
+      parameter: 'INPUT FROM MWS-RDCI3',
       statuses: [true, true],
     },
   ];
@@ -76,7 +76,7 @@ const HudStatus4 = () => {
       disabled: false,
       position: 1,
       onClick: () => {
-        navigate(-1);
+        navigate('/systemdiagnostics');
       },
     },
     {
@@ -96,7 +96,7 @@ const HudStatus4 = () => {
   ];
 
   return (
-    <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'342603'} right={['select prev to go back', 'Select FWD to continue']} />}>
+    <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<DataFooter left={'342604'} right={['select prev to go back', 'Select FWD to continue']} />}>
       <DataHeader left={'hud  status '} right={'4/5'} />
       <Legend title="active" title2="inactive" />
       <DynamicTable data={data} mainHeaders={mainHeaders} />
