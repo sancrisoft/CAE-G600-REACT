@@ -481,6 +481,17 @@ import DataDCNSwitchFourStatusThree from './pages/SystemDiagnostics/FortyTwoInte
 import FqmsProbesDataDryCapPf from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsProbesDataDryCapPf';
 import VibrationCounters from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/VibrationCounters';
 import EngineTemperature from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/EngineTemperature';
+import LeftEngineSystem from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineSystem';
+import RightEngineSystem from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineSystem';
+import LeftCaiStatus from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftCaiStatus';
+import RightCaiStatus from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightCaiStatus';
+import LeftEngineConfigStatus from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineConfigStatus';
+import LeftEngineEcs from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineEcs';
+import RightEngineEcs from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineEcs';
+import LeftEngineFuelStatus from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineFuelStatus1';
+import LeftEngineFuelStatus2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineFuelStatus2';
+import RightEngineFuelStatus1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineFuelStatus1';
+import RightEngineFuelStatus2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineFuelStatus2';
 
 function App() {
   return (
@@ -963,8 +974,19 @@ function App() {
         <Route path="/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus1" element={<Fqi1OilStatus1 />} />
         <Route path="/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus2" element={<Fqi1OilStatus2 />} />
         <Route path="/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus3" element={<Fqi1OilStatus3 />} />
-        <Route path="/systemdiagnostics/seventythreeengine/twnetyoneleftcha/vibrationcounters" element={<VibrationCounters />} />
-        <Route path="/systemdiagnostics/seventythreeengine/twnetyoneleftcha/enginetemperature" element={<EngineTemperature />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/vibrationcounters" element={<VibrationCounters />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/enginetemperature" element={<EngineTemperature />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineairsystem" element={<LeftEngineSystem />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineairsystem" element={<RightEngineSystem />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftcaistatus" element={<LeftCaiStatus />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightcaistatus" element={<RightCaiStatus />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineconfigstatus" element={<LeftEngineConfigStatus />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/engineecs" element={<LeftEngineEcs />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginefuelstatus" element={<LeftEngineFuelStatus />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginefuelstatus2" element={<LeftEngineFuelStatus2 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineecs" element={<RightEngineEcs />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginefuelstatus1" element={<RightEngineFuelStatus1 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginefuelstatus2" element={<RightEngineFuelStatus2 />} />
         <Route path="/extendedmaintenance" element={<ExtendedMaintenance />} />
         <Route path="/extendedmaintenance/membersystemstatus" element={<MemberSystemStatus />} />
       </Routes>

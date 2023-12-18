@@ -2107,14 +2107,32 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA:ENG VIBRATION COUNTERS',
-              href: '/systemdiagnostics/seventythreeengine/twnetyoneleftcha/vibrationcounters',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/vibrationcounters',
             },
-            { text: 'DATA: ENGINE TEMPERATURE', href: '/systemdiagnostics/seventythreeengine/twnetyoneleftcha/enginetemperature' },
-            { text: 'DATA: LEFT ENGINE AC INPUT ECHO' },
-            { text: 'DATA: LEFT ENGINE AIR SYSTEM' },
-            { text: 'DATA: LEFT ENGINE CAI STATUS' },
-            { text: 'DATA: LEFT ENGINE CONFIG STATUS' },
-            { text: 'DATA: LEFT ENGINE FUEL STATUS' },
+            {
+              text: 'DATA: ENGINE TEMPERATURE',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/enginetemperature',
+            },
+            {
+              text: 'DATA: LEFT ENGINE AC INPUT ECHO',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/engineecs',
+            },
+            {
+              text: 'DATA: LEFT ENGINE AIR SYSTEM',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineairsystem',
+            },
+            {
+              text: 'DATA: LEFT ENGINE CAI STATUS',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftcaistatus',
+            },
+            {
+              text: 'DATA: LEFT ENGINE CONFIG STATUS',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineconfigstatus',
+            },
+            {
+              text: 'DATA: LEFT ENGINE FUEL STATUS',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginefuelstatus',
+            },
             { text: 'DATA: LEFT ENGINE IGNITION' },
             { text: 'DATA: LEFT ENGINE INDICATION SYSTEM' },
             { text: 'DATA: LEFT ENGINE OIL SYSTEM STATUS' },
@@ -2142,11 +2160,25 @@ const SystemDiagnostics = () => {
         {
           text: '21 Engine Control Right Ch A',
           children: [
-            { text: 'DATA: RIGHT ENGINE AC INPUT ECHO' },
-            { text: 'DATA: RIGHT ENGINE AIR SYSTEM' },
-            { text: 'DATA: RIGHT ENGINE CAI SYSTEM STATUS' },
-            { text: 'DATA: RIGHT ENGINE CONFIG STATUS' },
-            { text: 'DATA: RIGHT ENGINE FUEL STATUS' },
+            {
+              text: 'DATA: RIGHT ENGINE AC INPUT ECHO',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineecs',
+            },
+            {
+              text: 'DATA: RIGHT ENGINE AIR SYSTEM',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineairsystem',
+            },
+            {
+              text: 'DATA: RIGHT ENGINE CAI SYSTEM STATUS',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightcaistatus',
+            },
+            {
+              text: 'DATA: RIGHT ENGINE CONFIG STATUS',
+            },
+            {
+              text: 'DATA: RIGHT ENGINE FUEL STATUS',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginefuelstatus1',
+            },
             { text: 'DATA: RIGHT ENGINE IGNITION' },
             { text: 'DATA: RIGHT ENGINE INDICAITON' },
             { text: 'DATA: RIGHT ENGINE OIL SYSTEM STATUS' },
