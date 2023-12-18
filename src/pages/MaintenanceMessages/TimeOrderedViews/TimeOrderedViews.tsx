@@ -4,8 +4,7 @@ import Menu from "../../../components/Menu"
 import Title from "../../../components/Title"
 
 const TimeOrderedViews = () => {
-  const urlPrefix =
-    process.env.NODE_ENV !== 'development' ? '/timeorderedviews/' : '/maintenancemessages/timeorderedviews/'
+  const urlPrefix = '/maintenancemessages/timeorderedviews/'
 
   return (
     <DefaultLayout>

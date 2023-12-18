@@ -46,7 +46,7 @@ const WingTempLeft = () => {
     <DefaultLayout
       showNavBar
       navBarButtons={navBarButtons}
-      footer={<DataFooter left={'361211'} right={['Select prev to go back', 'Select done to continue']} />}
+      footer={<DataFooter left={'361211'} right={['Select done to continue']} />}
     >
       <DataHeader left={'WING ANTI-ICE INDICATION'} right={'1/1'} />
       <Legend />

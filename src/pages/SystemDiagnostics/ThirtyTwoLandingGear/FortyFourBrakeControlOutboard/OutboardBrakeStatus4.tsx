@@ -19,8 +19,8 @@ const OutboardBrakeStatus4 = () => {
     { parameter: 'R BRK CTRL VALVE', status1: '3.9 MA', status2: '3.9 MA' },
     { parameter: 'LEFT WHEEL SPEED', status1: '0.0 KTS', status2: '0.0 KTS' },
     { parameter: 'RIGHT WHEEL SPEED', status1: '0.0 KTS', status2: '0.0 KTS' },
-    { parameter: 'LEFT INBD BRAKE PRESS', status1: '38 PSI', status2: '38 PSI' },
-    { parameter: 'RIGHT INBD BRAKE PRESS', status1: '33 PSI', status2: '38 PSI' },
+    { parameter: 'LEFT BRAKE PRESS', status1: '38 PSI', status2: '38 PSI' },
+    { parameter: 'RIGHT BRAKE PRESS', status1: '33 PSI', status2: '38 PSI' },
     { parameter: 'LEFT BRAKE TEMP', status1: '35 DEG C', status2: '35 DEG C' },
     { parameter: 'RIGHT BRAKE TEMP', status1: '36 DEG C', status2: '36 DEG C' },
   ];

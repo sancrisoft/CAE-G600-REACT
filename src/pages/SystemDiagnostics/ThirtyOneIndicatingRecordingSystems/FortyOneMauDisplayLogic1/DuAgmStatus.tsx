@@ -17,7 +17,7 @@ const DuAgmStatus = () => {
     { parameter: 'DU4', status1: true },
   ]
 
-  const header2 = [{ title: 'AGM1 STATUS' }, { title: 'CMC' }]
+  const header2 = [{ title: 'AGM STATUS' }, { title: 'CMC' }]
   const data2 = [
     { parameter: 'AGM1', status1: true },
     { parameter: 'AGM2', status1: true },
