@@ -23,7 +23,7 @@ const MainDoorFaultsStatus = () => {
     { parameter: '20-FORWARD BAYONET SWITCH FAULT', statuses: [false] },
     { parameter: '21-LATCHED PROK SWITCH FAULT', statuses: [false] },
     { parameter: '22-UNLATCHED PROK SWITCH FAULT', statuses: [false] },
-    { parameter: '23-LOCKED PROMMITY SWITCH FAULT', statuses: [false] },
+    { parameter: '23-LOCKED PROXIMITY SWITCH FAULT', statuses: [false] },
     { parameter: '24-LOCKED HALL EFFECT CHA FAULT', statuses: [false] },
   ]
 

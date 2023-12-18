@@ -18,7 +18,7 @@ const ControlOneStatus = () => {
     { parameter: 'CPCS LOW AIR FLOW', status1: true, status2: true },
     { parameter: 'CPCS TSC FAULT', status1: true, status2: true },
     { parameter: 'LDG ELEV INPUT INVALID', status1: true, status2: true },
-    { parameter: 'MAINTENANCE ACTION REQD', status1: false, status2: false },
+    { parameter: 'MAINTENANCE ACTION REOD', status1: false, status2: false },
     { parameter: 'AT LEAST ONE RDC INVLD', status1: false, status2: false },
     { parameter: 'OUTFLOW VALVE FAULT', status1: true, status2: true },
     { parameter: 'PRESS RELIEF VALVE FAULT', status1: true, status2: true },

@@ -7,7 +7,7 @@ const MemberSystemStatus = () => {
 
   const items: AccordionItem[] = [
     {
-      text: '21 AIR CONDITIOINING',
+      text: '21 AIR CONDITIONING',
     },
     {
       text: '22 AUTOFLIGHT',
@@ -89,15 +89,15 @@ const MemberSystemStatus = () => {
           secondColumn: 'operational',
         },
         {
-          text: '42 intertial reference system 1',
+          text: '42 inertial reference system 1',
           secondColumn: 'operational',
         },
         {
-          text: '42 intertial reference system 2',
+          text: '42 inertial reference system 2',
           secondColumn: 'operational',
         },
         {
-          text: '42 intertial reference system 3',
+          text: '42 inertial reference system 3',
           secondColumn: 'operational',
         },
         {
@@ -113,7 +113,7 @@ const MemberSystemStatus = () => {
           secondColumn: 'operational',
         },
         {
-          text: '47 traffic collission avoidance system',
+          text: '47 traffic collision avoidance system',
           secondColumn: 'operational',
         },
         {
@@ -125,7 +125,7 @@ const MemberSystemStatus = () => {
           secondColumn: 'operational',
         },
         {
-          text: 'navcom',
+          text: '53 navcom',
           secondColumn: 'operational',
         },
         {

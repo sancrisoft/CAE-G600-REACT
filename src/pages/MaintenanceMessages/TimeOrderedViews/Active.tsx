@@ -761,7 +761,7 @@ const Active = () => {
 
   return (
     <DefaultLayout showNavBar navBarButtons={navBarButtons} footer={<Footer>Monitor Warn Function 1 Selected</Footer>}>
-      <Title variant="secondary">Active Main Msg / Flight Deck Effects</Title>
+      <Title variant="secondary">Active Maint Msg / Flight Deck Effects</Title>
       <Table data={data} tableRef={tableRef} />
     </DefaultLayout>
   )

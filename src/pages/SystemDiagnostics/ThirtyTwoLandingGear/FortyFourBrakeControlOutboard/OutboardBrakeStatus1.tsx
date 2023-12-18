@@ -19,7 +19,7 @@ const OutboardBrakeStatus1 = () => {
     { parameter: 'RIGHT BRAKE DEGRADE', status1: true, status2: true },
     { parameter: 'UNCOMMANDED BRAKE', status1: true, status2: true },
     { parameter: 'ANTISKID FAIL', status1: true, status2: true },
-    { parameter: 'BRAKE MAINTENANCE REQD', status1: true, status2: true },
+    { parameter: 'BRAKE MAINTENANCE REOD', status1: true, status2: true },
     { parameter: 'TOUCHDOWN PROTECT UNAVAIL', status1: true, status2: true },
     { parameter: 'WHEEL DESPIN FAIL/UNAVAIL', status1: true, status2: true },
     { parameter: 'LEFT LOCKED WHEEL ACTIVE', status1: true, status2: true },

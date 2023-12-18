@@ -17,7 +17,7 @@ const ServiceDoors = () => {
     { parameter: 'OXYGEN SERVICE DOOR', statuses: [true, true], customSpan: 2  },
     { parameter: 'L ENGINE ACCESS (OIL)', statuses: [true, true], customSpan: 2  },
     { parameter: 'L ENGINE ACCESS (BLOWOUT)', statuses: [true, true], customSpan: 2  },
-    { parameter: 'FUEL DRAIN VALVE', statuses: [true, true], customSpan: 2  },
+    { parameter: 'L FUEL DRAIN VALVE', statuses: [true, true], customSpan: 2  },
     { parameter: 'L FUEL HOPPER DRAIN VALVE', statuses: [true, true], customSpan: 2  },
     { parameter: 'R FUEL DRAIN VALVE', statuses: [true, true], customSpan: 2  },
     { parameter: 'R FUEL HOPPER DRAIN VALVE', statuses: [true, true], customSpan: 2  },

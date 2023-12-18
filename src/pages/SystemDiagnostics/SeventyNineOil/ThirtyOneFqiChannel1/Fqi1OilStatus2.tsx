@@ -48,7 +48,7 @@ const Fqi1OilStatus2 = () => {
       navBarButtons={navBarButtons}
       footer={<DataFooter left={'793103'} right={['Select prev to go back', 'Select fwd to continue']} />}
     >
-      <DataHeader left={'fqi eng oil status'} right={'3/4'} />
+      <DataHeader left={'fqi eng oil capacitance'} right={'3/4'} />
       <DynamicTable data={data} mainHeaders={tableHeader} secondaryHeaders={secondaryHeaders} />
     </DefaultLayout>
   )
