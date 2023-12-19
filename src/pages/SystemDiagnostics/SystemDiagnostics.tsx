@@ -2133,12 +2133,29 @@ const SystemDiagnostics = () => {
               text: 'DATA: LEFT ENGINE FUEL STATUS',
               href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginefuelstatus',
             },
-            { text: 'DATA: LEFT ENGINE IGNITION' },
-            { text: 'DATA: LEFT ENGINE INDICATION SYSTEM' },
-            { text: 'DATA: LEFT ENGINE OIL SYSTEM STATUS' },
-            { text: 'DATA: LEFT ENGINE OPER INDICATION' },
-            { text: 'DATA: LEFT ENGINE START STATUS' },
-            { text: 'DATA: LEFT ENGINE THRUST REVERSER' },
+            {
+              text: 'DATA: LEFT ENGINE IGNITION',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineignitionstatus',
+            },
+            {
+              text: 'DATA: LEFT ENGINE INDICATION SYSTEM',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineindicationsystem',
+            },
+            {
+              text: 'DATA: LEFT ENGINE OIL SYSTEM STATUS',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineoilsystem',
+            },
+            {
+              text: 'DATA: LEFT ENGINE OPER INDICATION',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftoperationalindication1',
+            },
+            {
+              text: 'DATA: LEFT ENGINE START STATUS',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginestartstatus1',
+            },
+            {
+              text: 'DATA: LEFT ENGINE THRUST REVERSER',
+            },
             {
               text: 'DATA: TEST SPECIFICATION FADEC',
               hide: !maintenanceSwitch,
@@ -2179,11 +2196,26 @@ const SystemDiagnostics = () => {
               text: 'DATA: RIGHT ENGINE FUEL STATUS',
               href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginefuelstatus1',
             },
-            { text: 'DATA: RIGHT ENGINE IGNITION' },
-            { text: 'DATA: RIGHT ENGINE INDICAITON' },
-            { text: 'DATA: RIGHT ENGINE OIL SYSTEM STATUS' },
-            { text: 'DATA: RIGHT ENGINE OPERATIONAL IND' },
-            { text: 'DATA: RIGHT ENGINE STARTING STATUS' },
+            {
+              text: 'DATA: RIGHT ENGINE IGNITION',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightignitionstatus',
+            },
+            {
+              text: 'DATA: RIGHT ENGINE INDICAITON',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineindicationsystem',
+            },
+            {
+              text: 'DATA: RIGHT ENGINE OIL SYSTEM STATUS',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineoilsystem',
+            },
+            {
+              text: 'DATA: RIGHT ENGINE OPERATIONAL IND',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightoperationalindication1',
+            },
+            {
+              text: 'DATA: RIGHT ENGINE STARTING STATUS',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginestartstatus1',
+            },
             { text: 'DATA: RIGHT ENGINE THRUST REVERSER' },
             { text: 'DATA: VIBRATION BALANCE RA' },
             { text: 'DATA: VIBRATION ERAZE WEIGHTS RA' },
