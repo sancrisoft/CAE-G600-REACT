@@ -492,6 +492,24 @@ import LeftEngineFuelStatus from './pages/SystemDiagnostics/SevenntyThreeEngine/
 import LeftEngineFuelStatus2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineFuelStatus2';
 import RightEngineFuelStatus1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineFuelStatus1';
 import RightEngineFuelStatus2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineFuelStatus2';
+import LeftIgnitionStatus from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftIgnitionStatus';
+import RightIgnitionStatus from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightIgnitionStatus';
+import LeftIndicationSystem from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftIndicationSystem';
+import RightIndicationSystem from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightIndicationSystem';
+import LeftEngineOilSystem from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineOilSystem';
+import RightEngineOilSystem from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineOilSystem';
+import LeftOperationalIndication2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftOperationalIndication2';
+import LeftOperationalIndication3 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftOperationalIndication3';
+import LeftOperationalIndication1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftOperationalIndication1';
+import LeftOperationalIndication4 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftOperationalIndication4';
+import RightOperationalIndication1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightOperationalIndication1';
+import RightOperationalIndication2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightOperationalIndication2';
+import RightOperationalIndication3 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightOperationalIndication3';
+import RightOperationalIndication4 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightOperationalIndication4';
+import LeftEngineStartStatus1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineStartStatus1';
+import LeftEngineStartStatus2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineStartStatus2';
+import RightEngineStartStatus1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineStartStatus1';
+import RightEngineStartStatus2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineStartStatus2';
 
 function App() {
   return (
@@ -984,9 +1002,27 @@ function App() {
         <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/engineecs" element={<LeftEngineEcs />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginefuelstatus" element={<LeftEngineFuelStatus />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginefuelstatus2" element={<LeftEngineFuelStatus2 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineignitionstatus" element={<LeftIgnitionStatus />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineindicationsystem" element={<LeftIndicationSystem />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineoilsystem" element={<LeftEngineOilSystem />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftoperationalindication1" element={<LeftOperationalIndication1 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftoperationalindication2" element={<LeftOperationalIndication2 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftoperationalindication3" element={<LeftOperationalIndication3 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftoperationalindication4" element={<LeftOperationalIndication4 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginestartstatus1" element={<LeftEngineStartStatus1 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginestartstatus2" element={<LeftEngineStartStatus2 />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineecs" element={<RightEngineEcs />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginefuelstatus1" element={<RightEngineFuelStatus1 />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginefuelstatus2" element={<RightEngineFuelStatus2 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightignitionstatus" element={<RightIgnitionStatus />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineindicationsystem" element={<RightIndicationSystem />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineoilsystem" element={<RightEngineOilSystem />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightoperationalindication1" element={<RightOperationalIndication1 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightoperationalindication2" element={<RightOperationalIndication2 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightoperationalindication3" element={<RightOperationalIndication3 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightoperationalindication4" element={<RightOperationalIndication4 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginestartstatus1" element={<RightEngineStartStatus1 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginestartstatus2" element={<RightEngineStartStatus2 />} />
         <Route path="/extendedmaintenance" element={<ExtendedMaintenance />} />
         <Route path="/extendedmaintenance/membersystemstatus" element={<MemberSystemStatus />} />
       </Routes>
