@@ -520,6 +520,7 @@ import LeftEngineAcInput1 from './pages/SystemDiagnostics/SevenntyThreeEngine/Tw
 import LeftEngineAcInput2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineAcInput2';
 import RightEngineAcInput1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineAcInput1';
 import RightEngineAcInput2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineAcInput2';
+import VibrationWeightsLb from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChB/VibrationWeightsLb';
 
 function App() {
   return (
@@ -1026,6 +1027,7 @@ function App() {
         <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginethrustreverser3" element={<LeftEngineThrustReverser3 />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineacinput1" element={<LeftEngineAcInput1 />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineacinput2" element={<LeftEngineAcInput2 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftchb/vibrationweightslb" element={<VibrationWeightsLb />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineecs" element={<RightEngineEcs />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginefuelstatus1" element={<RightEngineFuelStatus1 />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginefuelstatus2" element={<RightEngineFuelStatus2 />} />

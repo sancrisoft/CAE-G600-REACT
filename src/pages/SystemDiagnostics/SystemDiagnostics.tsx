@@ -2173,7 +2173,15 @@ const SystemDiagnostics = () => {
         },
         {
           text: '21 Engine Control Left Ch B',
-          children: [{ text: 'DATA: VIBRATION BALANCE LB' }, { text: 'DATA: VIBRATION ERAZE WEIGHTS LB' }, { text: 'DATA: VIBRATION READ WEIGHTS LB' }, { text: 'DATA: VIBRATION SET WEIGHTS LB' }],
+          children: [
+            {
+              text: 'DATA: VIBRATION WEIGHTS LB',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftchb/vibrationweightslb',
+            },
+            { text: 'DATA: VIBRATION ERAZE WEIGHTS LB' },
+            { text: 'DATA: VIBRATION READ WEIGHTS LB' },
+            { text: 'DATA: VIBRATION SET WEIGHTS LB' },
+          ],
         },
         {
           text: '21 Engine Control Right Ch A',
