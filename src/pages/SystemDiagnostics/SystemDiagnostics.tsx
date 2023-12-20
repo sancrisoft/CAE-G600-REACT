@@ -2115,7 +2115,7 @@ const SystemDiagnostics = () => {
             },
             {
               text: 'DATA: LEFT ENGINE AC INPUT ECHO',
-              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/engineecs',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineacinput1',
             },
             {
               text: 'DATA: LEFT ENGINE AIR SYSTEM',
@@ -2155,6 +2155,7 @@ const SystemDiagnostics = () => {
             },
             {
               text: 'DATA: LEFT ENGINE THRUST REVERSER',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginethrustreverser1',
             },
             {
               text: 'DATA: TEST SPECIFICATION FADEC',
@@ -2172,14 +2173,22 @@ const SystemDiagnostics = () => {
         },
         {
           text: '21 Engine Control Left Ch B',
-          children: [{ text: 'DATA: VIBRATION BALANCE LB' }, { text: 'DATA: VIBRATION ERAZE WEIGHTS LB' }, { text: 'DATA: VIBRATION READ WEIGHTS LB' }, { text: 'DATA: VIBRATION SET WEIGHTS LB' }],
+          children: [
+            {
+              text: 'DATA: VIBRATION WEIGHTS LB',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftchb/vibrationweightslb',
+            },
+            { text: 'DATA: VIBRATION ERAZE WEIGHTS LB' },
+            { text: 'DATA: VIBRATION READ WEIGHTS LB' },
+            { text: 'DATA: VIBRATION SET WEIGHTS LB' },
+          ],
         },
         {
           text: '21 Engine Control Right Ch A',
           children: [
             {
               text: 'DATA: RIGHT ENGINE AC INPUT ECHO',
-              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineecs',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineacinput1',
             },
             {
               text: 'DATA: RIGHT ENGINE AIR SYSTEM',
@@ -2216,7 +2225,10 @@ const SystemDiagnostics = () => {
               text: 'DATA: RIGHT ENGINE STARTING STATUS',
               href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginestartstatus1',
             },
-            { text: 'DATA: RIGHT ENGINE THRUST REVERSER' },
+            {
+              text: 'DATA: RIGHT ENGINE THRUST REVERSER',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginethrustreverser1',
+            },
             { text: 'DATA: VIBRATION BALANCE RA' },
             { text: 'DATA: VIBRATION ERAZE WEIGHTS RA' },
             { text: 'DATA: VIBRATION READ WEIGHTS RA' },

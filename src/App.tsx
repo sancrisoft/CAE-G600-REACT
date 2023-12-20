@@ -510,6 +510,17 @@ import LeftEngineStartStatus1 from './pages/SystemDiagnostics/SevenntyThreeEngin
 import LeftEngineStartStatus2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineStartStatus2';
 import RightEngineStartStatus1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineStartStatus1';
 import RightEngineStartStatus2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineStartStatus2';
+import LeftEngineThrustReverser1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineThrustReverser1';
+import LeftEngineThrustReverser2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineThrustReverser2';
+import LeftEngineThrustReverser3 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineThrustReverser3';
+import RightEngineThrustReverser1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineThrustReverser1';
+import RightEngineThrustReverser2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineThrustReverser2';
+import RightEngineThrustReverser3 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineThrustReverser3';
+import LeftEngineAcInput1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineAcInput1';
+import LeftEngineAcInput2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineAcInput2';
+import RightEngineAcInput1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineAcInput1';
+import RightEngineAcInput2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineAcInput2';
+import VibrationWeightsLb from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChB/VibrationWeightsLb';
 
 function App() {
   return (
@@ -1011,6 +1022,12 @@ function App() {
         <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftoperationalindication4" element={<LeftOperationalIndication4 />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginestartstatus1" element={<LeftEngineStartStatus1 />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginestartstatus2" element={<LeftEngineStartStatus2 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginethrustreverser1" element={<LeftEngineThrustReverser1 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginethrustreverser2" element={<LeftEngineThrustReverser2 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginethrustreverser3" element={<LeftEngineThrustReverser3 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineacinput1" element={<LeftEngineAcInput1 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineacinput2" element={<LeftEngineAcInput2 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftchb/vibrationweightslb" element={<VibrationWeightsLb />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineecs" element={<RightEngineEcs />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginefuelstatus1" element={<RightEngineFuelStatus1 />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginefuelstatus2" element={<RightEngineFuelStatus2 />} />
@@ -1023,6 +1040,11 @@ function App() {
         <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightoperationalindication4" element={<RightOperationalIndication4 />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginestartstatus1" element={<RightEngineStartStatus1 />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginestartstatus2" element={<RightEngineStartStatus2 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginethrustreverser1" element={<RightEngineThrustReverser1 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginethrustreverser2" element={<RightEngineThrustReverser2 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginethrustreverser3" element={<RightEngineThrustReverser3 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineacinput1" element={<RightEngineAcInput1 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineacinput2" element={<RightEngineAcInput2 />} />
         <Route path="/extendedmaintenance" element={<ExtendedMaintenance />} />
         <Route path="/extendedmaintenance/membersystemstatus" element={<MemberSystemStatus />} />
       </Routes>

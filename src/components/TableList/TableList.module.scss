@@ -1,0 +1,38 @@
+.Table {
+    width: 100%;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+.Header {
+    font-weight: bold;
+}
+
+.Table td {
+    width: 10%; 
+}
+
+.MarginTopS {
+    margin-top: 8px;
+}
+
+.MarginTopM {
+    margin-top: 16px;
+}
+
+.MarginTopL {
+    margin-top: 32px;
+}
+
+.TableContainer {
+    width: 50%;
+    margin-left: auto;
+    margin-right: 0;
+
+    .Table {
+        width: 80%;
+    }
+    .Table td:nth-child(n + 2) {
+        text-align: right;
+      }
+  }
