@@ -2130,6 +2130,10 @@ const SystemDiagnostics = () => {
               href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineconfigstatus',
             },
             {
+              text: 'DATA: LEFT ENGINE ECS',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/engineecs',
+            },
+            {
               text: 'DATA: LEFT ENGINE FUEL STATUS',
               href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginefuelstatus',
             },
@@ -2201,6 +2205,10 @@ const SystemDiagnostics = () => {
             {
               text: 'DATA: RIGHT ENGINE CONFIG STATUS',
               href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineconfigstatus',
+            },
+            {
+              text: 'DATA: RIGHT ENGINE ECS',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineecs',
             },
             {
               text: 'DATA: RIGHT ENGINE FUEL STATUS',
