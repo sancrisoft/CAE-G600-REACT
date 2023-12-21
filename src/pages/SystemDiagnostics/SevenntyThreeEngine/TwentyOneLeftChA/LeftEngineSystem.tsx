@@ -14,7 +14,7 @@ const LeftEngineSystem = () => {
     { parameter: 'N1', statuses: ['0.00%', '0.00%'], customSpan: 2 },
     { parameter: 'N1 REFERENCE', statuses: ['22.77%', '22.77%'], customSpan: 2 },
     { parameter: 'N2 CORRECTED', statuses: ['0.00%', '0.00%'], customSpan: 2 },
-    { parameter: 'PRESSURE ALTITUDE', statuses: ['154 FT', '153 FT'], customSpan: 2 },
+    { parameter: 'PRESSURE ALTITUDE', statuses: ['149 FT', '149 FT'], customSpan: 2 },
     { parameter: 'BUFFER  AIR TEMP', statuses: ['33 DEGC', '33 DEGC'], customSpan: 2 },
     { parameter: 'VGV POSITION CMD', statuses: ['96.1 %STK', '96.1 %STK'], customSpan: 2 },
     { parameter: 'VGV POSITION FDBK', statuses: ['98.0 %STK', '98.0 %STK'], customSpan: 2 },
