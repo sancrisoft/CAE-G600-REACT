@@ -521,6 +521,7 @@ import LeftEngineAcInput2 from './pages/SystemDiagnostics/SevenntyThreeEngine/Tw
 import RightEngineAcInput1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineAcInput1';
 import RightEngineAcInput2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineAcInput2';
 import VibrationWeightsLb from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChB/VibrationWeightsLb';
+import RightEngineConfigStatus from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineConfigStatus';
 
 function App() {
   return (
@@ -1010,6 +1011,7 @@ function App() {
         <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftcaistatus" element={<LeftCaiStatus />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightcaistatus" element={<RightCaiStatus />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineconfigstatus" element={<LeftEngineConfigStatus />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineconfigstatus" element={<RightEngineConfigStatus />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/engineecs" element={<LeftEngineEcs />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginefuelstatus" element={<LeftEngineFuelStatus />} />
         <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginefuelstatus2" element={<LeftEngineFuelStatus2 />} />

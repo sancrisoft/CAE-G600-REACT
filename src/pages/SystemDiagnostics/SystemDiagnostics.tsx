@@ -2200,6 +2200,7 @@ const SystemDiagnostics = () => {
             },
             {
               text: 'DATA: RIGHT ENGINE CONFIG STATUS',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineconfigstatus',
             },
             {
               text: 'DATA: RIGHT ENGINE FUEL STATUS',
