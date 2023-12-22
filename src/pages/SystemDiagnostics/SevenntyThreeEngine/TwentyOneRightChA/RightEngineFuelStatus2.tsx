@@ -9,7 +9,7 @@ import Legend from '../../../../components/Legend';
 const RightEngineFuelStatus2 = () => {
   const navigate = useNavigate();
 
-  const tableHeader = [{ title: 'PARAMETER', alignLeft: true }, { title: 'CHA' }, { title: 'CHb' }];
+  const tableHeader = [{ title: 'PARAMETER', alignLeft: true }, { title: 'CH A' }, { title: 'CH B' }];
 
   const data = [
     { parameter: 'N1', statuses: ['0.00%', '0.00%'], customSpan: 2 },
@@ -39,7 +39,7 @@ const RightEngineFuelStatus2 = () => {
     },
     {
       text: 'prev',
-      href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginefuelstatus2',
+      href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginefuelstatus1',
       disabled: false,
       position: 4,
     },

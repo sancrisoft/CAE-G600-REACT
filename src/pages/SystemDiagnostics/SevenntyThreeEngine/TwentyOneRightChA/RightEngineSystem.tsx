@@ -8,7 +8,7 @@ import DynamicTable from '../../../../components/DynamicTable';
 const RightEngineSystem = () => {
   const navigate = useNavigate();
 
-  const tableHeader = [{ title: 'PARAMETER', alignLeft: true }, { title: 'CHA' }, { title: 'CHb' }];
+  const tableHeader = [{ title: 'PARAMETER', alignLeft: true }, { title: 'CH A' }, { title: 'CH B' }];
 
   const data = [
     { parameter: 'N1', statuses: ['0.00%', '0.00%'], customSpan: 2 },

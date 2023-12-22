@@ -2106,7 +2106,7 @@ const SystemDiagnostics = () => {
           text: '21 Engine Control Left Ch A',
           children: [
             {
-              text: 'DATA:ENG VIBRATION COUNTERS',
+              text: 'DATA: ENG VIBRATION COUNTERS',
               href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/vibrationcounters',
             },
             {
@@ -2219,7 +2219,7 @@ const SystemDiagnostics = () => {
               href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightignitionstatus',
             },
             {
-              text: 'DATA: RIGHT ENGINE INDICAITON',
+              text: 'DATA: RIGHT ENGINE INDICATION',
               href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineindicationsystem',
             },
             {

@@ -9,7 +9,7 @@ import Legend from '../../../../components/Legend';
 const RightEngineAcInput2 = () => {
   const navigate = useNavigate();
 
-  const tableHeader = [{ title: 'PARAMETER', alignLeft: true }, { title: 'CHA' }, { title: 'CHb' }];
+  const tableHeader = [{ title: 'PARAMETER', alignLeft: true }, { title: 'CH A' }, { title: 'CH B' }];
 
   const data = [
     { parameter: 'ALTER THRUST CTRL CMD', statuses: [false, false], customSpan: 2 },

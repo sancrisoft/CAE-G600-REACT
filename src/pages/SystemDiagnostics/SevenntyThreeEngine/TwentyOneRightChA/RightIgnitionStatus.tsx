@@ -9,7 +9,7 @@ import Legend from '../../../../components/Legend';
 const RightIgnitionStatus = () => {
   const navigate = useNavigate();
 
-  const tableHeader = [{ title: 'PARAMETER', alignLeft: true }, { title: 'CHA' }, { title: 'CHb' }];
+  const tableHeader = [{ title: 'PARAMETER', alignLeft: true }, { title: 'CH A' }, { title: 'CH b' }];
 
   const data = [
     { parameter: 'TGT', statuses: ['28 DEGC', '28 DEGC'], customSpan: 2 },

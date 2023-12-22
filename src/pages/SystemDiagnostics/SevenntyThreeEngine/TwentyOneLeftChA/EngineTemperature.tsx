@@ -8,7 +8,7 @@ import DynamicTable from '../../../../components/DynamicTable';
 const EngineTemperature = () => {
   const navigate = useNavigate();
 
-  const tableHeader = [{ title: 'LEFT ENGINE', alignLeft: true }, { title: 'CHA' }, { title: 'CHb' }];
+  const tableHeader = [{ title: 'LEFT ENGINE', alignLeft: true }, { title: 'CH A' }, { title: 'CH B' }];
 
   const data = [
     { parameter: 'NACELLE AIR TEMPERATURE', statuses: ['XXX DEGC', 'XXX DEGC'], customSpan: 2 },
@@ -17,7 +17,7 @@ const EngineTemperature = () => {
     { parameter: 'FIRE WIRE (MILLIVOLTS)', statuses: ['11983', '11983'], customSpan: 2 },
     { parameter: 'FIRE WIRE (OHMS)', statuses: ['32027', '31916'], customSpan: 2 },
   ];
-  const tableHeader1 = [{ title: 'RIGHT ENGINE', alignLeft: true }, { title: 'CHA' }, { title: 'CHb' }];
+  const tableHeader1 = [{ title: 'RIGHT ENGINE', alignLeft: true }, { title: 'CH A' }, { title: 'CH B' }];
 
   const data1 = [
     { parameter: 'NACELLE AIR TEMPERATURE', statuses: ['XXX DEGC', 'XXX DEGC'], customSpan: 2 },

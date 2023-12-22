@@ -39,7 +39,7 @@ const RightEngineStartStatus2 = () => {
     },
     {
       text: 'prev',
-      href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginestartstatus1',
+      href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginestartstatus1',
       disabled: false,
       position: 4,
     },

@@ -9,7 +9,7 @@ import Legend from '../../../../components/Legend';
 const LeftIndicationSystem = () => {
   const navigate = useNavigate();
 
-  const tableHeader = [{ title: 'PARAMETER', alignLeft: true }, { title: 'CHA' }, { title: 'CHb' }];
+  const tableHeader = [{ title: 'PARAMETER', alignLeft: true }, { title: 'CH A' }, { title: 'CH B' }];
 
   const data = [
     { parameter: 'N1 DISPLAYED', statuses: ['0.00 %', '0.00 %'], customSpan: 2 },

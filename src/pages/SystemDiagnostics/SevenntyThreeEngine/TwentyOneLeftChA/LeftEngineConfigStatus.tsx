@@ -8,7 +8,7 @@ import StatusTable from '../../../../components/StatusTable';
 const LeftEngineConfigStatus = () => {
   const navigate = useNavigate();
 
-  const tableHeader = [{ title: 'PARAMETER', alignLeft: true }, { title: 'CHA' }, { title: 'CHb' }];
+  const tableHeader = [{ title: 'PARAMETER', alignLeft: true }, { title: 'CH A' }, { title: 'CH B' }];
 
   const data = [
     { parameter: 'A/C MODEL IDENT', statuses: ['57', '57'], customSpan: 2 },

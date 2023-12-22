@@ -9,7 +9,7 @@ import Legend from '../../../../components/Legend';
 const LeftEngineEcs = () => {
   const navigate = useNavigate();
 
-  const tableHeader = [{ title: 'PARAMETER', alignLeft: true }, { title: 'CHA' }, { title: 'CHb' }];
+  const tableHeader = [{ title: 'PARAMETER', alignLeft: true }, { title: 'CH A' }, { title: 'CH B' }];
 
   const data = [
     { parameter: 'N2', statuses: ['0.00%', '0.00%'], customSpan: 2 },

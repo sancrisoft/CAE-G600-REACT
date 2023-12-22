@@ -9,7 +9,7 @@ import Legend from '../../../../components/Legend';
 const LeftEngineAcInput1 = () => {
   const navigate = useNavigate();
 
-  const tableHeader = [{ title: 'PARAMETER', alignLeft: true }, { title: 'CHA' }, { title: 'CHb' }];
+  const tableHeader = [{ title: 'PARAMETER', alignLeft: true }, { title: 'CH A' }, { title: 'CH B' }];
 
   const data = [
     { parameter: 'RUN-OFF SWITCH CMD', statuses: ['OFF', 'OFF'], customSpan: 2 },

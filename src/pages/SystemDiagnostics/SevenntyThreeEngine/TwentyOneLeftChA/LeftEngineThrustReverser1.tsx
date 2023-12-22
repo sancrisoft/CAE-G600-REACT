@@ -9,7 +9,7 @@ import Legend from '../../../../components/Legend';
 const LeftEngineThrustReverser1 = () => {
   const navigate = useNavigate();
 
-  const tableHeader = [{ title: 'PARAMETER', alignLeft: true }, { title: 'CHA' }, { title: 'CHb' }];
+  const tableHeader = [{ title: 'PARAMETER', alignLeft: true }, { title: 'CH A' }, { title: 'CH B' }];
 
   const data = [
     { parameter: 'T/R INHIBITED COMMAND', statuses: [false, false], customSpan: 2 },
