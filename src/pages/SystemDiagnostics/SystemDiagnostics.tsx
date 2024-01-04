@@ -1,12 +1,12 @@
-import Accordion, { AccordionItem } from "../../components/Accordion"
-import Footer from "../../components/Footer"
-import DefaultLayout from "../../components/Layout"
-import { NavBarButtonType } from "../../components/NavBar"
-import Title from "../../components/Title"
-import { useAppFrameStatus } from "../../lib/appframe/hook"
+import Accordion, { AccordionItem } from '../../components/Accordion';
+import Footer from '../../components/Footer';
+import DefaultLayout from '../../components/Layout';
+import { NavBarButtonType } from '../../components/NavBar';
+import Title from '../../components/Title';
+import { useAppFrameStatus } from '../../lib/appframe/hook';
 
 const SystemDiagnostics = () => {
-  const { maintenanceSwitch } = useAppFrameStatus()
+  const { maintenanceSwitch } = useAppFrameStatus();
 
   const items: AccordionItem[] = [
     {
@@ -1444,7 +1444,7 @@ const SystemDiagnostics = () => {
           text: '27 Standby Flight Display 2',
           children: [
             {
-               text: 'DATA: SFD2 STATUS'
+              text: 'DATA: SFD2 STATUS',
             },
             {
               text: 'TEST SFD2 TOUCH SENSOR TEST',
@@ -1632,7 +1632,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'TEST: NIC2 MODULE RESET TEST',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/elevennictwo/testnictwomoduleresettestone'
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/elevennictwo/testnictwomoduleresettestone',
             },
           ],
         },
@@ -1650,7 +1650,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'TEST: TNIC1 MODULE RESET TEST',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/eleventimingnicone/testtniconemoduleresettestone'
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/eleventimingnicone/testtniconemoduleresettestone',
             },
           ],
         },
@@ -1659,7 +1659,7 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'TEST TNIC4 MODULE RESET TEST',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/eleventimingnicfour/testtnicfourmoduleresettestone'
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/eleventimingnicfour/testtnicfourmoduleresettestone',
             },
           ],
         },
@@ -1819,40 +1819,40 @@ const SystemDiagnostics = () => {
         {
           text: '33 DCN Remote Data Concentrator 12',
           children: [
-            { 
+            {
               text: 'DATA: DCN RDC 12 LINKS',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwelve/datadcnrdctwelvelinksone'
-            }, 
-            { 
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwelve/datadcnrdctwelvelinksone',
+            },
+            {
               text: 'DATA: DCN DRC 12 STATUS',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwelve/datadcnrdctwelvestatusone'
-            }
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwelve/datadcnrdctwelvestatusone',
+            },
           ],
         },
         {
           text: '33 DCN Remote Data Concentrator 13',
           children: [
-            { 
+            {
               text: 'DATA: DCN RDC 13 LINKS',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorthirteen/datadcnrdcthirteenlinksone'
-            }, 
-            { 
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorthirteen/datadcnrdcthirteenlinksone',
+            },
+            {
               text: 'DATA: DCN DRC 13 STATUS',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorthirteen/datadcnrdcthirteenstatusone'
-            }
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorthirteen/datadcnrdcthirteenstatusone',
+            },
           ],
         },
         {
           text: '33 DCN Remote Data Concentrator 14',
           children: [
-            { 
+            {
               text: 'DATA: DCN RDC 14 LINKS',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfourteen/datadcnrdcfourteenlinksone'
-            }, 
-            { 
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfourteen/datadcnrdcfourteenlinksone',
+            },
+            {
               text: 'DATA: DCN DRC 14 STATUS',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfourteen/datadcnrdcfourteenstatusone'
-            }
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfourteen/datadcnrdcfourteenstatusone',
+            },
           ],
         },
         {
@@ -1860,77 +1860,77 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: DCN RDC 15 LINKS',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfifteen/datadcnrdcfifteenlinksone'
-            }, 
-            { 
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfifteen/datadcnrdcfifteenlinksone',
+            },
+            {
               text: 'DATA: DCN DRC 15 STATUS',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfifteen/datadcnrdcfifteenstatusone'
-            }
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfifteen/datadcnrdcfifteenstatusone',
+            },
           ],
         },
         {
           text: '33 DCN Remote Data Concentrator 16',
           children: [
             {
-             text: 'DATA: DCN RDC 16 LINKS',
-             href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenlinksone'
-            }, 
-            { 
+              text: 'DATA: DCN RDC 16 LINKS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenlinksone',
+            },
+            {
               text: 'DATA: DCN DRC 16 STATUS',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenstatusone'
-            }
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenstatusone',
+            },
           ],
         },
         {
           text: '33 DCN Remote Data Concentrator 17',
           children: [
-            { 
+            {
               text: 'DATA: DCN RDC 17 LINKS',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinksone' 
-            }, 
-            { 
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinksone',
+            },
+            {
               text: 'DATA: DCN DRC 17 STATUS',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenstatusone'
-            }
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenstatusone',
+            },
           ],
         },
         {
           text: '33 DCN Remote Data Concentrator 18',
           children: [
-            { 
-              text: 'DATA: DCN RDC 18 LINKS', 
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratoreighteen/datadcnrdceighteenlinksone' 
-            }, 
-            { 
+            {
+              text: 'DATA: DCN RDC 18 LINKS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratoreighteen/datadcnrdceighteenlinksone',
+            },
+            {
               text: 'DATA: DCN DRC 18 STATUS',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratoreighteen/datadcnrdceighteenstatusone' 
-            }
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratoreighteen/datadcnrdceighteenstatusone',
+            },
           ],
         },
         {
           text: '33 DCN Remote Data Concentrator 19',
           children: [
             {
-              text: 'DATA: DCN RDC 19 LINKS', 
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratornineteen/datadcnrdcnineteenlinksone' 
-            }, 
-            { 
-              text: 'DATA: DCN DRC 19 STATUS', 
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratornineteen/datadcnrdcnineteenstatusone' 
-            }
+              text: 'DATA: DCN RDC 19 LINKS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratornineteen/datadcnrdcnineteenlinksone',
+            },
+            {
+              text: 'DATA: DCN DRC 19 STATUS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratornineteen/datadcnrdcnineteenstatusone',
+            },
           ],
         },
         {
           text: '33 DCN Remote Data Concentrator 20',
           children: [
             {
-              text: 'DATA: DCN RDC 20 LINKS', 
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwenty/datadcnrdctwentylinksone' 
+              text: 'DATA: DCN RDC 20 LINKS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwenty/datadcnrdctwentylinksone',
             },
             {
               text: 'DATA: DCN DRC 20 STATUS',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwenty/datadcnrdctwentystatusone' 
-            }
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwenty/datadcnrdctwentystatusone',
+            },
           ],
         },
         {
@@ -1938,84 +1938,84 @@ const SystemDiagnostics = () => {
           children: [
             {
               text: 'DATA: DCN RDC 22 LINKS',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwentytwo/datadcnrdctwentytwolinksone' 
-            }, 
-            { 
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwentytwo/datadcnrdctwentytwolinksone',
+            },
+            {
               text: 'DATA: DCN DRC 22 STATUS',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwentytwo/datadcnrdctwentytwostatusone' 
-            }
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwentytwo/datadcnrdctwentytwostatusone',
+            },
           ],
         },
         {
           text: '33 DCN Remote Interface Unit 51',
           children: [
-            { 
+            {
               text: 'DATA: DCN RIU 51 STATUS',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftyone/datadcnriufiftyonestatusone' 
-            }
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftyone/datadcnriufiftyonestatusone',
+            },
           ],
         },
         {
           text: '33 DCN Remote Interface Unit 52',
           children: [
             {
-              text: 'DATA: DCN RIU 52 STATUS', 
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftytwo/datadcnriufiftytwostatusone' 
-            }
+              text: 'DATA: DCN RIU 52 STATUS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftytwo/datadcnriufiftytwostatusone',
+            },
           ],
         },
         {
           text: '33 DCN Remote Interface Unit 53',
           children: [
-            { 
+            {
               text: 'DATA: DCN RIU 53 STATUS',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftythree/datadcnriufiftythreestatusone'
-            }
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftythree/datadcnriufiftythreestatusone',
+            },
           ],
         },
         {
           text: '33 DCN Remote Interface Unit 54',
           children: [
-            { 
-              text: 'DATA: DCN RIU 54 STATUS', 
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftyfour/datadcnriufiftyfourstatusone'
-            }
+            {
+              text: 'DATA: DCN RIU 54 STATUS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftyfour/datadcnriufiftyfourstatusone',
+            },
           ],
         },
         {
           text: '33 DCN Switch 1',
           children: [
-            { 
+            {
               text: 'DATA: DCN SWITCH 01 STATUS',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchone/datadcnswitchonestatusone'
-            }
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchone/datadcnswitchonestatusone',
+            },
           ],
         },
         {
           text: '33 DCN Switch 2',
           children: [
             {
-              text: 'DATA: DCN SWITCH 02 STATUS', 
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchtwo/datadcnswitchtwostatusone'
-            }
+              text: 'DATA: DCN SWITCH 02 STATUS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchtwo/datadcnswitchtwostatusone',
+            },
           ],
         },
         {
           text: '33 DCN Switch 3',
           children: [
-            { 
+            {
               text: 'DATA: DCN SWITCH 03 STATUS',
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchthree/datadcnswitchthreestatusone'
-            }
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchthree/datadcnswitchthreestatusone',
+            },
           ],
         },
         {
           text: '33 DCN Switch 4',
           children: [
-            { 
-              text: 'DATA: DCN SWITCH 04 STATUS' ,
-              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchfour/datadcnswitchfourstatusone'
-            }
+            {
+              text: 'DATA: DCN SWITCH 04 STATUS',
+              href: '/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchfour/datadcnswitchfourstatusone',
+            },
           ],
         },
       ],
@@ -2105,18 +2105,62 @@ const SystemDiagnostics = () => {
         {
           text: '21 Engine Control Left Ch A',
           children: [
-            { text: 'DATA: ENGINE TEMPERATURE' },
-            { text: 'DATA: LEFT ENGINE AC INPUT ECHO' },
-            { text: 'DATA: LEFT ENGINE AIR SYSTEM' },
-            { text: 'DATA: LEFT ENGINE CAI STATUS' },
-            { text: 'DATA: LEFT ENGINE CONFIG STATUS' },
-            { text: 'DATA: LEFT ENGINE FUEL STATUS' },
-            { text: 'DATA: LEFT ENGINE IGNITION' },
-            { text: 'DATA: LEFT ENGINE INDICATION SYSTEM' },
-            { text: 'DATA: LEFT ENGINE OIL SYSTEM STATUS' },
-            { text: 'DATA: LEFT ENGINE OPER INDICATION' },
-            { text: 'DATA: LEFT ENGINE START STATUS' },
-            { text: 'DATA: LEFT ENGINE THRUST REVERSER' },
+            {
+              text: 'DATA: ENG VIBRATION COUNTERS',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/vibrationcounters',
+            },
+            {
+              text: 'DATA: ENGINE TEMPERATURE',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/enginetemperature',
+            },
+            {
+              text: 'DATA: LEFT ENGINE AC INPUT ECHO',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineacinput1',
+            },
+            {
+              text: 'DATA: LEFT ENGINE AIR SYSTEM',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineairsystem',
+            },
+            {
+              text: 'DATA: LEFT ENGINE CAI STATUS',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftcaistatus',
+            },
+            {
+              text: 'DATA: LEFT ENGINE CONFIG STATUS',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineconfigstatus',
+            },
+            {
+              text: 'DATA: LEFT ENGINE ECS',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/engineecs',
+            },
+            {
+              text: 'DATA: LEFT ENGINE FUEL STATUS',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginefuelstatus',
+            },
+            {
+              text: 'DATA: LEFT ENGINE IGNITION',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineignitionstatus',
+            },
+            {
+              text: 'DATA: LEFT ENGINE INDICATION SYSTEM',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineindicationsystem',
+            },
+            {
+              text: 'DATA: LEFT ENGINE OIL SYSTEM STATUS',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineoilsystem',
+            },
+            {
+              text: 'DATA: LEFT ENGINE OPER INDICATION',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftoperationalindication1',
+            },
+            {
+              text: 'DATA: LEFT ENGINE START STATUS',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginestartstatus1',
+            },
+            {
+              text: 'DATA: LEFT ENGINE THRUST REVERSER',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginethrustreverser1',
+            },
             {
               text: 'DATA: TEST SPECIFICATION FADEC',
               hide: !maintenanceSwitch,
@@ -2133,22 +2177,67 @@ const SystemDiagnostics = () => {
         },
         {
           text: '21 Engine Control Left Ch B',
-          children: [{ text: 'DATA: VIBRATION BALANCE LB' }, { text: 'DATA: VIBRATION ERAZE WEIGHTS LB' }, { text: 'DATA: VIBRATION READ WEIGHTS LB' }, { text: 'DATA: VIBRATION SET WEIGHTS LB' }],
+          children: [
+            {
+              text: 'DATA: VIBRATION WEIGHTS LB',
+              href: '/systemdiagnostics/seventythreengine/twnetyoneleftchb/vibrationweightslb',
+            },
+            { text: 'DATA: VIBRATION ERAZE WEIGHTS LB' },
+            { text: 'DATA: VIBRATION READ WEIGHTS LB' },
+            { text: 'DATA: VIBRATION SET WEIGHTS LB' },
+          ],
         },
         {
           text: '21 Engine Control Right Ch A',
           children: [
-            { text: 'DATA: RIGHT ENGINE AC INPUT ECHO' },
-            { text: 'DATA: RIGHT ENGINE AIR SYSTEM' },
-            { text: 'DATA: RIGHT ENGINE CAI SYSTEM STATUS' },
-            { text: 'DATA: RIGHT ENGINE CONFIG STATUS' },
-            { text: 'DATA: RIGHT ENGINE FUEL STATUS' },
-            { text: 'DATA: RIGHT ENGINE IGNITION' },
-            { text: 'DATA: RIGHT ENGINE INDICAITON' },
-            { text: 'DATA: RIGHT ENGINE OIL SYSTEM STATUS' },
-            { text: 'DATA: RIGHT ENGINE OPERATIONAL IND' },
-            { text: 'DATA: RIGHT ENGINE STARTING STATUS' },
-            { text: 'DATA: RIGHT ENGINE THRUST REVERSER' },
+            {
+              text: 'DATA: RIGHT ENGINE AC INPUT ECHO',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineacinput1',
+            },
+            {
+              text: 'DATA: RIGHT ENGINE AIR SYSTEM',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineairsystem',
+            },
+            {
+              text: 'DATA: RIGHT ENGINE CAI SYSTEM STATUS',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightcaistatus',
+            },
+            {
+              text: 'DATA: RIGHT ENGINE CONFIG STATUS',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineconfigstatus',
+            },
+            {
+              text: 'DATA: RIGHT ENGINE ECS',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineecs',
+            },
+            {
+              text: 'DATA: RIGHT ENGINE FUEL STATUS',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginefuelstatus1',
+            },
+            {
+              text: 'DATA: RIGHT ENGINE IGNITION',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightignitionstatus',
+            },
+            {
+              text: 'DATA: RIGHT ENGINE INDICATION',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineindicationsystem',
+            },
+            {
+              text: 'DATA: RIGHT ENGINE OIL SYSTEM STATUS',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineoilsystem',
+            },
+            {
+              text: 'DATA: RIGHT ENGINE OPERATIONAL IND',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightoperationalindication1',
+            },
+            {
+              text: 'DATA: RIGHT ENGINE STARTING STATUS',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginestartstatus1',
+            },
+            {
+              text: 'DATA: RIGHT ENGINE THRUST REVERSER',
+              href: '/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginethrustreverser1',
+            },
             { text: 'DATA: VIBRATION BALANCE RA' },
             { text: 'DATA: VIBRATION ERAZE WEIGHTS RA' },
             { text: 'DATA: VIBRATION READ WEIGHTS RA' },

@@ -479,6 +479,49 @@ import DataDCNSwitchFourStatusOne from './pages/SystemDiagnostics/FortyTwoIntegr
 import DataDCNSwitchFourStatusTwo from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNSwitchFour/DataDCNSwitchFourStatusTwo';
 import DataDCNSwitchFourStatusThree from './pages/SystemDiagnostics/FortyTwoIntegratedModularAvionics/ThirtyThreeDCNSwitchFour/DataDCNSwitchFourStatusThree';
 import FqmsProbesDataDryCapPf from './pages/SystemDiagnostics/TwentyEightFuel/FortyOneQuantitySystemChA/FqmsProbesDataDryCapPf';
+import VibrationCounters from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/VibrationCounters';
+import EngineTemperature from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/EngineTemperature';
+import LeftEngineSystem from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineSystem';
+import RightEngineSystem from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineSystem';
+import LeftCaiStatus from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftCaiStatus';
+import RightCaiStatus from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightCaiStatus';
+import LeftEngineConfigStatus from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineConfigStatus';
+import LeftEngineEcs from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineEcs';
+import RightEngineEcs from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineEcs';
+import LeftEngineFuelStatus from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineFuelStatus1';
+import LeftEngineFuelStatus2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineFuelStatus2';
+import RightEngineFuelStatus1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineFuelStatus1';
+import RightEngineFuelStatus2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineFuelStatus2';
+import LeftIgnitionStatus from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftIgnitionStatus';
+import RightIgnitionStatus from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightIgnitionStatus';
+import LeftIndicationSystem from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftIndicationSystem';
+import RightIndicationSystem from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightIndicationSystem';
+import LeftEngineOilSystem from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineOilSystem';
+import RightEngineOilSystem from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineOilSystem';
+import LeftOperationalIndication2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftOperationalIndication2';
+import LeftOperationalIndication3 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftOperationalIndication3';
+import LeftOperationalIndication1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftOperationalIndication1';
+import LeftOperationalIndication4 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftOperationalIndication4';
+import RightOperationalIndication1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightOperationalIndication1';
+import RightOperationalIndication2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightOperationalIndication2';
+import RightOperationalIndication3 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightOperationalIndication3';
+import RightOperationalIndication4 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightOperationalIndication4';
+import LeftEngineStartStatus1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineStartStatus1';
+import LeftEngineStartStatus2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineStartStatus2';
+import RightEngineStartStatus1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineStartStatus1';
+import RightEngineStartStatus2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineStartStatus2';
+import LeftEngineThrustReverser1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineThrustReverser1';
+import LeftEngineThrustReverser2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineThrustReverser2';
+import LeftEngineThrustReverser3 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineThrustReverser3';
+import RightEngineThrustReverser1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineThrustReverser1';
+import RightEngineThrustReverser2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineThrustReverser2';
+import RightEngineThrustReverser3 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineThrustReverser3';
+import LeftEngineAcInput1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineAcInput1';
+import LeftEngineAcInput2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChA/LeftEngineAcInput2';
+import RightEngineAcInput1 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineAcInput1';
+import RightEngineAcInput2 from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineAcInput2';
+import VibrationWeightsLb from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneLeftChB/VibrationWeightsLb';
+import RightEngineConfigStatus from './pages/SystemDiagnostics/SevenntyThreeEngine/TwentyOneRightChA/RightEngineConfigStatus';
 
 function App() {
   return (
@@ -762,7 +805,6 @@ function App() {
         <Route path="/systemdiagnostics/twentysevenflightcontrols/fortyfcshorizontalstabilizer/hstsdata" element={<HstsData />} />
         <Route path="/systemdiagnostics/twentysevenflightcontrols/fiftyfiveflapsystemcontrollane/flapsoperationalstatus" element={<FlapsOperationalStatus />} />
         <Route path="/systemdiagnostics/twentysevenflightcontrols/fiftyfiveflapsystemcontrollane/flapssystemstatus" element={<FlapsSystemStatus />} />
-
         <Route path="/systemdiagnostics/twentyninehydrauliccontrol/zerohydrauliccontrols/hydrauliccontrolstatus" element={<HydraulicControlStatus />} />
         <Route path="/systemdiagnostics/twentyninehydrauliccontrol/thirtyhydraulicquantity/fqihydraulicstatus" element={<FqiHydraulicStatus />} />
         <Route path="/systemdiagnostics/twentyninehydrauliccontrol/thirtyhydraulicquantity/fqihydraulicstatus1" element={<FqiHydraulicStatus1 />} />
@@ -783,7 +825,6 @@ function App() {
         <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/sixtythreecursorcontroldevices/ccdstatus" element={<CcdStatus />} />
         <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/sixtythreecursorcontroldevices/ccdstatus1" element={<CcdStatus1 />} />
         <Route path="/systemdiagnostics/thirtyoneindicatingrecordingsystems/sixtysevenxmweather/xmreceiverstatus" element={<XmReceiverStatus />} />
-
         <Route path="/systemdiagnostics/thirtythreelights/elevendimmingandannunciation/dimmingandannunciation" element={<DimmingAndAnnunciation />} />
         <Route path="/systemdiagnostics/thirtythreelights/fortytwonavigationanticollistionlights/navaclstatus" element={<NavAclStatus />} />
         <Route path="/systemdiagnostics/thirtysixpneumaticstatus/twelvebleedaircontrolleft/leftbleedairstatus" element={<LeftBleedAirStatus />} />
@@ -867,14 +908,12 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfourteen/datadcnrdcfourteenlinksfour" element={<DataDCNRDCFourteenLinksFour />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfourteen/datadcnrdcfourteenstatusone" element={<DataDCNRDCFourteenStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfourteen/datadcnrdcfourteenstatustwo" element={<DataDCNRDCFourteenStatusTwo />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfifteen/datadcnrdcfifteenlinksone" element={<DataDCNRDCFifteenLinksOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfifteen/datadcnrdcfifteenlinkstwo" element={<DataDCNRDCFifteenLinksTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfifteen/datadcnrdcfifteenlinksthree" element={<DataDCNRDCFifteenLinksThree />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfifteen/datadcnrdcfifteenlinksfour" element={<DataDCNRDCFifteenLinksFour />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfifteen/datadcnrdcfifteenstatusone" element={<DataDCNRDCFifteenStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorfifteen/datadcnrdcfifteenstatustwo" element={<DataDCNRDCFifteenStatusTwo />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenlinksone" element={<DataDCNRDCSixteenLinksOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenlinkstwo" element={<DataDCNRDCSixteenLinksTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenlinksthree" element={<DataDCNRDCSixteenLinksThree />} />
@@ -882,7 +921,6 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenlinksfive" element={<DataDCNRDCSixteenLinksFive />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenstatusone" element={<DataDCNRDCSixteenStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorsixteen/datadcnrdcsixteenstatustwo" element={<DataDCNRDCSixteenStatusTwo />} />ç
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinksone" element={<DataDCNRDCSeventeenLinksOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinkstwo" element={<DataDCNRDCSeventeenLinksTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinksthree" element={<DataDCNRDCSeventeenLinksThree />} />
@@ -890,7 +928,6 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenlinksfive" element={<DataDCNRDCSeventeenLinksFive />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenstatusone" element={<DataDCNRDCSeventeenStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratorseventeen/datadcnrdcseventeenstatustwo" element={<DataDCNRDCSeventeenStatusTwo />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratoreighteen/datadcnrdceighteenlinksone" element={<DataDCNRDCEighteenLinksOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratoreighteen/datadcnrdceighteenlinkstwo" element={<DataDCNRDCEighteenLinksTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratoreighteen/datadcnrdceighteenlinksthree" element={<DataDCNRDCEighteenLinksThree />} />
@@ -901,7 +938,6 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratoreighteen/datadcnrdceighteenlinkseight" element={<DataDCNRDCEighteenLinksEight />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratoreighteen/datadcnrdceighteenstatusone" element={<DataDCNRDCEighteenStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratoreighteen/datadcnrdceighteenstatustwo" element={<DataDCNRDCEighteenStatusTwo />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratornineteen/datadcnrdcnineteenlinksone" element={<DataDCNRDCNineteenLinksOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratornineteen/datadcnrdcnineteenlinkstwo" element={<DataDCNRDCNineteenLinksTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratornineteen/datadcnrdcnineteenlinksthree" element={<DataDCNRDCNineteenLinksThree />} />
@@ -909,7 +945,6 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratornineteen/datadcnrdcnineteenlinksfive" element={<DataDCNRDCNineteenLinksFive />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratornineteen/datadcnrdcnineteenstatusone" element={<DataDCNRDCNineteenStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratornineteen/datadcnrdcnineteenstatustwo" element={<DataDCNRDCNineteenStatusTwo />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwenty/datadcnrdctwentylinksone" element={<DataDCNRDCTwentyLinksOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwenty/datadcnrdctwentylinkstwo" element={<DataDCNRDCTwentyLinksTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwenty/datadcnrdctwentylinksthree" element={<DataDCNRDCTwentyLinksThree />} />
@@ -921,42 +956,32 @@ function App() {
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwenty/datadcnrdctwentylinksnine" element={<DataDCNRDCTwentyLinksNine />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwenty/datadcnrdctwentystatusone" element={<DataDCNRDCTwentyStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwenty/datadcnrdctwentystatustwo" element={<DataDCNRDCTwentyStatusTwo />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwentytwo/datadcnrdctwentytwolinksone" element={<DataDCNRDCTwentyTwoLinksOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwentytwo/datadcnrdctwentytwolinkstwo" element={<DataDCNRDCTwentyTwoLinksTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwentytwo/datadcnrdctwentytwolinksthree" element={<DataDCNRDCTwentyTwoLinksThree />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwentytwo/datadcnrdctwentytwolinksfour" element={<DataDCNRDCTwentyTwoLinksFour />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwentytwo/datadcnrdctwentytwostatusone" element={<DataDCNRDCTwentyTwoStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremotedataconcentratortwentytwo/datadcnrdctwentytwostatustwo" element={<DataDCNRDCTwentyTwoStatusTwo />} />
-        
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftyone/datadcnriufiftyonestatusone" element={<DataDCNRIUFiftyOneStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftyone/datadcnriufiftyonestatustwo" element={<DataDCNRIUFiftyOneStatusTwo />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftytwo/datadcnriufiftytwostatusone" element={<DataDCNRIUFiftyTwoStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftytwo/datadcnriufiftytwostatustwo" element={<DataDCNRIUFiftyTwoStatusTwo />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftythree/datadcnriufiftythreestatusone" element={<DataDCNRIUFiftyThreeStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftythree/datadcnriufiftythreestatustwo" element={<DataDCNRIUFiftyThreeStatusTwo />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftyfour/datadcnriufiftyfourstatusone" element={<DataDCNRIUFiftyFourStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnremoteinterfaceunitfiftyfour/datadcnriufiftyfourstatustwo" element={<DataDCNRIUFiftyFourStatusTwo />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchone/datadcnswitchonestatusone" element={<DataDCNSwitchOneStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchone/datadcnswitchonestatustwo" element={<DataDCNSwitchOneStatusTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchone/datadcnswitchonestatusthree" element={<DataDCNSwitchOneStatusThree />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchtwo/datadcnswitchtwostatusone" element={<DataDCNSwitchTwoStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchtwo/datadcnswitchtwostatustwo" element={<DataDCNSwitchTwoStatusTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchtwo/datadcnswitchtwostatusthree" element={<DataDCNSwitchTwoStatusThree />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchthree/datadcnswitchthreestatusone" element={<DataDCNSwitchThreeStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchthree/datadcnswitchthreestatustwo" element={<DataDCNSwitchThreeStatusTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchthree/datadcnswitchthreestatusthree" element={<DataDCNSwitchThreeStatusThree />} />
-
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchfour/datadcnswitchfourstatusone" element={<DataDCNSwitchFourStatusOne />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchfour/datadcnswitchfourstatustwo" element={<DataDCNSwitchFourStatusTwo />} />
         <Route path="/systemdiagnostics/fortytwointegratedmodularavionics/thirtythreedcnswitchfour/datadcnswitchfourstatusthree" element={<DataDCNSwitchFourStatusThree />} />
-        
         <Route path="/systemdiagnostics/fortyfivecentralmaintenancesystems/fortyfivecmcutilities/cmcutilities" element={<CmcUtilities />} />
         <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus" element={<AhtmuStatus />} />
         <Route path="/systemdiagnostics/fortysixinfosystems/thirtyfiveaircrafthealthtrendmonitor/ahtmustatus1" element={<AhtmuStatus1 />} />
@@ -979,10 +1004,51 @@ function App() {
         <Route path="/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus1" element={<Fqi1OilStatus1 />} />
         <Route path="/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus2" element={<Fqi1OilStatus2 />} />
         <Route path="/systemdiagnostics/seventynineoil/thirtyonefqichannel1/fqi1oilstatus3" element={<Fqi1OilStatus3 />} />
-      
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/vibrationcounters" element={<VibrationCounters />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/enginetemperature" element={<EngineTemperature />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineairsystem" element={<LeftEngineSystem />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineairsystem" element={<RightEngineSystem />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftcaistatus" element={<LeftCaiStatus />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightcaistatus" element={<RightCaiStatus />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineconfigstatus" element={<LeftEngineConfigStatus />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineconfigstatus" element={<RightEngineConfigStatus />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/engineecs" element={<LeftEngineEcs />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginefuelstatus" element={<LeftEngineFuelStatus />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginefuelstatus2" element={<LeftEngineFuelStatus2 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineignitionstatus" element={<LeftIgnitionStatus />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineindicationsystem" element={<LeftIndicationSystem />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineoilsystem" element={<LeftEngineOilSystem />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftoperationalindication1" element={<LeftOperationalIndication1 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftoperationalindication2" element={<LeftOperationalIndication2 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftoperationalindication3" element={<LeftOperationalIndication3 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftoperationalindication4" element={<LeftOperationalIndication4 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginestartstatus1" element={<LeftEngineStartStatus1 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginestartstatus2" element={<LeftEngineStartStatus2 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginethrustreverser1" element={<LeftEngineThrustReverser1 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginethrustreverser2" element={<LeftEngineThrustReverser2 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftenginethrustreverser3" element={<LeftEngineThrustReverser3 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineacinput1" element={<LeftEngineAcInput1 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftcha/leftengineacinput2" element={<LeftEngineAcInput2 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyoneleftchb/vibrationweightslb" element={<VibrationWeightsLb />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineecs" element={<RightEngineEcs />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginefuelstatus1" element={<RightEngineFuelStatus1 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginefuelstatus2" element={<RightEngineFuelStatus2 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightignitionstatus" element={<RightIgnitionStatus />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineindicationsystem" element={<RightIndicationSystem />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineoilsystem" element={<RightEngineOilSystem />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightoperationalindication1" element={<RightOperationalIndication1 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightoperationalindication2" element={<RightOperationalIndication2 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightoperationalindication3" element={<RightOperationalIndication3 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightoperationalindication4" element={<RightOperationalIndication4 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginestartstatus1" element={<RightEngineStartStatus1 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginestartstatus2" element={<RightEngineStartStatus2 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginethrustreverser1" element={<RightEngineThrustReverser1 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginethrustreverser2" element={<RightEngineThrustReverser2 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightenginethrustreverser3" element={<RightEngineThrustReverser3 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineacinput1" element={<RightEngineAcInput1 />} />
+        <Route path="/systemdiagnostics/seventythreengine/twnetyonerightcha/rightengineacinput2" element={<RightEngineAcInput2 />} />
         <Route path="/extendedmaintenance" element={<ExtendedMaintenance />} />
         <Route path="/extendedmaintenance/membersystemstatus" element={<MemberSystemStatus />} />
-
       </Routes>
     </Router>
   );

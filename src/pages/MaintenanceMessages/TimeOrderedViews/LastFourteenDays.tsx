@@ -272,7 +272,7 @@ const LastFourteenDays = () => {
 
   return (
     <DefaultLayout showNavBar navBarButtons={navBarButtons}>
-      <Title variant="secondary">Stored Main Msg / Flight Deck Effects</Title>
+      <Title variant="secondary">Stored Maint Msg / Flight Deck Effects</Title>
       <FlightDetail left="April 04, 2022 to April 18, 2023" right="14 Days" />
       <Table data={data} tableRef={tableRef} />
     </DefaultLayout>

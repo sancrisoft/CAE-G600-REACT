@@ -474,7 +474,7 @@ const LastSevenDays = () => {
 
   return (
     <DefaultLayout showNavBar navBarButtons={navBarButtons}>
-      <Title variant="secondary">Active Main Msg / Flight Deck Effects</Title>
+      <Title variant="secondary">Active Maint Msg / Flight Deck Effects</Title>
       <Table data={data} tableRef={tableRef} />
       <Footer>Monitor Warn Function 1 Selected</Footer>
     </DefaultLayout>
